@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "name": "Test User",
+    "role": "Revenue Cycle",
+    "sourceType": "Conference",
+    "title": "HFMA Revenue Cycle Conference",
+    "link": "",
+    "rating": "Approved",
+    "takeaways": "A useful conference for employees interested in healthcare finance, revenue cycle operations, payer trends, denials management, and reimbursement strategy.",
+    "whyItMatters": "Helps employees build practical context around revenue cycle operations and reimbursement strategy.",
+    "audience": "Employees interested in healthcare finance and revenue cycle",
+    "date": "2026-06-29",
+    "status": "Approved"
+  }
+]
