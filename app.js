@@ -927,19 +927,43 @@ function addInsightToPage(insight) {
   }
 }
 
+const INSIGHTS_API_ENDPOINT = "https://healthcare-insights-backend.onrender.com/api/insights";
+const INSIGHTS_FALLBACK_FILE = "insights.json";
+
+async function fetchInsightsFrom(path) {
+  const response = await fetch(path, { cache: "no-store" });
+
+  if (!response.ok) {
+    throw new Error(`Failed to load insights from ${path}: ${response.status}`);
+  }
+
+  const insights = await response.json();
+
+  if (!Array.isArray(insights)) {
+    throw new Error(`Insights response from ${path} was not an array`);
+  }
+
+  return insights;
+}
+
 async function loadInsights() {
   const container = document.getElementById("insightsContainer");
+  const status = document.getElementById("insightsStatus");
   const sourceFilter = document.getElementById("insightSourceFilter")?.value || "all";
   const roleFilter = document.getElementById("insightRoleFilter")?.value || "all";
 
   if (!container) return;
 
   try {
-    const response = await fetch("insights.json");
     let insights = [];
+    let dataSource = "api";
 
-    if (response.ok) {
-      insights = await response.json();
+    try {
+      insights = await fetchInsightsFrom(INSIGHTS_API_ENDPOINT);
+    } catch (apiError) {
+      console.warn("Backend insights unavailable; loading local fallback.", apiError);
+      insights = await fetchInsightsFrom(INSIGHTS_FALLBACK_FILE);
+      dataSource = "fallback";
     }
 
     // Also load any local submissions
@@ -948,6 +972,11 @@ async function loadInsights() {
 
     if (!insights || insights.length === 0) {
       container.innerHTML = "<p>No employee insights have been submitted yet.</p>";
+      if (status) {
+        status.textContent = dataSource === "api"
+          ? "Live submissions loaded. No employee insights have been submitted yet."
+          : "Fallback insights loaded. No employee insights have been submitted yet.";
+      }
       return;
     }
 
@@ -959,6 +988,11 @@ async function loadInsights() {
 
     if (!filteredInsights.length) {
       container.innerHTML = "<p>No employee insights match those filters yet.</p>";
+      if (status) {
+        status.textContent = dataSource === "api"
+          ? `Live submissions loaded. Showing 0 of ${insights.length} insights for the selected filters.`
+          : `Fallback insights loaded. Showing 0 of ${insights.length} insights for the selected filters.`;
+      }
       return;
     }
 
@@ -970,7 +1004,7 @@ async function loadInsights() {
             <h3>${escapeHtml(insight.title || "Untitled Insight")}</h3>
             <p><strong>Reliability Rating:</strong> ${escapeHtml(insight.rating || "Not rated")}</p>
             <p><strong>Submitted By:</strong> ${escapeHtml(insight.name || "Anonymous")}</p>
-            <p><strong>Role:</strong> ${escapeHtml(insight.role || "Not provided")}</p>
+            <p><strong>Role / Service Line:</strong> ${escapeHtml(insight.role || "Not provided")}</p>
             <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways || "No takeaway provided.")}</p>
             <p><strong>Why It Matters:</strong> ${escapeHtml(insight.whyItMatters || "Not provided.")}</p>
             <p><strong>Best For:</strong> ${escapeHtml(insight.audience || "General audience")}</p>
@@ -983,9 +1017,18 @@ async function loadInsights() {
         `;
       })
       .join("");
+
+    if (status) {
+      status.textContent = dataSource === "api"
+        ? `Live submissions loaded. Showing ${filteredInsights.length} of ${insights.length} insights.`
+        : `Fallback insights loaded. Showing ${filteredInsights.length} of ${insights.length} insights.`;
+    }
   } catch (error) {
     console.error(error);
     container.innerHTML = "<p>Unable to load employee insights right now.</p>";
+    if (status) {
+      status.textContent = "Unable to load employee insights right now.";
+    }
   }
 }
 
