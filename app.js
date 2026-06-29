@@ -6,6 +6,7 @@ const state = {
   service: 'all',
   level: 'all',
   category: 'all',
+  visibleResourceCount: 6,
   showResources: false,
   sourceSearch: ''
 };
@@ -19,6 +20,7 @@ const els = {
   serviceFilter: document.querySelector('#serviceFilter'),
   levelFilter: document.querySelector('#levelFilter'),
   categoryFilter: document.querySelector('#categoryFilter'),
+  resourceShowMore: document.querySelector('#resourceShowMore'),
   sourceSearch: document.querySelector('#sourceSearch'),
   resetFilters: document.querySelector('#resetFilters'),
   resultsSummary: document.querySelector('#resultsSummary'),
@@ -57,6 +59,8 @@ const resourceCategories = [
   'AI & tech skills',
   'General career growth'
 ]
+
+const RESOURCE_BATCH_SIZE = 6;
 
 const healthcareIndustryNews = [
   {
@@ -138,12 +142,18 @@ function renderTerminologyDictionary() {
   const searchInput = document.getElementById("termSearch");
   const categoryTabs = document.getElementById("terminologyServiceTabs");
   const countLabel = document.getElementById("dictionaryResultsCount");
+  const loadMoreButton = document.getElementById("terminologyLoadMore");
 
   if (!grid || !searchInput || !countLabel) {
     return;
   }
 
   let selectedCategory = null;
+  let visibleTerminologyCount = RESOURCE_BATCH_SIZE;
+
+  function resetVisibleTerminologyCount() {
+    visibleTerminologyCount = RESOURCE_BATCH_SIZE;
+  }
 
   function getTermRoles(item) {
     const text = [
@@ -291,26 +301,14 @@ function renderTerminologyDictionary() {
     return healthcareTerms.filter(item => getTermRoles(item).includes(currentCategory));
   }
 
-  function hasActiveQuery() {
-    return Boolean(searchInput.value.trim() || getSelectedCategory());
-  }
-
   function renderCards() {
     const searchValue = searchInput.value.trim().toLowerCase();
     const selectedLine = getSelectedCategory();
     const categoryTerms = getCategoryTerms();
 
-    if (!hasActiveQuery()) {
-      countLabel.textContent = "";
-      grid.innerHTML = `
-        <div class="no-terms-message">
-          Start typing a healthcare word or choose a category to view terms.
-        </div>
-      `;
-      return;
-    }
-
     const filteredTerms = getFilteredTerms();
+    const visibleTerms = filteredTerms.slice(0, visibleTerminologyCount);
+    const hasMoreTerms = visibleTerminologyCount < filteredTerms.length;
     const activeCount = filteredTerms.length;
 
     if (selectedLine && selectedLine !== 'All' && categoryTerms.length === 0) {
@@ -320,6 +318,7 @@ function renderTerminologyDictionary() {
           No terms are currently available for this category.
         </div>
       `;
+      if (loadMoreButton) loadMoreButton.hidden = true;
       return;
     }
 
@@ -330,12 +329,24 @@ function renderTerminologyDictionary() {
           No matching term found. Try another keyword or choose a category.
         </div>
       `;
+      if (loadMoreButton) loadMoreButton.hidden = true;
       return;
     }
 
-    countLabel.textContent = `${activeCount} term${activeCount === 1 ? "" : "s"} shown`;
+    if (!activeCount) {
+      countLabel.textContent = "";
+      grid.innerHTML = `
+        <div class="no-terms-message">
+          No terminology terms are available yet.
+        </div>
+      `;
+      if (loadMoreButton) loadMoreButton.hidden = true;
+      return;
+    }
 
-    grid.innerHTML = filteredTerms
+    countLabel.textContent = `Showing ${visibleTerms.length} of ${activeCount} matching term${activeCount === 1 ? "" : "s"}`;
+
+    grid.innerHTML = visibleTerms
       .map(
         (item) => {
           const roles = getTermRoles(item);
@@ -382,6 +393,10 @@ function renderTerminologyDictionary() {
         }
       )
       .join("");
+
+    if (loadMoreButton) {
+      loadMoreButton.hidden = !hasMoreTerms;
+    }
   }
 
   function bindServiceTabs() {
@@ -396,13 +411,17 @@ function renderTerminologyDictionary() {
         button.classList.add('active');
         button.setAttribute('aria-pressed', 'true');
         selectedCategory = button.dataset.category || null;
+        resetVisibleTerminologyCount();
         renderCards();
       });
     });
   }
 
   const clearButton = document.getElementById('clearTerminology');
-  searchInput.addEventListener("input", renderCards);
+  searchInput.addEventListener("input", () => {
+    resetVisibleTerminologyCount();
+    renderCards();
+  });
   if (clearButton) {
     clearButton.addEventListener('click', () => {
       searchInput.value = '';
@@ -413,6 +432,13 @@ function renderTerminologyDictionary() {
           btn.setAttribute('aria-pressed', 'false');
         });
       }
+      resetVisibleTerminologyCount();
+      renderCards();
+    });
+  }
+  if (loadMoreButton) {
+    loadMoreButton.addEventListener('click', () => {
+      visibleTerminologyCount += RESOURCE_BATCH_SIZE;
       renderCards();
     });
   }
@@ -588,6 +614,10 @@ function hasActiveResourceFilters() {
   return state.service !== 'all' || state.level !== 'all' || state.category !== 'all';
 }
 
+function resetVisibleResourceCount() {
+  state.visibleResourceCount = RESOURCE_BATCH_SIZE;
+}
+
 function sourceMatches(source) {
   const haystack = normalize([
     source.domain,
@@ -631,19 +661,17 @@ function renderServiceLines() {
 }
 
 function renderResources() {
-  if (!hasActiveResourceFilters()) {
-    els.resultsSummary.textContent = 'Use the filters above to view resources.';
-    els.resourceGrid.innerHTML = '<div class="empty-state">Use the filters above to view resources.</div>';
-    return;
-  }
-
   const results = state.resources.filter(resourceMatches);
-  els.resultsSummary.textContent = `${results.length} resource${results.length === 1 ? '' : 's'} shown`;
+  const visibleResults = results.slice(0, state.visibleResourceCount);
+  const hasMoreResults = state.visibleResourceCount < results.length;
+
+  els.resultsSummary.textContent = `Showing ${visibleResults.length} of ${results.length} matching resource${results.length === 1 ? '' : 's'}`;
   if (!results.length) {
     els.resourceGrid.innerHTML = '<div class="empty-state">No resources match those filters. Try resetting filters or using a broader keyword.</div>';
+    if (els.resourceShowMore) els.resourceShowMore.hidden = true;
     return;
   }
-  els.resourceGrid.innerHTML = results.map(resource => `
+  els.resourceGrid.innerHTML = visibleResults.map(resource => `
     <article class="resource-card">
       <div class="tag-stack">
         <span class="tag">${escapeHtml(resource.serviceLine)}</span>
@@ -655,6 +683,10 @@ function renderResources() {
       <a class="resource-link" href="${escapeAttribute(resource.url)}" target="_blank" rel="noopener">Open resource →</a>
     </article>
   `).join('');
+
+  if (els.resourceShowMore) {
+    els.resourceShowMore.hidden = !hasMoreResults;
+  }
 }
 
 function renderCategoryButtons() {
@@ -669,6 +701,7 @@ function renderCategoryButtons() {
       if (els.categoryFilter) els.categoryFilter.value = cat;
       // mark active
       container.querySelectorAll('.category-button').forEach(b => b.classList.toggle('active', b === e.currentTarget));
+      resetVisibleResourceCount();
       renderResources();
       document.querySelector('#resourceLibrary').scrollIntoView({ behavior: 'smooth' });
     });
@@ -717,7 +750,7 @@ function bindEvents() {
       if (selectedService !== 'all') {
         state.service = selectedService;
         if (els.serviceFilter) els.serviceFilter.value = selectedService;
-        // don't reveal resources until a category is selected
+        resetVisibleResourceCount();
         renderResources();
         const el = document.querySelector('#resourceLibrary');
         if (el) el.scrollIntoView({ behavior: 'smooth' });
@@ -737,10 +770,10 @@ function bindEvents() {
   }
 
   if (els.serviceFilter) {
-    els.serviceFilter.addEventListener('change', event => { state.service = event.target.value; renderResources(); });
+    els.serviceFilter.addEventListener('change', event => { state.service = event.target.value; resetVisibleResourceCount(); renderResources(); });
   }
   if (els.levelFilter) {
-    els.levelFilter.addEventListener('change', event => { state.level = event.target.value; renderResources(); });
+    els.levelFilter.addEventListener('change', event => { state.level = event.target.value; resetVisibleResourceCount(); renderResources(); });
   }
   if (els.categoryFilter) {
     els.categoryFilter.addEventListener('change', event => {
@@ -749,6 +782,13 @@ function bindEvents() {
       if (container) {
         container.querySelectorAll('.category-button').forEach(b => b.classList.toggle('active', b.getAttribute('data-cat') === state.category));
       }
+      resetVisibleResourceCount();
+      renderResources();
+    });
+  }
+  if (els.resourceShowMore) {
+    els.resourceShowMore.addEventListener('click', () => {
+      state.visibleResourceCount += RESOURCE_BATCH_SIZE;
       renderResources();
     });
   }
@@ -768,9 +808,11 @@ function bindEvents() {
       state.service = 'all';
       state.level = 'all';
       state.category = 'all';
+      resetVisibleResourceCount();
       if (els.serviceFilter) els.serviceFilter.value = 'all';
       if (els.levelFilter) els.levelFilter.value = 'all';
       if (els.categoryFilter) els.categoryFilter.value = 'all';
+      document.querySelectorAll('#categoryButtons .category-button').forEach(button => button.classList.remove('active'));
       renderResources();
     });
   }
@@ -963,6 +1005,7 @@ function normalizeInsightsData(data) {
       : [];
 
   return rawInsights.map(insight => ({
+    id: insight?.id || "",
     title: insight?.title || "",
     sourceType: insight?.sourceType || "",
     role: insight?.role || "",
