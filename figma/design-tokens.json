@@ -1,0 +1,28 @@
+{
+  "colors": {
+    "navy": "#16527a",
+    "green": "#5b9b3f",
+    "slate": "#5a6b78",
+    "ice": "#f4f8fb",
+    "border": "#dde6ef",
+    "background": "#eef2f6",
+    "white": "#ffffff"
+  },
+  "typography": {
+    "fontFamily": "Source Sans 3",
+    "h1": "68px / 0.98 / 700",
+    "h2": "34px / 1.15 / 700",
+    "body": "17px / 1.5 / 400",
+    "caption": "12px / uppercase / 800"
+  },
+  "components": [
+    "Hero",
+    "ServiceLineCard",
+    "ResourceCard",
+    "SourceTrustCard",
+    "FilterPanel",
+    "Pill",
+    "PrimaryButton",
+    "SecondaryButton"
+  ]
+}

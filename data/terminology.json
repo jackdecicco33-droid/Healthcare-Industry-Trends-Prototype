@@ -1,0 +1,2004 @@
+[
+  {
+    "term": "A/R Aging",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Metric",
+    "definition": "A/R aging groups unpaid accounts by how long they have been outstanding, often in 0-30, 31-60, 61-90, and 90+ day buckets.",
+    "example": "A healthcare consultant may use A/R Aging when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding A/R Aging helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "A/R Days",
+    "serviceLine": "Revenue Cycle",
+    "level": "Core KPI",
+    "definition": "A/R Days, or Accounts Receivable Days, measures how long it takes a healthcare organization to collect payment after services are billed.",
+    "example": "A hospital may review A/R Days to understand whether claims are getting paid quickly or sitting unpaid with Medicare, Medicaid, commercial payers, or patients.",
+    "whyItMatters": "High A/R Days can signal delayed cash, payer follow-up issues, billing delays, authorization problems, or denials that are not being resolved quickly.",
+    "relatedResources": [
+      {
+        "label": "What is A/R Days?",
+        "url": "https://www.healthcaredive.com/"
+      }
+    ]
+  },
+  {
+    "term": "Access",
+    "serviceLine": "General Healthcare",
+    "level": "Healthcare Term",
+    "definition": "Access describes how easily patients can obtain needed healthcare services when and where they need them.",
+    "example": "A healthcare consultant may use Access when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Access helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Accounts Receivable",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Metric",
+    "definition": "Accounts receivable is the money owed to a healthcare organization for services that have been billed but not yet collected.",
+    "example": "A healthcare consultant may use Accounts Receivable when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Accounts Receivable helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Acuity",
+    "serviceLine": "Labor",
+    "level": "Clinical Staffing Term",
+    "definition": "Acuity describes patient complexity or care intensity and may influence staffing needs.",
+    "example": "A healthcare consultant may use Acuity when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Acuity helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Adoption",
+    "serviceLine": "General Healthcare",
+    "level": "Change Term",
+    "definition": "Adoption measures whether users or stakeholders are actually using and sustaining a new process or system.",
+    "example": "A healthcare consultant may use Adoption when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Adoption helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Advanced Practice Provider (APP)",
+    "serviceLine": "Physician Enterprise",
+    "level": "Workforce Term",
+    "definition": "An APP is a clinician such as a nurse practitioner or physician assistant who provides patient care.",
+    "example": "A healthcare consultant may use Advanced Practice Provider (APP) when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Advanced Practice Provider (APP) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Agency Labor",
+    "serviceLine": "Labor",
+    "level": "Labor Cost Term",
+    "definition": "Agency labor refers to temporary staff supplied by external staffing agencies.",
+    "example": "A healthcare consultant may use Agency Labor when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Agency Labor helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Appeal Rate",
+    "serviceLine": "Revenue Cycle",
+    "level": "Performance Metric",
+    "definition": "Appeal rate measures the share of denied claims that are appealed for reconsideration or payment.",
+    "example": "A healthcare consultant may use Appeal Rate when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Appeal Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Application Programming Interface (API)",
+    "serviceLine": "ERP / Technology",
+    "level": "Integration Term",
+    "definition": "An API allows software systems to exchange data or functionality in a structured way.",
+    "example": "A healthcare consultant may use Application Programming Interface (API) when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Application Programming Interface (API) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Average Length of Stay (ALOS)",
+    "serviceLine": "Quality",
+    "level": "Performance Metric",
+    "definition": "Average length of stay measures the average inpatient stay duration across a group of patients.",
+    "example": "A healthcare consultant may use Average Length of Stay (ALOS) when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Average Length of Stay (ALOS) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Backorder",
+    "serviceLine": "Supply Chain",
+    "level": "Inventory Term",
+    "definition": "A backorder occurs when a supplier cannot immediately fulfill an order for a requested item.",
+    "example": "A healthcare consultant may use Backorder when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Backorder helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Bad Debt",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Term",
+    "definition": "Bad debt is patient responsibility or other receivable amounts that an organization determines are unlikely to be collected.",
+    "example": "A healthcare consultant may use Bad Debt when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Bad Debt helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Balancing Measure",
+    "serviceLine": "Quality",
+    "level": "Quality Metric",
+    "definition": "A balancing measure checks whether an improvement in one area creates unintended negative effects elsewhere.",
+    "example": "A healthcare consultant may use Balancing Measure when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Balancing Measure helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Baseline",
+    "serviceLine": "General Healthcare",
+    "level": "Performance Term",
+    "definition": "A baseline is the starting performance level used to compare future improvement or change.",
+    "example": "A healthcare consultant may use Baseline when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Baseline helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Benchmark",
+    "serviceLine": "Quality",
+    "level": "Performance Term",
+    "definition": "A benchmark is a comparison point used to evaluate performance against peers, targets, or best practice.",
+    "example": "A healthcare consultant may use Benchmark when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Benchmark helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Benchmark Staffing",
+    "serviceLine": "Labor",
+    "level": "Performance Term",
+    "definition": "Benchmark staffing compares staffing levels or productivity to peer, internal, or best-practice standards.",
+    "example": "A healthcare consultant may use Benchmark Staffing when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Benchmark Staffing helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Bill-Only Item",
+    "serviceLine": "Supply Chain",
+    "level": "Procurement Term",
+    "definition": "A bill-only item is a product used during care, often implants, that is documented and billed after use rather than stocked normally.",
+    "example": "A healthcare consultant may use Bill-Only Item when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Bill-Only Item helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Call Abandonment Rate",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Metric",
+    "definition": "Call abandonment rate measures the percentage of callers who hang up before reaching support.",
+    "example": "A healthcare consultant may use Call Abandonment Rate when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Call Abandonment Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Care Continuum",
+    "serviceLine": "Clinical Optimization",
+    "level": "Care Delivery Term",
+    "definition": "The care continuum spans the full range of services a patient may receive across settings and stages of care.",
+    "example": "A healthcare consultant may use Care Continuum when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Care Continuum helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Care Coordination",
+    "serviceLine": "Clinical Optimization",
+    "level": "Care Delivery Term",
+    "definition": "Care coordination organizes patient services, communication, and follow-up across providers and settings.",
+    "example": "A healthcare consultant may use Care Coordination when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Care Coordination helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Care Gap",
+    "serviceLine": "Quality",
+    "level": "Population Health Term",
+    "definition": "A care gap is a missing recommended service, screening, test, or follow-up for a patient or population.",
+    "example": "A healthcare consultant may use Care Gap when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Care Gap helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Care Management",
+    "serviceLine": "Clinical Optimization",
+    "level": "Program Term",
+    "definition": "Care management supports patients with complex needs through planning, outreach, monitoring, and coordination.",
+    "example": "A healthcare consultant may use Care Management when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Care Management helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Care Plan",
+    "serviceLine": "Clinical Optimization",
+    "level": "Clinical Documentation Term",
+    "definition": "A care plan outlines patient problems, goals, interventions, responsibilities, and follow-up actions.",
+    "example": "A healthcare consultant may use Care Plan when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Care Plan helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Care Team Model",
+    "serviceLine": "Physician Enterprise",
+    "level": "Operating Model",
+    "definition": "A care team model defines how physicians, APPs, nurses, assistants, and support staff coordinate patient care.",
+    "example": "A healthcare consultant may use Care Team Model when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Care Team Model helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Case Management",
+    "serviceLine": "Clinical Optimization",
+    "level": "Clinical Operations Term",
+    "definition": "Case management coordinates care, discharge planning, utilization review, and resource needs for patients.",
+    "example": "A healthcare consultant may use Case Management when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Case Management helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Case Mix Index (CMI)",
+    "serviceLine": "Revenue Cycle",
+    "level": "Performance Metric",
+    "definition": "Case mix index reflects the average clinical complexity and resource intensity of a hospital’s patient population.",
+    "example": "A healthcare consultant may use Case Mix Index (CMI) when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Case Mix Index (CMI) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "CAUTI",
+    "serviceLine": "Quality",
+    "level": "Safety Metric",
+    "definition": "CAUTI stands for catheter-associated urinary tract infection, a common hospital patient-safety measure.",
+    "example": "A healthcare consultant may use CAUTI when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding CAUTI helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "CDI",
+    "serviceLine": "Clinical Optimization",
+    "level": "Clinical Documentation Term",
+    "definition": "CDI stands for Clinical Documentation Integrity. It focuses on improving the accuracy, completeness, and clarity of clinical documentation.",
+    "example": "A CDI specialist may query a provider to clarify documentation so the medical record accurately reflects the patient’s severity of illness and care provided.",
+    "whyItMatters": "CDI affects coding accuracy, reimbursement, quality reporting, compliance, provider communication, and patient data integrity."
+  },
+  {
+    "term": "Change Control",
+    "serviceLine": "ERP / Technology",
+    "level": "Governance Process",
+    "definition": "Change control manages review, approval, prioritization, and tracking of system or process changes.",
+    "example": "A healthcare consultant may use Change Control when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Change Control helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Change Management",
+    "serviceLine": "General Healthcare",
+    "level": "Transformation Term",
+    "definition": "Change management helps people adopt new processes, systems, roles, or ways of working.",
+    "example": "A healthcare consultant may use Change Management when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Change Management helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Charge Capture",
+    "serviceLine": "Revenue Cycle",
+    "level": "Process Term",
+    "definition": "Charge capture is the process of recording the services, procedures, supplies, medications, or tests provided to a patient so they can be billed.",
+    "example": "If a patient receives an imaging test or medication, that service needs to be captured correctly so the hospital can bill for it.",
+    "whyItMatters": "Missed or inaccurate charge capture can create revenue leakage, compliance risk, billing errors, and inaccurate financial reporting."
+  },
+  {
+    "term": "Charge Lag",
+    "serviceLine": "Revenue Cycle",
+    "level": "Operational Metric",
+    "definition": "Charge lag measures the time between service delivery and when the related charge is posted.",
+    "example": "A healthcare consultant may use Charge Lag when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Charge Lag helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Chargemaster",
+    "serviceLine": "Revenue Cycle",
+    "level": "Billing Term",
+    "definition": "The chargemaster is the master list of billable services, supplies, drugs, procedures, and prices used by a healthcare organization.",
+    "example": "A healthcare consultant may use Chargemaster when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Chargemaster helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Charity Care",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Term",
+    "definition": "Charity care is free or discounted care provided to eligible patients who meet a healthcare organization’s financial assistance criteria.",
+    "example": "A healthcare consultant may use Charity Care when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Charity Care helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "CLABSI",
+    "serviceLine": "Quality",
+    "level": "Safety Metric",
+    "definition": "CLABSI stands for central line-associated bloodstream infection, a serious patient-safety event tracked by hospitals.",
+    "example": "A healthcare consultant may use CLABSI when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding CLABSI helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Claim Edit",
+    "serviceLine": "Revenue Cycle",
+    "level": "Billing Term",
+    "definition": "A claim edit is a rule or check that identifies missing, inconsistent, or invalid claim information before submission.",
+    "example": "A healthcare consultant may use Claim Edit when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Claim Edit helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Claim Scrubber",
+    "serviceLine": "Revenue Cycle",
+    "level": "Technology Term",
+    "definition": "A claim scrubber is software that reviews claims for coding, billing, and payer-rule issues before they are submitted.",
+    "example": "A healthcare consultant may use Claim Scrubber when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Claim Scrubber helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Clean Claim Rate",
+    "serviceLine": "Revenue Cycle",
+    "level": "Core KPI",
+    "definition": "Clean Claim Rate measures the percentage of claims submitted correctly the first time without needing correction, rework, or additional information.",
+    "example": "If a claim is submitted with the correct patient information, insurance details, codes, modifiers, and documentation, it is more likely to be accepted as a clean claim.",
+    "whyItMatters": "A higher clean claim rate usually means fewer delays, fewer denials, faster reimbursement, and stronger revenue cycle performance.",
+    "relatedResources": [
+      {
+        "label": "CMS on Clean Claims",
+        "url": "https://www.cms.gov/"
+      }
+    ]
+  },
+  {
+    "term": "Clinical Decision Support",
+    "serviceLine": "Clinical Optimization",
+    "level": "Technology Term",
+    "definition": "Clinical decision support provides alerts, reminders, guidance, or information to support clinical decisions.",
+    "example": "A healthcare consultant may use Clinical Decision Support when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Clinical Decision Support helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Clinical Documentation",
+    "serviceLine": "Clinical Optimization",
+    "level": "Documentation Term",
+    "definition": "Clinical documentation records patient history, assessment, treatment, decision-making, and care outcomes.",
+    "example": "A healthcare consultant may use Clinical Documentation when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Clinical Documentation helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Clinical Documentation Improvement (CDI)",
+    "serviceLine": "Revenue Cycle",
+    "level": "Documentation Program",
+    "definition": "CDI programs improve the accuracy, completeness, and specificity of clinical documentation for coding and quality reporting.",
+    "example": "A healthcare consultant may use Clinical Documentation Improvement (CDI) when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Clinical Documentation Improvement (CDI) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Clinical Pathway",
+    "serviceLine": "Quality",
+    "level": "Care Standardization Term",
+    "definition": "A clinical pathway is a standardized care plan for managing a specific condition or procedure.",
+    "example": "A healthcare consultant may use Clinical Pathway when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Clinical Pathway helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Clinical Preference Item",
+    "serviceLine": "Supply Chain",
+    "level": "Supply Term",
+    "definition": "A clinical preference item is a supply or implant selected based on clinician preference, often with cost and utilization impact.",
+    "example": "A healthcare consultant may use Clinical Preference Item when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Clinical Preference Item helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Clinical Variation",
+    "serviceLine": "Quality",
+    "level": "Improvement Term",
+    "definition": "Clinical variation is inconsistency in care delivery that may affect outcomes, cost, quality, or patient experience.",
+    "example": "A healthcare consultant may use Clinical Variation when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Clinical Variation helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Clinical Workflow",
+    "serviceLine": "Clinical Optimization",
+    "level": "Process Term",
+    "definition": "A clinical workflow is the sequence of steps clinicians and staff follow to deliver care, document information, and coordinate patient activities.",
+    "example": "A medication administration workflow may include order entry, pharmacist verification, nurse review, barcode scanning, administration, and documentation.",
+    "whyItMatters": "Poor workflows can create delays, duplicate work, documentation burden, safety risks, and clinician frustration."
+  },
+  {
+    "term": "Closed-Loop Referral",
+    "serviceLine": "Physician Enterprise",
+    "level": "Care Coordination Term",
+    "definition": "A closed-loop referral confirms that a referred patient completed the appointment and that results were communicated back.",
+    "example": "A healthcare consultant may use Closed-Loop Referral when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Closed-Loop Referral helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Coding Query",
+    "serviceLine": "Revenue Cycle",
+    "level": "Documentation Process",
+    "definition": "A coding query is a request for provider clarification when documentation is incomplete, conflicting, or unclear for coding.",
+    "example": "A healthcare consultant may use Coding Query when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Coding Query helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Communication Plan",
+    "serviceLine": "General Healthcare",
+    "level": "Change Tool",
+    "definition": "A communication plan defines audiences, messages, channels, timing, and owners for project communications.",
+    "example": "A healthcare consultant may use Communication Plan when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Communication Plan helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Consignment Inventory",
+    "serviceLine": "Supply Chain",
+    "level": "Inventory Model",
+    "definition": "Consignment inventory is supplier-owned inventory stored at the healthcare organization until used or purchased.",
+    "example": "A healthcare consultant may use Consignment Inventory when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Consignment Inventory helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Contact Center",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Function",
+    "definition": "A contact center manages patient calls, scheduling, referrals, messages, and access-related support.",
+    "example": "A healthcare consultant may use Contact Center when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Contact Center helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Contract Compliance",
+    "serviceLine": "Supply Chain",
+    "level": "Procurement Term",
+    "definition": "Contract compliance measures whether purchases are being made according to negotiated supplier contracts, pricing, and terms.",
+    "example": "A hospital may have a contract price for a supply item, but if the item is purchased outside the contract, the organization may pay more than expected.",
+    "whyItMatters": "Poor contract compliance can create avoidable cost, reduce savings capture, and weaken procurement performance."
+  },
+  {
+    "term": "Contract Labor",
+    "serviceLine": "Labor",
+    "level": "Labor Cost Term",
+    "definition": "Contract labor is labor provided through external contracts rather than permanent employment.",
+    "example": "A healthcare consultant may use Contract Labor when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Contract Labor helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Contractual Allowance",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Term",
+    "definition": "A contractual allowance is the difference between billed charges and the amount a payer contractually allows.",
+    "example": "A healthcare consultant may use Contractual Allowance when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Contractual Allowance helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Coordination of Benefits",
+    "serviceLine": "Revenue Cycle",
+    "level": "Payer Term",
+    "definition": "Coordination of benefits determines which insurance plan pays first when a patient has more than one payer.",
+    "example": "A healthcare consultant may use Coordination of Benefits when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Coordination of Benefits helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Copayment",
+    "serviceLine": "Revenue Cycle",
+    "level": "Patient Financial Term",
+    "definition": "A copayment is a fixed amount a patient pays for a covered healthcare service.",
+    "example": "A healthcare consultant may use Copayment when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Copayment helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Core Measure",
+    "serviceLine": "Quality",
+    "level": "Quality Metric",
+    "definition": "Core measures are standardized quality measures used to evaluate evidence-based care delivery.",
+    "example": "A healthcare consultant may use Core Measure when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Core Measure helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Credentialing",
+    "serviceLine": "Physician Enterprise",
+    "level": "Administrative Process",
+    "definition": "Credentialing verifies a provider’s qualifications, licenses, education, training, and professional history.",
+    "example": "A healthcare consultant may use Credentialing when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Credentialing helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Current Procedural Terminology (CPT)",
+    "serviceLine": "Revenue Cycle",
+    "level": "Coding System",
+    "definition": "CPT is a code set used to describe medical, surgical, and diagnostic services and procedures.",
+    "example": "A healthcare consultant may use Current Procedural Terminology (CPT) when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Current Procedural Terminology (CPT) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Current State Assessment",
+    "serviceLine": "General Healthcare",
+    "level": "Consulting Method",
+    "definition": "A current state assessment documents how processes, systems, performance, and pain points work today.",
+    "example": "A healthcare consultant may use Current State Assessment when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Current State Assessment helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Cutover",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Term",
+    "definition": "Cutover is the planned transition from an old system or process to a new system or process.",
+    "example": "During an ERP implementation, cutover may include final data loads, system freeze periods, validation steps, user access setup, and go-live readiness checks.",
+    "whyItMatters": "A poor cutover can disrupt payroll, purchasing, billing, reporting, operations, and user confidence during go-live."
+  },
+  {
+    "term": "Cutover Plan",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Plan",
+    "definition": "A cutover plan defines the steps, timing, responsibilities, and dependencies for moving to a new system.",
+    "example": "A healthcare consultant may use Cutover Plan when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Cutover Plan helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Cybersecurity",
+    "serviceLine": "ERP / Technology",
+    "level": "Security Term",
+    "definition": "Cybersecurity protects systems, networks, devices, and data from unauthorized access or disruption.",
+    "example": "A healthcare consultant may use Cybersecurity when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Cybersecurity helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Cycle Count",
+    "serviceLine": "Supply Chain",
+    "level": "Inventory Process",
+    "definition": "Cycle counting is a routine process for counting subsets of inventory to validate accuracy.",
+    "example": "A healthcare consultant may use Cycle Count when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Cycle Count helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Data Conversion",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Term",
+    "definition": "Data conversion is the process of transforming data from one system’s format into the structure required by another system.",
+    "example": "During a Lawson-to-Workday transition, employee, supplier, item, and financial data may need to be converted into Workday-compatible formats.",
+    "whyItMatters": "Poor data conversion can cause go-live defects, reporting issues, payment errors, process disruption, and user mistrust."
+  },
+  {
+    "term": "Data Governance",
+    "serviceLine": "ERP / Technology",
+    "level": "Governance Term",
+    "definition": "Data governance defines ownership, standards, quality, privacy, and accountability for data.",
+    "example": "A healthcare consultant may use Data Governance when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Data Governance helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Data Mapping",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Term",
+    "definition": "Data mapping defines how fields in one system correspond to fields in another system.",
+    "example": "A legacy job code may need to map to a new Workday job profile, supervisory organization, compensation grade, or worker type.",
+    "whyItMatters": "Accurate mapping helps ensure data moves correctly and supports clean reporting, security, workflow, and downstream integrations."
+  },
+  {
+    "term": "Data Migration",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Term",
+    "definition": "Data migration moves data from one system or structure to another during implementation or conversion.",
+    "example": "A healthcare consultant may use Data Migration when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Data Migration helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Data Quality",
+    "serviceLine": "ERP / Technology",
+    "level": "Data Term",
+    "definition": "Data quality measures whether data is accurate, complete, consistent, timely, and fit for use.",
+    "example": "A healthcare consultant may use Data Quality when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Data Quality helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Data Warehouse",
+    "serviceLine": "ERP / Technology",
+    "level": "Analytics System",
+    "definition": "A data warehouse stores integrated data from multiple systems for reporting and analytics.",
+    "example": "A healthcare consultant may use Data Warehouse when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Data Warehouse helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Days in DNFB",
+    "serviceLine": "Revenue Cycle",
+    "level": "Operational Metric",
+    "definition": "Days in DNFB measures how long discharged accounts remain unbilled while waiting for coding, documentation, or billing completion.",
+    "example": "A healthcare consultant may use Days in DNFB when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Days in DNFB helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Days on Hand",
+    "serviceLine": "Supply Chain",
+    "level": "Inventory Metric",
+    "definition": "Days on hand estimates how many days current inventory will last based on usage patterns.",
+    "example": "A healthcare consultant may use Days on Hand when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Days on Hand helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Decision Log",
+    "serviceLine": "General Healthcare",
+    "level": "Project Management Tool",
+    "definition": "A decision log records key decisions, owners, dates, rationale, and follow-up actions.",
+    "example": "A healthcare consultant may use Decision Log when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Decision Log helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Deductible",
+    "serviceLine": "Revenue Cycle",
+    "level": "Patient Financial Term",
+    "definition": "A deductible is the amount a patient must pay for covered services before insurance begins paying according to plan rules.",
+    "example": "A healthcare consultant may use Deductible when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Deductible helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Demand Planning",
+    "serviceLine": "Supply Chain",
+    "level": "Planning Process",
+    "definition": "Demand planning estimates future supply needs using usage history, clinical activity, and operational forecasts.",
+    "example": "A healthcare consultant may use Demand Planning when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Demand Planning helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Denial Overturn Rate",
+    "serviceLine": "Revenue Cycle",
+    "level": "Performance Metric",
+    "definition": "Denial overturn rate measures the percentage of appealed denials that are reversed or paid.",
+    "example": "A healthcare consultant may use Denial Overturn Rate when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Denial Overturn Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Denial Rate",
+    "serviceLine": "Revenue Cycle",
+    "level": "Core KPI",
+    "definition": "Denial Rate is the percentage of claims denied by payers after submission.",
+    "example": "A payer may deny a claim because prior authorization was missing, eligibility was not verified, documentation was incomplete, or coding was incorrect.",
+    "whyItMatters": "Denials delay cash and create rework. Consultants often analyze denials by payer, reason code, department, provider, or process step.",
+    "relatedResources": [
+      {
+        "label": "Denial management guide",
+        "url": "https://www.beckershospitalreview.com/"
+      }
+    ]
+  },
+  {
+    "term": "Denial Reason Code",
+    "serviceLine": "Revenue Cycle",
+    "level": "Denial Term",
+    "definition": "A denial reason code identifies why a payer denied or adjusted a claim.",
+    "example": "A healthcare consultant may use Denial Reason Code when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Denial Reason Code helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Dependency",
+    "serviceLine": "General Healthcare",
+    "level": "Project Management Term",
+    "definition": "A dependency is a task, decision, resource, or input that must happen before another activity can proceed.",
+    "example": "A healthcare consultant may use Dependency when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Dependency helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Diagnosis-Related Group (DRG)",
+    "serviceLine": "Revenue Cycle",
+    "level": "Reimbursement Term",
+    "definition": "A DRG is a classification used to group inpatient hospital cases for payment and reporting purposes.",
+    "example": "A healthcare consultant may use Diagnosis-Related Group (DRG) when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Diagnosis-Related Group (DRG) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Discharge Planning",
+    "serviceLine": "Clinical Optimization",
+    "level": "Care Transition Process",
+    "definition": "Discharge planning prepares patients for safe transition from hospital care to home or another care setting.",
+    "example": "A healthcare consultant may use Discharge Planning when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Discharge Planning helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Discharged Not Submitted to Payer (DNSP)",
+    "serviceLine": "Revenue Cycle",
+    "level": "Operational Metric",
+    "definition": "DNSP represents discharged accounts that have not yet been submitted to a payer for reimbursement.",
+    "example": "A healthcare consultant may use Discharged Not Submitted to Payer (DNSP) when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Discharged Not Submitted to Payer (DNSP) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "DNFB",
+    "serviceLine": "Revenue Cycle",
+    "level": "Operational Metric",
+    "definition": "DNFB stands for Discharged Not Final Billed. It refers to accounts for patients who have been discharged but whose final bill has not yet been sent.",
+    "example": "A patient leaves the hospital, but the account is waiting for coding, documentation, charge review, or billing edits before the claim can be submitted.",
+    "whyItMatters": "High DNFB can delay revenue and may indicate issues in coding, documentation, charge capture, or billing workflows."
+  },
+  {
+    "term": "Downtime Procedure",
+    "serviceLine": "ERP / Technology",
+    "level": "Operations Term",
+    "definition": "A downtime procedure defines how teams continue work when a system is unavailable.",
+    "example": "A healthcare consultant may use Downtime Procedure when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Downtime Procedure helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "EHR",
+    "serviceLine": "Clinical Optimization",
+    "level": "Technology Term",
+    "definition": "An EHR, or Electronic Health Record, is the digital system used to document, manage, and access patient clinical information.",
+    "example": "Clinicians may use an EHR to document encounters, place orders, review lab results, manage medications, and coordinate patient care.",
+    "whyItMatters": "EHR workflow design affects clinician efficiency, documentation quality, patient safety, reporting, and care coordination."
+  },
+  {
+    "term": "Electronic Health Record (EHR)",
+    "serviceLine": "ERP / Technology",
+    "level": "Technology System",
+    "definition": "An EHR is a digital record of patient health information used by clinicians and healthcare organizations.",
+    "example": "A healthcare consultant may use Electronic Health Record (EHR) when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Electronic Health Record (EHR) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Eligibility Verification",
+    "serviceLine": "Revenue Cycle",
+    "level": "Front-End Process",
+    "definition": "Eligibility verification confirms a patient’s insurance coverage and benefit status before or during care.",
+    "example": "A healthcare consultant may use Eligibility Verification when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Eligibility Verification helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Encounter",
+    "serviceLine": "Revenue Cycle",
+    "level": "Patient Accounting Term",
+    "definition": "An encounter is a healthcare interaction between a patient and provider that may generate clinical documentation and billing activity.",
+    "example": "A healthcare consultant may use Encounter when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Encounter helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Enterprise Resource Planning (ERP)",
+    "serviceLine": "ERP / Technology",
+    "level": "Technology System",
+    "definition": "ERP systems support business functions such as finance, supply chain, human resources, and operations.",
+    "example": "A healthcare consultant may use Enterprise Resource Planning (ERP) when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Enterprise Resource Planning (ERP) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Executive Sponsor",
+    "serviceLine": "General Healthcare",
+    "level": "Leadership Role",
+    "definition": "An executive sponsor is a senior leader who champions a project, removes barriers, and supports decision-making.",
+    "example": "A healthcare consultant may use Executive Sponsor when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Executive Sponsor helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Explanation of Benefits (EOB)",
+    "serviceLine": "Revenue Cycle",
+    "level": "Payer Term",
+    "definition": "An EOB is a payer document explaining how a claim was processed, what was paid, and what the patient may owe.",
+    "example": "A healthcare consultant may use Explanation of Benefits (EOB) when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Explanation of Benefits (EOB) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Fee Schedule",
+    "serviceLine": "Revenue Cycle",
+    "level": "Reimbursement Term",
+    "definition": "A fee schedule is a list of payment rates for healthcare services, procedures, or supplies.",
+    "example": "A healthcare consultant may use Fee Schedule when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Fee Schedule helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "FHIR",
+    "serviceLine": "ERP / Technology",
+    "level": "Interoperability Standard",
+    "definition": "FHIR is a modern healthcare data exchange standard designed to make interoperability easier.",
+    "example": "A healthcare consultant may use FHIR when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding FHIR helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Fill Rate",
+    "serviceLine": "Supply Chain",
+    "level": "Performance Metric",
+    "definition": "Fill rate measures the percentage of requested items or quantities that are supplied successfully.",
+    "example": "A healthcare consultant may use Fill Rate when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Fill Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "First Pass Yield",
+    "serviceLine": "Revenue Cycle",
+    "level": "Performance Metric",
+    "definition": "First pass yield measures the percentage of claims accepted or paid without rework after initial submission.",
+    "example": "A healthcare consultant may use First Pass Yield when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding First Pass Yield helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Float Pool",
+    "serviceLine": "Labor",
+    "level": "Staffing Model",
+    "definition": "A float pool is a group of staff assigned across units or departments based on need.",
+    "example": "A healthcare consultant may use Float Pool when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Float Pool helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Front-End Revenue Cycle",
+    "serviceLine": "Revenue Cycle",
+    "level": "Process Area",
+    "definition": "The front-end revenue cycle includes scheduling, registration, insurance verification, authorization, and patient estimates.",
+    "example": "A healthcare consultant may use Front-End Revenue Cycle when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Front-End Revenue Cycle helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "FTE",
+    "serviceLine": "Workforce / Labor",
+    "level": "Workforce Term",
+    "definition": "FTE stands for Full-Time Equivalent. It is a way to measure staffing capacity based on full-time work hours.",
+    "example": "Two employees working half-time may equal one FTE for workforce planning and budget purposes.",
+    "whyItMatters": "FTE analysis supports budgeting, productivity measurement, staffing models, scheduling, and labor cost management."
+  },
+  {
+    "term": "Full-Time Equivalent (FTE)",
+    "serviceLine": "Labor",
+    "level": "Workforce Metric",
+    "definition": "An FTE represents workload equivalent to one full-time employee based on standard hours.",
+    "example": "A healthcare consultant may use Full-Time Equivalent (FTE) when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Full-Time Equivalent (FTE) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Future State Design",
+    "serviceLine": "General Healthcare",
+    "level": "Consulting Method",
+    "definition": "Future state design defines the desired process, operating model, technology, or performance state.",
+    "example": "A healthcare consultant may use Future State Design when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Future State Design helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Gap Analysis",
+    "serviceLine": "General Healthcare",
+    "level": "Consulting Method",
+    "definition": "Gap analysis compares current state to desired future state to identify changes needed.",
+    "example": "A healthcare consultant may use Gap Analysis when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Gap Analysis helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Go-Live",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Milestone",
+    "definition": "Go-live is the point when a new system, process, or functionality becomes active for end users.",
+    "example": "A healthcare consultant may use Go-Live when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Go-Live helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Governance Structure",
+    "serviceLine": "General Healthcare",
+    "level": "Leadership Term",
+    "definition": "A governance structure defines decision rights, committees, escalation paths, and accountability.",
+    "example": "A healthcare consultant may use Governance Structure when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Governance Structure helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Gross Collection Rate",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Metric",
+    "definition": "Gross collection rate compares total payments to total charges before contractual adjustments.",
+    "example": "A healthcare consultant may use Gross Collection Rate when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Gross Collection Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Group Purchasing Organization (GPO)",
+    "serviceLine": "Supply Chain",
+    "level": "Contracting Term",
+    "definition": "A GPO helps healthcare organizations access negotiated contracts and purchasing discounts.",
+    "example": "A healthcare consultant may use Group Purchasing Organization (GPO) when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Group Purchasing Organization (GPO) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Handoff",
+    "serviceLine": "Clinical Optimization",
+    "level": "Communication Process",
+    "definition": "A handoff transfers patient information and responsibility from one clinician or team to another.",
+    "example": "A healthcare consultant may use Handoff when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Handoff helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Harm Event",
+    "serviceLine": "Quality",
+    "level": "Safety Term",
+    "definition": "A harm event is an incident in which a patient experiences injury or negative impact from care delivery.",
+    "example": "A healthcare consultant may use Harm Event when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Harm Event helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "HCAHPS",
+    "serviceLine": "Quality",
+    "level": "Quality Metric",
+    "definition": "HCAHPS is a standardized survey that measures patients’ perspectives on hospital care and patient experience.",
+    "example": "Hospitals may review HCAHPS scores related to communication with nurses, communication with doctors, discharge information, and overall hospital rating.",
+    "whyItMatters": "HCAHPS affects public reporting, patient experience strategy, quality improvement, and in some cases reimbursement-related programs."
+  },
+  {
+    "term": "HCPCS",
+    "serviceLine": "Revenue Cycle",
+    "level": "Coding System",
+    "definition": "HCPCS is a coding system used for healthcare procedures, supplies, products, and services not fully captured by CPT.",
+    "example": "A healthcare consultant may use HCPCS when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding HCPCS helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Health Equity",
+    "serviceLine": "General Healthcare",
+    "level": "Strategy Term",
+    "definition": "Health equity means everyone has a fair opportunity to achieve their best possible health.",
+    "example": "A healthcare consultant may use Health Equity when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Health Equity helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Health Information Management (HIM)",
+    "serviceLine": "Revenue Cycle",
+    "level": "Department Term",
+    "definition": "Health information management oversees medical records, coding, documentation integrity, privacy, and health data governance.",
+    "example": "A healthcare consultant may use Health Information Management (HIM) when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Health Information Management (HIM) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "HL7",
+    "serviceLine": "ERP / Technology",
+    "level": "Interoperability Standard",
+    "definition": "HL7 is a set of standards used to exchange healthcare information between systems.",
+    "example": "A healthcare consultant may use HL7 when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding HL7 helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Hospital-Acquired Condition",
+    "serviceLine": "Quality",
+    "level": "Quality / Safety Term",
+    "definition": "A hospital-acquired condition is a complication or adverse condition that develops during a hospital stay and may have been preventable.",
+    "example": "Examples may include certain infections, pressure injuries, patient falls with injury, or other preventable safety events.",
+    "whyItMatters": "These conditions affect patient safety, quality scores, regulatory performance, reimbursement, and public trust."
+  },
+  {
+    "term": "Hospital-Acquired Infection (HAI)",
+    "serviceLine": "Quality",
+    "level": "Safety Term",
+    "definition": "A hospital-acquired infection is an infection a patient develops while receiving care in a healthcare facility.",
+    "example": "A healthcare consultant may use Hospital-Acquired Infection (HAI) when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Hospital-Acquired Infection (HAI) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Hours per Patient Day (HPPD)",
+    "serviceLine": "Labor",
+    "level": "Staffing Metric",
+    "definition": "HPPD measures worked hours relative to patient days and is often used in nursing staffing analysis.",
+    "example": "A healthcare consultant may use Hours per Patient Day (HPPD) when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Hours per Patient Day (HPPD) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Hypercare",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Phase",
+    "definition": "Hypercare is the intensive support period immediately after go-live.",
+    "example": "A healthcare consultant may use Hypercare when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Hypercare helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "ICD-10",
+    "serviceLine": "Revenue Cycle",
+    "level": "Coding System",
+    "definition": "ICD-10 is a diagnosis and procedure classification system used for clinical documentation, billing, and reporting.",
+    "example": "A healthcare consultant may use ICD-10 when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding ICD-10 helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Inpatient Admission",
+    "serviceLine": "Clinical Optimization",
+    "level": "Patient Status Term",
+    "definition": "An inpatient admission occurs when a patient is formally admitted to a hospital for inpatient care.",
+    "example": "A healthcare consultant may use Inpatient Admission when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Inpatient Admission helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Insurance Follow-Up",
+    "serviceLine": "Revenue Cycle",
+    "level": "Back-End Process",
+    "definition": "Insurance follow-up is the process of working unpaid or delayed claims with payers to resolve payment issues.",
+    "example": "A healthcare consultant may use Insurance Follow-Up when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Insurance Follow-Up helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Interface",
+    "serviceLine": "ERP / Technology",
+    "level": "Integration Term",
+    "definition": "An interface transfers data between systems using defined formats, rules, or integration engines.",
+    "example": "A healthcare consultant may use Interface when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Interface helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Inventory Turns",
+    "serviceLine": "Supply Chain",
+    "level": "Inventory Metric",
+    "definition": "Inventory turns measure how often inventory is used and replenished over a period of time.",
+    "example": "A healthcare consultant may use Inventory Turns when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Inventory Turns helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Issue Log",
+    "serviceLine": "General Healthcare",
+    "level": "Project Management Tool",
+    "definition": "An issue log tracks active problems, owners, decisions, and resolution status.",
+    "example": "A healthcare consultant may use Issue Log when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Issue Log helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Item Master",
+    "serviceLine": "Supply Chain",
+    "level": "Data Term",
+    "definition": "The item master is the central list of supplies, products, equipment, and materials used by an organization, including item descriptions, units of measure, pricing, and vendor information.",
+    "example": "A hospital’s item master may include gloves, syringes, implants, surgical supplies, office supplies, and other materials used across departments.",
+    "whyItMatters": "A messy item master can cause ordering errors, duplicate items, pricing issues, reporting problems, and supply chain inefficiency."
+  },
+  {
+    "term": "Item Master Cleanup",
+    "serviceLine": "Supply Chain",
+    "level": "Data Governance Term",
+    "definition": "Item master cleanup is the process of correcting duplicate, outdated, inconsistent, or inaccurate supply item records.",
+    "example": "A healthcare consultant may use Item Master Cleanup when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Item Master Cleanup helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Key Performance Indicator (KPI)",
+    "serviceLine": "General Healthcare",
+    "level": "Performance Term",
+    "definition": "A KPI is a measurable indicator used to track progress toward an operational or strategic objective.",
+    "example": "A healthcare consultant may use Key Performance Indicator (KPI) when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Key Performance Indicator (KPI) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Labor Productivity",
+    "serviceLine": "Labor",
+    "level": "Performance Metric",
+    "definition": "Labor productivity compares staffing hours or labor cost to volume, workload, or output.",
+    "example": "A healthcare consultant may use Labor Productivity when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Labor Productivity helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Legacy System",
+    "serviceLine": "ERP / Technology",
+    "level": "Technology Term",
+    "definition": "A legacy system is an older technology platform that an organization still uses, often because it supports critical business processes.",
+    "example": "A hospital acquired by a health system may still use Lawson while the parent organization uses Workday.",
+    "whyItMatters": "Legacy systems create challenges during ERP implementations because data, workflows, customizations, and integrations must be evaluated and migrated carefully."
+  },
+  {
+    "term": "Length of Stay (LOS)",
+    "serviceLine": "Quality",
+    "level": "Performance Metric",
+    "definition": "Length of stay measures the number of days a patient remains in a hospital or care setting.",
+    "example": "A healthcare consultant may use Length of Stay (LOS) when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Length of Stay (LOS) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Level of Care",
+    "serviceLine": "Clinical Optimization",
+    "level": "Clinical Operations Term",
+    "definition": "Level of care describes the intensity or setting of services a patient needs, such as observation, inpatient, or skilled nursing.",
+    "example": "A healthcare consultant may use Level of Care when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Level of Care helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Market Share",
+    "serviceLine": "General Healthcare",
+    "level": "Strategy Metric",
+    "definition": "Market share measures an organization’s portion of volume, revenue, or patients within a defined market.",
+    "example": "A healthcare consultant may use Market Share when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Market Share helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Master Patient Index (MPI)",
+    "serviceLine": "ERP / Technology",
+    "level": "Data System",
+    "definition": "An MPI is a database that uniquely identifies patients across systems and care settings.",
+    "example": "A healthcare consultant may use Master Patient Index (MPI) when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Master Patient Index (MPI) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Medical Necessity",
+    "serviceLine": "Revenue Cycle",
+    "level": "Compliance Term",
+    "definition": "Medical necessity means a service is clinically appropriate and required based on a patient’s condition and payer rules.",
+    "example": "A healthcare consultant may use Medical Necessity when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Medical Necessity helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Medicare Secondary Payer (MSP)",
+    "serviceLine": "Revenue Cycle",
+    "level": "Payer Term",
+    "definition": "Medicare Secondary Payer rules determine when Medicare pays after another insurer or responsible party.",
+    "example": "A healthcare consultant may use Medicare Secondary Payer (MSP) when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Medicare Secondary Payer (MSP) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Medication Reconciliation",
+    "serviceLine": "Clinical Optimization",
+    "level": "Safety Process",
+    "definition": "Medication reconciliation compares medication lists to reduce errors during admission, transfer, and discharge.",
+    "example": "A healthcare consultant may use Medication Reconciliation when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Medication Reconciliation helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Milestone",
+    "serviceLine": "General Healthcare",
+    "level": "Project Management Term",
+    "definition": "A milestone is a significant checkpoint or achievement in a project timeline.",
+    "example": "A healthcare consultant may use Milestone when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Milestone helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Modifier",
+    "serviceLine": "Revenue Cycle",
+    "level": "Coding Term",
+    "definition": "A modifier is a code that gives additional context about a service, procedure, location, or circumstance.",
+    "example": "A healthcare consultant may use Modifier when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Modifier helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Mortality Index",
+    "serviceLine": "Quality",
+    "level": "Quality Metric",
+    "definition": "Mortality index compares observed patient deaths to expected deaths for a defined population or service line.",
+    "example": "A healthcare consultant may use Mortality Index when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Mortality Index helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Net Collection Rate",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Metric",
+    "definition": "Net collection rate measures how much collectible revenue is actually collected after contractual adjustments.",
+    "example": "A healthcare consultant may use Net Collection Rate when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Net Collection Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Never Event",
+    "serviceLine": "Quality",
+    "level": "Safety Term",
+    "definition": "A never event is a serious, preventable safety event that should not occur in healthcare delivery.",
+    "example": "A healthcare consultant may use Never Event when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Never Event helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "No-Show Rate",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Metric",
+    "definition": "No-show rate measures the percentage of scheduled appointments where patients do not arrive and do not cancel in advance.",
+    "example": "A healthcare consultant may use No-Show Rate when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding No-Show Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Nonproductive Hours",
+    "serviceLine": "Labor",
+    "level": "Labor Metric",
+    "definition": "Nonproductive hours are paid hours not directly tied to worked shifts, such as PTO, education, or orientation.",
+    "example": "A healthcare consultant may use Nonproductive Hours when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Nonproductive Hours helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Nurse Staffing Ratio",
+    "serviceLine": "Labor",
+    "level": "Staffing Metric",
+    "definition": "Nurse staffing ratio compares the number of nurses to patients or workload in a care setting.",
+    "example": "A healthcare consultant may use Nurse Staffing Ratio when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Nurse Staffing Ratio helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Observation Status",
+    "serviceLine": "Clinical Optimization",
+    "level": "Patient Status Term",
+    "definition": "Observation status is an outpatient designation for patients who need monitoring or evaluation before a care decision.",
+    "example": "A healthcare consultant may use Observation Status when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Observation Status helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Observed-to-Expected Ratio",
+    "serviceLine": "Quality",
+    "level": "Performance Metric",
+    "definition": "Observed-to-expected ratio compares actual outcomes to expected outcomes after adjusting for patient risk.",
+    "example": "A healthcare consultant may use Observed-to-Expected Ratio when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Observed-to-Expected Ratio helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Operating Model",
+    "serviceLine": "General Healthcare",
+    "level": "Strategy Term",
+    "definition": "An operating model describes how people, processes, governance, technology, and resources work together to deliver services.",
+    "example": "A healthcare consultant may use Operating Model when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Operating Model helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Optimization Backlog",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Term",
+    "definition": "An optimization backlog is a prioritized list of system or process improvements after implementation.",
+    "example": "A healthcare consultant may use Optimization Backlog when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Optimization Backlog helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Order Set",
+    "serviceLine": "Clinical Optimization",
+    "level": "Clinical Workflow Term",
+    "definition": "An order set is a preconfigured group of orders used to standardize and streamline care.",
+    "example": "A healthcare consultant may use Order Set when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Order Set helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Orientation Cost",
+    "serviceLine": "Labor",
+    "level": "Cost Term",
+    "definition": "Orientation cost is the labor and resource expense required to onboard and train new employees.",
+    "example": "A healthcare consultant may use Orientation Cost when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Orientation Cost helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Outcome Measure",
+    "serviceLine": "Quality",
+    "level": "Quality Metric",
+    "definition": "An outcome measure evaluates the result of care, such as mortality, complications, readmissions, or functional improvement.",
+    "example": "A healthcare consultant may use Outcome Measure when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Outcome Measure helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Overtime Rate",
+    "serviceLine": "Workforce / Labor",
+    "level": "Workforce KPI",
+    "definition": "Overtime Rate measures how much labor is being worked beyond standard scheduled hours.",
+    "example": "A department may use overtime when staffing levels are low, patient volume is high, or schedules are not aligned with demand.",
+    "whyItMatters": "High overtime can increase labor cost, signal staffing shortages, contribute to burnout, and reveal scheduling or productivity issues."
+  },
+  {
+    "term": "Panel Size",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Metric",
+    "definition": "Panel size is the number of patients assigned to or actively managed by a provider or care team.",
+    "example": "A healthcare consultant may use Panel Size when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Panel Size helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "PAR Level",
+    "serviceLine": "Supply Chain",
+    "level": "Inventory Term",
+    "definition": "PAR level is the target quantity of an item that should be kept on hand in a supply location.",
+    "example": "If a supply room has a PAR level of 20 boxes of gloves, staff replenish the location back to 20 when inventory drops below the target.",
+    "whyItMatters": "Incorrect PAR levels can lead to stockouts, overstocking, wasted supplies, clinical frustration, and unnecessary working capital."
+  },
+  {
+    "term": "Patient Access",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Term",
+    "definition": "Patient access refers to how easily patients can schedule, reach, and receive care from providers or services.",
+    "example": "A medical group may study appointment availability, call center performance, referral management, and scheduling templates to improve patient access.",
+    "whyItMatters": "Poor access can reduce patient satisfaction, delay care, lower provider utilization, and affect revenue."
+  },
+  {
+    "term": "Patient Estimate",
+    "serviceLine": "Revenue Cycle",
+    "level": "Patient Financial Term",
+    "definition": "A patient estimate projects what a patient may owe for services based on coverage, benefits, and expected charges.",
+    "example": "A healthcare consultant may use Patient Estimate when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Patient Estimate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Patient Experience",
+    "serviceLine": "Quality",
+    "level": "Experience Term",
+    "definition": "Patient experience refers to how patients perceive their interactions, communication, access, and care across the healthcare journey.",
+    "example": "A healthcare consultant may use Patient Experience when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Patient Experience helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Patient Responsibility",
+    "serviceLine": "Revenue Cycle",
+    "level": "Patient Financial Term",
+    "definition": "Patient responsibility is the amount owed by the patient after insurance payments and adjustments.",
+    "example": "A healthcare consultant may use Patient Responsibility when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Patient Responsibility helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Patient Safety Indicator (PSI)",
+    "serviceLine": "Quality",
+    "level": "Quality Metric",
+    "definition": "Patient safety indicators are measures used to identify potential in-hospital safety events or complications.",
+    "example": "A healthcare consultant may use Patient Safety Indicator (PSI) when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Patient Safety Indicator (PSI) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Patient Throughput",
+    "serviceLine": "Physician Enterprise",
+    "level": "Operational Metric",
+    "definition": "Patient throughput measures how efficiently patients move through a clinic, department, or care setting.",
+    "example": "A healthcare consultant may use Patient Throughput when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Patient Throughput helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Payer Contracting",
+    "serviceLine": "Revenue Cycle",
+    "level": "Strategy Term",
+    "definition": "Payer contracting is the negotiation and management of reimbursement terms between providers and health plans.",
+    "example": "A healthcare consultant may use Payer Contracting when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Payer Contracting helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Payer Denial",
+    "serviceLine": "Revenue Cycle",
+    "level": "Payment Issue",
+    "definition": "A payer denial is a refusal by an insurer to pay a claim or claim line based on payer rules or missing information.",
+    "example": "A healthcare consultant may use Payer Denial when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Payer Denial helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Payer Mix",
+    "serviceLine": "General Healthcare",
+    "level": "Business Term",
+    "definition": "Payer mix describes the proportion of patients or revenue coming from different payer types, such as Medicare, Medicaid, commercial insurance, self-pay, or managed care.",
+    "example": "A hospital with a large Medicaid population may face different reimbursement dynamics than one with a larger commercial insurance population.",
+    "whyItMatters": "Payer mix affects reimbursement, margins, financial planning, access strategy, and how health systems evaluate service-line performance."
+  },
+  {
+    "term": "Physician Preference Item (PPI)",
+    "serviceLine": "Supply Chain",
+    "level": "Supply Term",
+    "definition": "A physician preference item is a product or implant whose selection is heavily influenced by physician choice.",
+    "example": "A healthcare consultant may use Physician Preference Item (PPI) when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Physician Preference Item (PPI) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Plan-Do-Study-Act (PDSA)",
+    "serviceLine": "Quality",
+    "level": "Improvement Method",
+    "definition": "PDSA is an iterative improvement cycle used to test and refine process changes.",
+    "example": "A healthcare consultant may use Plan-Do-Study-Act (PDSA) when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Plan-Do-Study-Act (PDSA) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Population Health",
+    "serviceLine": "Quality",
+    "level": "Strategy Term",
+    "definition": "Population health focuses on improving outcomes and managing health risks across a defined group of people.",
+    "example": "A healthcare consultant may use Population Health when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Population Health helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Position Control",
+    "serviceLine": "Labor",
+    "level": "Workforce Governance",
+    "definition": "Position control tracks approved positions, vacancies, filled roles, and budgeted staffing levels.",
+    "example": "A healthcare consultant may use Position Control when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Position Control helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Practice Operations",
+    "serviceLine": "Physician Enterprise",
+    "level": "Operating Area",
+    "definition": "Practice operations includes scheduling, staffing, rooming, patient flow, referrals, billing, and clinic performance.",
+    "example": "A healthcare consultant may use Practice Operations when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Practice Operations helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Preference Card",
+    "serviceLine": "Supply Chain",
+    "level": "Clinical Supply Term",
+    "definition": "A preference card lists the supplies, instruments, equipment, and setup preferences needed for a specific procedure or provider.",
+    "example": "An operating room team may use a surgeon preference card to prepare the correct supplies for a knee replacement procedure.",
+    "whyItMatters": "Inaccurate preference cards can lead to waste, missing supplies, case delays, unnecessary picking, and higher procedural costs."
+  },
+  {
+    "term": "Premium Labor",
+    "serviceLine": "Labor",
+    "level": "Labor Cost Term",
+    "definition": "Premium labor includes higher-cost staffing such as overtime, agency, travel, or incentive-shift labor.",
+    "example": "A healthcare consultant may use Premium Labor when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Premium Labor helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Process Measure",
+    "serviceLine": "Quality",
+    "level": "Quality Metric",
+    "definition": "A process measure evaluates whether a recommended care process or action was completed.",
+    "example": "A healthcare consultant may use Process Measure when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Process Measure helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Procure-to-Pay",
+    "serviceLine": "Supply Chain",
+    "level": "Process Area",
+    "definition": "Procure-to-pay covers the workflow from requisition and purchase order through receipt, invoice, and payment.",
+    "example": "A healthcare consultant may use Procure-to-Pay when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Procure-to-Pay helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Productive Hours",
+    "serviceLine": "Labor",
+    "level": "Labor Metric",
+    "definition": "Productive hours are paid hours spent delivering services or performing assigned work.",
+    "example": "A healthcare consultant may use Productive Hours when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Productive Hours helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Provider Compensation Model",
+    "serviceLine": "Physician Enterprise",
+    "level": "Financial Model",
+    "definition": "A provider compensation model defines how physicians or advanced practice providers are paid.",
+    "example": "A healthcare consultant may use Provider Compensation Model when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Provider Compensation Model helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Provider Enrollment",
+    "serviceLine": "Physician Enterprise",
+    "level": "Administrative Process",
+    "definition": "Provider enrollment registers clinicians with payers so they can bill for covered services.",
+    "example": "A healthcare consultant may use Provider Enrollment when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Provider Enrollment helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Provider Productivity",
+    "serviceLine": "Physician Enterprise",
+    "level": "Performance Metric",
+    "definition": "Provider productivity measures the volume or value of clinical work performed by a physician or advanced practice provider.",
+    "example": "A medical group may review visits, wRVUs, panel size, access, or procedural volume to understand provider productivity.",
+    "whyItMatters": "Productivity affects access, compensation models, revenue, staffing, scheduling, and physician enterprise performance."
+  },
+  {
+    "term": "Purchase Order (PO)",
+    "serviceLine": "Supply Chain",
+    "level": "Procurement Term",
+    "definition": "A purchase order is an official document authorizing the purchase of goods or services from a vendor.",
+    "example": "A healthcare consultant may use Purchase Order (PO) when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Purchase Order (PO) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Purchased Services",
+    "serviceLine": "Supply Chain",
+    "level": "Spend Category",
+    "definition": "Purchased services are contracted non-labor services such as maintenance, consulting, food service, or clinical support services.",
+    "example": "A healthcare consultant may use Purchased Services when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Purchased Services helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Quality Reporting Program",
+    "serviceLine": "Quality",
+    "level": "Regulatory Term",
+    "definition": "A quality reporting program collects and reports standardized healthcare performance measures.",
+    "example": "A healthcare consultant may use Quality Reporting Program when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Quality Reporting Program helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "RACI Matrix",
+    "serviceLine": "General Healthcare",
+    "level": "Project Management Tool",
+    "definition": "A RACI matrix defines who is responsible, accountable, consulted, and informed for activities or decisions.",
+    "example": "A healthcare consultant may use RACI Matrix when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding RACI Matrix helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Readmission Penalty",
+    "serviceLine": "Quality",
+    "level": "Payment Term",
+    "definition": "A readmission penalty is a payment reduction tied to excess readmissions under certain quality programs.",
+    "example": "A healthcare consultant may use Readmission Penalty when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Readmission Penalty helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Readmission Rate",
+    "serviceLine": "Quality",
+    "level": "Core KPI",
+    "definition": "Readmission Rate measures how often patients return to the hospital within a certain period after discharge, commonly within 30 days.",
+    "example": "A hospital may monitor patients readmitted after heart failure, pneumonia, or surgery to identify gaps in discharge planning or follow-up care.",
+    "whyItMatters": "High readmission rates can indicate issues with care transitions, discharge education, outpatient follow-up, medication management, or quality of care."
+  },
+  {
+    "term": "Recall Management",
+    "serviceLine": "Supply Chain",
+    "level": "Safety Process",
+    "definition": "Recall management identifies, removes, and tracks products that suppliers or regulators have recalled.",
+    "example": "A healthcare consultant may use Recall Management when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Recall Management helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Referral Leakage",
+    "serviceLine": "Physician Enterprise",
+    "level": "Network Metric",
+    "definition": "Referral leakage occurs when patients are referred or receive care outside the intended network.",
+    "example": "A healthcare consultant may use Referral Leakage when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Referral Leakage helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Referral Management",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Process",
+    "definition": "Referral management coordinates referral intake, authorization, scheduling, tracking, and closure.",
+    "example": "A healthcare consultant may use Referral Management when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Referral Management helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Regression Testing",
+    "serviceLine": "ERP / Technology",
+    "level": "Testing Term",
+    "definition": "Regression testing confirms that new changes do not break existing functionality.",
+    "example": "A healthcare consultant may use Regression Testing when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Regression Testing helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Remittance Advice",
+    "serviceLine": "Revenue Cycle",
+    "level": "Payment Term",
+    "definition": "A remittance advice explains payer payment, denial, adjustment, and patient-responsibility details for submitted claims.",
+    "example": "A healthcare consultant may use Remittance Advice when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Remittance Advice helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Request for Proposal (RFP)",
+    "serviceLine": "Supply Chain",
+    "level": "Procurement Process",
+    "definition": "An RFP is a formal request asking vendors to propose solutions, pricing, and terms for a product or service.",
+    "example": "A healthcare consultant may use Request for Proposal (RFP) when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Request for Proposal (RFP) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Retention Rate",
+    "serviceLine": "Labor",
+    "level": "Workforce Metric",
+    "definition": "Retention rate measures the percentage of employees who remain with an organization over a defined period.",
+    "example": "A healthcare consultant may use Retention Rate when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Retention Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Revenue Integrity",
+    "serviceLine": "Revenue Cycle",
+    "level": "Governance Term",
+    "definition": "Revenue integrity ensures services are documented, coded, charged, and billed accurately and compliantly.",
+    "example": "A healthcare consultant may use Revenue Integrity when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Revenue Integrity helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Revenue Leakage",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Risk",
+    "definition": "Revenue leakage occurs when services, supplies, or payments are missed, undercoded, underpaid, or not collected.",
+    "example": "A healthcare consultant may use Revenue Leakage when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Revenue Leakage helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Risk Adjustment",
+    "serviceLine": "Quality",
+    "level": "Analytics Term",
+    "definition": "Risk adjustment accounts for patient complexity when comparing outcomes, costs, or performance across populations.",
+    "example": "A healthcare consultant may use Risk Adjustment when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Risk Adjustment helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Risk Register",
+    "serviceLine": "General Healthcare",
+    "level": "Project Management Tool",
+    "definition": "A risk register tracks risks, likelihood, impact, mitigation plans, owners, and status.",
+    "example": "A healthcare consultant may use Risk Register when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Risk Register helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Roadmap",
+    "serviceLine": "General Healthcare",
+    "level": "Planning Tool",
+    "definition": "A roadmap sequences initiatives, milestones, dependencies, and timing needed to achieve a future state.",
+    "example": "A healthcare consultant may use Roadmap when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Roadmap helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Role-Based Access Control (RBAC)",
+    "serviceLine": "ERP / Technology",
+    "level": "Security Term",
+    "definition": "RBAC grants system access based on a user’s role and job responsibilities.",
+    "example": "A healthcare consultant may use Role-Based Access Control (RBAC) when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Role-Based Access Control (RBAC) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Rooming Process",
+    "serviceLine": "Physician Enterprise",
+    "level": "Clinic Workflow",
+    "definition": "The rooming process covers patient intake steps before the provider visit, such as vitals, medication review, and readiness.",
+    "example": "A healthcare consultant may use Rooming Process when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Rooming Process helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Root Cause Analysis (RCA)",
+    "serviceLine": "Quality",
+    "level": "Improvement Method",
+    "definition": "Root cause analysis is a structured method for identifying underlying causes of problems or adverse events.",
+    "example": "A healthcare consultant may use Root Cause Analysis (RCA) when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Root Cause Analysis (RCA) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Safety Culture",
+    "serviceLine": "Quality",
+    "level": "Organizational Term",
+    "definition": "Safety culture describes shared behaviors, beliefs, and practices that support safe patient care.",
+    "example": "A healthcare consultant may use Safety Culture when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Safety Culture helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Schedule Utilization",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Metric",
+    "definition": "Schedule utilization measures how effectively available appointment slots are used.",
+    "example": "A healthcare consultant may use Schedule Utilization when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Schedule Utilization helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Scope of Practice",
+    "serviceLine": "Clinical Optimization",
+    "level": "Workforce Term",
+    "definition": "Scope of practice defines the services and responsibilities a licensed professional is permitted to perform.",
+    "example": "A healthcare consultant may use Scope of Practice when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Scope of Practice helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Self-Pay",
+    "serviceLine": "Revenue Cycle",
+    "level": "Patient Financial Term",
+    "definition": "Self-pay refers to patients or balances not covered by insurance and billed directly to the patient.",
+    "example": "A healthcare consultant may use Self-Pay when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Self-Pay helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Sepsis Bundle",
+    "serviceLine": "Quality",
+    "level": "Clinical Quality Term",
+    "definition": "A sepsis bundle is a set of evidence-based actions intended to identify and treat sepsis quickly.",
+    "example": "A healthcare consultant may use Sepsis Bundle when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Sepsis Bundle helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Service Line",
+    "serviceLine": "General Healthcare",
+    "level": "Healthcare Business Term",
+    "definition": "A service line is a grouping of related clinical or business services such as cardiology, orthopedics, or oncology.",
+    "example": "A healthcare consultant may use Service Line when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Service Line helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Single Source of Truth",
+    "serviceLine": "ERP / Technology",
+    "level": "Data Governance Term",
+    "definition": "A single source of truth is a trusted data source used consistently for reporting and decision-making.",
+    "example": "A healthcare consultant may use Single Source of Truth when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Single Source of Truth helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Skill Mix",
+    "serviceLine": "Labor",
+    "level": "Staffing Term",
+    "definition": "Skill mix describes the blend of roles, licensure levels, and capabilities within a team.",
+    "example": "A healthcare consultant may use Skill Mix when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Skill Mix helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Social Determinants of Health (SDOH)",
+    "serviceLine": "General Healthcare",
+    "level": "Population Health Term",
+    "definition": "SDOH are nonmedical factors such as housing, food, transportation, and income that influence health outcomes.",
+    "example": "A healthcare consultant may use Social Determinants of Health (SDOH) when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Social Determinants of Health (SDOH) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Span of Control",
+    "serviceLine": "Labor",
+    "level": "Management Term",
+    "definition": "Span of control is the number of employees or teams reporting to a manager.",
+    "example": "A healthcare consultant may use Span of Control when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Span of Control helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Staffing Grid",
+    "serviceLine": "Labor",
+    "level": "Staffing Tool",
+    "definition": "A staffing grid defines recommended staffing levels based on volume, acuity, census, or workload.",
+    "example": "A healthcare consultant may use Staffing Grid when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Staffing Grid helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Stakeholder Map",
+    "serviceLine": "General Healthcare",
+    "level": "Consulting Tool",
+    "definition": "A stakeholder map identifies people or groups affected by a project and their influence, needs, or concerns.",
+    "example": "A healthcare consultant may use Stakeholder Map when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Stakeholder Map helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Standard Work",
+    "serviceLine": "Clinical Optimization",
+    "level": "Improvement Term",
+    "definition": "Standard work defines the expected best-known process for completing a task consistently.",
+    "example": "A healthcare consultant may use Standard Work when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Standard Work helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Star Rating",
+    "serviceLine": "Quality",
+    "level": "Public Reporting Term",
+    "definition": "Star ratings summarize healthcare quality, patient experience, or plan performance into an easy-to-compare score.",
+    "example": "A healthcare consultant may use Star Rating when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Star Rating helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Steering Committee",
+    "serviceLine": "General Healthcare",
+    "level": "Governance Group",
+    "definition": "A steering committee provides oversight, decisions, prioritization, and executive guidance for a project.",
+    "example": "A healthcare consultant may use Steering Committee when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Steering Committee helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Stock Keeping Unit (SKU)",
+    "serviceLine": "Supply Chain",
+    "level": "Inventory Term",
+    "definition": "A SKU is a unique identifier used to track a specific product or item in inventory systems.",
+    "example": "A healthcare consultant may use Stock Keeping Unit (SKU) when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Stock Keeping Unit (SKU) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Stockout",
+    "serviceLine": "Supply Chain",
+    "level": "Operational Issue",
+    "definition": "A stockout occurs when a needed item is unavailable when and where it is required.",
+    "example": "A nursing unit may experience a stockout if a commonly used supply is not available in the supply room during patient care.",
+    "whyItMatters": "Stockouts can delay care, create workarounds, increase emergency ordering, frustrate staff, and indicate supply chain process issues."
+  },
+  {
+    "term": "Strategic Sourcing",
+    "serviceLine": "Supply Chain",
+    "level": "Procurement Strategy",
+    "definition": "Strategic sourcing is a structured approach to analyzing spend, selecting suppliers, and negotiating value.",
+    "example": "A healthcare consultant may use Strategic Sourcing when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Strategic Sourcing helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Super User",
+    "serviceLine": "ERP / Technology",
+    "level": "Training Role",
+    "definition": "A super user is an end user with extra training who supports peers during and after implementation.",
+    "example": "A healthcare consultant may use Super User when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Super User helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Supplier Diversity",
+    "serviceLine": "Supply Chain",
+    "level": "Procurement Strategy",
+    "definition": "Supplier diversity encourages purchasing from businesses owned by underrepresented or diverse groups.",
+    "example": "A healthcare consultant may use Supplier Diversity when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Supplier Diversity helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Supply Chain Resilience",
+    "serviceLine": "Supply Chain",
+    "level": "Strategy Term",
+    "definition": "Supply chain resilience is the ability to continue operations despite shortages, disruptions, or supplier constraints.",
+    "example": "A healthcare consultant may use Supply Chain Resilience when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Supply Chain Resilience helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Supply Standardization",
+    "serviceLine": "Supply Chain",
+    "level": "Operational Strategy",
+    "definition": "Supply standardization reduces unnecessary variation in products, brands, or supplies used across an organization.",
+    "example": "A healthcare consultant may use Supply Standardization when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Supply Standardization helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Supply Utilization",
+    "serviceLine": "Supply Chain",
+    "level": "Performance Metric",
+    "definition": "Supply utilization measures how supplies are used across departments, procedures, providers, or patient populations.",
+    "example": "A healthcare consultant may use Supply Utilization when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Supply Utilization helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Surgical Site Infection (SSI)",
+    "serviceLine": "Quality",
+    "level": "Safety Metric",
+    "definition": "A surgical site infection is an infection that occurs after surgery in the part of the body where the surgery took place.",
+    "example": "A healthcare consultant may use Surgical Site Infection (SSI) when assessing quality performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Surgical Site Infection (SSI) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "System Integration Testing (SIT)",
+    "serviceLine": "ERP / Technology",
+    "level": "Testing Phase",
+    "definition": "SIT validates that connected systems and processes work together as expected.",
+    "example": "A healthcare consultant may use System Integration Testing (SIT) when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding System Integration Testing (SIT) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Target Operating Model",
+    "serviceLine": "General Healthcare",
+    "level": "Strategy Term",
+    "definition": "A target operating model describes the desired future structure for processes, roles, governance, and technology.",
+    "example": "A healthcare consultant may use Target Operating Model when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Target Operating Model helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Template Optimization",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Process",
+    "definition": "Template optimization redesigns provider schedules to improve access, visit mix, productivity, and patient flow.",
+    "example": "A healthcare consultant may use Template Optimization when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Template Optimization helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Third Next Available Appointment",
+    "serviceLine": "Physician Enterprise",
+    "level": "Access Metric",
+    "definition": "Third next available appointment measures appointment access by tracking the third open slot for a provider or service.",
+    "example": "A healthcare consultant may use Third Next Available Appointment when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Third Next Available Appointment helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Time and Attendance",
+    "serviceLine": "Labor",
+    "level": "Workforce System",
+    "definition": "Time and attendance systems track employee worked hours, schedules, time off, and payroll-related data.",
+    "example": "A healthcare consultant may use Time and Attendance when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Time and Attendance helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Timely Filing",
+    "serviceLine": "Revenue Cycle",
+    "level": "Payer Rule",
+    "definition": "Timely filing is the deadline by which claims must be submitted to a payer to be considered for payment.",
+    "example": "A healthcare consultant may use Timely Filing when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Timely Filing helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Total Cost of Care",
+    "serviceLine": "General Healthcare",
+    "level": "Financial Term",
+    "definition": "Total cost of care is the full cost of healthcare services for a patient or population across settings.",
+    "example": "A healthcare consultant may use Total Cost of Care when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Total Cost of Care helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Training Plan",
+    "serviceLine": "General Healthcare",
+    "level": "Change Tool",
+    "definition": "A training plan defines who needs training, what they need to learn, and how training will be delivered.",
+    "example": "A healthcare consultant may use Training Plan when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Training Plan helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Transitions of Care",
+    "serviceLine": "Clinical Optimization",
+    "level": "Care Coordination Term",
+    "definition": "Transitions of care are patient moves between care settings, providers, or levels of care.",
+    "example": "A healthcare consultant may use Transitions of Care when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Transitions of Care helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Travel Nurse",
+    "serviceLine": "Labor",
+    "level": "Staffing Term",
+    "definition": "A travel nurse is a temporary nurse who works short-term assignments, often at higher hourly rates.",
+    "example": "A healthcare consultant may use Travel Nurse when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Travel Nurse helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Turnover Rate",
+    "serviceLine": "Labor",
+    "level": "Workforce Metric",
+    "definition": "Turnover rate measures the percentage of employees who leave an organization during a defined period.",
+    "example": "A healthcare consultant may use Turnover Rate when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Turnover Rate helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "UAT",
+    "serviceLine": "ERP / Technology",
+    "level": "Testing Term",
+    "definition": "UAT stands for User Acceptance Testing. It is the phase where end users test whether a system supports real business processes before go-live.",
+    "example": "Hospital HR, finance, supply chain, or clinical operations users may test hiring, purchasing, invoice processing, or reporting workflows before a Workday go-live.",
+    "whyItMatters": "UAT helps catch process, configuration, data, security, and training issues before the system is used in production."
+  },
+  {
+    "term": "Underpayment",
+    "serviceLine": "Revenue Cycle",
+    "level": "Payment Variance",
+    "definition": "An underpayment occurs when a payer pays less than expected based on contract terms or reimbursement rules.",
+    "example": "A healthcare consultant may use Underpayment when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Underpayment helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Unit of Measure",
+    "serviceLine": "Supply Chain",
+    "level": "Data Term",
+    "definition": "Unit of measure defines how an item is counted, ordered, stocked, issued, or billed.",
+    "example": "A healthcare consultant may use Unit of Measure when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Unit of Measure helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Utilization Management",
+    "serviceLine": "Clinical Optimization",
+    "level": "Clinical Review Process",
+    "definition": "Utilization management evaluates the appropriateness, efficiency, and medical necessity of healthcare services.",
+    "example": "A healthcare consultant may use Utilization Management when assessing clinical optimization performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Utilization Management helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Utilization Review",
+    "serviceLine": "Revenue Cycle",
+    "level": "Clinical Review Process",
+    "definition": "Utilization review evaluates whether services are medically necessary, appropriate, and aligned with payer criteria.",
+    "example": "A healthcare consultant may use Utilization Review when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Utilization Review helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Vacancy",
+    "serviceLine": "Labor",
+    "level": "Workforce Term",
+    "definition": "A vacancy is an approved position that is not currently filled.",
+    "example": "A healthcare consultant may use Vacancy when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Vacancy helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Vacancy Rate",
+    "serviceLine": "Workforce / Labor",
+    "level": "Workforce KPI",
+    "definition": "Vacancy Rate measures the percentage of approved positions that are currently unfilled.",
+    "example": "A hospital may monitor nursing vacancy rates by unit, shift, role, or location to understand staffing gaps.",
+    "whyItMatters": "High vacancy rates can increase overtime, agency labor use, burnout, access constraints, and operational risk."
+  },
+  {
+    "term": "Value Analysis",
+    "serviceLine": "Supply Chain",
+    "level": "Governance Process",
+    "definition": "Value analysis evaluates products, services, cost, clinical impact, quality, and standardization opportunities.",
+    "example": "A healthcare consultant may use Value Analysis when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Value Analysis helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Value-Based Care",
+    "serviceLine": "Quality",
+    "level": "Industry Concept",
+    "definition": "Value-based care is a healthcare payment and delivery model that rewards quality, outcomes, efficiency, and patient experience rather than only volume of services.",
+    "example": "A provider organization may be rewarded for reducing readmissions, improving preventive care, or managing chronic conditions more effectively.",
+    "whyItMatters": "Value-based care changes how health systems think about quality, cost, patient outcomes, care coordination, and performance improvement."
+  },
+  {
+    "term": "Visit Type",
+    "serviceLine": "Physician Enterprise",
+    "level": "Scheduling Term",
+    "definition": "A visit type defines the appointment category, duration, provider requirements, and scheduling rules.",
+    "example": "A healthcare consultant may use Visit Type when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Visit Type helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Waste Reduction",
+    "serviceLine": "Supply Chain",
+    "level": "Improvement Term",
+    "definition": "Waste reduction focuses on reducing expired, unused, unnecessary, or inefficiently used supplies.",
+    "example": "A healthcare consultant may use Waste Reduction when assessing supply chain performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Waste Reduction helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Work Relative Value Unit (wRVU)",
+    "serviceLine": "Physician Enterprise",
+    "level": "Productivity Metric",
+    "definition": "A wRVU measures provider work effort associated with clinical services and is often used in productivity analysis.",
+    "example": "A healthcare consultant may use Work Relative Value Unit (wRVU) when assessing physician enterprise performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Work Relative Value Unit (wRVU) helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Workflow Build",
+    "serviceLine": "ERP / Technology",
+    "level": "Implementation Term",
+    "definition": "Workflow build configures system functionality to support operational or clinical processes.",
+    "example": "A healthcare consultant may use Workflow Build when assessing erp / technology performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Workflow Build helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Workforce Planning",
+    "serviceLine": "Labor",
+    "level": "Planning Process",
+    "definition": "Workforce planning forecasts staffing needs and workforce capabilities required to meet organizational demand.",
+    "example": "A healthcare consultant may use Workforce Planning when assessing labor performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Workforce Planning helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Workplan",
+    "serviceLine": "General Healthcare",
+    "level": "Project Management Term",
+    "definition": "A workplan outlines tasks, owners, dates, dependencies, and deliverables for a project.",
+    "example": "A healthcare consultant may use Workplan when assessing general healthcare performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Workplan helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "Write-Off",
+    "serviceLine": "Revenue Cycle",
+    "level": "Financial Term",
+    "definition": "A write-off is an amount removed from accounts receivable because it is not expected or allowed to be collected.",
+    "example": "A healthcare consultant may use Write-Off when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Write-Off helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  },
+  {
+    "term": "wRVU",
+    "serviceLine": "Physician Enterprise",
+    "level": "Physician Enterprise Metric",
+    "definition": "wRVU stands for Work Relative Value Unit. It is used to measure the relative work effort associated with clinical services.",
+    "example": "A physician compensation plan may use wRVUs to help measure productivity and determine incentive compensation.",
+    "whyItMatters": "wRVUs influence provider productivity analysis, compensation design, access planning, and practice financial performance."
+  },
+  {
+    "term": "Zero Balance Review",
+    "serviceLine": "Revenue Cycle",
+    "level": "Recovery Process",
+    "definition": "Zero balance review examines closed accounts to identify missed charges, underpayments, or recovery opportunities.",
+    "example": "A healthcare consultant may use Zero Balance Review when assessing revenue cycle performance, workflows, data, or improvement opportunities.",
+    "whyItMatters": "Understanding Zero Balance Review helps consultants ask better questions, interpret stakeholder input, and connect project work to measurable healthcare outcomes."
+  }
+]

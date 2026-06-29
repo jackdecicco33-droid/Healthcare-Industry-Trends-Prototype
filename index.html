@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Healthcare Industry Trends</title>
+  <meta name="description" content="Searchable healthcare consulting resource guide by service line, level, resource type, and source trust." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="topbar" aria-label="Primary navigation">
+      <div class="brand-lockup" aria-label="Impact Advisors home">
+        <img class="brand-logo" src="./assets/impact-advisors-logo.svg" alt="Impact Advisors logo" />
+        <div>
+          <p class="eyebrow">Healthcare advisory resource hub</p>
+          <h1>Healthcare Industry Trends</h1>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="#resourceLibrary">Resource library</a>
+        <a href="#terminologyDictionary">Terminology</a>
+        <a href="#submit-insight">Submit Insight</a>
+        <a href="#" id="openChatLink">Chatbot</a>
+      </div>
+    </nav>
+
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <h2 id="heroTitle">Healthcare Industry Trends</h2>
+        <p>
+          Build practical healthcare knowledge through current industry insights, curated learning
+          resources, professional development opportunities, and a comprehensive terminology
+          dictionary organized for healthcare consultants at every career level.
+        </p>
+      </div>
+      <div class="hero-card" aria-label="Website summary" hidden>
+        <div class="metric-grid">
+          <div><strong id="serviceCount">6</strong><span>service lines</span></div>
+          <div><strong id="resourceCount">—</strong><span>resource cards</span></div>
+          <div><strong id="sourceCount">—</strong><span>unique sources</span></div>
+          <div><strong>3</strong><span>consulting levels</span></div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main id="mainContent">
+    <section id="industryWatch" class="industry-watch-section">
+      <div class="section-shell">
+        <div class="section-header">
+          <p class="eyebrow">Healthcare Industry Watch</p>
+          <h2>Today’s Healthcare Signal</h2>
+          <p>
+            A daily snapshot of current healthcare news, policy movement, and market signals.
+            Use this section to understand what health systems, consultants, and healthcare leaders
+            are paying attention to right now.
+          </p>
+        </div>
+
+        <div class="industry-watch-layout">
+          <article id="featuredNewsCard" class="featured-news-card">
+            <!-- JavaScript will load today’s featured article here -->
+          </article>
+
+          <aside class="news-side-panel">
+            <div class="news-side-header">
+              <h3>More headlines to watch</h3>
+              <p id="newsUpdatedLabel">Updated daily from curated sources</p>
+            </div>
+
+            <div id="newsGrid" class="news-grid">
+              <!-- JavaScript will load supporting articles here -->
+            </div>
+          </aside>
+        </div>
+
+        <div class="source-caution">
+          <strong>Source note:</strong>
+          News sources are for trend awareness. For official policy, reimbursement,
+          quality reporting, or compliance questions, verify directly with primary sources
+          such as CMS, QualityNet, AHRQ, or BLS.
+        </div>
+      </div>
+    </section>
+
+    <!-- Service lines section removed as requested -->
+
+    <section class="section library-section" id="resourceLibrary" aria-labelledby="libraryTitle">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Searchable library</p>
+          <h2 id="libraryTitle">Resource library</h2>
+          <p>Search by keyword or filter by service line, level, and resource category.</p>
+        </div>
+        <button class="ghost-btn" id="resetFilters" type="button">Reset filters</button>
+      </div>
+
+      <div class="filter-panel" role="search">
+        <div class="filter-grid">
+          <label>Service line
+            <select id="serviceFilter"><option value="all">All service lines</option></select>
+          </label>
+          <label>Level
+            <select id="levelFilter">
+              <option value="all">All levels</option>
+              <option value="Consultant/SC">Consultant / Senior Consultant</option>
+              <option value="MC/AD">Managing Consultant / Associate Director</option>
+              <option value="Director +">Director +</option>
+            </select>
+          </label>
+          <label>Resource category
+            <select id="categoryFilter">
+              <option value="all">All categories</option>
+              <option value="Courses &amp; training">Courses &amp; training</option>
+              <option value="Certifications">Certifications</option>
+              <option value="Articles, Books &amp; Podcasts">Articles, Books &amp; Podcasts</option>
+              <option value="Healthcare associations">Healthcare associations</option>
+              <option value="AI &amp; tech skills">AI &amp; tech skills</option>
+              <option value="General career growth">General career growth</option>
+            </select>
+          </label>
+        </div>
+        <div class="filter-chip-section">
+          <p class="small-label">Categories</p>
+          <div id="categoryButtons" class="category-buttons" aria-label="Resource categories"></div>
+        </div>
+      </div>
+
+      <div class="results-summary" id="resultsSummary" aria-live="polite"></div>
+      <div id="resourceGrid" class="resource-grid"></div>
+    </section>
+
+    <section id="terminologyDictionary" class="terminology-section">
+      <div class="section-shell">
+        <div class="section-header">
+          <p class="eyebrow">Healthcare Terminology Dictionary</p>
+          <h2>Learn the language of healthcare consulting</h2>
+          <p>
+            Explore healthcare consulting terms and official CMS definitions, organized by the
+            service line they most closely support.
+          </p>
+        </div>
+
+        <div class="dictionary-controls">
+          <div class="dictionary-search-wrap">
+            <label for="termSearch">Search terms</label>
+            <input
+              id="termSearch"
+              type="search"
+              placeholder="Start typing: enterprise, electronic, denial, access..."
+            />
+            <button id="clearTerminology" class="clear-terminology-button" type="button">
+              Clear
+            </button>
+          </div>
+
+        </div>
+
+        <div id="terminologyServiceTabs" class="terminology-service-tabs" aria-label="Filter terminology by service line">
+          <button type="button" data-service-line="All">All terms</button>
+          <button type="button" data-service-line="ERP">ERP</button>
+          <button type="button" data-service-line="Revenue Cycle">Revenue Cycle</button>
+          <button type="button" data-service-line="Clinical Optimization">Clinical Optimization</button>
+          <button type="button" data-service-line="Labor">Labor</button>
+          <button type="button" data-service-line="Supply Chain">Supply Chain</button>
+          <button type="button" data-service-line="Quality">Quality</button>
+          <button type="button" data-service-line="Physician Enterprise">Physician Enterprise</button>
+        </div>
+
+        <div id="dictionaryResultsCount" class="dictionary-results-count"></div>
+
+        <div id="terminologyGrid" class="terminology-grid">
+          <!-- JavaScript will load terminology cards here -->
+        </div>
+        <button id="terminologyLoadMore" class="cms-glossary-load-more" type="button" hidden>
+          Show more definitions
+        </button>
+        <p class="cms-glossary-attribution">
+          Official definitions are sourced from the
+          <a href="https://www.cms.gov/glossary" target="_blank" rel="noopener">CMS Glossary</a>
+          and the
+          <a href="./assets/CMS_Healthcare_Terminology_Guide.pdf" target="_blank" rel="noopener">
+            CMS Healthcare Terminology Guide
+          </a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="submit-insight" class="submit-insight-section">
+      <div class="section-shell">
+        <h2>Winners&rsquo; Perspectives: Submit a Healthcare Industry Insight</h2>
+        <p>
+          Share a conference, certification, book, article, webinar, podcast, or healthcare trend
+          that could help employees stay current on the healthcare industry.
+        </p>
+
+        <div class="form-frame">
+          <iframe
+            width="640px"
+            height="480px"
+            src="https://forms.office.com/Pages/ResponsePage.aspx?id=1LNJmR2eLE6mp_IuzmOrbiUxQedb6IVPlWbOccYj_opUOE1UQk03MlJYU1ZYT0dJOFBYOEhHQ1hXSS4u&embed=true"
+            frameborder="0"
+            marginwidth="0"
+            marginheight="0"
+            style="border: none; max-width:100%; max-height:100vh"
+            allowfullscreen
+            webkitallowfullscreen
+            mozallowfullscreen
+            msallowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="employee-insights" class="employee-insights-section">
+      <h2>Employee Industry Insights</h2>
+      <p>
+        Live submissions from employees on healthcare trends, conferences,
+        certifications, books, and professional development sources.
+      </p>
+      <p id="insightsStatus" class="insights-status" role="status" aria-live="polite">
+        Checking for new responses…
+      </p>
+
+      <div class="insight-filter-bar" aria-label="Filter employee insights">
+        <label>Source
+          <select id="insightSourceFilter">
+            <option value="all">All sources</option>
+            <option value="Conference">Conference</option>
+            <option value="Book">Book</option>
+            <option value="Article">Article</option>
+            <option value="Podcast">Podcast</option>
+            <option value="Webinar">Webinar</option>
+            <option value="Other">Other</option>
+          </select>
+        </label>
+        <label>Role / service line
+          <select id="insightRoleFilter">
+            <option value="all">All service lines</option>
+            <option value="ERP">ERP</option>
+            <option value="Revenue Cycle">Revenue Cycle</option>
+            <option value="Clinical Optimization">Clinical Optimization</option>
+            <option value="Labor">Labor</option>
+            <option value="Supply Chain">Supply Chain</option>
+            <option value="Quality">Quality</option>
+            <option value="Physician Enterprise">Physician Enterprise</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="insight-carousel">
+        <button id="previousInsight" class="carousel-button" type="button" aria-label="View previous employee insight">‹</button>
+        <div id="insightsContainer" class="insight-grid" tabindex="0" aria-label="Employee insight recommendations">
+          <!-- Submitted insights will appear here automatically -->
+        </div>
+        <button id="nextInsight" class="carousel-button" type="button" aria-label="View next employee insight">›</button>
+      </div>
+    </section>
+
+    <section class="section" id="sourceTrust" aria-labelledby="sourceTrustTitle">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Credibility layer</p>
+          <h2 id="sourceTrustTitle">Source trust index</h2>
+          <p>Use this to understand what type of source each website is and where it appears in the guide.</p>
+        </div>
+        <input id="sourceSearch" class="source-search" type="search" placeholder="Search sources or domains..." aria-label="Search sources" />
+      </div>
+      <div id="sourceGrid" class="source-grid"></div>
+    </section>
+
+    <!-- Chatbot is provided by the embedded Chatbase widget. The bottom inline chatbot UI was removed; the top navigation now opens the widget. -->
+  </main>
+
+  <footer class="site-footer">
+    <p>Public-resource learning hub. Do not add patient data, client-confidential information, or internal-only documents.</p>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+  <script>
+  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...args)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(args)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...proxyArgs)=>target(prop,...proxyArgs)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="ju0TN8v7fhMWNk2TpASYZ";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+  <script>
+  async function getUserToken() {
+    // Replace this path with your server endpoint that returns the signed Chatbase JWT.
+    const response = await fetch('/api/chatbase-token');
+    if (!response.ok) {
+      console.warn('Chatbase token endpoint not available locally:', response.status);
+      return null;
+    }
+    return response.text();
+  }
+
+  async function identifyChatbaseUser() {
+    try {
+      const token = await getUserToken();
+      if (!token) {
+        console.warn('Skipping Chatbase identify because no token was returned.');
+        return;
+      }
+      if (window.chatbase) {
+        window.chatbase('identify', { token });
+      } else {
+        console.warn('Chatbase is not available yet.');
+      }
+    } catch (error) {
+      console.error('Chatbase identify failed:', error);
+    }
+  }
+  // Open the embedded Chatbase widget (tries common method names, with graceful fallbacks)
+  function openChatWidget() {
+    try {
+      if (window.chatbase && typeof window.chatbase === 'function') {
+        try { window.chatbase('open'); } catch(e) {}
+        try { window.chatbase('openWidget'); } catch(e) {}
+        try { window.chatbase('show'); } catch(e) {}
+        try { window.chatbase('toggle'); } catch(e) {}
+        try { window.chatbase('focus'); } catch(e) {}
+        return;
+      }
+      // If the embed injects an iframe, attempt to bring it into view
+      const iframe = document.querySelector('iframe[src*="chatbase.co"]');
+      if (iframe) {
+        iframe.scrollIntoView({ behavior: 'smooth' });
+        iframe.focus();
+        return;
+      }
+      // Fallback: scroll to top (where the widget commonly appears)
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      console.warn('Chatbase widget not found; ensure embed is loaded and supports programmatic opening.');
+    } catch (err) {
+      console.warn('openChatWidget error', err);
+    }
+  }
+
+  window.addEventListener('load', () => {
+    identifyChatbaseUser().catch(()=>{});
+    const link = document.getElementById('openChatLink');
+    if (link) {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        openChatWidget();
+      });
+    }
+  });
+  </script>
+</body>
+</html>

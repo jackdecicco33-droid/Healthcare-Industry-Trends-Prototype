@@ -1,0 +1,28 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="logoCircle">
+      <circle cx="80" cy="80" r="78"/>
+    </clipPath>
+    <linearGradient id="navyGradient" x1="23" y1="14" x2="132" y2="143" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#062955"/>
+      <stop offset="1" stop-color="#173F78"/>
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="45" y1="63" x2="124" y2="146" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#688BC2"/>
+      <stop offset="1" stop-color="#98B7DD"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#logoCircle)">
+    <rect width="160" height="160" fill="url(#navyGradient)"/>
+
+    <path d="M-7 72C24 50 54 38 89 38C110 38 128 43 148 53C112 48 75 55 43 72C21 83 4 98-11 116L-7 72Z" fill="white"/>
+    <path d="M-8 87C24 61 59 48 96 48C116 48 136 52 154 61C118 59 82 68 50 88C28 101 9 118-6 139L-8 87Z" fill="#8AB84E"/>
+    <path d="M10 116C38 83 73 62 113 55C92 72 76 91 65 114C58 128 54 142 52 160H9L10 116Z" fill="#244C88"/>
+    <path d="M47 160C50 137 59 116 73 98C84 83 98 70 115 58C102 80 95 100 94 119C93 134 96 148 102 160H47Z" fill="#6888BE"/>
+    <path d="M82 160C83 134 91 111 105 91C116 75 130 65 148 59C133 78 126 99 126 120C126 136 131 149 139 160H82Z" fill="url(#blueGradient)"/>
+    <path d="M112 57C132 55 149 58 167 66V160H130C117 137 113 114 117 92C119 78 124 67 132 59L112 57Z" fill="#173B70" fill-opacity=".68"/>
+  </g>
+
+  <circle cx="80" cy="80" r="78" stroke="white" stroke-width="2"/>
+</svg>

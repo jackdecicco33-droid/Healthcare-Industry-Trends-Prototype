@@ -1,0 +1,605 @@
+[
+  {
+    "term": "508 / 508 Compliance",
+    "definition": "CMS is bound to producing 508 compliant applications. Section 508 refers to accessibility requirements for federal electronic and information technology.",
+    "category": "General Healthcare",
+    "bucket": "General Healthcare / Compliance",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "A Tier",
+    "definition": "A specific list of drugs. A plan may have several tiers, and the copayment amount depends on which tier a drug is listed.",
+    "category": "Revenue Cycle",
+    "bucket": "Payer / Pharmacy",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "A/R Days",
+    "definition": "A/R Days, or Accounts Receivable Days, measures how long it takes a healthcare organization to collect payment after services are billed.",
+    "category": "Claims, Billing & Payment",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Abstract",
+    "definition": "The collection of information from the medical record by hard copy or electronic instrument.",
+    "category": "Clinical Optimization",
+    "bucket": "Clinical / Data",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Abuse",
+    "definition": "Improper behaviors or billing practices, including billing for non-covered services, misusing claim codes, or inappropriately allocating costs on a cost report.",
+    "category": "Revenue Cycle",
+    "bucket": "Compliance / Revenue Cycle",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Abuse (Personal)",
+    "definition": "When another person does something on purpose that causes mental or physical harm or pain.",
+    "category": "Quality",
+    "bucket": "Patient Safety",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Access",
+    "definition": "A person's ability to get needed medical care and services.",
+    "category": "General Healthcare",
+    "bucket": "General Healthcare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Accessibility of Services",
+    "definition": "A person's ability to get medical care and services when needed.",
+    "category": "General Healthcare",
+    "bucket": "General Healthcare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Accessory Dwelling Unit (ADU)",
+    "definition": "A separate housing arrangement within a single-family home that includes a complete living unit with a private kitchen and bath.",
+    "category": "General Healthcare",
+    "bucket": "Long-Term Services",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Accreditation",
+    "definition": "An evaluative process in which a healthcare organization is examined by an external accrediting body to determine whether it meets defined criteria.",
+    "category": "Quality",
+    "bucket": "Quality / Compliance",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Accreditation Cycle for M+C Deeming",
+    "definition": "The duration of CMS recognition of the validity of an accrediting organization's determination that a Medicare+Choice organization is fully accredited.",
+    "category": "Revenue Cycle",
+    "bucket": "Quality / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Accreditation for Deeming",
+    "definition": "Some states use findings of private accreditation organizations to supplement or substitute for state oversight of certain quality-related standards.",
+    "category": "Quality",
+    "bucket": "Quality / Compliance",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Accreditation for Participation",
+    "definition": "A state requirement that plans must be accredited to participate in the Medicaid managed care program.",
+    "category": "Revenue Cycle",
+    "bucket": "Medicaid / Managed Care",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Accredited (Accreditation)",
+    "definition": "Having a seal of approval; a facility or healthcare organization has met quality standards set by nationally recognized groups.",
+    "category": "Quality",
+    "bucket": "Quality / Compliance",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Accredited Standards Committee",
+    "definition": "An organization accredited by ANSI for the development of American National Standards.",
+    "category": "ERP / Technology",
+    "bucket": "Standards / Technology",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Act / Law / Statute",
+    "definition": "Legislation that passed through Congress and was signed by the President or passed over a veto.",
+    "category": "General Healthcare",
+    "bucket": "Policy / Compliance",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Activities of Daily Living (ADL)",
+    "definition": "Activities usually done during a normal day, such as getting in and out of bed, dressing, bathing, eating, and using the bathroom.",
+    "category": "Clinical Optimization",
+    "bucket": "Clinical / Long-Term Care",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Actual Charge",
+    "definition": "The amount a doctor or supplier charges for a medical service or supply. It is often more than the Medicare-approved amount.",
+    "category": "Revenue Cycle",
+    "bucket": "Revenue Cycle / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Actuarial Balance",
+    "definition": "The difference between the summarized income rate and summarized cost rate over a specified valuation period.",
+    "category": "Revenue Cycle",
+    "bucket": "Finance / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Actuarial Deficit",
+    "definition": "A negative actuarial balance.",
+    "category": "Revenue Cycle",
+    "bucket": "Finance / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Actuarial Rates",
+    "definition": "One half of the expected monthly SMI program cost for aged or disabled enrollees for the period the rate is in effect.",
+    "category": "Revenue Cycle",
+    "bucket": "Finance / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Actuarial Soundness",
+    "definition": "A measure of the adequacy of Hospital Insurance and Supplementary Medical Insurance financing based on the difference between trust fund assets and liabilities for specified periods.",
+    "category": "Revenue Cycle",
+    "bucket": "Finance / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Actuarial Status",
+    "definition": "A measure of financing adequacy based on the difference between assets and liabilities at the end of the periods for which financing was established.",
+    "category": "Revenue Cycle",
+    "bucket": "Finance / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Additional Benefits",
+    "definition": "Health care services not covered by Medicare, or reductions in premiums or cost sharing for Medicare-covered services, offered by a Medicare Advantage organization.",
+    "category": "Revenue Cycle",
+    "bucket": "Medicare Advantage",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Adjusted Average Per Capita Cost (AAPCC)",
+    "definition": "An estimate of how much Medicare will spend in a year for an average beneficiary.",
+    "category": "Revenue Cycle",
+    "bucket": "Finance / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Adjusted Community Rating (ACR)",
+    "definition": "How premium rates are decided based on members' use of benefits rather than individual use of benefits.",
+    "category": "Revenue Cycle",
+    "bucket": "Payer / Medicare Advantage",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrative Code Sets",
+    "definition": "Code sets that characterize a general business situation rather than a medical condition or service. Under HIPAA these are sometimes called non-clinical or non-medical code sets.",
+    "category": "ERP / Technology",
+    "bucket": "ERP / Technology",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrative Costs",
+    "definition": "A general term referring to Medicare, Medicaid, and CMS administrative costs, including program administration expenses.",
+    "category": "General Healthcare",
+    "bucket": "Finance / Operations",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrative Data",
+    "definition": "Information collected, processed, and stored in automated information systems, including enrollment, eligibility, claims, and managed care encounters.",
+    "category": "ERP / Technology",
+    "bucket": "Data / Analytics",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrative Expenses",
+    "definition": "Expenses incurred by HHS and the Treasury in administering the SMI program and related contribution collection provisions.",
+    "category": "Revenue Cycle",
+    "bucket": "Finance / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrative Law Judge (ALJ)",
+    "definition": "A hearings officer who presides over appeal conflicts between providers or beneficiaries and Medicare contractors.",
+    "category": "Revenue Cycle",
+    "bucket": "Appeals / Compliance",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrative Services Only",
+    "definition": "An arrangement where a self-insured entity contracts with a third-party administrator to administer a health plan.",
+    "category": "Revenue Cycle",
+    "bucket": "Payer / Benefits",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrative Simplification",
+    "definition": "The HIPAA provisions authorizing HHS to adopt standards for transactions, code sets, standard identifiers, and privacy/security protections.",
+    "category": "ERP / Technology",
+    "bucket": "Compliance / Technology",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrative Simplification Compliance Act",
+    "definition": "A 2001 law that extended HIPAA electronic and code set transaction compliance timing and addressed payment of paper claims under certain conditions.",
+    "category": "ERP / Technology",
+    "bucket": "Compliance / Technology",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Administrator",
+    "definition": "The Administrator of the Centers for Medicare & Medicaid Services.",
+    "category": "General Healthcare",
+    "bucket": "CMS / Governance",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Admission Date",
+    "definition": "The date the patient was admitted for inpatient care, outpatient service, start of care, or hospice election effective date.",
+    "category": "Revenue Cycle",
+    "bucket": "Clinical / Revenue Cycle",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Admitting Diagnosis Code",
+    "definition": "A code indicating the patient's diagnosis at admission.",
+    "category": "Revenue Cycle",
+    "bucket": "Coding / Revenue Cycle",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Admitting Physician",
+    "definition": "The doctor responsible for admitting a patient to a hospital or other inpatient health facility.",
+    "category": "Clinical Optimization",
+    "bucket": "Clinical Operations",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Adult Living Care Facility",
+    "definition": "A residential care facility for beneficiaries who cannot live alone but do not need around-the-clock skilled medical services.",
+    "category": "General Healthcare",
+    "bucket": "Long-Term Care",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Advance Beneficiary Notice (ABN)",
+    "definition": "A notice a doctor or supplier should give when Medicare is expected to deny payment for an item or service. If properly given and signed, the beneficiary may be responsible for payment.",
+    "category": "Revenue Cycle",
+    "bucket": "Revenue Cycle / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Advance Coverage Decision",
+    "definition": "A decision made by a Private Fee-for-Service Plan about whether it will pay for a certain service.",
+    "category": "Revenue Cycle",
+    "bucket": "Coverage / Payer",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Advance Directive (Health Care)",
+    "definition": "A written document prepared ahead of time that states how medical decisions should be made if a person loses the ability to make decisions.",
+    "category": "General Healthcare",
+    "bucket": "Patient Rights",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Advance Directives",
+    "definition": "Written documents stating how medical decisions should be made if a person loses decision-making ability. They may include a Living Will and Durable Power of Attorney for health care.",
+    "category": "General Healthcare",
+    "bucket": "Patient Rights",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Advisory Council on Social Security",
+    "definition": "A council historically appointed to study and review the financial status of the OASDI and Medicare programs.",
+    "category": "Revenue Cycle",
+    "bucket": "Policy / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Advocate",
+    "definition": "A person who gives support or protects a person's rights.",
+    "category": "General Healthcare",
+    "bucket": "Patient Rights",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Affiliated Contractor",
+    "definition": "A Medicare carrier, fiscal intermediary, or other contractor that shares some or all of a program safeguard contractor's jurisdiction.",
+    "category": "Revenue Cycle",
+    "bucket": "Medicare Operations",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Affiliated Provider",
+    "definition": "A health care provider or facility that is paid by a health plan to provide services to plan members.",
+    "category": "Revenue Cycle",
+    "bucket": "Payer / Provider Network",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Aged Enrollee",
+    "definition": "An individual age 65 or older who is enrolled in the SMI program.",
+    "category": "Revenue Cycle",
+    "bucket": "Medicare Enrollment",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Albumin",
+    "definition": "A simple protein in the blood; its level may reflect protein intake from food.",
+    "category": "Clinical Optimization",
+    "bucket": "Clinical",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Algorithm",
+    "definition": "A rule or procedure with conditional logic for solving a problem or completing a task; in health care it can support guideline or criteria evaluation.",
+    "category": "Clinical Optimization",
+    "bucket": "Clinical / Technology",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "Allowed Charge",
+    "definition": "The charge determined by a carrier for a covered SMI medical service or supply.",
+    "category": "Revenue Cycle",
+    "bucket": "Revenue Cycle / Medicare",
+    "source": "CMS Healthcare Terminology Guide",
+    "url": "./assets/CMS_Healthcare_Terminology_Guide.pdf"
+  },
+  {
+    "term": "CDI",
+    "definition": "CDI stands for Clinical Documentation Integrity. It focuses on improving the accuracy, completeness, and clarity of clinical documentation.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Charge Capture",
+    "definition": "Charge capture is the process of recording the services, procedures, supplies, medications, or tests provided to a patient so they can be billed.",
+    "category": "Claims, Billing & Payment",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Clean Claim Rate",
+    "definition": "Clean Claim Rate measures the percentage of claims submitted correctly the first time without needing correction, rework, or additional information.",
+    "category": "Claims, Billing & Payment",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Clinical Workflow",
+    "definition": "A clinical workflow is the sequence of steps clinicians and staff follow to deliver care, document information, and coordinate patient activities.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Contract Compliance",
+    "definition": "Contract compliance measures whether purchases are being made according to negotiated supplier contracts, pricing, and terms.",
+    "category": "Data, Technology & Operations",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Cutover",
+    "definition": "Cutover is the planned transition from an old system or process to a new system or process.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Data Conversion",
+    "definition": "Data conversion is the process of transforming data from one systemâ€™s format into the structure required by another system.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Data Mapping",
+    "definition": "Data mapping defines how fields in one system correspond to fields in another system.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Denial Rate",
+    "definition": "Denial Rate is the percentage of claims denied by payers after submission.",
+    "category": "Claims, Billing & Payment",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "DNFB",
+    "definition": "DNFB stands for Discharged Not Final Billed. It refers to accounts for patients who have been discharged but whose final bill has not yet been sent.",
+    "category": "Claims, Billing & Payment",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "EHR",
+    "definition": "An EHR, or Electronic Health Record, is the digital system used to document, manage, and access patient clinical information.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "FTE",
+    "definition": "FTE stands for Full-Time Equivalent. It is a way to measure staffing capacity based on full-time work hours.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "HCAHPS",
+    "definition": "HCAHPS is a standardized survey that measures patientsâ€™ perspectives on hospital care and patient experience.",
+    "category": "Quality, Safety & Outcomes",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Hospital-Acquired Condition",
+    "definition": "A hospital-acquired condition is a complication or adverse condition that develops during a hospital stay and may have been preventable.",
+    "category": "Quality, Safety & Outcomes",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Item Master",
+    "definition": "The item master is the central list of supplies, products, equipment, and materials used by an organization, including item descriptions, units of measure, pricing, and vendor information.",
+    "category": "Data, Technology & Operations",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Legacy System",
+    "definition": "A legacy system is an older technology platform that an organization still uses, often because it supports critical business processes.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Overtime Rate",
+    "definition": "Overtime Rate measures how much labor is being worked beyond standard scheduled hours.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "PAR Level",
+    "definition": "PAR level is the target quantity of an item that should be kept on hand in a supply location.",
+    "category": "Data, Technology & Operations",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Patient Access",
+    "definition": "Patient access refers to how easily patients can schedule, reach, and receive care from providers or services.",
+    "category": "Provider, Care & Clinical",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Payer Mix",
+    "definition": "Payer mix describes the proportion of patients or revenue coming from different payer types, such as Medicare, Medicaid, commercial insurance, self-pay, or managed care.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Preference Card",
+    "definition": "A preference card lists the supplies, instruments, equipment, and setup preferences needed for a specific procedure or provider.",
+    "category": "Data, Technology & Operations",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Provider Productivity",
+    "definition": "Provider productivity measures the volume or value of clinical work performed by a physician or advanced practice provider.",
+    "category": "Provider, Care & Clinical",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Readmission Rate",
+    "definition": "Readmission Rate measures how often patients return to the hospital within a certain period after discharge, commonly within 30 days.",
+    "category": "Quality, Safety & Outcomes",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Stockout",
+    "definition": "A stockout occurs when a needed item is unavailable when and where it is required.",
+    "category": "Data, Technology & Operations",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "UAT",
+    "definition": "UAT stands for User Acceptance Testing. It is the phase where end users test whether a system supports real business processes before go-live.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Vacancy Rate",
+    "definition": "Vacancy Rate measures the percentage of approved positions that are currently unfilled.",
+    "category": "General Healthcare",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "Value-Based Care",
+    "definition": "Value-based care is a healthcare payment and delivery model that rewards quality, outcomes, efficiency, and patient experience rather than only volume of services.",
+    "category": "Quality, Safety & Outcomes",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  },
+  {
+    "term": "wRVU",
+    "definition": "wRVU stands for Work Relative Value Unit. It is used to measure the relative work effort associated with clinical services.",
+    "category": "Provider, Care & Clinical",
+    "source": "CMS Glossary",
+    "url": "https://www.cms.gov/glossary"
+  }
+]

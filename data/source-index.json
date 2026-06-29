@@ -1,0 +1,1284 @@
+[
+  {
+    "url": "https://acdis.org",
+    "domain": "acdis.org",
+    "resourceNames": [
+      "ACDIS.org"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://acdis.org/boot-camps",
+    "domain": "acdis.org",
+    "resourceNames": [
+      "ACDIS Boot Camps"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://acdis.org/certification/ccds",
+    "domain": "acdis.org",
+    "resourceNames": [
+      "CCDS"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Credentials to Start",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://asq.org/cert",
+    "domain": "asq.org",
+    "resourceNames": [
+      "Lean Healthcare",
+      "Six Sigma"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Quality"
+    ],
+    "categories": [
+      "Applied Credentials",
+      "Manager-Level Credentials"
+    ]
+  },
+  {
+    "url": "https://asq.org/training",
+    "domain": "asq.org",
+    "resourceNames": [
+      "ASQ Training"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://bookshop.org/search?keywords=Flawless%20Consulting%20Peter%20Block",
+    "domain": "bookshop.org",
+    "resourceNames": [
+      "Flawless Consulting"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://bookshop.org/search?keywords=Pyramid%20Principle%20Minto",
+    "domain": "bookshop.org",
+    "resourceNames": [
+      "The Pyramid Principle"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://nahq.org",
+    "domain": "nahq.org",
+    "resourceNames": [
+      "NAHQ.org"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://nahq.org/certification/",
+    "domain": "nahq.org",
+    "resourceNames": [
+      "CPHQ"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Credentials to Start",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://nahq.org/education/",
+    "domain": "nahq.org",
+    "resourceNames": [
+      "NAHQ Learning"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://qualitynet.cms.gov",
+    "domain": "qualitynet.cms.gov",
+    "resourceNames": [
+      "CMS QualityNet"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://revcycleintelligence.com",
+    "domain": "revcycleintelligence.com",
+    "resourceNames": [
+      "RevCycleIntelligence"
+    ],
+    "serviceLines": [
+      "Physician Enterprise",
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://worldatwork.org/certification",
+    "domain": "worldatwork.org",
+    "resourceNames": [
+      "CCP"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://worldatwork.org/education",
+    "domain": "worldatwork.org",
+    "resourceNames": [
+      "WorldatWork"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://www.aaham.org/certification",
+    "domain": "aaham.org",
+    "resourceNames": [
+      "CRCP"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Credentials to Start"
+    ]
+  },
+  {
+    "url": "https://www.aapc.com/certification/",
+    "domain": "aapc.com",
+    "resourceNames": [
+      "CPB"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Applied Credentials",
+      "Manager-Level Credentials"
+    ]
+  },
+  {
+    "url": "https://www.aapc.com/certification/cpc/",
+    "domain": "aapc.com",
+    "resourceNames": [
+      "CPC"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.aapc.com/training/",
+    "domain": "aapc.com",
+    "resourceNames": [
+      "AAPC Training"
+    ],
+    "serviceLines": [
+      "Physician Enterprise",
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://www.ache.org/learning-center/congress",
+    "domain": "ache.org",
+    "resourceNames": [
+      "ACHE Congress"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Executive Learning"
+    ]
+  },
+  {
+    "url": "https://www.advisory.com",
+    "domain": "advisory.com",
+    "resourceNames": [
+      "Advisory Board"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Execution Intelligence"
+    ]
+  },
+  {
+    "url": "https://www.advisory.com/events",
+    "domain": "advisory.com",
+    "resourceNames": [
+      "Advisory Board Events"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Executive Learning"
+    ]
+  },
+  {
+    "url": "https://www.aha.org/education-events/aha-leadership-summit",
+    "domain": "aha.org",
+    "resourceNames": [
+      "AHA Leadership Summit"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Executive Forums",
+      "Executive Learning"
+    ]
+  },
+  {
+    "url": "https://www.ahima.org",
+    "domain": "ahima.org",
+    "resourceNames": [
+      "AHIMA.org"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow"
+    ]
+  },
+  {
+    "url": "https://www.ahima.org/certification-careers/certifications/cdip/",
+    "domain": "ahima.org",
+    "resourceNames": [
+      "CDIP"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Credentials to Start"
+    ]
+  },
+  {
+    "url": "https://www.ahrmm.org",
+    "domain": "ahrmm.org",
+    "resourceNames": [
+      "AHRMM.org"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.ahrmm.org/certification-cmrp",
+    "domain": "ahrmm.org",
+    "resourceNames": [
+      "CMRP"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Credentials to Start",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.ahrmm.org/education",
+    "domain": "ahrmm.org",
+    "resourceNames": [
+      "AHRMM eLearning"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://www.ahrq.gov",
+    "domain": "ahrq.gov",
+    "resourceNames": [
+      "AHRQ.gov"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.ama-assn.org/practice-management",
+    "domain": "ama-assn.org",
+    "resourceNames": [
+      "AMA Practice Management"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.amga.org",
+    "domain": "amga.org",
+    "resourceNames": [
+      "AMGA.org"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow"
+    ]
+  },
+  {
+    "url": "https://www.amga.org/education",
+    "domain": "amga.org",
+    "resourceNames": [
+      "AMGA Education"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://www.aonl.org",
+    "domain": "aonl.org",
+    "resourceNames": [
+      "AONL.org"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Execution Intelligence"
+    ]
+  },
+  {
+    "url": "https://www.ascm.org",
+    "domain": "ascm.org",
+    "resourceNames": [
+      "ASCM / APICS"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow"
+    ]
+  },
+  {
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cpim/",
+    "domain": "ascm.org",
+    "resourceNames": [
+      "CPIM"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Applied Credentials",
+      "Manager-Level Credentials"
+    ]
+  },
+  {
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp/",
+    "domain": "ascm.org",
+    "resourceNames": [
+      "CSCP"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Credentials to Start"
+    ]
+  },
+  {
+    "url": "https://www.ashhra.org",
+    "domain": "ashhra.org",
+    "resourceNames": [
+      "ASHHRA.org"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.ashhra.org/certification",
+    "domain": "ashhra.org",
+    "resourceNames": [
+      "CHHR"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Credentials to Start"
+    ]
+  },
+  {
+    "url": "https://www.ashrm.org/professional-development/cphrm-certification",
+    "domain": "ashrm.org",
+    "resourceNames": [
+      "CPHRM"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.beckersasc.com",
+    "domain": "beckersasc.com",
+    "resourceNames": [
+      "Becker's ASC & Spine"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Execution Intelligence"
+    ]
+  },
+  {
+    "url": "https://www.beckershospitalreview.com/clinical-leadership-infection-control.html",
+    "domain": "beckershospitalreview.com",
+    "resourceNames": [
+      "Becker's Clinical Leadership"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.beckershospitalreview.com/conference.html",
+    "domain": "beckershospitalreview.com",
+    "resourceNames": [
+      "Becker's Annual Meeting"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Market Intelligence"
+    ]
+  },
+  {
+    "url": "https://www.beckershospitalreview.com/finance/",
+    "domain": "beckershospitalreview.com",
+    "resourceNames": [
+      "Becker's Hospital Review"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow"
+    ]
+  },
+  {
+    "url": "https://www.beckershospitalreview.com/supply-chain/",
+    "domain": "beckershospitalreview.com",
+    "resourceNames": [
+      "Becker's Supply Chain"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.beckershospitalreview.com/webinars.html",
+    "domain": "beckershospitalreview.com",
+    "resourceNames": [
+      "Becker's Webinars"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Executive Forums"
+    ]
+  },
+  {
+    "url": "https://www.beckershospitalreview.com/workforce.html",
+    "domain": "beckershospitalreview.com",
+    "resourceNames": [
+      "Becker's Workforce"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.bls.gov/oes/current/oes_healthcare.htm",
+    "domain": "bls.gov",
+    "resourceNames": [
+      "BLS.gov"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.cms.gov",
+    "domain": "cms.gov",
+    "resourceNames": [
+      "CMS.gov"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Execution Intelligence"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/professional-certificates/medical-billing-coding-aapc",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Coursera"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/search?query=healthcare%20administration",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Coursera"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/search?query=healthcare%20operations",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Coursera"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/search?query=healthcare%20quality",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Coursera"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/search?query=workforce%20management",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Coursera"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/supply-chain-management",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Coursera"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.edx.org/learn/lean",
+    "domain": "edx.org",
+    "resourceNames": [
+      "edX"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.edx.org/masters/micromasters/mitx-supply-chain-management",
+    "domain": "edx.org",
+    "resourceNames": [
+      "edX \u2014 MITx"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.gartner.com/en/supply-chain",
+    "domain": "gartner.com",
+    "resourceNames": [
+      "Gartner Supply Chain"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "HFMA.org"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/certifications/chfp/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "CHFP"
+    ],
+    "serviceLines": [
+      "Physician Enterprise",
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/certifications/crcr/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "CRCR"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Credentials to Start",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.himss.org",
+    "domain": "himss.org",
+    "resourceNames": [
+      "HIMSS.org"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.himss.org/membership-participation/professional-development",
+    "domain": "himss.org",
+    "resourceNames": [
+      "HIMSS Learning Center"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://www.himss.org/resources-certification/cphims",
+    "domain": "himss.org",
+    "resourceNames": [
+      "CPHIMS"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.hlth.com",
+    "domain": "hlth.com",
+    "resourceNames": [
+      "HLTH"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Executive Forums"
+    ]
+  },
+  {
+    "url": "https://www.hpnonline.com",
+    "domain": "hpnonline.com",
+    "resourceNames": [
+      "Healthcare Purchasing News"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Execution Intelligence"
+    ]
+  },
+  {
+    "url": "https://www.hrci.org",
+    "domain": "hrci.org",
+    "resourceNames": [
+      "PHR / SPHR"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Applied Credentials",
+      "Manager-Level Credentials"
+    ]
+  },
+  {
+    "url": "https://www.ihi.org",
+    "domain": "ihi.org",
+    "resourceNames": [
+      "IHI.org"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow"
+    ]
+  },
+  {
+    "url": "https://www.ihi.org/education/certification-professional-development",
+    "domain": "ihi.org",
+    "resourceNames": [
+      "CPPS"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Credentials to Start"
+    ]
+  },
+  {
+    "url": "https://www.ihi.org/education/ihi-open-school",
+    "domain": "ihi.org",
+    "resourceNames": [
+      "IHI Open School"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.ismworld.org/certification-and-training/certification/cpsm/",
+    "domain": "ismworld.org",
+    "resourceNames": [
+      "CPSM"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.jointcommission.org",
+    "domain": "jointcommission.org",
+    "resourceNames": [
+      "The Joint Commission"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Execution Intelligence"
+    ]
+  },
+  {
+    "url": "https://www.jpmorgan.com/about-us/events/jpm-healthcare-conference",
+    "domain": "jpmorgan.com",
+    "resourceNames": [
+      "J.P. Morgan Healthcare"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Executive Forums"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/learning/search?keywords=revenue%20cycle",
+    "domain": "linkedin.com",
+    "resourceNames": [
+      "LinkedIn Learning"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/learning/search?keywords=supply%20chain",
+    "domain": "linkedin.com",
+    "resourceNames": [
+      "LinkedIn Learning"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/learning/search?keywords=workforce%20planning",
+    "domain": "linkedin.com",
+    "resourceNames": [
+      "LinkedIn Learning"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Team / Method Skills"
+    ]
+  },
+  {
+    "url": "https://www.mgma.com",
+    "domain": "mgma.com",
+    "resourceNames": [
+      "MGMA.com"
+    ],
+    "serviceLines": [
+      "Physician Enterprise",
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Benchmarks & Regulation",
+      "Market Intelligence",
+      "Sources to Follow",
+      "Strategy Sources"
+    ]
+  },
+  {
+    "url": "https://www.mgma.com/certification",
+    "domain": "mgma.com",
+    "resourceNames": [
+      "CMPE"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Credentials to Start",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.mgma.com/certification/fellowship",
+    "domain": "mgma.com",
+    "resourceNames": [
+      "FACMPE"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Applied Credentials",
+      "Credentials to Start"
+    ]
+  },
+  {
+    "url": "https://www.mgma.com/education",
+    "domain": "mgma.com",
+    "resourceNames": [
+      "MGMA Learning"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.shrm.org",
+    "domain": "shrm.org",
+    "resourceNames": [
+      "SHRM.org"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Execution Intelligence",
+      "Market Intelligence",
+      "Sources to Follow"
+    ]
+  },
+  {
+    "url": "https://www.shrm.org/credentials/certification",
+    "domain": "shrm.org",
+    "resourceNames": [
+      "SHRM-CP / SCP"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Advanced Signal",
+      "Credentials to Start",
+      "Manager-Level Credentials",
+      "Practice Leadership"
+    ]
+  },
+  {
+    "url": "https://www.shrm.org/learning-development",
+    "domain": "shrm.org",
+    "resourceNames": [
+      "SHRM Learning"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/topic/medical-billing/",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Udemy"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Applied Learning",
+      "Courses / Practice"
+    ]
+  },
+  {
+    "url": "https://www.viveevent.com",
+    "domain": "viveevent.com",
+    "resourceNames": [
+      "ViVE"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Executive Forums"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/@healthcaretriage",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "Healthcare Triage"
+    ],
+    "serviceLines": [
+      "Clinical Optimization",
+      "Labor",
+      "Physician Enterprise",
+      "Quality",
+      "Revenue Cycle",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Courses / Practice"
+    ]
+  }
+]

@@ -1,0 +1,3262 @@
+[
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CRCR",
+    "organization": "Certified Revenue Cycle Representative · HFMA",
+    "description": "Best starting point for understanding the patient-to-payment revenue cycle and common RCM terminology.",
+    "url": "https://www.hfma.org/certifications/crcr/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CRCP",
+    "organization": "Certified Revenue Cycle Professional · AAHAM",
+    "description": "Builds broader knowledge of billing, collections, reimbursement, and revenue cycle operations.",
+    "url": "https://www.aaham.org/certification"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "HFMA.org",
+    "organization": "Industry body — news, tools, benchmarks",
+    "description": "Use for RCM, finance, reimbursement, benchmarks, policy updates, and healthcare finance articles.",
+    "url": "https://www.hfma.org"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "Becker's Hospital Review",
+    "organization": "Revenue cycle news & finance trends",
+    "description": "Helpful daily source for hospital finance, RCM, strategy, leadership, and market movement.",
+    "url": "https://www.beckershospitalreview.com/finance/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "RevCycleIntelligence",
+    "organization": "Deep dives on RCM strategy",
+    "description": "Good for deeper articles on denial management, payment trends, reimbursement, and RCM strategy.",
+    "url": "https://revcycleintelligence.com"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Coursera",
+    "organization": "AAPC Medical Biller Certificate · Billing & Coding Fundamentals",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/professional-certificates/medical-billing-coding-aapc"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Udemy",
+    "organization": "Revenue Cycle & Healthcare Finance",
+    "description": "Affordable topic refreshers for basic terminology, tools, and process walkthroughs.",
+    "url": "https://www.udemy.com/topic/medical-billing/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Triage",
+    "organization": "Evidence-based explainers on US healthcare",
+    "description": "Plain-English video source for understanding U.S. healthcare structure, policy, and economics.",
+    "url": "https://www.youtube.com/@healthcaretriage"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CRCP",
+    "organization": "Certified Revenue Cycle Professional · AAHAM",
+    "description": "Builds broader knowledge of billing, collections, reimbursement, and revenue cycle operations.",
+    "url": "https://www.aaham.org/certification"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CHFP",
+    "organization": "Certified Healthcare Financial Professional · HFMA",
+    "description": "Connects healthcare finance concepts to operating performance, reimbursement, and margin improvement.",
+    "url": "https://www.hfma.org/certifications/chfp/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CPB",
+    "organization": "Certified Professional Biller · AAPC",
+    "description": "Useful for understanding the practical billing workflow, payer rules, and claim follow-up.",
+    "url": "https://www.aapc.com/certification/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "Becker's Hospital Review",
+    "organization": "Revenue cycle news & finance trends",
+    "description": "Helpful daily source for hospital finance, RCM, strategy, leadership, and market movement.",
+    "url": "https://www.beckershospitalreview.com/finance/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "RevCycleIntelligence",
+    "organization": "Deep dives on RCM strategy",
+    "description": "Good for deeper articles on denial management, payment trends, reimbursement, and RCM strategy.",
+    "url": "https://revcycleintelligence.com"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "CMS.gov",
+    "organization": "Medicare claims, billing & reimbursement",
+    "description": "Primary source for Medicare, Medicaid, reimbursement rules, billing guidance, and quality programs.",
+    "url": "https://www.cms.gov"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "Udemy",
+    "organization": "Revenue Cycle & Healthcare Finance",
+    "description": "Affordable topic refreshers for basic terminology, tools, and process walkthroughs.",
+    "url": "https://www.udemy.com/topic/medical-billing/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "LinkedIn Learning",
+    "organization": "Healthcare billing & reimbursement paths",
+    "description": "Short professional courses to build baseline fluency or sharpen a specific consulting skill.",
+    "url": "https://www.linkedin.com/learning/search?keywords=revenue%20cycle"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "AAPC Training",
+    "organization": "Medical coding & billing instruction",
+    "description": "Practical training for coding, billing, compliance, and payer-facing revenue cycle workflows.",
+    "url": "https://www.aapc.com/training/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CHFP",
+    "organization": "Certified Healthcare Financial Professional · HFMA",
+    "description": "Connects healthcare finance concepts to operating performance, reimbursement, and margin improvement.",
+    "url": "https://www.hfma.org/certifications/chfp/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CPB",
+    "organization": "Certified Professional Biller · AAPC",
+    "description": "Useful for understanding the practical billing workflow, payer rules, and claim follow-up.",
+    "url": "https://www.aapc.com/certification/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CRCR",
+    "organization": "Certified Revenue Cycle Representative · HFMA",
+    "description": "Best starting point for understanding the patient-to-payment revenue cycle and common RCM terminology.",
+    "url": "https://www.hfma.org/certifications/crcr/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "HFMA.org",
+    "organization": "Industry body — news, tools, benchmarks",
+    "description": "Use for RCM, finance, reimbursement, benchmarks, policy updates, and healthcare finance articles.",
+    "url": "https://www.hfma.org"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "CMS.gov",
+    "organization": "Medicare claims, billing & reimbursement",
+    "description": "Primary source for Medicare, Medicaid, reimbursement rules, billing guidance, and quality programs.",
+    "url": "https://www.cms.gov"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "MGMA.com",
+    "organization": "Practice management & operations data",
+    "description": "Strong source for physician practice benchmarks, productivity, access, compensation, and operations.",
+    "url": "https://www.mgma.com"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "LinkedIn Learning",
+    "organization": "Healthcare billing & reimbursement paths",
+    "description": "Short professional courses to build baseline fluency or sharpen a specific consulting skill.",
+    "url": "https://www.linkedin.com/learning/search?keywords=revenue%20cycle"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "AAPC Training",
+    "organization": "Medical coding & billing instruction",
+    "description": "Practical training for coding, billing, compliance, and payer-facing revenue cycle workflows.",
+    "url": "https://www.aapc.com/training/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "Flawless Consulting",
+    "organization": "Peter Block · the consultant's craft",
+    "description": "Builds client-facing consulting behaviors: contracting, discovery, feedback, and influence.",
+    "url": "https://bookshop.org/search?keywords=Flawless%20Consulting%20Peter%20Block"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "The Pyramid Principle",
+    "organization": "Barbara Minto · structured thinking",
+    "description": "Strengthens structured thinking and executive communication for recommendations and decks.",
+    "url": "https://bookshop.org/search?keywords=Pyramid%20Principle%20Minto"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CHFP",
+    "organization": "Certified Healthcare Financial Professional · HFMA",
+    "description": "Connects healthcare finance concepts to operating performance, reimbursement, and margin improvement.",
+    "url": "https://www.hfma.org/certifications/chfp/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CRCR",
+    "organization": "Certified Revenue Cycle Representative · HFMA",
+    "description": "Best starting point for understanding the patient-to-payment revenue cycle and common RCM terminology.",
+    "url": "https://www.hfma.org/certifications/crcr/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CRCP",
+    "organization": "Certified Revenue Cycle Professional · AAHAM",
+    "description": "Builds broader knowledge of billing, collections, reimbursement, and revenue cycle operations.",
+    "url": "https://www.aaham.org/certification"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "HFMA.org",
+    "organization": "Industry body — news, tools, benchmarks",
+    "description": "Use for RCM, finance, reimbursement, benchmarks, policy updates, and healthcare finance articles.",
+    "url": "https://www.hfma.org"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "RevCycleIntelligence",
+    "organization": "Deep dives on RCM strategy",
+    "description": "Good for deeper articles on denial management, payment trends, reimbursement, and RCM strategy.",
+    "url": "https://revcycleintelligence.com"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "MGMA.com",
+    "organization": "Practice management & operations data",
+    "description": "Strong source for physician practice benchmarks, productivity, access, compensation, and operations.",
+    "url": "https://www.mgma.com"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "ACHE Congress",
+    "organization": "Healthcare leadership — March",
+    "description": "Leadership conference for hospital executives, operations, policy, and health-system strategy.",
+    "url": "https://www.ache.org/learning-center/congress"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "Advisory Board Events",
+    "organization": "Research briefings & webconferences",
+    "description": "Research briefings and webconferences for health-system trends, operations, and strategy.",
+    "url": "https://www.advisory.com/events"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CHFP",
+    "organization": "Certified Healthcare Financial Professional · HFMA",
+    "description": "Connects healthcare finance concepts to operating performance, reimbursement, and margin improvement.",
+    "url": "https://www.hfma.org/certifications/chfp/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CRCR",
+    "organization": "Certified Revenue Cycle Representative · HFMA",
+    "description": "Best starting point for understanding the patient-to-payment revenue cycle and common RCM terminology.",
+    "url": "https://www.hfma.org/certifications/crcr/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "HFMA.org",
+    "organization": "Industry body — news, tools, benchmarks",
+    "description": "Use for RCM, finance, reimbursement, benchmarks, policy updates, and healthcare finance articles.",
+    "url": "https://www.hfma.org"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "Becker's Hospital Review",
+    "organization": "Revenue cycle news & finance trends",
+    "description": "Helpful daily source for hospital finance, RCM, strategy, leadership, and market movement.",
+    "url": "https://www.beckershospitalreview.com/finance/"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "RevCycleIntelligence",
+    "organization": "Deep dives on RCM strategy",
+    "description": "Good for deeper articles on denial management, payment trends, reimbursement, and RCM strategy.",
+    "url": "https://revcycleintelligence.com"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "Becker's Annual Meeting",
+    "organization": "Hospital & health-system leadership",
+    "description": "Broad hospital leadership conference covering strategy, finance, workforce, quality, and operations.",
+    "url": "https://www.beckershospitalreview.com/conference.html"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "HLTH",
+    "organization": "Innovation & disruption — fall",
+    "description": "Market-facing conference focused on healthcare innovation, investors, payers, providers, and startups.",
+    "url": "https://www.hlth.com"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "ViVE",
+    "organization": "Digital health execs — February",
+    "description": "Digital health conference focused on health IT, innovation, interoperability, and executive networking.",
+    "url": "https://www.viveevent.com"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "J.P. Morgan Healthcare",
+    "organization": "Industry & investment — January",
+    "description": "Industry conference useful for market outlook, investment themes, and strategic healthcare trends.",
+    "url": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "Becker's Webinars",
+    "organization": "Free weekly cross-topic sessions",
+    "description": "Free webcasts that provide quick exposure to current healthcare operating and strategy topics.",
+    "url": "https://www.beckershospitalreview.com/webinars.html"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CMRP",
+    "organization": "Certified Materials & Resource Professional · AHRMM",
+    "description": "Healthcare-specific credential for materials management, purchasing, inventory, and supply chain operations.",
+    "url": "https://www.ahrmm.org/certification-cmrp"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CSCP",
+    "organization": "Certified Supply Chain Professional · ASCM",
+    "description": "Broad supply chain credential covering planning, sourcing, logistics, and end-to-end flow.",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "AHRMM.org",
+    "organization": "Healthcare resource & materials management body",
+    "description": "Healthcare supply chain association for materials management, sourcing, inventory, and procurement guidance.",
+    "url": "https://www.ahrmm.org"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "ASCM / APICS",
+    "organization": "Supply chain standards, models & education",
+    "description": "Broad supply chain body for planning, inventory, logistics, and operations-management standards.",
+    "url": "https://www.ascm.org"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "Becker's Supply Chain",
+    "organization": "News on sourcing, pricing & disruptions",
+    "description": "Quick news source for healthcare sourcing, supply disruption, pricing pressure, and vendor activity.",
+    "url": "https://www.beckershospitalreview.com/supply-chain/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "edX — MITx",
+    "organization": "Supply Chain Management MicroMasters",
+    "description": "Advanced supply chain coursework for analytics, planning, logistics, and end-to-end operations.",
+    "url": "https://www.edx.org/masters/micromasters/mitx-supply-chain-management"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Coursera",
+    "organization": "Supply Chain Management Specialization · Rutgers",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/specializations/supply-chain-management"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Triage",
+    "organization": "Evidence-based explainers on US healthcare",
+    "description": "Plain-English video source for understanding U.S. healthcare structure, policy, and economics.",
+    "url": "https://www.youtube.com/@healthcaretriage"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CSCP",
+    "organization": "Certified Supply Chain Professional · ASCM",
+    "description": "Broad supply chain credential covering planning, sourcing, logistics, and end-to-end flow.",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CPSM",
+    "organization": "Certified Professional in Supply Management · ISM",
+    "description": "Strengthens strategic sourcing, supplier management, contracting, and procurement knowledge.",
+    "url": "https://www.ismworld.org/certification-and-training/certification/cpsm/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CPIM",
+    "organization": "Certified in Planning & Inventory Management · ASCM",
+    "description": "Best for inventory planning, demand management, item controls, and replenishment fundamentals.",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cpim/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "ASCM / APICS",
+    "organization": "Supply chain standards, models & education",
+    "description": "Broad supply chain body for planning, inventory, logistics, and operations-management standards.",
+    "url": "https://www.ascm.org"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "Becker's Supply Chain",
+    "organization": "News on sourcing, pricing & disruptions",
+    "description": "Quick news source for healthcare sourcing, supply disruption, pricing pressure, and vendor activity.",
+    "url": "https://www.beckershospitalreview.com/supply-chain/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "Healthcare Purchasing News",
+    "organization": "Products, distribution & logistics coverage",
+    "description": "Useful for healthcare product, distribution, sterile processing, and logistics coverage.",
+    "url": "https://www.hpnonline.com"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "Coursera",
+    "organization": "Supply Chain Management Specialization · Rutgers",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/specializations/supply-chain-management"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "LinkedIn Learning",
+    "organization": "Supply chain foundations & analytics",
+    "description": "Short professional courses to build baseline fluency or sharpen a specific consulting skill.",
+    "url": "https://www.linkedin.com/learning/search?keywords=supply%20chain"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "AHRMM eLearning",
+    "organization": "Healthcare-specific supply chain courses",
+    "description": "Healthcare-specific supply chain learning for sourcing, value analysis, inventory, and materials management.",
+    "url": "https://www.ahrmm.org/education"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CPSM",
+    "organization": "Certified Professional in Supply Management · ISM",
+    "description": "Strengthens strategic sourcing, supplier management, contracting, and procurement knowledge.",
+    "url": "https://www.ismworld.org/certification-and-training/certification/cpsm/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CPIM",
+    "organization": "Certified in Planning & Inventory Management · ASCM",
+    "description": "Best for inventory planning, demand management, item controls, and replenishment fundamentals.",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cpim/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CMRP",
+    "organization": "Certified Materials & Resource Professional · AHRMM",
+    "description": "Healthcare-specific credential for materials management, purchasing, inventory, and supply chain operations.",
+    "url": "https://www.ahrmm.org/certification-cmrp"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "AHRMM.org",
+    "organization": "Healthcare resource & materials management body",
+    "description": "Healthcare supply chain association for materials management, sourcing, inventory, and procurement guidance.",
+    "url": "https://www.ahrmm.org"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "Healthcare Purchasing News",
+    "organization": "Products, distribution & logistics coverage",
+    "description": "Useful for healthcare product, distribution, sterile processing, and logistics coverage.",
+    "url": "https://www.hpnonline.com"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "Gartner Supply Chain",
+    "organization": "Strategy research & benchmarking",
+    "description": "Research source for operating models, benchmarking, planning, and supply chain strategy trends.",
+    "url": "https://www.gartner.com/en/supply-chain"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "LinkedIn Learning",
+    "organization": "Supply chain foundations & analytics",
+    "description": "Short professional courses to build baseline fluency or sharpen a specific consulting skill.",
+    "url": "https://www.linkedin.com/learning/search?keywords=supply%20chain"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "AHRMM eLearning",
+    "organization": "Healthcare-specific supply chain courses",
+    "description": "Healthcare-specific supply chain learning for sourcing, value analysis, inventory, and materials management.",
+    "url": "https://www.ahrmm.org/education"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "Flawless Consulting",
+    "organization": "Peter Block · the consultant's craft",
+    "description": "Builds client-facing consulting behaviors: contracting, discovery, feedback, and influence.",
+    "url": "https://bookshop.org/search?keywords=Flawless%20Consulting%20Peter%20Block"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "The Pyramid Principle",
+    "organization": "Barbara Minto · structured thinking",
+    "description": "Strengthens structured thinking and executive communication for recommendations and decks.",
+    "url": "https://bookshop.org/search?keywords=Pyramid%20Principle%20Minto"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CPSM",
+    "organization": "Certified Professional in Supply Management · ISM",
+    "description": "Strengthens strategic sourcing, supplier management, contracting, and procurement knowledge.",
+    "url": "https://www.ismworld.org/certification-and-training/certification/cpsm/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CMRP",
+    "organization": "Certified Materials & Resource Professional · AHRMM",
+    "description": "Healthcare-specific credential for materials management, purchasing, inventory, and supply chain operations.",
+    "url": "https://www.ahrmm.org/certification-cmrp"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CSCP",
+    "organization": "Certified Supply Chain Professional · ASCM",
+    "description": "Broad supply chain credential covering planning, sourcing, logistics, and end-to-end flow.",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "AHRMM.org",
+    "organization": "Healthcare resource & materials management body",
+    "description": "Healthcare supply chain association for materials management, sourcing, inventory, and procurement guidance.",
+    "url": "https://www.ahrmm.org"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "Becker's Supply Chain",
+    "organization": "News on sourcing, pricing & disruptions",
+    "description": "Quick news source for healthcare sourcing, supply disruption, pricing pressure, and vendor activity.",
+    "url": "https://www.beckershospitalreview.com/supply-chain/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "Gartner Supply Chain",
+    "organization": "Strategy research & benchmarking",
+    "description": "Research source for operating models, benchmarking, planning, and supply chain strategy trends.",
+    "url": "https://www.gartner.com/en/supply-chain"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "ACHE Congress",
+    "organization": "Healthcare leadership — March",
+    "description": "Leadership conference for hospital executives, operations, policy, and health-system strategy.",
+    "url": "https://www.ache.org/learning-center/congress"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "Advisory Board Events",
+    "organization": "Research briefings & webconferences",
+    "description": "Research briefings and webconferences for health-system trends, operations, and strategy.",
+    "url": "https://www.advisory.com/events"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CPSM",
+    "organization": "Certified Professional in Supply Management · ISM",
+    "description": "Strengthens strategic sourcing, supplier management, contracting, and procurement knowledge.",
+    "url": "https://www.ismworld.org/certification-and-training/certification/cpsm/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CMRP",
+    "organization": "Certified Materials & Resource Professional · AHRMM",
+    "description": "Healthcare-specific credential for materials management, purchasing, inventory, and supply chain operations.",
+    "url": "https://www.ahrmm.org/certification-cmrp"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "AHRMM.org",
+    "organization": "Healthcare resource & materials management body",
+    "description": "Healthcare supply chain association for materials management, sourcing, inventory, and procurement guidance.",
+    "url": "https://www.ahrmm.org"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "ASCM / APICS",
+    "organization": "Supply chain standards, models & education",
+    "description": "Broad supply chain body for planning, inventory, logistics, and operations-management standards.",
+    "url": "https://www.ascm.org"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "Becker's Supply Chain",
+    "organization": "News on sourcing, pricing & disruptions",
+    "description": "Quick news source for healthcare sourcing, supply disruption, pricing pressure, and vendor activity.",
+    "url": "https://www.beckershospitalreview.com/supply-chain/"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "Becker's Annual Meeting",
+    "organization": "Hospital & health-system leadership",
+    "description": "Broad hospital leadership conference covering strategy, finance, workforce, quality, and operations.",
+    "url": "https://www.beckershospitalreview.com/conference.html"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "HLTH",
+    "organization": "Innovation & disruption — fall",
+    "description": "Market-facing conference focused on healthcare innovation, investors, payers, providers, and startups.",
+    "url": "https://www.hlth.com"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "ViVE",
+    "organization": "Digital health execs — February",
+    "description": "Digital health conference focused on health IT, innovation, interoperability, and executive networking.",
+    "url": "https://www.viveevent.com"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "J.P. Morgan Healthcare",
+    "organization": "Industry & investment — January",
+    "description": "Industry conference useful for market outlook, investment themes, and strategic healthcare trends.",
+    "url": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "Becker's Webinars",
+    "organization": "Free weekly cross-topic sessions",
+    "description": "Free webcasts that provide quick exposure to current healthcare operating and strategy topics.",
+    "url": "https://www.beckershospitalreview.com/webinars.html"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CMPE",
+    "organization": "Certified Medical Practice Executive · ACMPE / MGMA",
+    "description": "Core physician practice credential focused on medical group operations and leadership.",
+    "url": "https://www.mgma.com/certification"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "FACMPE",
+    "organization": "Fellow, ACMPE — advanced practice leadership",
+    "description": "Advanced MGMA designation for deeper physician enterprise strategy and executive-level practice management.",
+    "url": "https://www.mgma.com/certification/fellowship"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "MGMA.com",
+    "organization": "Medical group management benchmarks & data",
+    "description": "Strong source for physician practice benchmarks, productivity, access, compensation, and operations.",
+    "url": "https://www.mgma.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "AMGA.org",
+    "organization": "American Medical Group Association — comp surveys",
+    "description": "Useful for medical group strategy, physician compensation, provider productivity, and performance benchmarks.",
+    "url": "https://www.amga.org"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "AMA Practice Management",
+    "organization": "Operations, payment & regulatory guidance",
+    "description": "Practical guidance on physician practice operations, payment, coding, and regulatory topics.",
+    "url": "https://www.ama-assn.org/practice-management"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "MGMA Learning",
+    "organization": "Body of Knowledge & practice leadership tracks",
+    "description": "Practice-management courses tied to MGMA body of knowledge and medical group operations.",
+    "url": "https://www.mgma.com/education"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Coursera",
+    "organization": "Healthcare Organization Operations & administration",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/search?query=healthcare%20administration"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Triage",
+    "organization": "Evidence-based explainers on US healthcare",
+    "description": "Plain-English video source for understanding U.S. healthcare structure, policy, and economics.",
+    "url": "https://www.youtube.com/@healthcaretriage"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "FACMPE",
+    "organization": "Fellow, ACMPE — advanced practice leadership",
+    "description": "Advanced MGMA designation for deeper physician enterprise strategy and executive-level practice management.",
+    "url": "https://www.mgma.com/certification/fellowship"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CPC",
+    "organization": "Certified Professional Coder · AAPC",
+    "description": "Deepens coding knowledge that affects claims quality, compliance, and physician enterprise performance.",
+    "url": "https://www.aapc.com/certification/cpc/"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CHFP",
+    "organization": "Certified Healthcare Financial Professional · HFMA",
+    "description": "Connects healthcare finance concepts to operating performance, reimbursement, and margin improvement.",
+    "url": "https://www.hfma.org/certifications/chfp/"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "AMGA.org",
+    "organization": "American Medical Group Association — comp surveys",
+    "description": "Useful for medical group strategy, physician compensation, provider productivity, and performance benchmarks.",
+    "url": "https://www.amga.org"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "AMA Practice Management",
+    "organization": "Operations, payment & regulatory guidance",
+    "description": "Practical guidance on physician practice operations, payment, coding, and regulatory topics.",
+    "url": "https://www.ama-assn.org/practice-management"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "Becker's ASC & Spine",
+    "organization": "Physician practice & ambulatory news",
+    "description": "Good source for ambulatory, surgical, physician practice, and outpatient market updates.",
+    "url": "https://www.beckersasc.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "Coursera",
+    "organization": "Healthcare Organization Operations & administration",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/search?query=healthcare%20administration"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "AAPC Training",
+    "organization": "Physician coding, billing & compliance",
+    "description": "Practical training for coding, billing, compliance, and payer-facing revenue cycle workflows.",
+    "url": "https://www.aapc.com/training/"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "AMGA Education",
+    "organization": "Group practice leadership & performance",
+    "description": "Learning source for medical group performance, provider alignment, and practice leadership.",
+    "url": "https://www.amga.org/education"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CPC",
+    "organization": "Certified Professional Coder · AAPC",
+    "description": "Deepens coding knowledge that affects claims quality, compliance, and physician enterprise performance.",
+    "url": "https://www.aapc.com/certification/cpc/"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CHFP",
+    "organization": "Certified Healthcare Financial Professional · HFMA",
+    "description": "Connects healthcare finance concepts to operating performance, reimbursement, and margin improvement.",
+    "url": "https://www.hfma.org/certifications/chfp/"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CMPE",
+    "organization": "Certified Medical Practice Executive · ACMPE / MGMA",
+    "description": "Core physician practice credential focused on medical group operations and leadership.",
+    "url": "https://www.mgma.com/certification"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "MGMA.com",
+    "organization": "Medical group management benchmarks & data",
+    "description": "Strong source for physician practice benchmarks, productivity, access, compensation, and operations.",
+    "url": "https://www.mgma.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "Becker's ASC & Spine",
+    "organization": "Physician practice & ambulatory news",
+    "description": "Good source for ambulatory, surgical, physician practice, and outpatient market updates.",
+    "url": "https://www.beckersasc.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "RevCycleIntelligence",
+    "organization": "Provider revenue & reimbursement strategy",
+    "description": "Good for deeper articles on denial management, payment trends, reimbursement, and RCM strategy.",
+    "url": "https://revcycleintelligence.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "AAPC Training",
+    "organization": "Physician coding, billing & compliance",
+    "description": "Practical training for coding, billing, compliance, and payer-facing revenue cycle workflows.",
+    "url": "https://www.aapc.com/training/"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "AMGA Education",
+    "organization": "Group practice leadership & performance",
+    "description": "Learning source for medical group performance, provider alignment, and practice leadership.",
+    "url": "https://www.amga.org/education"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "Flawless Consulting",
+    "organization": "Peter Block · the consultant's craft",
+    "description": "Builds client-facing consulting behaviors: contracting, discovery, feedback, and influence.",
+    "url": "https://bookshop.org/search?keywords=Flawless%20Consulting%20Peter%20Block"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "The Pyramid Principle",
+    "organization": "Barbara Minto · structured thinking",
+    "description": "Strengthens structured thinking and executive communication for recommendations and decks.",
+    "url": "https://bookshop.org/search?keywords=Pyramid%20Principle%20Minto"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CPC",
+    "organization": "Certified Professional Coder · AAPC",
+    "description": "Deepens coding knowledge that affects claims quality, compliance, and physician enterprise performance.",
+    "url": "https://www.aapc.com/certification/cpc/"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CMPE",
+    "organization": "Certified Medical Practice Executive · ACMPE / MGMA",
+    "description": "Core physician practice credential focused on medical group operations and leadership.",
+    "url": "https://www.mgma.com/certification"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "FACMPE",
+    "organization": "Fellow, ACMPE — advanced practice leadership",
+    "description": "Advanced MGMA designation for deeper physician enterprise strategy and executive-level practice management.",
+    "url": "https://www.mgma.com/certification/fellowship"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "MGMA.com",
+    "organization": "Medical group management benchmarks & data",
+    "description": "Strong source for physician practice benchmarks, productivity, access, compensation, and operations.",
+    "url": "https://www.mgma.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "AMA Practice Management",
+    "organization": "Operations, payment & regulatory guidance",
+    "description": "Practical guidance on physician practice operations, payment, coding, and regulatory topics.",
+    "url": "https://www.ama-assn.org/practice-management"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "RevCycleIntelligence",
+    "organization": "Provider revenue & reimbursement strategy",
+    "description": "Good for deeper articles on denial management, payment trends, reimbursement, and RCM strategy.",
+    "url": "https://revcycleintelligence.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "ACHE Congress",
+    "organization": "Healthcare leadership — March",
+    "description": "Leadership conference for hospital executives, operations, policy, and health-system strategy.",
+    "url": "https://www.ache.org/learning-center/congress"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "Advisory Board Events",
+    "organization": "Research briefings & webconferences",
+    "description": "Research briefings and webconferences for health-system trends, operations, and strategy.",
+    "url": "https://www.advisory.com/events"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CPC",
+    "organization": "Certified Professional Coder · AAPC",
+    "description": "Deepens coding knowledge that affects claims quality, compliance, and physician enterprise performance.",
+    "url": "https://www.aapc.com/certification/cpc/"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CMPE",
+    "organization": "Certified Medical Practice Executive · ACMPE / MGMA",
+    "description": "Core physician practice credential focused on medical group operations and leadership.",
+    "url": "https://www.mgma.com/certification"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "MGMA.com",
+    "organization": "Medical group management benchmarks & data",
+    "description": "Strong source for physician practice benchmarks, productivity, access, compensation, and operations.",
+    "url": "https://www.mgma.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "AMGA.org",
+    "organization": "American Medical Group Association — comp surveys",
+    "description": "Useful for medical group strategy, physician compensation, provider productivity, and performance benchmarks.",
+    "url": "https://www.amga.org"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "AMA Practice Management",
+    "organization": "Operations, payment & regulatory guidance",
+    "description": "Practical guidance on physician practice operations, payment, coding, and regulatory topics.",
+    "url": "https://www.ama-assn.org/practice-management"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "Becker's Annual Meeting",
+    "organization": "Hospital & health-system leadership",
+    "description": "Broad hospital leadership conference covering strategy, finance, workforce, quality, and operations.",
+    "url": "https://www.beckershospitalreview.com/conference.html"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "HLTH",
+    "organization": "Innovation & disruption — fall",
+    "description": "Market-facing conference focused on healthcare innovation, investors, payers, providers, and startups.",
+    "url": "https://www.hlth.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "ViVE",
+    "organization": "Digital health execs — February",
+    "description": "Digital health conference focused on health IT, innovation, interoperability, and executive networking.",
+    "url": "https://www.viveevent.com"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "J.P. Morgan Healthcare",
+    "organization": "Industry & investment — January",
+    "description": "Industry conference useful for market outlook, investment themes, and strategic healthcare trends.",
+    "url": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "Becker's Webinars",
+    "organization": "Free weekly cross-topic sessions",
+    "description": "Free webcasts that provide quick exposure to current healthcare operating and strategy topics.",
+    "url": "https://www.beckershospitalreview.com/webinars.html"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CPHQ",
+    "organization": "Certified Professional in Healthcare Quality · NAHQ",
+    "description": "Healthcare quality credential focused on performance improvement, patient safety, and quality measurement.",
+    "url": "https://nahq.org/certification/"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CPPS",
+    "organization": "Certified Professional in Patient Safety · IHI",
+    "description": "Patient-safety credential focused on risk reduction, event analysis, and safety culture.",
+    "url": "https://www.ihi.org/education/certification-professional-development"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "NAHQ.org",
+    "organization": "Healthcare quality competency framework & body",
+    "description": "Quality body that frames healthcare quality competencies, career paths, and professional standards.",
+    "url": "https://nahq.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "IHI.org",
+    "organization": "Institute for Healthcare Improvement — methods",
+    "description": "Go-to source for quality improvement methods, safety culture, and care redesign tools.",
+    "url": "https://www.ihi.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "AHRQ.gov",
+    "organization": "Federal quality & patient-safety research",
+    "description": "Federal research source for patient safety, quality measures, evidence, and improvement toolkits.",
+    "url": "https://www.ahrq.gov"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "IHI Open School",
+    "organization": "Free foundations in quality & safety",
+    "description": "Beginner-friendly quality and safety courses used widely in healthcare improvement work.",
+    "url": "https://www.ihi.org/education/ihi-open-school"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Coursera",
+    "organization": "Healthcare Quality & Safety · Johns Hopkins",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/search?query=healthcare%20quality"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Triage",
+    "organization": "Evidence-based explainers on US healthcare",
+    "description": "Plain-English video source for understanding U.S. healthcare structure, policy, and economics.",
+    "url": "https://www.youtube.com/@healthcaretriage"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CPPS",
+    "organization": "Certified Professional in Patient Safety · IHI",
+    "description": "Patient-safety credential focused on risk reduction, event analysis, and safety culture.",
+    "url": "https://www.ihi.org/education/certification-professional-development"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CPHRM",
+    "organization": "Certified Professional in Healthcare Risk Mgmt · ASHRM",
+    "description": "Risk-management credential for safety, regulatory, claims, and enterprise risk topics.",
+    "url": "https://www.ashrm.org/professional-development/cphrm-certification"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "Six Sigma",
+    "organization": "Green / Black Belt · ASQ",
+    "description": "Process improvement credential for reducing variation, waste, and defects in healthcare workflows.",
+    "url": "https://asq.org/cert"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "IHI.org",
+    "organization": "Institute for Healthcare Improvement — methods",
+    "description": "Go-to source for quality improvement methods, safety culture, and care redesign tools.",
+    "url": "https://www.ihi.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "AHRQ.gov",
+    "organization": "Federal quality & patient-safety research",
+    "description": "Federal research source for patient safety, quality measures, evidence, and improvement toolkits.",
+    "url": "https://www.ahrq.gov"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "The Joint Commission",
+    "organization": "Accreditation standards & National Patient Safety Goals",
+    "description": "Primary source for accreditation expectations, safety goals, surveys, and compliance standards.",
+    "url": "https://www.jointcommission.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "Coursera",
+    "organization": "Healthcare Quality & Safety · Johns Hopkins",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/search?query=healthcare%20quality"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "ASQ Training",
+    "organization": "Lean & Six Sigma for healthcare",
+    "description": "Lean, Six Sigma, quality tools, and process improvement training for operational work.",
+    "url": "https://asq.org/training"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "NAHQ Learning",
+    "organization": "Competency-based quality courses",
+    "description": "Structured courses aligned to healthcare quality competencies and CPHQ preparation.",
+    "url": "https://nahq.org/education/"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CPHRM",
+    "organization": "Certified Professional in Healthcare Risk Mgmt · ASHRM",
+    "description": "Risk-management credential for safety, regulatory, claims, and enterprise risk topics.",
+    "url": "https://www.ashrm.org/professional-development/cphrm-certification"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "Six Sigma",
+    "organization": "Green / Black Belt · ASQ",
+    "description": "Process improvement credential for reducing variation, waste, and defects in healthcare workflows.",
+    "url": "https://asq.org/cert"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CPHQ",
+    "organization": "Certified Professional in Healthcare Quality · NAHQ",
+    "description": "Healthcare quality credential focused on performance improvement, patient safety, and quality measurement.",
+    "url": "https://nahq.org/certification/"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "NAHQ.org",
+    "organization": "Healthcare quality competency framework & body",
+    "description": "Quality body that frames healthcare quality competencies, career paths, and professional standards.",
+    "url": "https://nahq.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "The Joint Commission",
+    "organization": "Accreditation standards & National Patient Safety Goals",
+    "description": "Primary source for accreditation expectations, safety goals, surveys, and compliance standards.",
+    "url": "https://www.jointcommission.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "CMS QualityNet",
+    "organization": "Quality reporting & value-based programs",
+    "description": "Primary place to track CMS quality reporting, value-based programs, and performance requirements.",
+    "url": "https://qualitynet.cms.gov"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "ASQ Training",
+    "organization": "Lean & Six Sigma for healthcare",
+    "description": "Lean, Six Sigma, quality tools, and process improvement training for operational work.",
+    "url": "https://asq.org/training"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "NAHQ Learning",
+    "organization": "Competency-based quality courses",
+    "description": "Structured courses aligned to healthcare quality competencies and CPHQ preparation.",
+    "url": "https://nahq.org/education/"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "Flawless Consulting",
+    "organization": "Peter Block · the consultant's craft",
+    "description": "Builds client-facing consulting behaviors: contracting, discovery, feedback, and influence.",
+    "url": "https://bookshop.org/search?keywords=Flawless%20Consulting%20Peter%20Block"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "The Pyramid Principle",
+    "organization": "Barbara Minto · structured thinking",
+    "description": "Strengthens structured thinking and executive communication for recommendations and decks.",
+    "url": "https://bookshop.org/search?keywords=Pyramid%20Principle%20Minto"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CPHRM",
+    "organization": "Certified Professional in Healthcare Risk Mgmt · ASHRM",
+    "description": "Risk-management credential for safety, regulatory, claims, and enterprise risk topics.",
+    "url": "https://www.ashrm.org/professional-development/cphrm-certification"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CPHQ",
+    "organization": "Certified Professional in Healthcare Quality · NAHQ",
+    "description": "Healthcare quality credential focused on performance improvement, patient safety, and quality measurement.",
+    "url": "https://nahq.org/certification/"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CPPS",
+    "organization": "Certified Professional in Patient Safety · IHI",
+    "description": "Patient-safety credential focused on risk reduction, event analysis, and safety culture.",
+    "url": "https://www.ihi.org/education/certification-professional-development"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "NAHQ.org",
+    "organization": "Healthcare quality competency framework & body",
+    "description": "Quality body that frames healthcare quality competencies, career paths, and professional standards.",
+    "url": "https://nahq.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "AHRQ.gov",
+    "organization": "Federal quality & patient-safety research",
+    "description": "Federal research source for patient safety, quality measures, evidence, and improvement toolkits.",
+    "url": "https://www.ahrq.gov"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "CMS QualityNet",
+    "organization": "Quality reporting & value-based programs",
+    "description": "Primary place to track CMS quality reporting, value-based programs, and performance requirements.",
+    "url": "https://qualitynet.cms.gov"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "ACHE Congress",
+    "organization": "Healthcare leadership — March",
+    "description": "Leadership conference for hospital executives, operations, policy, and health-system strategy.",
+    "url": "https://www.ache.org/learning-center/congress"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "Advisory Board Events",
+    "organization": "Research briefings & webconferences",
+    "description": "Research briefings and webconferences for health-system trends, operations, and strategy.",
+    "url": "https://www.advisory.com/events"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CPHRM",
+    "organization": "Certified Professional in Healthcare Risk Mgmt · ASHRM",
+    "description": "Risk-management credential for safety, regulatory, claims, and enterprise risk topics.",
+    "url": "https://www.ashrm.org/professional-development/cphrm-certification"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CPHQ",
+    "organization": "Certified Professional in Healthcare Quality · NAHQ",
+    "description": "Healthcare quality credential focused on performance improvement, patient safety, and quality measurement.",
+    "url": "https://nahq.org/certification/"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "NAHQ.org",
+    "organization": "Healthcare quality competency framework & body",
+    "description": "Quality body that frames healthcare quality competencies, career paths, and professional standards.",
+    "url": "https://nahq.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "IHI.org",
+    "organization": "Institute for Healthcare Improvement — methods",
+    "description": "Go-to source for quality improvement methods, safety culture, and care redesign tools.",
+    "url": "https://www.ihi.org"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "AHRQ.gov",
+    "organization": "Federal quality & patient-safety research",
+    "description": "Federal research source for patient safety, quality measures, evidence, and improvement toolkits.",
+    "url": "https://www.ahrq.gov"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "Becker's Annual Meeting",
+    "organization": "Hospital & health-system leadership",
+    "description": "Broad hospital leadership conference covering strategy, finance, workforce, quality, and operations.",
+    "url": "https://www.beckershospitalreview.com/conference.html"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "HLTH",
+    "organization": "Innovation & disruption — fall",
+    "description": "Market-facing conference focused on healthcare innovation, investors, payers, providers, and startups.",
+    "url": "https://www.hlth.com"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "ViVE",
+    "organization": "Digital health execs — February",
+    "description": "Digital health conference focused on health IT, innovation, interoperability, and executive networking.",
+    "url": "https://www.viveevent.com"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "J.P. Morgan Healthcare",
+    "organization": "Industry & investment — January",
+    "description": "Industry conference useful for market outlook, investment themes, and strategic healthcare trends.",
+    "url": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "Becker's Webinars",
+    "organization": "Free weekly cross-topic sessions",
+    "description": "Free webcasts that provide quick exposure to current healthcare operating and strategy topics.",
+    "url": "https://www.beckershospitalreview.com/webinars.html"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CCDS",
+    "organization": "Certified Clinical Documentation Specialist · ACDIS",
+    "description": "Clinical documentation credential focused on provider documentation quality and CDI program execution.",
+    "url": "https://acdis.org/certification/ccds"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CDIP",
+    "organization": "Certified Documentation Integrity Practitioner · AHIMA",
+    "description": "Documentation integrity credential connecting coding, compliance, reimbursement, and data quality.",
+    "url": "https://www.ahima.org/certification-careers/certifications-overview/cdip/"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "ACDIS.org",
+    "organization": "Clinical documentation integrity community",
+    "description": "Community and resource hub for clinical documentation integrity, CDI operations, and coding impact.",
+    "url": "https://acdis.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "AHIMA.org",
+    "organization": "Health information management standards",
+    "description": "Health information source for coding standards, HIM operations, compliance, and data integrity.",
+    "url": "https://www.ahima.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "HIMSS.org",
+    "organization": "Clinical informatics & digital health",
+    "description": "Digital health and informatics source for clinical systems, interoperability, and health IT trends.",
+    "url": "https://www.himss.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Coursera",
+    "organization": "Healthcare Operations & Process Improvement",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/search?query=healthcare%20operations"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "edX",
+    "organization": "Lean & process improvement fundamentals",
+    "description": "Useful for process improvement, analytics, and structured operations learning.",
+    "url": "https://www.edx.org/search?q=lean"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Triage",
+    "organization": "Evidence-based explainers on US healthcare",
+    "description": "Plain-English video source for understanding U.S. healthcare structure, policy, and economics.",
+    "url": "https://www.youtube.com/@healthcaretriage"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CDIP",
+    "organization": "Certified Documentation Integrity Practitioner · AHIMA",
+    "description": "Documentation integrity credential connecting coding, compliance, reimbursement, and data quality.",
+    "url": "https://www.ahima.org/certification-careers/certifications-overview/cdip/"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CPHIMS",
+    "organization": "Healthcare Information & Mgmt Systems · HIMSS",
+    "description": "Health IT credential useful for clinical systems, informatics, analytics, and digital health work.",
+    "url": "https://www.himss.org/resources-certification/cphims"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "Lean Healthcare",
+    "organization": "Lean / Six Sigma process improvement · ASQ",
+    "description": "A process-improvement path for reducing waste, improving flow, and standardizing care workflows.",
+    "url": "https://asq.org/cert"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "AHIMA.org",
+    "organization": "Health information management standards",
+    "description": "Health information source for coding standards, HIM operations, compliance, and data integrity.",
+    "url": "https://www.ahima.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "HIMSS.org",
+    "organization": "Clinical informatics & digital health",
+    "description": "Digital health and informatics source for clinical systems, interoperability, and health IT trends.",
+    "url": "https://www.himss.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "Advisory Board",
+    "organization": "Care variation, throughput & LOS research",
+    "description": "Research source for clinical operations, throughput, length of stay, care variation, and strategy.",
+    "url": "https://www.advisory.com"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "edX",
+    "organization": "Lean & process improvement fundamentals",
+    "description": "Useful for process improvement, analytics, and structured operations learning.",
+    "url": "https://www.edx.org/search?q=lean"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "HIMSS Learning Center",
+    "organization": "Clinical informatics & analytics tracks",
+    "description": "Learning paths for clinical informatics, analytics, digital health, and health IT leadership.",
+    "url": "https://www.himss.org/membership-participation/professional-development"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "ACDIS Boot Camps",
+    "organization": "Clinical documentation deep-dives",
+    "description": "Intensive CDI training for documentation review, coding impact, and physician education.",
+    "url": "https://acdis.org/boot-camps"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CPHIMS",
+    "organization": "Healthcare Information & Mgmt Systems · HIMSS",
+    "description": "Health IT credential useful for clinical systems, informatics, analytics, and digital health work.",
+    "url": "https://www.himss.org/resources-certification/cphims"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "Lean Healthcare",
+    "organization": "Lean / Six Sigma process improvement · ASQ",
+    "description": "A process-improvement path for reducing waste, improving flow, and standardizing care workflows.",
+    "url": "https://asq.org/cert"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CCDS",
+    "organization": "Certified Clinical Documentation Specialist · ACDIS",
+    "description": "Clinical documentation credential focused on provider documentation quality and CDI program execution.",
+    "url": "https://acdis.org/certification/ccds"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "ACDIS.org",
+    "organization": "Clinical documentation integrity community",
+    "description": "Community and resource hub for clinical documentation integrity, CDI operations, and coding impact.",
+    "url": "https://acdis.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "Advisory Board",
+    "organization": "Care variation, throughput & LOS research",
+    "description": "Research source for clinical operations, throughput, length of stay, care variation, and strategy.",
+    "url": "https://www.advisory.com"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "Becker's Clinical Leadership",
+    "organization": "Care delivery & clinical operations news",
+    "description": "News source for clinical operations, nursing, care quality, and health-system leadership.",
+    "url": "https://www.beckershospitalreview.com/clinical-leadership-infection-control.html"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "HIMSS Learning Center",
+    "organization": "Clinical informatics & analytics tracks",
+    "description": "Learning paths for clinical informatics, analytics, digital health, and health IT leadership.",
+    "url": "https://www.himss.org/membership-participation/professional-development"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "ACDIS Boot Camps",
+    "organization": "Clinical documentation deep-dives",
+    "description": "Intensive CDI training for documentation review, coding impact, and physician education.",
+    "url": "https://acdis.org/boot-camps"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "Flawless Consulting",
+    "organization": "Peter Block · the consultant's craft",
+    "description": "Builds client-facing consulting behaviors: contracting, discovery, feedback, and influence.",
+    "url": "https://bookshop.org/search?keywords=Flawless%20Consulting%20Peter%20Block"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "The Pyramid Principle",
+    "organization": "Barbara Minto · structured thinking",
+    "description": "Strengthens structured thinking and executive communication for recommendations and decks.",
+    "url": "https://bookshop.org/search?keywords=Pyramid%20Principle%20Minto"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CPHIMS",
+    "organization": "Healthcare Information & Mgmt Systems · HIMSS",
+    "description": "Health IT credential useful for clinical systems, informatics, analytics, and digital health work.",
+    "url": "https://www.himss.org/resources-certification/cphims"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CCDS",
+    "organization": "Certified Clinical Documentation Specialist · ACDIS",
+    "description": "Clinical documentation credential focused on provider documentation quality and CDI program execution.",
+    "url": "https://acdis.org/certification/ccds"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CDIP",
+    "organization": "Certified Documentation Integrity Practitioner · AHIMA",
+    "description": "Documentation integrity credential connecting coding, compliance, reimbursement, and data quality.",
+    "url": "https://www.ahima.org/certification-careers/certifications-overview/cdip/"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "ACDIS.org",
+    "organization": "Clinical documentation integrity community",
+    "description": "Community and resource hub for clinical documentation integrity, CDI operations, and coding impact.",
+    "url": "https://acdis.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "HIMSS.org",
+    "organization": "Clinical informatics & digital health",
+    "description": "Digital health and informatics source for clinical systems, interoperability, and health IT trends.",
+    "url": "https://www.himss.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "Becker's Clinical Leadership",
+    "organization": "Care delivery & clinical operations news",
+    "description": "News source for clinical operations, nursing, care quality, and health-system leadership.",
+    "url": "https://www.beckershospitalreview.com/clinical-leadership-infection-control.html"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "ACHE Congress",
+    "organization": "Healthcare leadership — March",
+    "description": "Leadership conference for hospital executives, operations, policy, and health-system strategy.",
+    "url": "https://www.ache.org/learning-center/congress"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "Advisory Board Events",
+    "organization": "Research briefings & webconferences",
+    "description": "Research briefings and webconferences for health-system trends, operations, and strategy.",
+    "url": "https://www.advisory.com/events"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CPHIMS",
+    "organization": "Healthcare Information & Mgmt Systems · HIMSS",
+    "description": "Health IT credential useful for clinical systems, informatics, analytics, and digital health work.",
+    "url": "https://www.himss.org/resources-certification/cphims"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CCDS",
+    "organization": "Certified Clinical Documentation Specialist · ACDIS",
+    "description": "Clinical documentation credential focused on provider documentation quality and CDI program execution.",
+    "url": "https://acdis.org/certification/ccds"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "ACDIS.org",
+    "organization": "Clinical documentation integrity community",
+    "description": "Community and resource hub for clinical documentation integrity, CDI operations, and coding impact.",
+    "url": "https://acdis.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "AHIMA.org",
+    "organization": "Health information management standards",
+    "description": "Health information source for coding standards, HIM operations, compliance, and data integrity.",
+    "url": "https://www.ahima.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "HIMSS.org",
+    "organization": "Clinical informatics & digital health",
+    "description": "Digital health and informatics source for clinical systems, interoperability, and health IT trends.",
+    "url": "https://www.himss.org"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "Becker's Annual Meeting",
+    "organization": "Hospital & health-system leadership",
+    "description": "Broad hospital leadership conference covering strategy, finance, workforce, quality, and operations.",
+    "url": "https://www.beckershospitalreview.com/conference.html"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "HLTH",
+    "organization": "Innovation & disruption — fall",
+    "description": "Market-facing conference focused on healthcare innovation, investors, payers, providers, and startups.",
+    "url": "https://www.hlth.com"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "ViVE",
+    "organization": "Digital health execs — February",
+    "description": "Digital health conference focused on health IT, innovation, interoperability, and executive networking.",
+    "url": "https://www.viveevent.com"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "J.P. Morgan Healthcare",
+    "organization": "Industry & investment — January",
+    "description": "Industry conference useful for market outlook, investment themes, and strategic healthcare trends.",
+    "url": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "Becker's Webinars",
+    "organization": "Free weekly cross-topic sessions",
+    "description": "Free webcasts that provide quick exposure to current healthcare operating and strategy topics.",
+    "url": "https://www.beckershospitalreview.com/webinars.html"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "SHRM-CP / SCP",
+    "organization": "Certified Professional in HR · SHRM",
+    "description": "HR certification path focused on applied HR competencies, policy, and people strategy.",
+    "url": "https://www.shrm.org/credentials/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Analyst",
+    "category": "Credentials to Start",
+    "name": "CHHR",
+    "organization": "Certified in Healthcare Human Resources · ASHHRA",
+    "description": "Healthcare HR credential focused on workforce strategy, employee relations, and labor operations.",
+    "url": "https://www.ashhra.org/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "ASHHRA.org",
+    "organization": "Healthcare HR association — labor strategy",
+    "description": "Healthcare HR association focused on hospital workforce, labor relations, and HR operating issues.",
+    "url": "https://www.ashhra.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "SHRM.org",
+    "organization": "HR best practices, law & workforce trends",
+    "description": "Broad HR source for workforce trends, labor law, employee relations, and people strategy.",
+    "url": "https://www.shrm.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Analyst",
+    "category": "Sources to Follow",
+    "name": "BLS.gov",
+    "organization": "Healthcare wage & employment data",
+    "description": "Primary data source for wage benchmarks, employment trends, occupations, and labor-market comparisons.",
+    "url": "https://www.bls.gov/oes/current/oes_healthcare.htm"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "SHRM Learning",
+    "organization": "HR & workforce certification prep",
+    "description": "Coursework for HR certification prep and applied workforce-management fundamentals.",
+    "url": "https://www.shrm.org/events-education/education"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Coursera",
+    "organization": "Workforce Planning & HR Management",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/search?query=workforce%20management"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Triage",
+    "organization": "Evidence-based explainers on US healthcare",
+    "description": "Plain-English video source for understanding U.S. healthcare structure, policy, and economics.",
+    "url": "https://www.youtube.com/@healthcaretriage"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CHHR",
+    "organization": "Certified in Healthcare Human Resources · ASHHRA",
+    "description": "Healthcare HR credential focused on workforce strategy, employee relations, and labor operations.",
+    "url": "https://www.ashhra.org/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "CCP",
+    "organization": "Certified Compensation Professional · WorldatWork",
+    "description": "Compensation credential for pay design, total rewards, market pricing, and job architecture.",
+    "url": "https://worldatwork.org/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Applied Credentials",
+    "name": "PHR / SPHR",
+    "organization": "Professional in Human Resources · HRCI",
+    "description": "General HR credentials covering employment law, workforce planning, benefits, and HR operations.",
+    "url": "https://www.hrci.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "SHRM.org",
+    "organization": "HR best practices, law & workforce trends",
+    "description": "Broad HR source for workforce trends, labor law, employee relations, and people strategy.",
+    "url": "https://www.shrm.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "BLS.gov",
+    "organization": "Healthcare wage & employment data",
+    "description": "Primary data source for wage benchmarks, employment trends, occupations, and labor-market comparisons.",
+    "url": "https://www.bls.gov/oes/current/oes_healthcare.htm"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Execution Intelligence",
+    "name": "AONL.org",
+    "organization": "Nurse leadership & staffing models",
+    "description": "Nursing leadership source for staffing models, workforce, leadership, and care delivery strategy.",
+    "url": "https://www.aonl.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "Coursera",
+    "organization": "Workforce Planning & HR Management",
+    "description": "Flexible online courses for foundational learning before or during a project workstream.",
+    "url": "https://www.coursera.org/search?query=workforce%20management"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "LinkedIn Learning",
+    "organization": "Labor analytics & productivity tracks",
+    "description": "Short professional courses to build baseline fluency or sharpen a specific consulting skill.",
+    "url": "https://www.linkedin.com/learning/search?keywords=workforce%20planning"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Consultant",
+    "category": "Applied Learning",
+    "name": "WorldatWork",
+    "organization": "Compensation & total rewards courses",
+    "description": "Compensation, rewards, and pay-structure learning for labor and workforce projects.",
+    "url": "https://worldatwork.org/education"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "CCP",
+    "organization": "Certified Compensation Professional · WorldatWork",
+    "description": "Compensation credential for pay design, total rewards, market pricing, and job architecture.",
+    "url": "https://worldatwork.org/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "PHR / SPHR",
+    "organization": "Professional in Human Resources · HRCI",
+    "description": "General HR credentials covering employment law, workforce planning, benefits, and HR operations.",
+    "url": "https://www.hrci.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Manager-Level Credentials",
+    "name": "SHRM-CP / SCP",
+    "organization": "Certified Professional in HR · SHRM",
+    "description": "HR certification path focused on applied HR competencies, policy, and people strategy.",
+    "url": "https://www.shrm.org/credentials/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "ASHHRA.org",
+    "organization": "Healthcare HR association — labor strategy",
+    "description": "Healthcare HR association focused on hospital workforce, labor relations, and HR operating issues.",
+    "url": "https://www.ashhra.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "AONL.org",
+    "organization": "Nurse leadership & staffing models",
+    "description": "Nursing leadership source for staffing models, workforce, leadership, and care delivery strategy.",
+    "url": "https://www.aonl.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Benchmarks & Regulation",
+    "name": "Becker's Workforce",
+    "organization": "Labor cost, turnover & staffing news",
+    "description": "Useful for staffing, labor cost, turnover, recruitment, and workforce-management news.",
+    "url": "https://www.beckershospitalreview.com/workforce.html"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "LinkedIn Learning",
+    "organization": "Labor analytics & productivity tracks",
+    "description": "Short professional courses to build baseline fluency or sharpen a specific consulting skill.",
+    "url": "https://www.linkedin.com/learning/search?keywords=workforce%20planning"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "WorldatWork",
+    "organization": "Compensation & total rewards courses",
+    "description": "Compensation, rewards, and pay-structure learning for labor and workforce projects.",
+    "url": "https://worldatwork.org/education"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "Flawless Consulting",
+    "organization": "Peter Block · the consultant's craft",
+    "description": "Builds client-facing consulting behaviors: contracting, discovery, feedback, and influence.",
+    "url": "https://bookshop.org/search?keywords=Flawless%20Consulting%20Peter%20Block"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Manager / Sr. Consultant",
+    "category": "Team / Method Skills",
+    "name": "The Pyramid Principle",
+    "organization": "Barbara Minto · structured thinking",
+    "description": "Strengthens structured thinking and executive communication for recommendations and decks.",
+    "url": "https://bookshop.org/search?keywords=Pyramid%20Principle%20Minto"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CCP",
+    "organization": "Certified Compensation Professional · WorldatWork",
+    "description": "Compensation credential for pay design, total rewards, market pricing, and job architecture.",
+    "url": "https://worldatwork.org/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "SHRM-CP / SCP",
+    "organization": "Certified Professional in HR · SHRM",
+    "description": "HR certification path focused on applied HR competencies, policy, and people strategy.",
+    "url": "https://www.shrm.org/credentials/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Advanced Signal",
+    "name": "CHHR",
+    "organization": "Certified in Healthcare Human Resources · ASHHRA",
+    "description": "Healthcare HR credential focused on workforce strategy, employee relations, and labor operations.",
+    "url": "https://www.ashhra.org/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "ASHHRA.org",
+    "organization": "Healthcare HR association — labor strategy",
+    "description": "Healthcare HR association focused on hospital workforce, labor relations, and HR operating issues.",
+    "url": "https://www.ashhra.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "BLS.gov",
+    "organization": "Healthcare wage & employment data",
+    "description": "Primary data source for wage benchmarks, employment trends, occupations, and labor-market comparisons.",
+    "url": "https://www.bls.gov/oes/current/oes_healthcare.htm"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Strategy Sources",
+    "name": "Becker's Workforce",
+    "organization": "Labor cost, turnover & staffing news",
+    "description": "Useful for staffing, labor cost, turnover, recruitment, and workforce-management news.",
+    "url": "https://www.beckershospitalreview.com/workforce.html"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "ACHE Congress",
+    "organization": "Healthcare leadership — March",
+    "description": "Leadership conference for hospital executives, operations, policy, and health-system strategy.",
+    "url": "https://www.ache.org/learning-center/congress"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Principal / Director",
+    "category": "Executive Learning",
+    "name": "Advisory Board Events",
+    "organization": "Research briefings & webconferences",
+    "description": "Research briefings and webconferences for health-system trends, operations, and strategy.",
+    "url": "https://www.advisory.com/events"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "CCP",
+    "organization": "Certified Compensation Professional · WorldatWork",
+    "description": "Compensation credential for pay design, total rewards, market pricing, and job architecture.",
+    "url": "https://worldatwork.org/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Practice Leadership",
+    "name": "SHRM-CP / SCP",
+    "organization": "Certified Professional in HR · SHRM",
+    "description": "HR certification path focused on applied HR competencies, policy, and people strategy.",
+    "url": "https://www.shrm.org/credentials/certification"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "ASHHRA.org",
+    "organization": "Healthcare HR association — labor strategy",
+    "description": "Healthcare HR association focused on hospital workforce, labor relations, and HR operating issues.",
+    "url": "https://www.ashhra.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "SHRM.org",
+    "organization": "HR best practices, law & workforce trends",
+    "description": "Broad HR source for workforce trends, labor law, employee relations, and people strategy.",
+    "url": "https://www.shrm.org"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "BLS.gov",
+    "organization": "Healthcare wage & employment data",
+    "description": "Primary data source for wage benchmarks, employment trends, occupations, and labor-market comparisons.",
+    "url": "https://www.bls.gov/oes/current/oes_healthcare.htm"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Market Intelligence",
+    "name": "Becker's Annual Meeting",
+    "organization": "Hospital & health-system leadership",
+    "description": "Broad hospital leadership conference covering strategy, finance, workforce, quality, and operations.",
+    "url": "https://www.beckershospitalreview.com/conference.html"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "AHA Leadership Summit",
+    "organization": "Health-system strategy — summer",
+    "description": "Executive forum focused on health-system strategy, transformation, policy, and care delivery.",
+    "url": "https://www.aha.org/education-events/aha-leadership-summit"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "HLTH",
+    "organization": "Innovation & disruption — fall",
+    "description": "Market-facing conference focused on healthcare innovation, investors, payers, providers, and startups.",
+    "url": "https://www.hlth.com"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "ViVE",
+    "organization": "Digital health execs — February",
+    "description": "Digital health conference focused on health IT, innovation, interoperability, and executive networking.",
+    "url": "https://www.viveevent.com"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "J.P. Morgan Healthcare",
+    "organization": "Industry & investment — January",
+    "description": "Industry conference useful for market outlook, investment themes, and strategic healthcare trends.",
+    "url": "https://www.jpmorgan.com/about-us/events-conferences/health-care-conference"
+  },
+  {
+    "serviceLine": "Labor",
+    "panel": "labor",
+    "level": "Managing Director / Partner",
+    "category": "Executive Forums",
+    "name": "Becker's Webinars",
+    "organization": "Free weekly cross-topic sessions",
+    "description": "Free webcasts that provide quick exposure to current healthcare operating and strategy topics.",
+    "url": "https://www.beckershospitalreview.com/webinars.html"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Marketplace",
+    "organization": "Coursera · University of Minnesota",
+    "description": "Best first course for employees who need a high-level healthcare industry foundation before learning service-line specifics.",
+    "url": "https://www.coursera.org/learn/healthcare-marketplace"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Delivery Providers",
+    "organization": "Coursera · University of Minnesota",
+    "description": "Strong fit for consultants who need to understand how providers operate and where operational transformation pressure comes from.",
+    "url": "https://www.coursera.org/learn/healthcare-delivery-providers"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Medical Technology and Evaluation",
+    "organization": "Coursera · University of Minnesota",
+    "description": "Useful for employees interested in healthcare innovation, technology strategy, regulatory constraints, and reimbursement considerations.",
+    "url": "https://www.coursera.org/learn/healthcare-medical-technology"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Marketplace Specialization",
+    "organization": "Coursera · University of Minnesota",
+    "description": "A structured learning path for employees who want progressive healthcare fluency beyond a single introductory course.",
+    "url": "https://www.coursera.org/specializations/healthcare-marketplace"
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "panel": "clinical-optimization",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Courses Hub",
+    "organization": "edX",
+    "description": "Browse introductory healthcare courses and certificates by topic to find a learning path that fits your role.",
+    "url": "https://www.edx.org/learn/healthcare"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Management Courses",
+    "organization": "Udemy course search",
+    "description": "Self-paced introductions to healthcare management concepts for employees seeking tactical, beginner-friendly learning.",
+    "url": "https://www.udemy.com/courses/search/?q=healthcare%20management"
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "panel": "physician-enterprise",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Healthcare Administration Courses",
+    "organization": "Udemy course search",
+    "description": "Practical introductions to healthcare administration, operations, and leadership topics.",
+    "url": "https://www.udemy.com/courses/search/?q=healthcare%20administration"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Analyst",
+    "category": "Courses / Practice",
+    "name": "Revenue Cycle Management Courses",
+    "organization": "Udemy course search",
+    "description": "Beginner-friendly course options for employees starting in revenue cycle, ERP, finance, or operational improvement work.",
+    "url": "https://www.udemy.com/courses/search/?q=revenue%20cycle%20management"
+  },
+  {
+    "serviceLine": "General Healthcare",
+    "panel": "general-healthcare",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "AI in Healthcare Specialization",
+    "organization": "Coursera",
+    "description": "Foundational course path for understanding AI use cases, risks, and opportunities in healthcare.",
+    "url": "https://www.coursera.org/search?query=AI%20in%20Healthcare%20Specialization"
+  },
+  {
+    "serviceLine": "General Healthcare",
+    "panel": "general-healthcare",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Introduction to Healthcare",
+    "organization": "Coursera",
+    "description": "Introductory healthcare course for building baseline fluency in the healthcare industry.",
+    "url": "https://www.coursera.org/search?query=Introduction%20to%20Healthcare"
+  },
+  {
+    "serviceLine": "General Healthcare",
+    "panel": "general-healthcare",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Healthcare Management and Finance Specialization",
+    "organization": "Coursera",
+    "description": "Healthcare management and finance learning path for understanding operational and financial decision-making.",
+    "url": "https://www.coursera.org/search?query=Healthcare%20Management%20and%20Finance%20Specialization"
+  },
+  {
+    "serviceLine": "AI / Technology",
+    "panel": "ai-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Artificial Intelligence & Machine Learning in Healthcare MicroMasters Program",
+    "organization": "edX",
+    "description": "Technical healthcare AI and machine-learning program for understanding analytics, models, and healthcare applications.",
+    "url": "https://www.edx.org/search?q=Artificial%20Intelligence%20Machine%20Learning%20in%20Healthcare%20MicroMasters"
+  },
+  {
+    "serviceLine": "General Healthcare",
+    "panel": "general-healthcare",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "University of Toronto: Healthcare Leadership",
+    "organization": "edX",
+    "description": "Healthcare leadership course for understanding management, strategy, and leadership in health organizations.",
+    "url": "https://www.edx.org/search?q=University%20of%20Toronto%20Healthcare%20Leadership"
+  },
+  {
+    "serviceLine": "General Healthcare",
+    "panel": "general-healthcare",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Stanford Medicine: Healthcare Leadership",
+    "organization": "edX",
+    "description": "Healthcare leadership course from Stanford Medicine focused on leadership and healthcare transformation themes.",
+    "url": "https://www.edx.org/search?q=Stanford%20Medicine%20Healthcare%20Leadership"
+  },
+  {
+    "serviceLine": "AI / Technology",
+    "panel": "ai-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "KULeuvenX: AI in Healthcare. Hype or Help?",
+    "organization": "edX",
+    "description": "Introductory AI-in-healthcare course that helps separate practical AI value from hype.",
+    "url": "https://www.edx.org/search?q=KULeuvenX%20AI%20in%20Healthcare%20Hype%20or%20Help"
+  },
+  {
+    "serviceLine": "ERP / Technology",
+    "panel": "erp-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Microsoft Excel Professional Certificate",
+    "organization": "Coursera",
+    "description": "Excel credential for building spreadsheet, analysis, and reporting skills useful across consulting projects.",
+    "url": "https://www.coursera.org/search?query=Microsoft%20Excel%20Professional%20Certificate"
+  },
+  {
+    "serviceLine": "ERP / Technology",
+    "panel": "erp-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Excel Basics for Data Analysis",
+    "organization": "Coursera",
+    "description": "Foundational Excel and data-analysis course for cleaning, analyzing, and communicating data.",
+    "url": "https://www.coursera.org/search?query=Excel%20Basics%20for%20Data%20Analysis"
+  },
+  {
+    "serviceLine": "ERP / Technology",
+    "panel": "erp-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Microsoft 365 Fundamentals Specialization",
+    "organization": "Coursera",
+    "description": "Microsoft 365 fundamentals for collaboration, productivity, and common workplace technology skills.",
+    "url": "https://www.coursera.org/search?query=Microsoft%20365%20Fundamentals%20Specialization"
+  },
+  {
+    "serviceLine": "ERP / Technology",
+    "panel": "erp-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Excel Fundamentals for Healthcare",
+    "organization": "Online course search",
+    "description": "Healthcare-focused Excel training for data analysis, reporting, and operational spreadsheet work.",
+    "url": "https://www.coursera.org/search?query=Excel%20Fundamentals%20for%20Healthcare"
+  },
+  {
+    "serviceLine": "ERP / Technology",
+    "panel": "erp-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Tableau For Healthcare",
+    "organization": "Online course search",
+    "description": "Healthcare-focused Tableau training for dashboards, analytics, and visual reporting.",
+    "url": "https://www.coursera.org/search?query=Tableau%20For%20Healthcare"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Healthcare Finance and Cost Management",
+    "organization": "Coursera",
+    "description": "Healthcare finance course covering cost management, financial performance, and decision support.",
+    "url": "https://www.coursera.org/search?query=Healthcare%20Finance%20and%20Cost%20Management"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Revenue Cycle, Billing, and Coding",
+    "organization": "Coursera",
+    "description": "Revenue cycle course for understanding billing, coding, claims, and reimbursement workflows.",
+    "url": "https://www.coursera.org/search?query=Revenue%20Cycle%20Billing%20and%20Coding"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Financial and Managerial Accounting in Healthcare Specialization",
+    "organization": "Coursera",
+    "description": "Healthcare accounting specialization for understanding financial statements, managerial accounting, and healthcare business performance.",
+    "url": "https://www.coursera.org/search?query=Financial%20and%20Managerial%20Accounting%20in%20Healthcare%20Specialization"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Healthcare Accounting: Financial Statements & Revenue",
+    "organization": "Coursera",
+    "description": "Healthcare accounting course focused on financial statements, revenue, and business fundamentals.",
+    "url": "https://www.coursera.org/search?query=Healthcare%20Accounting%20Financial%20Statements%20Revenue"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Intro to Managing Healthcare Supply Chain Operations",
+    "organization": "Coursera",
+    "description": "Introductory healthcare supply chain course for understanding operations, supplies, and process management.",
+    "url": "https://www.coursera.org/search?query=Intro%20to%20Managing%20Healthcare%20Supply%20Chain%20Operations"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Navigating Healthcare Supply Chain Operations",
+    "organization": "Coursera",
+    "description": "Healthcare supply chain operations course for learning inventory, procurement, and operational workflows.",
+    "url": "https://www.coursera.org/search?query=Navigating%20Healthcare%20Supply%20Chain%20Operations"
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "panel": "supply-chain",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Healthcare Organization Operations Specialization",
+    "organization": "Coursera",
+    "description": "Operations specialization for understanding healthcare organization workflows, improvement, and performance.",
+    "url": "https://www.coursera.org/search?query=Healthcare%20Organization%20Operations%20Specialization"
+  },
+  {
+    "serviceLine": "ERP / Technology",
+    "panel": "erp-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Healthcare Data Management, Security, and Compliance",
+    "organization": "Coursera",
+    "description": "Course covering healthcare data management, security, compliance, and information governance basics.",
+    "url": "https://www.coursera.org/search?query=Healthcare%20Data%20Management%20Security%20and%20Compliance"
+  },
+  {
+    "serviceLine": "General Healthcare",
+    "panel": "general-healthcare",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Values-Based Leadership in Healthcare",
+    "organization": "Coursera",
+    "description": "Leadership course focused on values-based decision-making and healthcare leadership practices.",
+    "url": "https://www.coursera.org/search?query=Values-Based%20Leadership%20in%20Healthcare"
+  },
+  {
+    "serviceLine": "General Healthcare",
+    "panel": "general-healthcare",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Introduction to the Healthcare Industry",
+    "organization": "Coursera",
+    "description": "Introductory course for learning the structure, stakeholders, and business context of the healthcare industry.",
+    "url": "https://www.coursera.org/search?query=Introduction%20to%20the%20Healthcare%20Industry"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Value-Based Care: Introduction to Value-Based Care and the U.S. Healthcare System",
+    "organization": "Coursera",
+    "description": "Foundational value-based care course for understanding quality, cost, outcomes, and U.S. healthcare delivery.",
+    "url": "https://www.coursera.org/search?query=Value-Based%20Care%20Introduction%20to%20Value-Based%20Care%20and%20the%20U.S.%20Healthcare%20System"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Introduction to Healthcare Finance",
+    "organization": "Coursera",
+    "description": "Introductory healthcare finance course for learning financial concepts used in healthcare organizations.",
+    "url": "https://www.coursera.org/search?query=Introduction%20to%20Healthcare%20Finance"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Lean Six Sigma in Healthcare Certificate",
+    "organization": "Online course search",
+    "description": "Lean Six Sigma healthcare certificate for process improvement, waste reduction, and operational excellence.",
+    "url": "https://www.udemy.com/courses/search/?q=Lean%20Six%20Sigma%20in%20Healthcare%20Certificate"
+  },
+  {
+    "serviceLine": "AI / Technology",
+    "panel": "ai-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Artificial Intelligence (AI) in Healthcare, Plain & Simple",
+    "organization": "Udemy",
+    "description": "Beginner-friendly AI-in-healthcare course explaining practical AI concepts in plain language.",
+    "url": "https://www.udemy.com/courses/search/?q=Artificial%20Intelligence%20AI%20in%20Healthcare%20Plain%20Simple"
+  },
+  {
+    "serviceLine": "AI / Technology",
+    "panel": "ai-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Healthcare 4.0 - Healthcare in the Industry 4.0",
+    "organization": "Udemy",
+    "description": "Course on digital transformation, healthcare technology, and Industry 4.0 concepts in healthcare.",
+    "url": "https://www.udemy.com/courses/search/?q=Healthcare%204.0%20Healthcare%20in%20the%20Industry%204.0"
+  },
+  {
+    "serviceLine": "AI / Technology",
+    "panel": "ai-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "AI Consulting for Healthcare",
+    "organization": "Udemy",
+    "description": "AI consulting course focused on healthcare use cases, strategy, and advisory applications.",
+    "url": "https://www.udemy.com/courses/search/?q=AI%20Consulting%20for%20Healthcare"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Revenue Cycle and Healthcare Finance - Rev Cycle Ready",
+    "organization": "Udemy",
+    "description": "Revenue cycle and healthcare finance course for building practical RCM and finance fluency.",
+    "url": "https://www.udemy.com/courses/search/?q=Revenue%20Cycle%20and%20Healthcare%20Finance%20Rev%20Cycle%20Ready"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Financial Management and Accounting for Healthcare Business",
+    "organization": "Udemy",
+    "description": "Healthcare business finance course focused on financial management and accounting fundamentals.",
+    "url": "https://www.udemy.com/courses/search/?q=Financial%20Management%20and%20Accounting%20for%20Healthcare%20Business"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "RCM Benefits, Referrals & Prior Authorizations for Beginners",
+    "organization": "Udemy",
+    "description": "Beginner revenue-cycle course covering benefits, referrals, prior authorizations, and front-end RCM workflows.",
+    "url": "https://www.udemy.com/courses/search/?q=RCM%20Benefits%20Referrals%20Prior%20Authorizations%20for%20Beginners"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Medical Billing, Compliance, & Revenue Recovery Masterclass",
+    "organization": "Udemy",
+    "description": "Medical billing and compliance course covering billing workflows, revenue recovery, and RCM fundamentals.",
+    "url": "https://www.udemy.com/courses/search/?q=Medical%20Billing%20Compliance%20Revenue%20Recovery%20Masterclass"
+  },
+  {
+    "serviceLine": "Quality",
+    "panel": "quality",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Lean Six Sigma for Healthcare",
+    "organization": "Udemy",
+    "description": "Healthcare Lean Six Sigma course for improving processes, reducing waste, and supporting quality initiatives.",
+    "url": "https://www.udemy.com/courses/search/?q=Lean%20Six%20Sigma%20for%20Healthcare"
+  },
+  {
+    "serviceLine": "General Healthcare",
+    "panel": "general-healthcare",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "US Healthcare System-Payors: Commercial, Medicare, Medicaid",
+    "organization": "Udemy",
+    "description": "U.S. healthcare payer course covering commercial insurance, Medicare, Medicaid, and payer basics.",
+    "url": "https://www.udemy.com/courses/search/?q=US%20Healthcare%20System%20Payors%20Commercial%20Medicare%20Medicaid"
+  },
+  {
+    "serviceLine": "Revenue Cycle",
+    "panel": "revenue-cycle",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Certification in Revenue Cycle Management in Healthcare 2026",
+    "organization": "Udemy",
+    "description": "Revenue cycle management certification-style course for healthcare billing, reimbursement, and RCM concepts.",
+    "url": "https://www.udemy.com/courses/search/?q=Certification%20in%20Revenue%20Cycle%20Management%20in%20Healthcare%202026"
+  },
+  {
+    "serviceLine": "AI / Technology",
+    "panel": "ai-technology",
+    "level": "Consultant / Senior Consultant",
+    "category": "Courses & training",
+    "name": "Artificial Intelligence (AI) in Health Care Certification",
+    "organization": "Udemy",
+    "description": "AI healthcare certification-style course for understanding AI concepts, applications, and healthcare use cases.",
+    "url": "https://www.udemy.com/courses/search/?q=Artificial%20Intelligence%20AI%20in%20Health%20Care%20Certification"
+  }
+]

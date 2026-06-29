@@ -1,0 +1,104 @@
+[
+  {
+    "serviceLine": "Revenue Cycle",
+    "id": "revenue-cycle",
+    "description": "A starter toolkit for consultants new to the revenue cycle space \u2014 certify, stay current, and build the fundamentals. This page layers the same resources by career level so each person knows what to prioritize first, what to deepen next, and what to follow as they move into leadership.",
+    "whatThisServiceLineDoes": "Helps healthcare organizations improve the full patient-to-payment process: patient access, registration, billing, claims, denials, collections, reimbursement performance, cash acceleration, patient financial experience, and margin improvement. In an Impact Advisors-style lens, this work combines operations, technology, analytics, and change adoption so fixes are not just identified, but implemented and sustained.",
+    "consultantsLookFor": [
+      "Where revenue leakage occurs",
+      "How claims and denials move through the system",
+      "Which process, payer, data, or technology issues are slowing cash"
+    ],
+    "focusPills": [
+      "Accelerate cash",
+      "Reduce denials",
+      "Improve patient financial experience",
+      "Optimize EHR-driven workflows"
+    ]
+  },
+  {
+    "serviceLine": "Supply Chain",
+    "id": "supply-chain",
+    "description": "A starter toolkit for consultants new to healthcare supply chain \u2014 certify, stay current, and build the fundamentals. This page layers the same resources by career level so each person knows what to prioritize first, what to deepen next, and what to follow as they move into leadership.",
+    "whatThisServiceLineDoes": "Focuses on reducing non-labor costs and improving how supplies, vendors, contracts, inventory, preference cards, procurement, and technology support care delivery. The work is highly operational: consultants look for savings, process standardization, stronger analytics, cleaner item data, and better purchasing discipline without disrupting clinical teams.",
+    "consultantsLookFor": [
+      "Item master and vendor standardization",
+      "Inventory, par, and stockout issues",
+      "Contract compliance and supply expense opportunities"
+    ],
+    "focusPills": [
+      "Non-labor cost reduction",
+      "Procure-to-pay automation",
+      "Inventory management",
+      "Analytics-enabled savings"
+    ]
+  },
+  {
+    "serviceLine": "Physician Enterprise",
+    "id": "physician-enterprise",
+    "description": "A starter toolkit for consultants new to physician enterprise services (PES) \u2014 practice leadership, operations, and provider economics. This page layers the same resources by career level so each person knows what to prioritize first, what to deepen next, and what to follow as they move into leadership.",
+    "whatThisServiceLineDoes": "Supports medical groups and employed physician networks by improving access, capacity, scheduling, provider productivity, operating performance, and alignment between physician groups and broader health system strategy. This service line often blends practice operations, analytics, clinical workflows, financial performance, and provider experience.",
+    "consultantsLookFor": [
+      "Patient demand versus provider capacity",
+      "Medical group financial performance",
+      "Provider burnout, access, and practice workflow constraints"
+    ],
+    "focusPills": [
+      "Medical group performance",
+      "Patient access",
+      "Provider productivity",
+      "Scheduling optimization"
+    ]
+  },
+  {
+    "serviceLine": "Quality",
+    "id": "quality",
+    "description": "A starter toolkit for consultants new to healthcare quality & patient safety \u2014 certify, stay current, and build the fundamentals. This page layers the same resources by career level so each person knows what to prioritize first, what to deepen next, and what to follow as they move into leadership.",
+    "whatThisServiceLineDoes": "Helps hospitals and health systems improve quality, safety, outcomes, patient experience, and the accuracy of external quality ratings. Consultants in this space need to understand performance measures, regulatory programs, quality reporting, safety indicators, clinical variation, and how evidence-based process changes improve care delivery.",
+    "consultantsLookFor": [
+      "Why scores may not reflect care delivered",
+      "Which measures drive public ratings or reimbursement",
+      "How process, documentation, and clinical variation affect quality results"
+    ],
+    "focusPills": [
+      "Quality ratings",
+      "Patient safety",
+      "Outcomes improvement",
+      "Regulatory performance"
+    ]
+  },
+  {
+    "serviceLine": "Clinical Optimization",
+    "id": "clinical-optimization",
+    "description": "A starter toolkit for consultants new to clinical optimization \u2014 care delivery, documentation integrity, throughput, and informatics. This page layers the same resources by career level so each person knows what to prioritize first, what to deepen next, and what to follow as they move into leadership.",
+    "whatThisServiceLineDoes": "Works to streamline clinical workflows, improve capacity, reduce variation, and help care teams use technology more effectively. The focus is on enabling better care for more patients in less time and at lower cost through workflow redesign, EHR optimization, clinical documentation, analytics, and change enablement.",
+    "consultantsLookFor": [
+      "Where clinicians lose time in the workflow",
+      "How technology supports or blocks care delivery",
+      "Which clinical processes create delays, rework, or avoidable variation"
+    ],
+    "focusPills": [
+      "Clinical workflow redesign",
+      "Capacity optimization",
+      "EHR optimization",
+      "Reduce variation"
+    ]
+  },
+  {
+    "serviceLine": "Labor",
+    "id": "labor",
+    "description": "A starter toolkit for consultants new to healthcare labor & workforce \u2014 staffing, productivity, compensation, and HR strategy. This page layers the same resources by career level so each person knows what to prioritize first, what to deepen next, and what to follow as they move into leadership.",
+    "whatThisServiceLineDoes": "Focuses on managing labor costs while maintaining or improving quality, safety, staff burnout, and patient/provider experience. This includes staffing models, productivity targets, premium pay, agency labor, workforce supply and demand, manager accountability, and reporting that helps departments staff to patient needs rather than static schedules.",
+    "consultantsLookFor": [
+      "How staffing aligns to patient demand",
+      "Where overtime or agency spend is rising",
+      "How leaders use labor reports to manage performance"
+    ],
+    "focusPills": [
+      "Patient-focused staffing",
+      "Labor cost management",
+      "Premium pay reduction",
+      "Productivity reporting"
+    ]
+  }
+]
