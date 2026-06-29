@@ -930,17 +930,76 @@ function addInsightToPage(insight) {
 const INSIGHTS_API_ENDPOINT = "https://healthcare-insights-backend.onrender.com/api/insights";
 const INSIGHTS_FALLBACK_FILE = "insights.json";
 
-async function fetchInsightsFrom(path) {
+function normalizeAudience(value) {
+  if (Array.isArray(value)) {
+    return value.join(', ');
+  }
+
+  if (typeof value !== "string") {
+    return value || "";
+  }
+
+  const trimmed = value.trim();
+
+  if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
+    try {
+      const parsed = JSON.parse(trimmed);
+      if (Array.isArray(parsed)) {
+        return parsed.join(', ');
+      }
+    } catch (error) {
+      console.warn("Unable to parse insight audience value.", error);
+    }
+  }
+
+  return trimmed;
+}
+
+function normalizeInsightsData(data) {
+  const rawInsights = Array.isArray(data)
+    ? data
+    : Array.isArray(data?.insights)
+      ? data.insights
+      : [];
+
+  return rawInsights.map(insight => ({
+    title: insight?.title || "",
+    sourceType: insight?.sourceType || "",
+    role: insight?.role || "",
+    rating: insight?.rating || "",
+    takeaways: insight?.takeaways || "",
+    whyItMatters: insight?.whyItMatters || "",
+    audience: normalizeAudience(insight?.audience),
+    link: insight?.link || "",
+    name: insight?.name || ""
+  }));
+}
+
+async function fetchInsightsFrom(path, { logBackend = false } = {}) {
+  if (logBackend) {
+    console.log("backend fetch started", path);
+  }
+
   const response = await fetch(path, { cache: "no-store" });
+
+  if (logBackend) {
+    console.log("response status", response.status);
+  }
 
   if (!response.ok) {
     throw new Error(`Failed to load insights from ${path}: ${response.status}`);
   }
 
-  const insights = await response.json();
+  const data = await response.json();
 
-  if (!Array.isArray(insights)) {
-    throw new Error(`Insights response from ${path} was not an array`);
+  if (logBackend) {
+    console.log("raw API data", data);
+  }
+
+  const insights = normalizeInsightsData(data);
+
+  if (logBackend) {
+    console.log("normalized insight data", insights);
   }
 
   return insights;
@@ -959,7 +1018,7 @@ async function loadInsights() {
     let dataSource = "api";
 
     try {
-      insights = await fetchInsightsFrom(INSIGHTS_API_ENDPOINT);
+      insights = await fetchInsightsFrom(INSIGHTS_API_ENDPOINT, { logBackend: true });
     } catch (apiError) {
       console.warn("Backend insights unavailable; loading local fallback.", apiError);
       insights = await fetchInsightsFrom(INSIGHTS_FALLBACK_FILE);
@@ -969,13 +1028,12 @@ async function loadInsights() {
     // Also load any local submissions
     const localInsights = loadLocalInsights();
     insights = [...insights, ...localInsights];
+    insights = normalizeInsightsData(insights);
 
     if (!insights || insights.length === 0) {
       container.innerHTML = "<p>No employee insights have been submitted yet.</p>";
       if (status) {
-        status.textContent = dataSource === "api"
-          ? "Live submissions loaded. No employee insights have been submitted yet."
-          : "Fallback insights loaded. No employee insights have been submitted yet.";
+        status.textContent = "No employee insights have been submitted yet.";
       }
       return;
     }
@@ -990,8 +1048,8 @@ async function loadInsights() {
       container.innerHTML = "<p>No employee insights match those filters yet.</p>";
       if (status) {
         status.textContent = dataSource === "api"
-          ? `Live submissions loaded. Showing 0 of ${insights.length} insights for the selected filters.`
-          : `Fallback insights loaded. Showing 0 of ${insights.length} insights for the selected filters.`;
+          ? "Showing employee insights."
+          : "Showing fallback employee insights.";
       }
       return;
     }
@@ -1020,8 +1078,8 @@ async function loadInsights() {
 
     if (status) {
       status.textContent = dataSource === "api"
-        ? `Live submissions loaded. Showing ${filteredInsights.length} of ${insights.length} insights.`
-        : `Fallback insights loaded. Showing ${filteredInsights.length} of ${insights.length} insights.`;
+        ? "Showing employee insights."
+        : "Showing fallback employee insights.";
     }
   } catch (error) {
     console.error(error);
