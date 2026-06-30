@@ -26,9 +26,16 @@ https://YOUR-PUBLIC-DOMAIN/api/insights
 Set a host environment variable named `FORMS_WEBHOOK_SECRET` to a long random
 value. The server will require that value on all incoming form submissions.
 
-Important: this starter stores responses in `insights.json`. Use persistent disk or
-a database in production; hosts with an ephemeral filesystem can erase the file
-during a restart or deployment.
+Set these Supabase environment variables so responses are stored permanently in
+the `employee_insights` table:
+
+```text
+SUPABASE_URL
+SUPABASE_SERVICE_ROLE_KEY
+```
+
+Do not expose the Supabase service-role key in frontend code. It belongs only in
+the backend host environment.
 
 ## 3. Build the Power Automate flow
 
@@ -89,5 +96,6 @@ without a manual refresh.
   or mapped from the trigger instead of **Get response details**.
 - **Works locally but not from Power Automate:** The flow is still pointed at
   `localhost`; it needs the public HTTPS deployment URL.
-- **Responses disappear after deployment:** Move storage from `insights.json` to a
-  persistent database or storage service.
+- **Responses disappear after deployment:** Confirm the Render service has
+  `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` set and that the
+  `employee_insights` table exists in Supabase.

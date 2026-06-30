@@ -1,14 +1,22 @@
 const express = require('express');
-const fs = require('fs').promises;
-const path = require('path');
 const cors = require('cors');
 const crypto = require('crypto');
+const { createClient } = require('@supabase/supabase-js');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const DATA_DIR = process.env.DATA_DIR || __dirname;
-const INSIGHTS_FILE = path.join(DATA_DIR, 'insights.json');
 const WEBHOOK_SECRET = process.env.FORMS_WEBHOOK_SECRET;
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const INSIGHTS_TABLE = 'employee_insights';
+const supabase = SUPABASE_URL && SUPABASE_SERVICE_ROLE_KEY
+  ? createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
+      auth: {
+        persistSession: false,
+        autoRefreshToken: false
+      }
+    })
+  : null;
 
 app.use(cors());
 app.use(express.json());
@@ -34,45 +42,58 @@ function createInsightId() {
   return `insight-${Date.now()}-${Math.random().toString(36).slice(2)}`;
 }
 
-function ensureInsightIds(insights) {
-  let changed = false;
-  const normalizedInsights = insights.map((insight) => {
-    if (insight && insight.id) {
-      return insight;
-    }
+function requireSupabase() {
+  if (!supabase) {
+    throw new Error('Supabase is not configured. Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.');
+  }
 
-    changed = true;
-    return {
-      id: createInsightId(),
-      ...insight
-    };
-  });
+  return supabase;
+}
 
-  return { insights: normalizedInsights, changed };
+function rowToInsight(row = {}) {
+  return {
+    id: row.id || '',
+    name: row.name || 'Anonymous',
+    role: row.role || 'Not provided',
+    sourceType: row.source_type || 'Insight',
+    title: row.title || 'Untitled Employee Insight',
+    link: row.link || '',
+    rating: row.rating || 'Not rated',
+    takeaways: row.takeaways || 'No Takeaway Provided',
+    whyItMatters: row.why_it_matters || 'Not provided',
+    audience: row.audience || 'General audience',
+    submittedAt: row.submitted_at || row.created_at || ''
+  };
+}
+
+function insightToRow(insight = {}) {
+  return {
+    id: createInsightId(),
+    name: insight.name || 'Anonymous',
+    role: insight.role || 'Not provided',
+    source_type: insight.sourceType || insight.source_type || 'Insight',
+    title: insight.title || 'Untitled Employee Insight',
+    link: insight.link || '',
+    rating: insight.rating || 'Not rated',
+    takeaways: insight.takeaways || 'No Takeaway Provided',
+    why_it_matters: insight.whyItMatters || insight.why_it_matters || 'Not provided',
+    audience: insight.audience || 'General audience',
+    submitted_at: new Date().toISOString()
+  };
 }
 
 async function readInsights() {
-  try {
-    const data = await fs.readFile(INSIGHTS_FILE, 'utf-8');
-    const insights = JSON.parse(data);
-    if (!Array.isArray(insights)) {
-      return [];
-    }
+  const client = requireSupabase();
+  const { data, error } = await client
+    .from(INSIGHTS_TABLE)
+    .select('id, name, role, source_type, title, link, rating, takeaways, why_it_matters, audience, submitted_at, created_at')
+    .order('submitted_at', { ascending: false });
 
-    const result = ensureInsightIds(insights);
-
-    if (result.changed) {
-      await writeInsights(result.insights);
-    }
-
-    return result.insights;
-  } catch (error) {
-    return [];
+  if (error) {
+    throw error;
   }
-}
 
-async function writeInsights(insights) {
-  await fs.writeFile(INSIGHTS_FILE, JSON.stringify(insights, null, 2), 'utf-8');
+  return (data || []).map(rowToInsight);
 }
 
 // Endpoint to submit a new insight
@@ -82,36 +103,32 @@ app.post('/api/submit-insight', async (req, res) => {
       return res.status(401).json({ error: 'Unauthorized' });
     }
 
-    const { name, role, sourceType, title, link, rating, takeaways, whyItMatters, audience } = req.body;
+    const { name, role, sourceType, title, link, rating, takeaways, whyItMatters, audience } = req.body || {};
 
-    // Validate required fields
-    if (!name || !title || !takeaways) {
-      return res.status(400).json({ error: 'Missing required fields: name, title, takeaways' });
+    const newInsight = insightToRow({
+      name,
+      role,
+      sourceType,
+      title,
+      link,
+      rating,
+      takeaways,
+      whyItMatters,
+      audience
+    });
+
+    const client = requireSupabase();
+    const { data, error } = await client
+      .from(INSIGHTS_TABLE)
+      .insert(newInsight)
+      .select('id, name, role, source_type, title, link, rating, takeaways, why_it_matters, audience, submitted_at, created_at')
+      .single();
+
+    if (error) {
+      throw error;
     }
 
-    const newInsight = {
-      id: createInsightId(),
-      name,
-      role: role || 'Not provided',
-      sourceType: sourceType || 'Insight',
-      title,
-      link: link || '',
-      rating: rating || 'Not rated',
-      takeaways,
-      whyItMatters: whyItMatters || 'Not provided',
-      audience: audience || 'General audience',
-      submittedAt: new Date().toISOString()
-    };
-
-    const insights = await readInsights();
-
-    // Add new insight
-    insights.push(newInsight);
-
-    // Write back to file
-    await writeInsights(insights);
-
-    res.status(200).json({ success: true, insight: newInsight });
+    res.status(200).json({ success: true, insight: rowToInsight(data) });
   } catch (error) {
     console.error('Error saving insight:', error);
     res.status(500).json({ error: 'Failed to save insight' });
@@ -143,17 +160,23 @@ app.get('/api/admin/insights', requireWebhookSecret, async (req, res) => {
 app.delete('/api/admin/insights/:id', requireWebhookSecret, async (req, res) => {
   try {
     const id = req.params.id;
-    const insights = await readInsights();
-    const index = insights.findIndex(insight => insight.id === id);
+    const client = requireSupabase();
+    const { data, error } = await client
+      .from(INSIGHTS_TABLE)
+      .delete()
+      .eq('id', id)
+      .select('id, name, role, source_type, title, link, rating, takeaways, why_it_matters, audience, submitted_at, created_at')
+      .maybeSingle();
 
-    if (index === -1) {
+    if (error) {
+      throw error;
+    }
+
+    if (!data) {
       return res.status(404).json({ error: 'Insight not found' });
     }
 
-    const [deletedInsight] = insights.splice(index, 1);
-    await writeInsights(insights);
-
-    res.json({ success: true, deletedInsight, insights });
+    res.json({ success: true, deletedInsight: rowToInsight(data) });
   } catch (error) {
     console.error('Error deleting insight:', error);
     res.status(500).json({ error: 'Failed to delete insight' });
@@ -161,17 +184,12 @@ app.delete('/api/admin/insights/:id', requireWebhookSecret, async (req, res) => 
 });
 
 async function startServer() {
-  await fs.mkdir(DATA_DIR, { recursive: true });
-
-  try {
-    await fs.access(INSIGHTS_FILE);
-  } catch {
-    await fs.writeFile(INSIGHTS_FILE, '[]', 'utf-8');
-  }
-
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
-    console.log(`Insights storage: ${INSIGHTS_FILE}`);
+    console.log(`Insights storage: Supabase table ${INSIGHTS_TABLE}`);
+    if (!supabase) {
+      console.warn('Supabase is not configured. Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.');
+    }
   });
 }
 
