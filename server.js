@@ -140,12 +140,11 @@ app.post('/api/submit-insight', async (req, res) => {
 
     res.status(200).json({ success: true, insight: rowToInsight(data) });
   } catch (error) {
-    console.error('Error saving insight:', error);
+    logSupabaseError('saving insight', error);
     res.status(500).json({ error: 'Failed to save insight to Supabase' });
   }
 });
 
-// Endpoint to get all insights (for debugging)
 app.get('/api/insights', async (req, res) => {
   try {
     res.set('Cache-Control', 'no-store');
@@ -190,7 +189,7 @@ app.delete('/api/admin/insights/:id', requireWebhookSecret, async (req, res) => 
 
     res.json({ success: true, deletedInsight: rowToInsight(data) });
   } catch (error) {
-    console.error('Error deleting insight:', error);
+    logSupabaseError('deleting insight', error);
     res.status(500).json({ error: 'Failed to delete insight from Supabase' });
   }
 });
