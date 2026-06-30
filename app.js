@@ -969,7 +969,8 @@ function addInsightToPage(insight) {
   }
 }
 
-const INSIGHTS_API_ENDPOINT = "https://healthcare-insights-backend.onrender.com/api/insights";
+const INSIGHTS_API_ENDPOINT = "https://healthcare-industry-trends-prototype.onrender.com/api/insights";
+const INSIGHTS_FALLBACK_FILE = "insights.json";
 
 function normalizeAudience(value) {
   if (Array.isArray(value)) {
@@ -1013,7 +1014,8 @@ function normalizeInsightsData(data) {
     whyItMatters: insight?.whyItMatters || "",
     audience: normalizeAudience(insight?.audience),
     link: insight?.link || "",
-    name: insight?.name || ""
+    name: insight?.name || "",
+    submittedAt: insight?.submittedAt || ""
   }));
 }
 
@@ -1058,7 +1060,12 @@ async function loadInsights() {
   try {
     let insights = [];
 
-    insights = await fetchInsightsFrom(INSIGHTS_API_ENDPOINT, { logBackend: true });
+    try {
+      insights = await fetchInsightsFrom(INSIGHTS_API_ENDPOINT, { logBackend: true });
+    } catch (apiError) {
+      console.warn("Backend insights unavailable; loading local fallback.", apiError);
+      insights = await fetchInsightsFrom(INSIGHTS_FALLBACK_FILE);
+    }
 
     // Also load any local submissions
     const localInsights = loadLocalInsights();
