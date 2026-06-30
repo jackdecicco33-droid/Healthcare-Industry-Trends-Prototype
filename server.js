@@ -108,10 +108,6 @@ function logSupabaseError(action, error) {
 // Endpoint to submit a new insight
 app.post('/api/submit-insight', async (req, res) => {
   try {
-    if (WEBHOOK_SECRET && req.get('x-webhook-secret') !== WEBHOOK_SECRET) {
-      return res.status(401).json({ error: 'Unauthorized' });
-    }
-
     const { name, role, sourceType, title, link, rating, takeaways, whyItMatters, audience } = req.body || {};
 
     const newInsight = insightToRow({
@@ -160,7 +156,7 @@ app.get('/api/admin/insights', requireWebhookSecret, async (req, res) => {
   try {
     res.set('Cache-Control', 'no-store');
     const insights = await readInsights();
-    res.json({ insights });
+    res.json({ insights, responses: insights });
   } catch (error) {
     logSupabaseError('loading admin insights', error);
     res.status(500).json({ error: 'Failed to load insights from Supabase' });

@@ -274,7 +274,9 @@
         ? data
         : Array.isArray(data?.insights)
           ? data.insights
-          : [];
+          : Array.isArray(data?.responses)
+            ? data.responses
+            : [];
 
       return insights.map((insight) => ({
         id: insight?.id || "",

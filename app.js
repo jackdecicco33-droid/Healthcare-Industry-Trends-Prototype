@@ -887,14 +887,38 @@ async function init() {
   }, 5000);
 }
 
+async function submitInsightToBackend(insight) {
+  const response = await fetch(INSIGHTS_SUBMIT_ENDPOINT, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(insight)
+  });
+
+  if (!response.ok) {
+    let message = `Submit failed with status ${response.status}`;
+    try {
+      const data = await response.json();
+      if (data?.error) message = data.error;
+    } catch {
+      // Keep the status-based message when the backend does not return JSON.
+    }
+    throw new Error(message);
+  }
+
+  return response.json();
+}
+
 function bindInsightForm() {
   const form = document.getElementById('insightForm');
   const successMessage = document.getElementById('insightSuccess');
 
   if (!form) return;
 
-  form.addEventListener('submit', (event) => {
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
+    const submitButton = form.querySelector('button[type="submit"]');
 
     const insight = {
       name: document.getElementById('insightName')?.value.trim(),
@@ -908,6 +932,42 @@ function bindInsightForm() {
       audience: document.getElementById('insightAudience')?.value.trim()
     };
 
+    if (successMessage) {
+      successMessage.textContent = 'Submitting insight...';
+    }
+
+    if (submitButton) {
+      submitButton.disabled = true;
+    }
+
+    try {
+      await submitInsightToBackend(insight);
+      form.reset();
+      resetInsightFilters();
+      await loadInsights();
+
+      if (successMessage) {
+        successMessage.textContent = 'Insight submitted and saved.';
+        setTimeout(() => {
+          successMessage.textContent = '';
+        }, 4000);
+      }
+
+      document.getElementById('employee-insights')?.scrollIntoView({ behavior: 'smooth' });
+    } catch (error) {
+      console.error(error);
+      if (successMessage) {
+        successMessage.textContent = 'Unable to submit insight right now.';
+      }
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+      }
+    }
+
+    return;
+
+    /* Legacy local-only submission path disabled.
     saveInsightLocally(insight);
     addInsightToPage(insight);
 
@@ -921,6 +981,7 @@ function bindInsightForm() {
     }
 
     document.getElementById('employee-insights')?.scrollIntoView({ behavior: 'smooth' });
+    */
   });
 }
 
@@ -979,6 +1040,7 @@ function resetInsightFilters() {
 }
 
 const INSIGHTS_API_ENDPOINT = "https://healthcare-industry-trends-prototype.onrender.com/api/insights";
+const INSIGHTS_SUBMIT_ENDPOINT = "https://healthcare-industry-trends-prototype.onrender.com/api/submit-insight";
 const INSIGHTS_FALLBACK_FILE = "insights.json";
 
 function normalizeAudience(value) {
@@ -1103,9 +1165,6 @@ async function loadInsights() {
       insights = await fetchInsightsFrom(INSIGHTS_FALLBACK_FILE);
     }
 
-    // Also load any local submissions
-    const localInsights = loadLocalInsights();
-    insights = [...insights, ...localInsights];
     insights = normalizeInsightsData(insights);
 
     if (!insights || insights.length === 0) {

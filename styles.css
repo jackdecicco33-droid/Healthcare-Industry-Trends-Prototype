@@ -273,6 +273,7 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
 }
 
 .insight-form-field input,
+.insight-form-field select,
 .insight-form-field textarea {
   width: 100%;
   border: 1px solid var(--border);
@@ -293,6 +294,28 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
   flex-wrap: wrap;
   gap: 12px;
   align-items: center;
+}
+
+.insight-form-actions .primary-button {
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 18px;
+  background: var(--green);
+  color: #fff;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.insight-form-actions .primary-button:hover:not(:disabled) {
+  background: var(--green-dark);
+  transform: translateY(-1px);
+}
+
+.insight-form-actions .primary-button:disabled {
+  cursor: wait;
+  opacity: 0.7;
 }
 
 .insight-success {

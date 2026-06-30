@@ -8,7 +8,8 @@ const staticEntries = [
   ['data', 'data'],
   ['assets', 'assets'],
   ['insights.json', 'insights.json'],
-  ['manage-insights.html', 'manage-insights.html']
+  ['manage-insights.html', 'manage-insights.html'],
+  ['deleteadmin.html', 'deleteadmin.html']
 ];
 
 for (const [sourceName, destinationName] of staticEntries) {
@@ -22,4 +23,4 @@ for (const [sourceName, destinationName] of staticEntries) {
   fs.cpSync(source, destination, { recursive: true, force: true });
 }
 
-console.log('Copied resource data, assets, insights fallback, and admin page into dist.');
+console.log('Copied resource data, assets, insights fallback, and admin pages into dist.');
