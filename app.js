@@ -1006,22 +1006,23 @@ function normalizeInsightsData(data) {
 
   return rawInsights.map(insight => ({
     id: insight?.id || "",
-    title: insight?.title || "",
-    sourceType: insight?.sourceType || "",
-    role: insight?.role || "",
-    rating: insight?.rating || "",
-    takeaways: insight?.takeaways || "",
-    whyItMatters: insight?.whyItMatters || "",
-    audience: normalizeAudience(insight?.audience),
+    title: insight?.title || "Untitled Insight",
+    sourceType: insight?.sourceType || "Insight",
+    role: insight?.role || "Not provided",
+    rating: insight?.rating || "Not rated",
+    takeaways: insight?.takeaways || "No takeaway provided.",
+    whyItMatters: insight?.whyItMatters || "Not provided.",
+    audience: normalizeAudience(insight?.audience) || "General audience",
     link: insight?.link || "",
-    name: insight?.name || "",
+    name: insight?.name || "Anonymous",
     submittedAt: insight?.submittedAt || ""
   }));
 }
 
 async function fetchInsightsFrom(path, { logBackend = false } = {}) {
   if (logBackend) {
-    console.log("backend fetch started", path);
+    console.log("backend fetch started");
+    console.log("exact API URL being fetched", path);
   }
 
   const response = await fetch(path, { cache: "no-store" });
@@ -1088,6 +1089,7 @@ async function loadInsights() {
 
     if (!filteredInsights.length) {
       container.innerHTML = "<p>No employee insights match those filters yet.</p>";
+      console.log("number of rendered insights", 0);
       if (status) {
         status.textContent = "Showing employee insights.";
       }
@@ -1115,6 +1117,8 @@ async function loadInsights() {
         `;
       })
       .join("");
+
+    console.log("number of rendered insights", filteredInsights.length);
 
     if (status) {
       status.textContent = "Showing employee insights.";
