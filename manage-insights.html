@@ -280,14 +280,11 @@
 
       return insights.map((insight) => ({
         id: insight?.id || "",
-        name: insight?.name || "Anonymous",
         role: insight?.role || "Not provided",
         sourceType: insight?.sourceType || "Insight",
         title: insight?.title || "Untitled Insight",
         link: insight?.link || "",
-        rating: insight?.rating || "Not rated",
         takeaways: insight?.takeaways || "No takeaway provided.",
-        whyItMatters: insight?.whyItMatters || "Not provided.",
         audience: normalizeAudience(insight?.audience) || "General audience",
         submittedAt: insight?.submittedAt || insight?.date || ""
       }));
@@ -309,14 +306,12 @@
             <button class="delete-button" type="button" data-id="${escapeAttribute(insight.id)}">Delete</button>
           </div>
           <div class="meta-grid">
-            <p><strong>Submitted By:</strong> ${escapeHtml(insight.name)}</p>
             <p><strong>Role / Service Line:</strong> ${escapeHtml(insight.role)}</p>
-            <p><strong>Reliability Rating:</strong> ${escapeHtml(insight.rating)}</p>
+            <p><strong>Source Type:</strong> ${escapeHtml(insight.sourceType)}</p>
             <p><strong>Best For:</strong> ${escapeHtml(insight.audience)}</p>
             ${insight.submittedAt ? `<p><strong>Submitted:</strong> ${escapeHtml(insight.submittedAt)}</p>` : ""}
           </div>
           <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways)}</p>
-          <p><strong>Why It Matters:</strong> ${escapeHtml(insight.whyItMatters)}</p>
           ${insight.link ? `<a href="${escapeAttribute(insight.link)}" target="_blank" rel="noopener noreferrer">View Source</a>` : ""}
         </article>
       `).join("");

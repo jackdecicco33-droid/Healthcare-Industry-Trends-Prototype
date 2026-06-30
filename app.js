@@ -887,86 +887,12 @@ async function init() {
   }, 5000);
 }
 
-async function submitInsightToBackend(insight) {
-  const response = await fetch(INSIGHTS_SUBMIT_ENDPOINT, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(insight)
-  });
-
-  if (!response.ok) {
-    let message = `Submit failed with status ${response.status}`;
-    try {
-      const data = await response.json();
-      if (data?.error) message = data.error;
-    } catch {
-      // Keep the status-based message when the backend does not return JSON.
-    }
-    throw new Error(message);
-  }
-
-  return response.json();
+function bindInsightForm() {
+  // Microsoft Forms handles Employee Industry Insight submissions externally.
+  return;
 }
 
-function bindInsightForm() {
-  const form = document.getElementById('insightForm');
-  const successMessage = document.getElementById('insightSuccess');
-
-  if (!form) return;
-
-  form.addEventListener('submit', async (event) => {
-    event.preventDefault();
-    const submitButton = form.querySelector('button[type="submit"]');
-
-    const insight = {
-      name: document.getElementById('insightName')?.value.trim(),
-      role: document.getElementById('insightRole')?.value.trim(),
-      sourceType: document.getElementById('insightSourceType')?.value.trim(),
-      title: document.getElementById('insightTitle')?.value.trim(),
-      link: document.getElementById('insightLink')?.value.trim(),
-      rating: document.getElementById('insightRating')?.value.trim(),
-      takeaways: document.getElementById('insightTakeaways')?.value.trim(),
-      whyItMatters: document.getElementById('insightWhyItMatters')?.value.trim(),
-      audience: document.getElementById('insightAudience')?.value.trim()
-    };
-
-    if (successMessage) {
-      successMessage.textContent = 'Submitting insight...';
-    }
-
-    if (submitButton) {
-      submitButton.disabled = true;
-    }
-
-    try {
-      await submitInsightToBackend(insight);
-      form.reset();
-      resetInsightFilters();
-      await loadInsights();
-
-      if (successMessage) {
-        successMessage.textContent = 'Insight submitted and saved.';
-        setTimeout(() => {
-          successMessage.textContent = '';
-        }, 4000);
-      }
-
-      document.getElementById('employee-insights')?.scrollIntoView({ behavior: 'smooth' });
-    } catch (error) {
-      console.error(error);
-      if (successMessage) {
-        successMessage.textContent = 'Unable to submit insight right now.';
-      }
-    } finally {
-      if (submitButton) {
-        submitButton.disabled = false;
-      }
-    }
-
-    return;
-
+function disabledLegacyLocalInsightSubmission() {
     /* Legacy local-only submission path disabled.
     saveInsightLocally(insight);
     addInsightToPage(insight);
@@ -982,7 +908,6 @@ function bindInsightForm() {
 
     document.getElementById('employee-insights')?.scrollIntoView({ behavior: 'smooth' });
     */
-  });
 }
 
 function saveInsightLocally(insight) {
@@ -1014,11 +939,8 @@ function addInsightToPage(insight) {
     <article class="insight-card">
       <span class="insight-tag">${escapeHtml(insight.sourceType || 'Insight')}</span>
       <h3>${escapeHtml(insight.title || 'Untitled Insight')}</h3>
-      <p><strong>Reliability Rating:</strong> ${escapeHtml(insight.rating || 'Not rated')}</p>
-      <p><strong>Submitted By:</strong> ${escapeHtml(insight.name || 'Anonymous')}</p>
       <p><strong>Role:</strong> ${escapeHtml(insight.role || 'Not provided')}</p>
       <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways || 'No takeaway provided.')}</p>
-      <p><strong>Why It Matters:</strong> ${escapeHtml(insight.whyItMatters || 'Not provided.')}</p>
       <p><strong>Best For:</strong> ${escapeHtml(insight.audience || 'General audience')}</p>
       ${insight.link ? `<a class="insight-link" href="${escapeAttribute(insight.link)}" target="_blank">View Source</a>` : ''}
     </article>
@@ -1040,7 +962,6 @@ function resetInsightFilters() {
 }
 
 const INSIGHTS_API_ENDPOINT = "https://healthcare-industry-trends-prototype.onrender.com/api/insights";
-const INSIGHTS_SUBMIT_ENDPOINT = "https://healthcare-industry-trends-prototype.onrender.com/api/submit-insight";
 const INSIGHTS_FALLBACK_FILE = "insights.json";
 
 function normalizeAudience(value) {
@@ -1080,12 +1001,9 @@ function normalizeInsightsData(data) {
     title: insight?.title || "Untitled Insight",
     sourceType: insight?.sourceType || "Insight",
     role: insight?.role || "Not provided",
-    rating: insight?.rating || "Not rated",
     takeaways: insight?.takeaways || "No takeaway provided.",
-    whyItMatters: insight?.whyItMatters || "Not provided.",
     audience: normalizeAudience(insight?.audience) || "General audience",
     link: insight?.link || "",
-    name: insight?.name || "Anonymous",
     submittedAt: insight?.submittedAt || ""
   }));
 }
@@ -1130,11 +1048,8 @@ function renderEmployeeInsights(insights, container) {
         <article class="insight-card">
           <span class="insight-tag">${escapeHtml(insight.sourceType || "Insight")}</span>
           <h3>${escapeHtml(insight.title || "Untitled Insight")}</h3>
-          <p><strong>Reliability Rating:</strong> ${escapeHtml(insight.rating || "Not rated")}</p>
-          <p><strong>Submitted By:</strong> ${escapeHtml(insight.name || "Anonymous")}</p>
           <p><strong>Role / Service Line:</strong> ${escapeHtml(insight.role || "Not provided")}</p>
           <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways || "No takeaway provided.")}</p>
-          <p><strong>Why It Matters:</strong> ${escapeHtml(insight.whyItMatters || "Not provided.")}</p>
           <p><strong>Best For:</strong> ${escapeHtml(insight.audience || "General audience")}</p>
           ${
             insight.link
