@@ -877,6 +877,7 @@ async function init() {
   renderTerminologyDictionary();
   renderResources();
   bindEvents();
+  resetInsightFilters();
   loadInsights();
   bindInsightForm();
   
@@ -969,6 +970,14 @@ function addInsightToPage(insight) {
   }
 }
 
+function resetInsightFilters() {
+  const sourceFilter = document.getElementById("insightSourceFilter");
+  const roleFilter = document.getElementById("insightRoleFilter");
+
+  if (sourceFilter) sourceFilter.value = "all";
+  if (roleFilter) roleFilter.value = "all";
+}
+
 const INSIGHTS_API_ENDPOINT = "https://healthcare-industry-trends-prototype.onrender.com/api/insights";
 const INSIGHTS_FALLBACK_FILE = "insights.json";
 
@@ -1050,6 +1059,32 @@ async function fetchInsightsFrom(path, { logBackend = false } = {}) {
   return insights;
 }
 
+function renderEmployeeInsights(insights, container) {
+  console.log("rendering employee insights count:", insights.length);
+
+  container.innerHTML = insights
+    .map((insight) => {
+      return `
+        <article class="insight-card">
+          <span class="insight-tag">${escapeHtml(insight.sourceType || "Insight")}</span>
+          <h3>${escapeHtml(insight.title || "Untitled Insight")}</h3>
+          <p><strong>Reliability Rating:</strong> ${escapeHtml(insight.rating || "Not rated")}</p>
+          <p><strong>Submitted By:</strong> ${escapeHtml(insight.name || "Anonymous")}</p>
+          <p><strong>Role / Service Line:</strong> ${escapeHtml(insight.role || "Not provided")}</p>
+          <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways || "No takeaway provided.")}</p>
+          <p><strong>Why It Matters:</strong> ${escapeHtml(insight.whyItMatters || "Not provided.")}</p>
+          <p><strong>Best For:</strong> ${escapeHtml(insight.audience || "General audience")}</p>
+          ${
+            insight.link
+              ? `<a class="insight-link" href="${escapeAttribute(insight.link)}" target="_blank">View Source</a>`
+              : ""
+          }
+        </article>
+      `;
+    })
+    .join("");
+}
+
 async function loadInsights() {
   const container = document.getElementById("insightsContainer");
   const status = document.getElementById("insightsStatus");
@@ -1089,6 +1124,7 @@ async function loadInsights() {
 
     if (!filteredInsights.length) {
       container.innerHTML = "<p>No employee insights match those filters yet.</p>";
+      console.log("rendering employee insights count:", 0);
       console.log("number of rendered insights", 0);
       if (status) {
         status.textContent = "Showing employee insights.";
@@ -1096,27 +1132,7 @@ async function loadInsights() {
       return;
     }
 
-    container.innerHTML = filteredInsights
-      .map((insight) => {
-        return `
-          <article class="insight-card">
-            <span class="insight-tag">${escapeHtml(insight.sourceType || "Insight")}</span>
-            <h3>${escapeHtml(insight.title || "Untitled Insight")}</h3>
-            <p><strong>Reliability Rating:</strong> ${escapeHtml(insight.rating || "Not rated")}</p>
-            <p><strong>Submitted By:</strong> ${escapeHtml(insight.name || "Anonymous")}</p>
-            <p><strong>Role / Service Line:</strong> ${escapeHtml(insight.role || "Not provided")}</p>
-            <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways || "No takeaway provided.")}</p>
-            <p><strong>Why It Matters:</strong> ${escapeHtml(insight.whyItMatters || "Not provided.")}</p>
-            <p><strong>Best For:</strong> ${escapeHtml(insight.audience || "General audience")}</p>
-            ${
-              insight.link
-                ? `<a class="insight-link" href="${escapeAttribute(insight.link)}" target="_blank">View Source</a>`
-                : ""
-            }
-          </article>
-        `;
-      })
-      .join("");
+    renderEmployeeInsights(filteredInsights, container);
 
     console.log("number of rendered insights", filteredInsights.length);
 
