@@ -96,6 +96,15 @@ async function readInsights() {
   return (data || []).map(rowToInsight);
 }
 
+function logSupabaseError(action, error) {
+  console.error(`Supabase error ${action}:`, {
+    message: error?.message,
+    details: error?.details,
+    hint: error?.hint,
+    code: error?.code
+  });
+}
+
 // Endpoint to submit a new insight
 app.post('/api/submit-insight', async (req, res) => {
   try {
@@ -125,13 +134,14 @@ app.post('/api/submit-insight', async (req, res) => {
       .single();
 
     if (error) {
-      throw error;
+      logSupabaseError('saving insight', error);
+      return res.status(500).json({ error: 'Failed to save insight to Supabase' });
     }
 
     res.status(200).json({ success: true, insight: rowToInsight(data) });
   } catch (error) {
     console.error('Error saving insight:', error);
-    res.status(500).json({ error: 'Failed to save insight' });
+    res.status(500).json({ error: 'Failed to save insight to Supabase' });
   }
 });
 
@@ -142,7 +152,8 @@ app.get('/api/insights', async (req, res) => {
     const insights = await readInsights();
     res.json(insights);
   } catch (error) {
-    res.json([]);
+    logSupabaseError('loading public insights', error);
+    res.status(500).json({ error: 'Failed to load insights from Supabase' });
   }
 });
 
@@ -152,8 +163,8 @@ app.get('/api/admin/insights', requireWebhookSecret, async (req, res) => {
     const insights = await readInsights();
     res.json({ insights });
   } catch (error) {
-    console.error('Error loading admin insights:', error);
-    res.status(500).json({ error: 'Failed to load insights' });
+    logSupabaseError('loading admin insights', error);
+    res.status(500).json({ error: 'Failed to load insights from Supabase' });
   }
 });
 
@@ -169,7 +180,8 @@ app.delete('/api/admin/insights/:id', requireWebhookSecret, async (req, res) => 
       .maybeSingle();
 
     if (error) {
-      throw error;
+      logSupabaseError('deleting insight', error);
+      return res.status(500).json({ error: 'Failed to delete insight from Supabase' });
     }
 
     if (!data) {
@@ -179,14 +191,14 @@ app.delete('/api/admin/insights/:id', requireWebhookSecret, async (req, res) => 
     res.json({ success: true, deletedInsight: rowToInsight(data) });
   } catch (error) {
     console.error('Error deleting insight:', error);
-    res.status(500).json({ error: 'Failed to delete insight' });
+    res.status(500).json({ error: 'Failed to delete insight from Supabase' });
   }
 });
 
 async function startServer() {
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
-    console.log(`Insights storage: Supabase table ${INSIGHTS_TABLE}`);
+    console.log('Insights storage: Supabase employee_insights');
     if (!supabase) {
       console.warn('Supabase is not configured. Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.');
     }

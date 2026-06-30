@@ -970,7 +970,6 @@ function addInsightToPage(insight) {
 }
 
 const INSIGHTS_API_ENDPOINT = "https://healthcare-insights-backend.onrender.com/api/insights";
-const INSIGHTS_FALLBACK_FILE = "insights.json";
 
 function normalizeAudience(value) {
   if (Array.isArray(value)) {
@@ -1058,15 +1057,8 @@ async function loadInsights() {
 
   try {
     let insights = [];
-    let dataSource = "api";
 
-    try {
-      insights = await fetchInsightsFrom(INSIGHTS_API_ENDPOINT, { logBackend: true });
-    } catch (apiError) {
-      console.warn("Backend insights unavailable; loading local fallback.", apiError);
-      insights = await fetchInsightsFrom(INSIGHTS_FALLBACK_FILE);
-      dataSource = "fallback";
-    }
+    insights = await fetchInsightsFrom(INSIGHTS_API_ENDPOINT, { logBackend: true });
 
     // Also load any local submissions
     const localInsights = loadLocalInsights();
@@ -1090,9 +1082,7 @@ async function loadInsights() {
     if (!filteredInsights.length) {
       container.innerHTML = "<p>No employee insights match those filters yet.</p>";
       if (status) {
-        status.textContent = dataSource === "api"
-          ? "Showing employee insights."
-          : "Showing fallback employee insights.";
+        status.textContent = "Showing employee insights.";
       }
       return;
     }
@@ -1120,9 +1110,7 @@ async function loadInsights() {
       .join("");
 
     if (status) {
-      status.textContent = dataSource === "api"
-        ? "Showing employee insights."
-        : "Showing fallback employee insights.";
+      status.textContent = "Showing employee insights.";
     }
   } catch (error) {
     console.error(error);
