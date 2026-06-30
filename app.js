@@ -879,17 +879,11 @@ async function init() {
   bindEvents();
   resetInsightFilters();
   loadInsights();
-  bindInsightForm();
   
   // Auto-refresh insights every 5 seconds to catch new form submissions
   setInterval(() => {
     loadInsights();
   }, 5000);
-}
-
-function bindInsightForm() {
-  // Microsoft Forms handles Employee Industry Insight submissions externally.
-  return;
 }
 
 function disabledLegacyLocalInsightSubmission() {
