@@ -263,8 +263,8 @@ function renderTerminologyDictionary() {
     }
 
     const filteredTerms = getFilteredTerms();
-    const visibleTerms = filteredTerms;
-    const hasMoreTerms = false;
+    const visibleTerms = filteredTerms.slice(0, visibleTerminologyCount);
+    const hasMoreTerms = visibleTerminologyCount < filteredTerms.length;
     const activeCount = filteredTerms.length;
     console.log("active terminology category filter", selectedLine || "All");
     console.log("rendered terminology count", visibleTerms.length);
