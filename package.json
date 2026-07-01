@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "vite --host 0.0.0.0",
+    "build:data": "node scripts/excel-to-json.js",
     "build": "vite build && node scripts/copy-static.js",
     "import:cms-glossary": "node scripts/import-cms-glossary.js",
     "generate:resources-pdf": "node scripts/generate-resource-library-pdf.js",
@@ -21,7 +22,8 @@
     "@supabase/supabase-js": "^2.110.0",
     "cors": "latest",
     "express": "latest",
-    "pdfkit": "^0.17.2"
+    "pdfkit": "^0.17.2",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "pdf-parse": "^2.4.5",

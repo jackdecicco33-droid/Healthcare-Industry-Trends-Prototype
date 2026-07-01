@@ -8,7 +8,9 @@ const state = {
   category: 'all',
   visibleResourceCount: 6,
   showResources: false,
-  sourceSearch: ''
+  sourceSearch: '',
+  resourcesError: '',
+  terminologyError: ''
 };
 
 const els = {
@@ -51,14 +53,7 @@ function uniqueSorted(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
 }
 
-const resourceCategories = [
-  'Courses & training',
-  'Certifications',
-  'Articles, Books & Podcasts',
-  'Healthcare associations',
-  'AI & tech skills',
-  'General career growth'
-]
+let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
 
@@ -128,9 +123,10 @@ const healthcareIndustryNews = [
 let healthcareTerms = [];
 
 const terminologyRoles = [
-  'ERP',
+  'Healthcare Consulting 101',
   'Revenue Cycle',
   'Clinical Optimization',
+  'ERP',
   'Labor',
   'Supply Chain',
   'Quality',
@@ -156,61 +152,19 @@ function renderTerminologyDictionary() {
   }
 
   function getTermRoles(item) {
-    const text = [
-      item.term,
-      item.title,
-      item.definition,
-      item.category,
-      item.serviceLine,
-      item.level,
-      item.bucket
-    ]
-      .filter(Boolean)
-      .join(' ')
-      .toLowerCase();
-
-    const roles = new Set();
-
-    if (/\b(erp|enterprise resource planning|ehr|electronic health record|technology|data|analytics|interface|hl7|fhir|api|system|integration|cyber|security|workflow build|go-live|hypercare|migration|cutover|testing)\b/i.test(text)) {
-      roles.add('ERP');
-    }
-
-    if (/\b(revenue cycle|claim|claims|billing|payment|payer|denial|charge|coding|reimbursement|authorization|prior auth|a\/r|accounts receivable|collections|contractual|remittance|deductible|copayment|medicare|medicaid|drg|cpt|hcpcs|icd|underpayment|write-off)\b/i.test(text)) {
-      roles.add('Revenue Cycle');
-    }
-
-    if (/\b(clinical optimization|clinical|care coordination|care management|case management|discharge|transition|medication|order set|care plan|utilization management|level of care|observation|inpatient|documentation|care continuum|admission|diagnosis|medical record)\b/i.test(text)) {
-      roles.add('Clinical Optimization');
-    }
-
-    if (/\b(labor|workforce|staff|staffing|turnover|retention|overtime|agency|travel nurse|productive hours|nonproductive|fte|position control|acuity|skill mix|productivity|nurse staffing|vacancy|employee)\b/i.test(text)) {
-      roles.add('Labor');
-    }
-
-    if (/\b(supply chain|inventory|item master|par level|stockout|preference card|procurement|purchased services|sourcing|rfp|gpo|supplier|supply|backorder|consignment|bill-only|procure-to-pay|purchase order|value analysis|demand planning|sku|unit of measure|cycle count)\b/i.test(text)) {
-      roles.add('Supply Chain');
-    }
-
-    if (/\b(quality|patient safety|outcome|readmission|mortality|infection|hai|cauti|clabsi|ssi|sepsis|core measure|star rating|hcahps|never event|root cause|pdsa|process measure|balancing measure|clinical pathway|care gap|population health|risk adjustment|benchmark|harm event|accreditation)\b/i.test(text)) {
-      roles.add('Quality');
-    }
-
-    if (/\b(physician enterprise|provider|practice|clinic|appointment|access|referral|contact center|call abandonment|wrvu|productivity|advanced practice provider|app|care team|rooming|visit type|schedule utilization|throughput|credentialing|provider enrollment|panel size|template optimization|no-show)\b/i.test(text)) {
-      roles.add('Physician Enterprise');
-    }
-
-    if (!roles.size) {
-      roles.add('Clinical Optimization');
-    }
-
-    return [...roles];
+    return [item.category || item.serviceLine || 'Healthcare Consulting 101'];
   }
 
   function renderCategoryTabs() {
     if (!categoryTabs) return;
+    const availableCategories = uniqueSorted(healthcareTerms.map(item => item.category));
+    const orderedCategories = [
+      ...terminologyRoles.filter(role => availableCategories.includes(role)),
+      ...availableCategories.filter(category => !terminologyRoles.includes(category))
+    ];
     categoryTabs.innerHTML = [
       '<button type="button" data-category="All">All terms</button>',
-      ...terminologyRoles.map(role => `<button type="button" data-category="${escapeHtml(role)}">${escapeHtml(role)}</button>`)
+      ...orderedCategories.map(role => `<button type="button" data-category="${escapeHtml(role)}">${escapeHtml(role)}</button>`)
     ].join('');
   }
 
@@ -236,7 +190,10 @@ function renderTerminologyDictionary() {
         item.title,
         expandedTerm,
         acronym,
-        item.definition
+        item.definition,
+        item.sourceName,
+        item.source,
+        item.example
       ]
         .filter(Boolean)
         .join(' ')
@@ -306,10 +263,21 @@ function renderTerminologyDictionary() {
     const selectedLine = getSelectedCategory();
     const categoryTerms = getCategoryTerms();
 
+    if (state.terminologyError) {
+      countLabel.textContent = "";
+      grid.innerHTML = `<div class="no-terms-message">${escapeHtml(state.terminologyError)}</div>`;
+      if (loadMoreButton) loadMoreButton.hidden = true;
+      console.log("active terminology category filter", selectedLine || "All");
+      console.log("rendered terminology count", 0);
+      return;
+    }
+
     const filteredTerms = getFilteredTerms();
     const visibleTerms = filteredTerms.slice(0, visibleTerminologyCount);
     const hasMoreTerms = visibleTerminologyCount < filteredTerms.length;
     const activeCount = filteredTerms.length;
+    console.log("active terminology category filter", selectedLine || "All");
+    console.log("rendered terminology count", visibleTerms.length);
 
     if (selectedLine && selectedLine !== 'All' && categoryTerms.length === 0) {
       countLabel.textContent = "";
@@ -351,19 +319,16 @@ function renderTerminologyDictionary() {
         (item) => {
           const roles = getTermRoles(item);
           const serviceLine = roles.join(' / ');
-          const termType = item.level || item.bucket || item.source || 'Terminology Term';
+          const sourceName = item.sourceName || item.source || 'Source not provided';
           const example =
             item.example ||
-            `A consultant may hear this term during ${serviceLine.toLowerCase()} discussions and use it to understand the topic, ask better questions, and connect the definition to project work.`;
-          const whyItMatters =
-            item.whyItMatters ||
-            `Understanding this term helps consultants interpret healthcare documentation, stakeholder conversations, and official guidance more confidently.`;
+            `A consultant may hear this term during ${serviceLine.toLowerCase()} discussions and use it to understand the topic.`;
 
           return `
           <article class="term-card">
             <div class="term-card-header">
               <span class="term-service-badge">${escapeHtml(serviceLine)}</span>
-              <span class="term-level-badge">${escapeHtml(termType)}</span>
+              <span class="term-level-badge">${escapeHtml(sourceName)}</span>
             </div>
 
             <h3>${escapeHtml(item.term)}</h3>
@@ -374,13 +339,13 @@ function renderTerminologyDictionary() {
             </div>
 
             <div class="term-block term-example">
-              <strong>Healthcare example</strong>
+              <strong>Real World Example</strong>
               <p>${escapeHtml(example)}</p>
             </div>
 
             <div class="term-block term-why">
-              <strong>Why it matters</strong>
-              <p>${escapeHtml(whyItMatters)}</p>
+              <strong>Source</strong>
+              <p>${escapeHtml(sourceName)}</p>
             </div>
 
             ${item.url ? `
@@ -568,33 +533,14 @@ function getLevelGroup(level) {
 }
 
 function translateResourceCategory(resource) {
-  const text = normalize([
-    resource.category,
-    resource.name,
-    resource.organization,
-    resource.description,
-    resource.url
-  ].join(' '));
-
-  const categoryMap = [
-    { test: /\b(ai|artificial intelligence|tech|technology|digital|data|analytics|automation|erp)\b/i, value: 'AI & tech skills' },
-    { test: /\b(course|training|boot ?camp|bootcamp|learning|education|workshop|webinar|academy)\b/i, value: 'Courses & training' },
-    { test: /\b(certified|certification|credential|credentials|crcr|crcp|cphq|ccds|ccp|exam)\b/i, value: 'Certifications' },
-    { test: /\b(book|books|podcast|article|articles|podcasts|blog|guide|whitepaper)\b/i, value: 'Articles, Books & Podcasts' },
-    { test: /\b(association|associations|org\.|org$|hfma|aaham|acdis|nahq|asq|worldatwork|himss|ache|ahrmm|shrm)\b/i, value: 'Healthcare associations' }
-  ];
-
-  for (const rule of categoryMap) {
-    if (rule.test.test(text)) {
-      return rule.value;
-    }
-  }
-
-  return 'General career growth';
+  return resource.sourceType || resource.category || 'Resource';
 }
 
 function resourceMatches(resource) {
   const haystack = normalize([
+    resource.title,
+    resource.website,
+    resource.sourceType,
     resource.name,
     resource.organization,
     resource.description,
@@ -660,15 +606,30 @@ function renderServiceLines() {
   `).join('');
 }
 
-function renderResources() {
+function renderResourcesLegacy() {
+  console.log("active resource service line filter", state.service);
+  console.log("active resource level filter", state.level);
+
+  if (state.resourcesError) {
+    els.resultsSummary.textContent = "";
+    els.resourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(state.resourcesError)}</div>`;
+    if (els.resourceShowMore) els.resourceShowMore.hidden = true;
+    console.log("rendered resources count", 0);
+    return;
+  }
+
   const results = state.resources.filter(resourceMatches);
   const visibleResults = results.slice(0, state.visibleResourceCount);
   const hasMoreResults = state.visibleResourceCount < results.length;
 
   els.resultsSummary.textContent = `Showing ${visibleResults.length} of ${results.length} matching resource${results.length === 1 ? '' : 's'}`;
   if (!results.length) {
-    els.resourceGrid.innerHTML = '<div class="empty-state">No resources match those filters. Try resetting filters or using a broader keyword.</div>';
+    const message = state.resources.length
+      ? 'No resources match those filters. Try resetting filters or using a broader keyword.'
+      : 'Resource Library data is unavailable. Add data/resources.json by running the Excel import.';
+    els.resourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
     if (els.resourceShowMore) els.resourceShowMore.hidden = true;
+    console.log("rendered resources count", 0);
     return;
   }
   els.resourceGrid.innerHTML = visibleResults.map(resource => `
@@ -677,12 +638,58 @@ function renderResources() {
         <span class="tag">${escapeHtml(resource.serviceLine)}</span>
         <span class="tag">${escapeHtml(getLevelGroup(resource.level))}</span>
       </div>
-      <h3>${escapeHtml(resource.name)}</h3>
+      <h3>${escapeHtml(resource.title || resource.name)}</h3>
       <p class="resource-meta">${escapeHtml(translateResourceCategory(resource))} · ${escapeHtml(resource.organization || 'Resource')}</p>
       <p class="resource-desc">${escapeHtml(resource.description || 'Use this source to build healthcare consulting domain fluency.')}</p>
       <a class="resource-link" href="${escapeAttribute(resource.url)}" target="_blank" rel="noopener">Open resource →</a>
     </article>
   `).join('');
+
+  if (els.resourceShowMore) {
+    els.resourceShowMore.hidden = !hasMoreResults;
+  }
+}
+
+function renderResources() {
+  console.log("active resource service filter", state.service);
+  console.log("active resource level filter", state.level);
+
+  if (state.resourcesError) {
+    els.resultsSummary.textContent = "";
+    els.resourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(state.resourcesError)}</div>`;
+    if (els.resourceShowMore) els.resourceShowMore.hidden = true;
+    console.log("rendered resources count", 0);
+    return;
+  }
+
+  const results = state.resources.filter(resourceMatches);
+  const visibleResults = results.slice(0, state.visibleResourceCount);
+  const hasMoreResults = state.visibleResourceCount < results.length;
+
+  els.resultsSummary.textContent = `Showing ${visibleResults.length} of ${results.length} matching resource${results.length === 1 ? '' : 's'}`;
+  if (!results.length) {
+    const message = state.resources.length
+      ? 'No resources match those filters. Try resetting filters or using a broader keyword.'
+      : 'Resource Library data is unavailable. Add data/resources.json by running the Excel import.';
+    els.resourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    if (els.resourceShowMore) els.resourceShowMore.hidden = true;
+    console.log("rendered resources count", 0);
+    return;
+  }
+
+  els.resourceGrid.innerHTML = visibleResults.map(resource => `
+    <article class="resource-card">
+      <div class="tag-stack">
+        <span class="tag">${escapeHtml(resource.serviceLine)}</span>
+        <span class="tag">${escapeHtml(getLevelGroup(resource.level))}</span>
+      </div>
+      <h3>${escapeHtml(resource.title || resource.name)}</h3>
+      <p class="resource-meta">${escapeHtml(resource.sourceType || translateResourceCategory(resource))} · ${escapeHtml(resource.website || resource.organization || 'Resource')}</p>
+      <p class="resource-desc">${escapeHtml(resource.description || 'Use this source to build healthcare consulting domain fluency.')}</p>
+      <a class="resource-link" href="${escapeAttribute(resource.url)}" target="_blank" rel="noopener">Open resource →</a>
+    </article>
+  `).join('');
+  console.log("rendered resources count", visibleResults.length);
 
   if (els.resourceShowMore) {
     els.resourceShowMore.hidden = !hasMoreResults;
@@ -832,39 +839,101 @@ async function loadJson(path, fallback = []) {
   }
 }
 
+async function loadDataJson(path, label) {
+  console.log(`${label} fetch started`);
+  try {
+    const response = await fetch(path);
+    console.log(`${label} response status`, response.status);
+
+    if (!response.ok) {
+      throw new Error(`${response.status} ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    console.log(`raw ${label} data`, data);
+    return Array.isArray(data) ? data : [];
+  } catch (error) {
+    console.warn(`Unable to load ${label} data from ${path}:`, error);
+    return null;
+  }
+}
+
+function normalizeResourceData(data) {
+  return (Array.isArray(data) ? data : [])
+    .map(resource => {
+      const title = resource.title || resource.name || '';
+      const website = resource.website || resource.organization || '';
+      const sourceType = resource.sourceType || resource.category || '';
+      const serviceLine = resource.serviceLine || '';
+      const level = resource.level || '';
+
+      return {
+        ...resource,
+        title,
+        name: title,
+        website,
+        organization: website,
+        sourceType,
+        category: sourceType,
+        serviceLine,
+        level,
+        url: resource.url || '',
+        description:
+          resource.description ||
+          `Resource from ${website || 'the listed website'} focused on ${serviceLine || 'healthcare consulting'}.`
+      };
+    })
+    .filter(resource => resource.title || resource.url);
+}
+
+function normalizeTerminologyData(data) {
+  return (Array.isArray(data) ? data : [])
+    .map(item => {
+      const sourceName = item.sourceName || item.source || '';
+      return {
+        ...item,
+        term: item.term || item.title || '',
+        category: item.category || item.serviceLine || '',
+        definition: item.definition || '',
+        sourceName,
+        source: sourceName,
+        example: item.example || item.realWorldExample || ''
+      };
+    })
+    .filter(item => item.term || item.definition);
+}
+
 async function init() {
-  const resources = await loadJson('./data/resources.json', []);
+  const rawResources = await loadDataJson('./data/resources.json', 'resources');
   const services = await loadJson('./data/service-lines.json', []);
   const sources = await loadJson('./data/source-index.json', []);
-  const terminology = await loadJson('./data/cms-glossary.json', []);
-  const localTerminology = await loadJson('./data/terminology.json', []);
+  const rawTerminology = await loadDataJson('./data/terminology.json', 'terminology');
+  const resources = normalizeResourceData(rawResources);
+  const terminology = normalizeTerminologyData(rawTerminology);
+  console.log("normalized resources count", resources.length);
+  console.log("normalized terminology count", terminology.length);
+
+  state.resourcesError = rawResources === null || !resources.length
+    ? 'Resource Library data is unavailable. Run npm run build:data to regenerate data/resources.json from the workbook.'
+    : '';
+  state.terminologyError = rawTerminology === null || !terminology.length
+    ? 'Terminology data is unavailable. Run npm run build:data to regenerate data/terminology.json from the workbook.'
+    : '';
+
   state.resources = resources;
   state.services = services;
   state.sources = sources;
-  const terminologyByTerm = new Map();
-  [...(localTerminology || []), ...(terminology || [])].forEach(item => {
-    if (!item || !item.term) return;
-    const key = item.term.trim().toLowerCase();
-    const previous = terminologyByTerm.get(key) || {};
-    terminologyByTerm.set(key, {
-      ...previous,
-      ...item,
-      category: item.category || item.serviceLine || previous.category || previous.serviceLine || 'General Healthcare',
-      source: item.source || previous.source || 'Terminology Bank',
-      url: item.url || previous.url || 'https://www.cms.gov/glossary'
-    });
-  });
-  healthcareTerms = [...terminologyByTerm.values()].sort((a, b) => a.term.localeCompare(b.term));
+  healthcareTerms = terminology.sort((a, b) => a.term.localeCompare(b.term));
 
   const serviceLineNames = uniqueSorted(services.map(item => item.serviceLine));
-  populateFilter(els.serviceFilter, serviceLineNames, 'All service lines');
+  const resourceServiceLines = uniqueSorted(resources.map(item => item.serviceLine));
+  const resourceLevels = uniqueSorted(resources.map(item => getLevelGroup(item.level)));
+  resourceCategories = uniqueSorted(resources.map(item => item.sourceType || translateResourceCategory(item)));
+
+  populateFilter(els.serviceFilter, resourceServiceLines, 'All service lines');
   if (els.coverServiceDropdown) populateFilter(els.coverServiceDropdown, serviceLineNames, 'All service lines');
-  populateFilter(els.levelFilter, [
-    'Consultant / Senior Consultant',
-    'Managing Consultant / Associate Director',
-    'Director +'
-  ], 'All levels');
-  populateFilter(els.categoryFilter, resourceCategories, 'All categories');
+  populateFilter(els.levelFilter, resourceLevels, 'All levels');
+  populateFilter(els.categoryFilter, resourceCategories, 'All source types');
 
   if (els.resourceCount) els.resourceCount.textContent = resources.length;
   if (els.sourceCount) els.sourceCount.textContent = sources.length;
