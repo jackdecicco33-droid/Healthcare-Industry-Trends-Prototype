@@ -53,11 +53,14 @@ function requireSupabase() {
 function rowToInsight(row = {}) {
   return {
     id: row.id || '',
+    name: row.name || 'Anonymous',
     role: row.role || 'Not provided',
     sourceType: row.source_type || 'Insight',
     title: row.title || 'Untitled Employee Insight',
     link: row.link || '',
+    rating: row.rating || 'Not rated',
     takeaways: row.takeaways || 'No Takeaway Provided',
+    whyItMatters: row.why_it_matters || 'Not provided',
     audience: row.audience || 'General audience',
     submittedAt: row.submitted_at || row.created_at || ''
   };
@@ -66,11 +69,14 @@ function rowToInsight(row = {}) {
 function insightToRow(insight = {}) {
   return {
     id: createInsightId(),
+    name: insight.name || 'Anonymous',
     role: insight.role || 'Not provided',
     source_type: insight.sourceType || insight.source_type || 'Insight',
     title: insight.title || 'Untitled Employee Insight',
     link: insight.link || '',
+    rating: insight.rating || 'Not rated',
     takeaways: insight.takeaways || 'No Takeaway Provided',
+    why_it_matters: insight.whyItMatters || insight.why_it_matters || 'Not provided',
     audience: insight.audience || 'General audience',
     submitted_at: new Date().toISOString()
   };
@@ -80,7 +86,7 @@ async function readInsights() {
   const client = requireSupabase();
   const { data, error } = await client
     .from(INSIGHTS_TABLE)
-    .select('id, role, source_type, title, link, takeaways, audience, submitted_at, created_at')
+    .select('id, name, role, source_type, title, link, rating, takeaways, why_it_matters, audience, submitted_at, created_at')
     .order('submitted_at', { ascending: false });
 
   if (error) {
@@ -98,6 +104,51 @@ function logSupabaseError(action, error) {
     code: error?.code
   });
 }
+
+function getFirstValue(source, keys) {
+  for (const key of keys) {
+    if (source[key] !== undefined && source[key] !== null && source[key] !== '') {
+      return source[key];
+    }
+  }
+
+  return '';
+}
+
+// Power Automate sends Microsoft Forms responses here. The public website does not call this route.
+app.post('/api/submit-insight', requireWebhookSecret, async (req, res) => {
+  try {
+    const body = req.body || {};
+    const newInsight = insightToRow({
+      name: getFirstValue(body, ['name', 'submittedBy', 'submitted_by']),
+      role: getFirstValue(body, ['role', 'serviceLine', 'service_line']),
+      sourceType: getFirstValue(body, ['sourceType', 'source_type', 'source']),
+      title: getFirstValue(body, ['title']),
+      link: getFirstValue(body, ['link', 'url']),
+      rating: getFirstValue(body, ['rating', 'reliabilityRating', 'reliability_rating']),
+      takeaways: getFirstValue(body, ['takeaways', 'keyTakeaway', 'key_takeaway']),
+      whyItMatters: getFirstValue(body, ['whyItMatters', 'why_it_matters']),
+      audience: getFirstValue(body, ['audience', 'bestFor', 'best_for'])
+    });
+
+    const client = requireSupabase();
+    const { data, error } = await client
+      .from(INSIGHTS_TABLE)
+      .insert(newInsight)
+      .select('id, name, role, source_type, title, link, rating, takeaways, why_it_matters, audience, submitted_at, created_at')
+      .single();
+
+    if (error) {
+      logSupabaseError('saving Power Automate insight', error);
+      return res.status(500).json({ error: 'Failed to save insight to Supabase' });
+    }
+
+    res.status(200).json({ success: true, insight: rowToInsight(data) });
+  } catch (error) {
+    logSupabaseError('saving Power Automate insight', error);
+    res.status(500).json({ error: 'Failed to save insight to Supabase' });
+  }
+});
 
 app.get('/api/insights', async (req, res) => {
   try {
@@ -129,7 +180,7 @@ app.delete('/api/admin/insights/:id', requireWebhookSecret, async (req, res) => 
       .from(INSIGHTS_TABLE)
       .delete()
       .eq('id', id)
-      .select('id, role, source_type, title, link, takeaways, audience, submitted_at, created_at')
+      .select('id, name, role, source_type, title, link, rating, takeaways, why_it_matters, audience, submitted_at, created_at')
       .maybeSingle();
 
     if (error) {

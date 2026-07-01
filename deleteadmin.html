@@ -3,18 +3,420 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url=manage-insights.html">
-  <title>Manage Employee Industry Insights</title>
-  <script>
-    window.location.replace("manage-insights.html");
-  </script>
+  <title>Delete Employee Industry Insights</title>
+  <style>
+    :root {
+      --green: #5b9b3f;
+      --green-dark: #3f7b2a;
+      --ink: #10263f;
+      --muted: #5f7182;
+      --border: #d7e4f0;
+      --bg: #eef3f9;
+      --surface: #ffffff;
+      --danger: #b42318;
+      --danger-dark: #8f1d14;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(1100px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      color: #244c88;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .intro {
+      color: var(--muted);
+      margin-bottom: 24px;
+      max-width: 780px;
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: 0 14px 34px rgba(13, 44, 82, 0.08);
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto;
+      gap: 12px;
+      align-items: end;
+      margin-bottom: 16px;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+
+    input {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 11px 12px;
+      font: inherit;
+    }
+
+    input:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(91, 155, 63, 0.16);
+      outline: none;
+    }
+
+    button {
+      border: 0;
+      border-radius: 999px;
+      padding: 12px 18px;
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .load-button {
+      background: var(--green);
+      color: #fff;
+    }
+
+    .load-button:hover {
+      background: var(--green-dark);
+    }
+
+    .delete-button {
+      background: var(--danger);
+      color: #fff;
+    }
+
+    .delete-button:hover {
+      background: var(--danger-dark);
+    }
+
+    .note {
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .status {
+      min-height: 24px;
+      margin-bottom: 16px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .insight-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .insight-card {
+      display: grid;
+      gap: 10px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      background: #fbfdff;
+    }
+
+    .insight-card-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .insight-card h2 {
+      margin: 0;
+      color: #244c88;
+      font-size: 1.25rem;
+    }
+
+    .tag {
+      display: inline-flex;
+      width: fit-content;
+      border-radius: 999px;
+      background: #edf5fb;
+      color: #244c88;
+      padding: 4px 10px;
+      font-weight: 800;
+      font-size: 0.86rem;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px 16px;
+    }
+
+    .meta-grid p,
+    .insight-card > p {
+      color: var(--muted);
+    }
+
+    a {
+      color: #244c88;
+      font-weight: 800;
+    }
+
+    @media (max-width: 720px) {
+      .controls,
+      .meta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .insight-card-header {
+        display: grid;
+      }
+    }
+  </style>
 </head>
 <body>
   <main>
-    <p>
-      Redirecting to
-      <a href="manage-insights.html">Manage Employee Industry Insights</a>.
+    <h1>Delete Employee Industry Insights</h1>
+    <p class="intro">
+      Load and delete employee insight copies stored in Supabase. This does not remove the original Microsoft Forms or Excel response.
     </p>
+
+    <section class="panel" aria-labelledby="adminControlsTitle">
+      <h2 id="adminControlsTitle">Supabase Responses</h2>
+      <p class="note">
+        Deleting an insight here removes it from the website/backend display only.
+      </p>
+
+      <div class="controls">
+        <label>
+          Admin password
+          <input id="secretInput" type="password" autocomplete="off" placeholder="Enter backend secret">
+        </label>
+        <button id="loadResponsesButton" class="load-button" type="button">Load Responses</button>
+      </div>
+
+      <p id="adminStatus" class="status" role="status" aria-live="polite">Enter the admin password, then load responses.</p>
+      <div id="adminInsightsList" class="insight-list" aria-live="polite"></div>
+    </section>
   </main>
+
+  <script>
+    console.log("deleteadmin page loaded");
+
+    const BACKEND_BASE_URL = "https://healthcare-industry-trends-prototype.onrender.com";
+    const ADMIN_INSIGHTS_ENDPOINT = `${BACKEND_BASE_URL}/api/admin/insights`;
+    const list = document.getElementById("adminInsightsList");
+    const status = document.getElementById("adminStatus");
+    const secretInput = document.getElementById("secretInput");
+    const loadButton = document.getElementById("loadResponsesButton");
+
+    let currentInsights = [];
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function escapeAttribute(value) {
+      return escapeHtml(value).replaceAll("`", "&#096;");
+    }
+
+    function normalizeAudience(value) {
+      if (Array.isArray(value)) return value.join(", ");
+      if (typeof value !== "string") return value || "";
+
+      const trimmed = value.trim();
+      if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
+        try {
+          const parsed = JSON.parse(trimmed);
+          if (Array.isArray(parsed)) return parsed.join(", ");
+        } catch {
+          return trimmed;
+        }
+      }
+
+      return trimmed;
+    }
+
+    function normalizeInsights(data) {
+      const insights = Array.isArray(data)
+        ? data
+        : Array.isArray(data?.insights)
+          ? data.insights
+          : Array.isArray(data?.responses)
+            ? data.responses
+            : [];
+
+      return insights.map((insight) => ({
+        id: insight?.id || "",
+        name: insight?.name || "",
+        role: insight?.role || "Not provided",
+        sourceType: insight?.sourceType || "Insight",
+        title: insight?.title || "Untitled Insight",
+        link: insight?.link || "",
+        rating: insight?.rating || "",
+        takeaways: insight?.takeaways || "No takeaway provided.",
+        whyItMatters: insight?.whyItMatters || "",
+        audience: normalizeAudience(insight?.audience) || "General audience",
+        submittedAt: insight?.submittedAt || insight?.date || ""
+      }));
+    }
+
+    function getSecret() {
+      return secretInput.value.trim();
+    }
+
+    function getAuthHeaders(secret = getSecret()) {
+      return {
+        "x-webhook-secret": secret
+      };
+    }
+
+    function renderInsights(insights) {
+      if (!insights.length) {
+        list.innerHTML = "<p>No employee insights are currently stored in Supabase.</p>";
+        return;
+      }
+
+      list.innerHTML = insights.map(insight => `
+        <article class="insight-card" data-insight-id="${escapeAttribute(insight.id)}">
+          <div class="insight-card-header">
+            <div>
+              <span class="tag">${escapeHtml(insight.sourceType)}</span>
+              <h2>${escapeHtml(insight.title)}</h2>
+            </div>
+            <button class="delete-button" type="button" data-id="${escapeAttribute(insight.id)}">Delete</button>
+          </div>
+          <div class="meta-grid">
+            ${insight.name ? `<p><strong>Submitted By:</strong> ${escapeHtml(insight.name)}</p>` : ""}
+            <p><strong>Role / Service Line:</strong> ${escapeHtml(insight.role)}</p>
+            <p><strong>Source Type:</strong> ${escapeHtml(insight.sourceType)}</p>
+            ${insight.rating ? `<p><strong>Reliability Rating:</strong> ${escapeHtml(insight.rating)}</p>` : ""}
+            <p><strong>Best For:</strong> ${escapeHtml(insight.audience)}</p>
+            ${insight.submittedAt ? `<p><strong>Submitted:</strong> ${escapeHtml(insight.submittedAt)}</p>` : ""}
+          </div>
+          <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways)}</p>
+          ${insight.whyItMatters ? `<p><strong>Why It Matters:</strong> ${escapeHtml(insight.whyItMatters)}</p>` : ""}
+          ${insight.link ? `<a href="${escapeAttribute(insight.link)}" target="_blank" rel="noopener noreferrer">View Source</a>` : ""}
+        </article>
+      `).join("");
+    }
+
+    async function loadResponses(secret = getSecret()) {
+      if (!secret) {
+        status.textContent = "Enter the admin password before loading responses.";
+        return;
+      }
+
+      console.log("admin insights fetch started");
+      console.log("exact admin API URL", ADMIN_INSIGHTS_ENDPOINT);
+      status.textContent = "Loading responses...";
+      list.innerHTML = "";
+
+      try {
+        const response = await fetch(ADMIN_INSIGHTS_ENDPOINT, {
+          headers: getAuthHeaders(secret),
+          cache: "no-store"
+        });
+
+        console.log("admin insights response status", response.status);
+
+        if (!response.ok) {
+          throw new Error(`Load failed with status ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log("admin insights data", data);
+        currentInsights = normalizeInsights(data);
+        renderInsights(currentInsights);
+        status.textContent = `Loaded ${currentInsights.length} employee insight${currentInsights.length === 1 ? "" : "s"}.`;
+      } catch (error) {
+        console.error(error);
+        status.textContent = "Unable to load responses from the backend.";
+      }
+    }
+
+    async function deleteInsight(id) {
+      console.log("delete button clicked");
+      console.log("id being deleted", id);
+
+      if (!id) {
+        status.textContent = "Unable to delete this response because it is missing an id.";
+        return;
+      }
+
+      const confirmed = window.confirm("Delete this insight from Supabase and the public website display?");
+      if (!confirmed) return;
+
+      const password = window.prompt("Enter the admin password to delete this insight:");
+      if (!password) {
+        status.textContent = "Delete cancelled because no admin password was entered.";
+        return;
+      }
+
+      secretInput.value = password;
+      const deleteUrl = `${ADMIN_INSIGHTS_ENDPOINT}/${encodeURIComponent(id)}`;
+      console.log("delete API URL", deleteUrl);
+      status.textContent = "Deleting response...";
+
+      try {
+        const response = await fetch(deleteUrl, {
+          method: "DELETE",
+          headers: getAuthHeaders(password)
+        });
+
+        console.log("delete response status", response.status);
+        const data = await response.json().catch(() => ({}));
+        console.log("delete response JSON", data);
+
+        if (!response.ok) {
+          throw new Error(data?.error || `Delete failed with status ${response.status}`);
+        }
+
+        const card = list.querySelector(`[data-insight-id="${CSS.escape(id)}"]`);
+        if (card) card.remove();
+        currentInsights = currentInsights.filter((insight) => insight.id !== id);
+        status.textContent = "Insight deleted from Supabase. Refreshing list...";
+        await loadResponses(password);
+        console.log("admin list refreshed after delete");
+        status.textContent = "Insight deleted from Supabase and removed from the website display.";
+      } catch (error) {
+        console.error(error);
+        status.textContent = "Unable to delete that response from the backend.";
+      }
+    }
+
+    loadButton.addEventListener("click", () => loadResponses());
+    list.addEventListener("click", event => {
+      const button = event.target.closest("button[data-id]");
+      if (!button) return;
+      deleteInsight(button.getAttribute("data-id"));
+    });
+  </script>
 </body>
 </html>
