@@ -177,27 +177,11 @@ function renderTerminologyDictionary() {
 
   function getSearchParts(item) {
     const term = item.term || item.title || '';
-    const acronymMatch = term.match(/\(([^)]+)\)/);
-    const acronym = acronymMatch ? acronymMatch[1] : '';
     const expandedTerm = term.replace(/\([^)]*\)/g, ' ');
 
     return {
       term: term.toLowerCase(),
-      expandedTerm: expandedTerm.toLowerCase(),
-      acronym: acronym.toLowerCase(),
-      searchableText: [
-        term,
-        item.title,
-        expandedTerm,
-        acronym,
-        item.definition,
-        item.sourceName,
-        item.source,
-        item.example
-      ]
-        .filter(Boolean)
-        .join(' ')
-        .toLowerCase()
+      expandedTerm: expandedTerm.toLowerCase()
     };
   }
 
@@ -228,11 +212,10 @@ function renderTerminologyDictionary() {
         const aParts = getSearchParts(a);
         const bParts = getSearchParts(b);
         const score = (parts) => {
-          if (parts.term === searchValue || parts.acronym === searchValue) return 0;
+          if (parts.term === searchValue) return 0;
           if (parts.term.startsWith(searchValue) || parts.expandedTerm.startsWith(searchValue)) return 1;
           if (parts.term.includes(searchValue) || parts.expandedTerm.includes(searchValue)) return 2;
-          if (parts.searchableText.includes(searchValue)) return 3;
-          return 4;
+          return 3;
         };
 
         return score(aParts) - score(bParts) || a.term.localeCompare(b.term);
@@ -350,6 +333,11 @@ function renderTerminologyDictionary() {
         }
       )
       .join("");
+    const renderedTermCards = Array.from(grid.querySelectorAll(".term-card"));
+    if (renderedTermCards.length > visibleTerms.length) {
+      renderedTermCards.slice(visibleTerms.length).forEach(card => card.remove());
+    }
+    console.log("terminology DOM card count", grid.querySelectorAll(".term-card").length);
 
     if (loadMoreButton) {
       loadMoreButton.hidden = !hasMoreTerms;
