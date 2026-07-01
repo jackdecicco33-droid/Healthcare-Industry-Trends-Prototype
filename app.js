@@ -248,7 +248,7 @@ function renderTerminologyDictionary() {
     return healthcareTerms.filter(item => getTermRoles(item).includes(currentCategory));
   }
 
-  function renderCards() {
+  function renderTerminologyCards() {
     const searchValue = searchInput.value.trim().toLowerCase();
     const selectedLine = getSelectedCategory();
     const categoryTerms = getCategoryTerms();
@@ -267,6 +267,8 @@ function renderTerminologyDictionary() {
     const hasMoreTerms = visibleTerminologyCount < filteredTerms.length;
     const activeCount = filteredTerms.length;
     console.log("active terminology category filter", selectedLine || "All");
+    console.log("visible terminology count", visibleTerminologyCount);
+    console.log("matching terminology count", activeCount);
     console.log("rendered terminology count", visibleTerms.length);
 
     if (selectedLine && selectedLine !== 'All' && categoryTerms.length === 0) {
@@ -367,7 +369,7 @@ function renderTerminologyDictionary() {
         button.setAttribute('aria-pressed', 'true');
         selectedCategory = button.dataset.category || null;
         resetVisibleTerminologyCount();
-        renderCards();
+        renderTerminologyCards();
       });
     });
   }
@@ -375,7 +377,7 @@ function renderTerminologyDictionary() {
   const clearButton = document.getElementById('clearTerminology');
   searchInput.addEventListener("input", () => {
     resetVisibleTerminologyCount();
-    renderCards();
+    renderTerminologyCards();
   });
   if (clearButton) {
     clearButton.addEventListener('click', () => {
@@ -388,19 +390,19 @@ function renderTerminologyDictionary() {
         });
       }
       resetVisibleTerminologyCount();
-      renderCards();
+      renderTerminologyCards();
     });
   }
   if (loadMoreButton) {
     loadMoreButton.addEventListener('click', () => {
       visibleTerminologyCount += RESOURCE_BATCH_SIZE;
-      renderCards();
+      renderTerminologyCards();
     });
   }
 
   renderCategoryTabs();
   bindServiceTabs();
-  renderCards();
+  renderTerminologyCards();
 }
 
 function getDailyNewsIndex() {
@@ -1175,7 +1177,15 @@ async function loadInsights() {
   }
 }
 
-init().catch(error => {
-  console.error(error);
-  document.body.insertAdjacentHTML('afterbegin', '<div class="empty-state">The site could not load its data files. Run it with a local server like Vite instead of opening index.html directly.</div>');
-});
+function startApp() {
+  init().catch(error => {
+    console.error(error);
+    document.body.insertAdjacentHTML('afterbegin', '<div class="empty-state">The site could not load its data files. Run it with a local server like Vite instead of opening index.html directly.</div>');
+  });
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', startApp);
+} else {
+  startApp();
+}
