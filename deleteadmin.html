@@ -210,28 +210,34 @@
 
       <div class="controls">
         <label>
-          Admin password
-          <input id="secretInput" type="password" autocomplete="off" placeholder="Enter backend secret">
+          Supabase table
+          <input value="public.employee_insights" readonly>
         </label>
         <button id="loadResponsesButton" class="load-button" type="button">Load Responses</button>
       </div>
 
-      <p id="adminStatus" class="status" role="status" aria-live="polite">Enter the admin password, then load responses.</p>
+      <p id="adminStatus" class="status" role="status" aria-live="polite">Load responses from Supabase.</p>
       <div id="adminInsightsList" class="insight-list" aria-live="polite"></div>
     </section>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script>
     console.log("deleteadmin page loaded");
 
-    const BACKEND_BASE_URL = "https://healthcare-industry-trends-prototype.onrender.com";
-    const ADMIN_INSIGHTS_ENDPOINT = `${BACKEND_BASE_URL}/api/admin/insights`;
+    const SUPABASE_URL = "https://YOUR_PROJECT_REF.supabase.co";
+    const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+    const INSIGHTS_SCHEMA = "public";
+    const INSIGHTS_TABLE = "employee_insights";
+
     const list = document.getElementById("adminInsightsList");
     const status = document.getElementById("adminStatus");
-    const secretInput = document.getElementById("secretInput");
     const loadButton = document.getElementById("loadResponsesButton");
 
-    let currentInsights = [];
+    let currentRows = [];
+    let hasCreatedAtColumn = true;
+    let hasSoftDeleteColumn = true;
+    let supabaseClient = null;
 
     function escapeHtml(value) {
       return String(value ?? "")
@@ -263,101 +269,170 @@
       return trimmed;
     }
 
-    function normalizeInsights(data) {
-      const insights = Array.isArray(data)
-        ? data
-        : Array.isArray(data?.insights)
-          ? data.insights
-          : Array.isArray(data?.responses)
-            ? data.responses
-            : [];
-
-      return insights.map((insight) => ({
-        id: insight?.id || "",
-        name: insight?.name || "",
-        role: insight?.role || "Not provided",
-        sourceType: insight?.sourceType || "Insight",
-        title: insight?.title || "Untitled Insight",
-        link: insight?.link || "",
-        rating: insight?.rating || "",
-        takeaways: insight?.takeaways || "No takeaway provided.",
-        whyItMatters: insight?.whyItMatters || "",
-        audience: normalizeAudience(insight?.audience) || "General audience",
-        submittedAt: insight?.submittedAt || insight?.date || ""
-      }));
+    function hasSupabaseConfig() {
+      return SUPABASE_URL.startsWith("https://") &&
+        SUPABASE_URL.includes(".supabase.co") &&
+        SUPABASE_ANON_KEY &&
+        SUPABASE_ANON_KEY !== "YOUR_SUPABASE_ANON_KEY";
     }
 
-    function getSecret() {
-      return secretInput.value.trim();
+    function getSupabaseClient() {
+      if (!hasSupabaseConfig()) {
+        throw new Error("Supabase URL or anon key is not configured in deleteadmin.html.");
+      }
+
+      if (!window.supabase?.createClient) {
+        throw new Error("Supabase browser client failed to load from the CDN.");
+      }
+
+      if (!supabaseClient) {
+        supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+      }
+
+      return supabaseClient;
     }
 
-    function getAuthHeaders(secret = getSecret()) {
-      return {
-        "x-webhook-secret": secret
-      };
+    function table() {
+      return getSupabaseClient().schema(INSIGHTS_SCHEMA).from(INSIGHTS_TABLE);
     }
 
-    function renderInsights(insights) {
-      if (!insights.length) {
+    function isMissingColumn(error, columnName) {
+      const combined = `${error?.message || ""} ${error?.details || ""} ${error?.hint || ""}`.toLowerCase();
+      return error?.code === "42703" || combined.includes(columnName.toLowerCase());
+    }
+
+    function formatSupabaseError(action, error) {
+      return [
+        `${action} failed.`,
+        error?.message,
+        error?.details,
+        error?.hint,
+        error?.code ? `Code: ${error.code}` : ""
+      ].filter(Boolean).join(" ");
+    }
+
+    function showError(message) {
+      status.textContent = message;
+      list.innerHTML = `<p>${escapeHtml(message)}</p>`;
+    }
+
+    async function queryRows() {
+      let useSoftDeleteFilter = hasSoftDeleteColumn;
+      let orderColumn = hasCreatedAtColumn ? "created_at" : "id";
+
+      for (let attempt = 0; attempt < 4; attempt += 1) {
+        let query = table().select("*");
+
+        if (useSoftDeleteFilter) {
+          query = query.or("is_deleted.eq.false,is_deleted.is.null");
+        }
+
+        query = query.order(orderColumn, { ascending: false });
+
+        const { data, error } = await query;
+
+        if (!error) {
+          hasSoftDeleteColumn = useSoftDeleteFilter;
+          hasCreatedAtColumn = orderColumn === "created_at";
+          return data || [];
+        }
+
+        console.error("Supabase load error", error);
+
+        if (useSoftDeleteFilter && isMissingColumn(error, "is_deleted")) {
+          hasSoftDeleteColumn = false;
+          useSoftDeleteFilter = false;
+          continue;
+        }
+
+        if (orderColumn === "created_at" && isMissingColumn(error, "created_at")) {
+          hasCreatedAtColumn = false;
+          orderColumn = "id";
+          continue;
+        }
+
+        throw error;
+      }
+
+      return [];
+    }
+
+    function getField(row, keys) {
+      for (const key of keys) {
+        if (row?.[key] !== undefined && row[key] !== null && row[key] !== "") {
+          return row[key];
+        }
+      }
+
+      return "";
+    }
+
+    function renderField(label, value) {
+      if (value === undefined || value === null || value === "") return "";
+      return `<p><strong>${escapeHtml(label)}:</strong> ${escapeHtml(value)}</p>`;
+    }
+
+    function renderRows(rows) {
+      if (!rows.length) {
         list.innerHTML = "<p>No employee insights are currently stored in Supabase.</p>";
         return;
       }
 
-      list.innerHTML = insights.map(insight => `
-        <article class="insight-card" data-insight-id="${escapeAttribute(insight.id)}">
+      list.innerHTML = rows.map(row => {
+        const id = getField(row, ["id"]);
+        const name = getField(row, ["name"]);
+        const role = getField(row, ["role"]);
+        const sourceType = getField(row, ["source_type", "sourceType"]);
+        const title = getField(row, ["title"]) || "Untitled Employee Insight";
+        const description = getField(row, ["description"]);
+        const link = getField(row, ["link", "url"]);
+        const takeaways = getField(row, ["takeaways", "key_takeaway"]);
+        const whyItMatters = getField(row, ["why_it_matters", "whyItMatters"]);
+        const audience = normalizeAudience(getField(row, ["audience"]));
+        const createdAt = getField(row, ["created_at"]);
+        const submittedAt = getField(row, ["submitted_at", "submittedAt"]);
+
+        return `
+        <article class="insight-card" data-insight-id="${escapeAttribute(id)}">
           <div class="insight-card-header">
             <div>
-              <span class="tag">${escapeHtml(insight.sourceType)}</span>
-              <h2>${escapeHtml(insight.title)}</h2>
+              <span class="tag">${escapeHtml(sourceType || "Insight")}</span>
+              <h2>${escapeHtml(title)}</h2>
             </div>
-            <button class="delete-button" type="button" data-id="${escapeAttribute(insight.id)}">Delete</button>
+            <button class="delete-button" type="button" data-id="${escapeAttribute(id)}">Delete</button>
           </div>
           <div class="meta-grid">
-            ${insight.name ? `<p><strong>Submitted By:</strong> ${escapeHtml(insight.name)}</p>` : ""}
-            <p><strong>Role / Service Line:</strong> ${escapeHtml(insight.role)}</p>
-            <p><strong>Source Type:</strong> ${escapeHtml(insight.sourceType)}</p>
-            ${insight.rating ? `<p><strong>Reliability Rating:</strong> ${escapeHtml(insight.rating)}</p>` : ""}
-            <p><strong>Best For:</strong> ${escapeHtml(insight.audience)}</p>
-            ${insight.submittedAt ? `<p><strong>Submitted:</strong> ${escapeHtml(insight.submittedAt)}</p>` : ""}
+            ${renderField("ID", id)}
+            ${renderField("Name", name)}
+            ${renderField("Role / Service Line", role)}
+            ${renderField("Source Type", sourceType)}
+            ${renderField("Best For", audience)}
+            ${renderField("Created", createdAt)}
+            ${renderField("Submitted", submittedAt)}
           </div>
-          <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways)}</p>
-          ${insight.whyItMatters ? `<p><strong>Why It Matters:</strong> ${escapeHtml(insight.whyItMatters)}</p>` : ""}
-          ${insight.link ? `<a href="${escapeAttribute(insight.link)}" target="_blank" rel="noopener noreferrer">View Source</a>` : ""}
+          ${renderField("Description", description)}
+          ${renderField("Key Takeaway", takeaways)}
+          ${renderField("Why It Matters", whyItMatters)}
+          ${link ? `<a href="${escapeAttribute(link)}" target="_blank" rel="noopener noreferrer">View Source</a>` : ""}
         </article>
-      `).join("");
+      `;
+      }).join("");
     }
 
-    async function loadResponses(secret = getSecret()) {
-      if (!secret) {
-        status.textContent = "Enter the admin password before loading responses.";
-        return;
-      }
-
+    async function loadResponses() {
       console.log("admin insights fetch started");
-      console.log("exact admin API URL", ADMIN_INSIGHTS_ENDPOINT);
+      console.log("Supabase table", `${INSIGHTS_SCHEMA}.${INSIGHTS_TABLE}`);
       status.textContent = "Loading responses...";
       list.innerHTML = "";
 
       try {
-        const response = await fetch(ADMIN_INSIGHTS_ENDPOINT, {
-          headers: getAuthHeaders(secret),
-          cache: "no-store"
-        });
-
-        console.log("admin insights response status", response.status);
-
-        if (!response.ok) {
-          throw new Error(`Load failed with status ${response.status}`);
-        }
-
-        const data = await response.json();
-        console.log("admin insights data", data);
-        currentInsights = normalizeInsights(data);
-        renderInsights(currentInsights);
-        status.textContent = `Loaded ${currentInsights.length} employee insight${currentInsights.length === 1 ? "" : "s"}.`;
+        currentRows = await queryRows();
+        console.log("admin insights data", currentRows);
+        renderRows(currentRows);
+        status.textContent = `Loaded ${currentRows.length} employee insight${currentRows.length === 1 ? "" : "s"} from Supabase.`;
       } catch (error) {
         console.error(error);
-        status.textContent = "Unable to load responses from the backend.";
+        showError(formatSupabaseError("Load", error));
       }
     }
 
@@ -373,41 +448,53 @@
       const confirmed = window.confirm("Delete this insight from Supabase and the public website display?");
       if (!confirmed) return;
 
-      const password = window.prompt("Enter the admin password to delete this insight:");
-      if (!password) {
-        status.textContent = "Delete cancelled because no admin password was entered.";
-        return;
-      }
-
-      secretInput.value = password;
-      const deleteUrl = `${ADMIN_INSIGHTS_ENDPOINT}/${encodeURIComponent(id)}`;
-      console.log("delete API URL", deleteUrl);
+      console.log("Supabase row id being deleted", id);
       status.textContent = "Deleting response...";
 
       try {
-        const response = await fetch(deleteUrl, {
-          method: "DELETE",
-          headers: getAuthHeaders(password)
-        });
+        let deletedData = null;
 
-        console.log("delete response status", response.status);
-        const data = await response.json().catch(() => ({}));
-        console.log("delete response JSON", data);
+        if (hasSoftDeleteColumn) {
+          const { data, error } = await table()
+            .update({ is_deleted: true })
+            .eq("id", id)
+            .select("*")
+            .maybeSingle();
 
-        if (!response.ok) {
-          throw new Error(data?.error || `Delete failed with status ${response.status}`);
+          if (error && isMissingColumn(error, "is_deleted")) {
+            console.warn("is_deleted column not found; falling back to hard delete.", error);
+            hasSoftDeleteColumn = false;
+          } else if (error) {
+            throw error;
+          } else {
+            deletedData = data;
+          }
+        }
+
+        if (!hasSoftDeleteColumn) {
+          const { data, error } = await table()
+            .delete()
+            .eq("id", id)
+            .select("*");
+
+          if (error) {
+            throw error;
+          }
+
+          deletedData = data;
         }
 
         const card = list.querySelector(`[data-insight-id="${CSS.escape(id)}"]`);
         if (card) card.remove();
-        currentInsights = currentInsights.filter((insight) => insight.id !== id);
+        currentRows = currentRows.filter((row) => String(row.id) !== String(id));
+        console.log("delete response JSON", deletedData);
         status.textContent = "Insight deleted from Supabase. Refreshing list...";
-        await loadResponses(password);
+        await loadResponses();
         console.log("admin list refreshed after delete");
         status.textContent = "Insight deleted from Supabase and removed from the website display.";
       } catch (error) {
         console.error(error);
-        status.textContent = "Unable to delete that response from the backend.";
+        showError(formatSupabaseError("Delete", error));
       }
     }
 

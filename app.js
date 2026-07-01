@@ -201,19 +201,9 @@ function renderTerminologyDictionary() {
     };
   }
 
-  function escapeRegExp(value) {
-    return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  }
-
   function matchesTerminologySearch(searchValue, searchParts) {
     if (!searchValue) return true;
-
-    if (searchValue.length <= 3) {
-      const exactShortTermPattern = new RegExp(`(^|[^a-z0-9])${escapeRegExp(searchValue)}([^a-z0-9]|$)`, 'i');
-      return exactShortTermPattern.test(searchParts.searchableText);
-    }
-
-    return searchParts.searchableText.includes(searchValue);
+    return searchParts.term.includes(searchValue) || searchParts.expandedTerm.includes(searchValue);
   }
 
   function getFilteredTerms() {
@@ -273,8 +263,8 @@ function renderTerminologyDictionary() {
     }
 
     const filteredTerms = getFilteredTerms();
-    const visibleTerms = filteredTerms.slice(0, visibleTerminologyCount);
-    const hasMoreTerms = visibleTerminologyCount < filteredTerms.length;
+    const visibleTerms = filteredTerms;
+    const hasMoreTerms = false;
     const activeCount = filteredTerms.length;
     console.log("active terminology category filter", selectedLine || "All");
     console.log("rendered terminology count", visibleTerms.length);
@@ -294,7 +284,7 @@ function renderTerminologyDictionary() {
       countLabel.textContent = "";
       grid.innerHTML = `
         <div class="no-terms-message">
-          No matching term found. Try another keyword or choose a category.
+          No matching terminology found.
         </div>
       `;
       if (loadMoreButton) loadMoreButton.hidden = true;
