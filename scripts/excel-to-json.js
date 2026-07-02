@@ -7,6 +7,9 @@ const workbookPath = path.join(root, 'data', 'Resources and Terminology for Heal
 const resourcesOutputPath = path.join(root, 'data', 'resources.json');
 const terminologyOutputPath = path.join(root, 'data', 'terminology.json');
 const signalsOutputPath = path.join(root, 'data', 'healthcare-signals.json');
+const versionedResourcesOutputPath = path.join(root, 'data', 'resources-workbook-20260702-v3.json');
+const versionedTerminologyOutputPath = path.join(root, 'data', 'terminology-workbook-20260702-v3.json');
+const versionedSignalsOutputPath = path.join(root, 'data', 'healthcare-signals-workbook-20260702-v3.json');
 
 const resourceSheetName = 'Healthcare Resources';
 const terminologySheetName = 'Healthcare Terminology';
@@ -219,10 +222,14 @@ function main() {
   writeJson(resourcesOutputPath, resources);
   writeJson(terminologyOutputPath, terminology);
   writeJson(signalsOutputPath, signals);
+  writeJson(versionedResourcesOutputPath, resources);
+  writeJson(versionedTerminologyOutputPath, terminology);
+  writeJson(versionedSignalsOutputPath, signals);
 
   console.log(`Converted ${resources.length} resources to ${path.relative(root, resourcesOutputPath)}`);
   console.log(`Converted ${terminology.length} terminology terms to ${path.relative(root, terminologyOutputPath)}`);
   console.log(`Converted ${signals.length} approved healthcare signal sources to ${path.relative(root, signalsOutputPath)}`);
+  console.log(`Wrote versioned workbook data files for live cache busting.`);
 }
 
 main();

@@ -57,7 +57,7 @@ function uniqueSorted(values) {
 let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
-const DATA_VERSION = 'excel-workbook-20260702-v3';
+const DATA_VERSION = 'excel-workbook-20260702-v4';
 
 let healthcareIndustryNews = [];
 
@@ -920,11 +920,11 @@ function normalizeSignalData(data) {
 }
 
 async function init() {
-  const rawResources = await loadDataJson('./data/resources.json', 'resources');
+  const rawResources = await loadDataJson('./data/resources-workbook-20260702-v3.json', 'resources');
   const services = await loadJson('./data/service-lines.json', []);
   const sources = await loadJson('./data/source-index.json', []);
-  const rawTerminology = await loadDataJson('./data/terminology.json', 'terminology');
-  const rawSignals = await loadDataJson('./data/healthcare-signals.json', 'healthcare signals');
+  const rawTerminology = await loadDataJson('./data/terminology-workbook-20260702-v3.json', 'terminology');
+  const rawSignals = await loadDataJson('./data/healthcare-signals-workbook-20260702-v3.json', 'healthcare signals');
   const resources = normalizeResourceData(rawResources);
   const terminology = normalizeTerminologyData(rawTerminology);
   const signals = normalizeSignalData(rawSignals);
