@@ -2,7 +2,7 @@
 
 // Do not edit by hand; run npm run build:data after updating the workbook.
 
-export const workbookResources = [
+export const healthcareResources = [
   {
     "title": "AI in Healthcare Specialization",
     "website": "Coursera",
@@ -1734,7 +1734,7 @@ export const workbookResources = [
   }
 ];
 
-export const workbookTerminology = [
+export const healthcareTerminology = [
   {
     "term": "Revenue Cycle Management",
     "category": "Revenue Cycle",
@@ -3329,7 +3329,7 @@ export const workbookTerminology = [
   }
 ];
 
-export const workbookHealthcareSignals = [
+export const approvedSignalSources = [
   {
     "websiteName": "HFMA.org",
     "source": "HFMA.org",

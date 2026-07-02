@@ -1,8 +1,8 @@
 import {
-  workbookHealthcareSignals,
-  workbookResources,
-  workbookTerminology
-} from './data/workbook-data.js';
+  approvedSignalSources,
+  healthcareResources,
+  healthcareTerminology
+} from './data.js';
 
 const state = {
   resources: [],
@@ -63,7 +63,7 @@ function uniqueSorted(values) {
 let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
-const DATA_VERSION = 'excel-workbook-20260702-v4';
+const DATA_VERSION = 'excel-workbook-20260702-v6';
 
 let healthcareIndustryNews = [];
 
@@ -577,50 +577,6 @@ function renderServiceLines() {
   `).join('');
 }
 
-function renderResourcesLegacy() {
-  console.log("active resource service line filter", state.service);
-  console.log("active resource level filter", state.level);
-
-  if (state.resourcesError) {
-    els.resultsSummary.textContent = "";
-    els.resourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(state.resourcesError)}</div>`;
-    if (els.resourceShowMore) els.resourceShowMore.hidden = true;
-    console.log("rendered resources count", 0);
-    return;
-  }
-
-  const results = state.resources.filter(resourceMatches);
-  const visibleResults = results.slice(0, state.visibleResourceCount);
-  const hasMoreResults = state.visibleResourceCount < results.length;
-
-  els.resultsSummary.textContent = `Showing ${visibleResults.length} of ${results.length} matching resource${results.length === 1 ? '' : 's'}`;
-  if (!results.length) {
-    const message = state.resources.length
-      ? 'No resources match those filters. Try resetting filters or using a broader keyword.'
-      : 'Resource Library data is unavailable. Add data/resources.json by running the Excel import.';
-    els.resourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    if (els.resourceShowMore) els.resourceShowMore.hidden = true;
-    console.log("rendered resources count", 0);
-    return;
-  }
-  els.resourceGrid.innerHTML = visibleResults.map(resource => `
-    <article class="resource-card">
-      <div class="tag-stack">
-        <span class="tag">${escapeHtml(resource.serviceLine)}</span>
-        <span class="tag">${escapeHtml(getLevelGroup(resource.level))}</span>
-      </div>
-      <h3>${escapeHtml(resource.title || resource.name)}</h3>
-      <p class="resource-meta">${escapeHtml(translateResourceCategory(resource))} - ${escapeHtml(resource.organization || 'Resource')}</p>
-      <p class="resource-desc">${escapeHtml(resource.description || 'Use this source to build healthcare consulting domain fluency.')}</p>
-      <a class="resource-link" href="${escapeAttribute(resource.url)}" target="_blank" rel="noopener">Open resource -></a>
-    </article>
-  `).join('');
-
-  if (els.resourceShowMore) {
-    els.resourceShowMore.hidden = !hasMoreResults;
-  }
-}
-
 function renderResources() {
   console.log("active resource service line filter", state.service);
   console.log("active resource level filter", state.level);
@@ -641,7 +597,7 @@ function renderResources() {
   if (!results.length) {
     const message = state.resources.length
       ? 'No resources match those filters. Try resetting filters or using a broader keyword.'
-      : 'Resource Library data is unavailable. Add data/resources.json by running the Excel import.';
+      : 'Resource Library data is unavailable. Run npm run build:data to regenerate data.js from the workbook.';
     els.resourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
     if (els.resourceShowMore) els.resourceShowMore.hidden = true;
     console.log("rendered resources count", 0);
@@ -928,13 +884,13 @@ function normalizeSignalData(data) {
 async function init() {
   const services = await loadJson('./data/service-lines.json', []);
   const sources = await loadJson('./data/source-index.json', []);
-  console.log("workbook resources data", workbookResources);
-  console.log("workbook terminology data", workbookTerminology);
-  console.log("workbook healthcare signals data", workbookHealthcareSignals);
+  console.log("healthcareResources data", healthcareResources);
+  console.log("healthcareTerminology data", healthcareTerminology);
+  console.log("approvedSignalSources data", approvedSignalSources);
 
-  const resources = normalizeResourceData(workbookResources);
-  const terminology = normalizeTerminologyData(workbookTerminology);
-  const signals = normalizeSignalData(workbookHealthcareSignals);
+  const resources = normalizeResourceData(healthcareResources);
+  const terminology = normalizeTerminologyData(healthcareTerminology);
+  const signals = normalizeSignalData(approvedSignalSources);
   console.log("normalized resources count", resources.length);
   console.log("normalized terminology count", terminology.length);
   console.log("normalized healthcare signals count", signals.length);
