@@ -279,7 +279,7 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
 
 .insight-carousel {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr);
   gap: 14px;
   align-items: center;
   position: relative;
@@ -304,32 +304,6 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
   border-radius: 12px;
   padding: 24px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-}
-
-.carousel-button {
-  position: relative;
-  z-index: 2;
-  width: 44px;
-  height: 44px;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  background: #fff;
-  color: var(--navy);
-  font-size: 30px;
-  line-height: 1;
-  cursor: pointer;
-  pointer-events: auto;
-  box-shadow: 0 4px 12px rgba(13, 44, 82, 0.1);
-}
-
-.carousel-button:hover:not(:disabled) {
-  background: var(--navy);
-  color: #fff;
-}
-
-.carousel-button:disabled {
-  opacity: 0.35;
-  cursor: not-allowed;
 }
 
 .insight-empty {
@@ -1207,6 +1181,5 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
   .nav-links { justify-content: flex-start; }
   .insight-filter-bar { grid-template-columns: 1fr; }
   .insight-carousel { grid-template-columns: 1fr; }
-  .carousel-button { display: none; }
   .insight-card { flex-basis: 92%; }
 }
