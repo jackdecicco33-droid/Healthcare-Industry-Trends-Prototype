@@ -57,6 +57,7 @@ function uniqueSorted(values) {
 let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
+const DATA_VERSION = 'excel-workbook-20260702-v3';
 
 let healthcareIndustryNews = [];
 
@@ -806,7 +807,7 @@ function bindEvents() {
 
 async function loadJson(path, fallback = []) {
   try {
-    const response = await fetch(path);
+    const response = await fetch(withDataVersion(path));
     if (!response.ok) {
       console.warn(`Failed to load ${path}: ${response.status} ${response.statusText}`);
       return fallback;
@@ -821,7 +822,9 @@ async function loadJson(path, fallback = []) {
 async function loadDataJson(path, label) {
   console.log(`${label} fetch started`);
   try {
-    const response = await fetch(path);
+    const versionedPath = withDataVersion(path);
+    console.log(`${label} fetch URL`, versionedPath);
+    const response = await fetch(versionedPath);
     console.log(`${label} response status`, response.status);
 
     if (!response.ok) {
@@ -835,6 +838,11 @@ async function loadDataJson(path, label) {
     console.warn(`Unable to load ${label} data from ${path}:`, error);
     return null;
   }
+}
+
+function withDataVersion(path) {
+  const separator = path.includes('?') ? '&' : '?';
+  return `${path}${separator}v=${encodeURIComponent(DATA_VERSION)}`;
 }
 
 function normalizeResourceData(data) {
