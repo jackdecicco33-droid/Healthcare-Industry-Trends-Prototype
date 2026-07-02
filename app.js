@@ -10,7 +10,8 @@ const state = {
   showResources: false,
   sourceSearch: '',
   resourcesError: '',
-  terminologyError: ''
+  terminologyError: '',
+  signalsError: ''
 };
 
 const els = {
@@ -57,68 +58,7 @@ let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
 
-const healthcareIndustryNews = [
-  {
-    title: "CMS policy and payment updates remain a key signal for provider strategy",
-    source: "CMS Newsroom",
-    date: "Update regularly",
-    serviceLine: "Revenue Cycle / Quality",
-    trustLevel: "Primary Source",
-    summary:
-      "CMS updates are important because payment policy, quality reporting, reimbursement rules, and value-based care programs can directly affect how hospitals operate and get paid.",
-    consultingLens:
-      "Revenue Cycle teams should watch for billing and reimbursement impact. Quality teams should watch for reporting and performance requirements. Strategy teams should watch for broader operating model implications.",
-    url: "https://www.cms.gov/newsroom"
-  },
-  {
-    title: "Hospital finance and margin pressure continue to shape executive priorities",
-    source: "Becker’s Hospital Review",
-    date: "Update regularly",
-    serviceLine: "Revenue Cycle / Strategy",
-    trustLevel: "Industry News",
-    summary:
-      "Hospital finance stories help users understand what executives are paying attention to, including cost pressure, reimbursement challenges, denials, labor expense, and revenue performance.",
-    consultingLens:
-      "Consultants should connect finance news back to cash acceleration, denial prevention, payer strategy, operating expense, and margin improvement opportunities.",
-    url: "https://www.beckershospitalreview.com/finance.html"
-  },
-  {
-    title: "Healthcare workforce trends remain central to hospital operations",
-    source: "BLS Healthcare Occupations",
-    date: "Update regularly",
-    serviceLine: "Workforce / Labor",
-    trustLevel: "Primary Data",
-    summary:
-      "Healthcare employment and wage data can help users understand labor-market pressure, staffing challenges, compensation trends, and workforce planning needs.",
-    consultingLens:
-      "Workforce consultants should watch wage pressure, role shortages, staffing mix, overtime reliance, turnover risk, and how labor constraints affect operations.",
-    url: "https://www.bls.gov/ooh/healthcare/"
-  },
-  {
-    title: "Healthcare quality and patient safety remain key performance priorities",
-    source: "AHRQ",
-    date: "Update regularly",
-    serviceLine: "Quality / Clinical Optimization",
-    trustLevel: "Primary Source",
-    summary:
-      "AHRQ resources help users understand patient safety, evidence-based improvement, care delivery research, and practical tools for quality performance.",
-    consultingLens:
-      "Quality consultants should connect safety and quality topics to readmissions, harm events, patient experience, process redesign, and performance improvement initiatives.",
-    url: "https://www.ahrq.gov/"
-  },
-  {
-    title: "Healthcare policy analysis helps explain Medicare, Medicaid, affordability, and coverage trends",
-    source: "KFF",
-    date: "Update regularly",
-    serviceLine: "Policy / Strategy",
-    trustLevel: "Policy Research",
-    summary:
-      "Policy analysis helps users understand the larger forces affecting health systems, including coverage, government programs, affordability, and access.",
-    consultingLens:
-      "Strategy and revenue cycle teams should translate policy movement into implications for payer mix, reimbursement, patient access, affordability, and health-system planning.",
-    url: "https://www.kff.org/"
-  }
-];
+let healthcareIndustryNews = [];
 
 let healthcareTerms = [];
 const employeeInsightsCarousel = {
@@ -182,16 +122,25 @@ function renderTerminologyDictionary() {
   function getSearchParts(item) {
     const term = item.term || item.title || '';
     const expandedTerm = term.replace(/\([^)]*\)/g, ' ');
+    const searchableText = [
+      term,
+      expandedTerm,
+      item.definition,
+      item.sourceName,
+      item.source,
+      item.example
+    ].filter(Boolean).join(' ').toLowerCase();
 
     return {
       term: term.toLowerCase(),
-      expandedTerm: expandedTerm.toLowerCase()
+      expandedTerm: expandedTerm.toLowerCase(),
+      searchableText
     };
   }
 
   function matchesTerminologySearch(searchValue, searchParts) {
     if (!searchValue) return true;
-    return searchParts.term.includes(searchValue) || searchParts.expandedTerm.includes(searchValue);
+    return searchParts.searchableText.includes(searchValue);
   }
 
   function getFilteredTerms() {
@@ -329,7 +278,7 @@ function renderTerminologyDictionary() {
 
             ${item.url ? `
               <a class="term-source-link" href="${escapeAttribute(item.url)}" target="_blank" rel="noopener noreferrer">
-                View source →
+                View source ->
               </a>
             ` : ''}
           </article>
@@ -398,6 +347,10 @@ function renderTerminologyDictionary() {
 }
 
 function getDailyNewsIndex() {
+  if (!healthcareIndustryNews.length) {
+    return 0;
+  }
+
   const startDate = new Date("2026-01-01T00:00:00");
   const today = new Date();
 
@@ -416,6 +369,19 @@ function renderHealthcareIndustryWatch() {
   const newsUpdatedLabel = document.getElementById("newsUpdatedLabel");
 
   if (!featuredNewsCard || !newsGrid) {
+    return;
+  }
+
+  if (state.signalsError || !healthcareIndustryNews.length) {
+    featuredNewsCard.innerHTML = `
+      <div class="empty-state">
+        ${escapeHtml(state.signalsError || 'No approved healthcare signals available right now. Please check back later.')}
+      </div>
+    `;
+    newsGrid.innerHTML = '';
+    if (newsUpdatedLabel) {
+      newsUpdatedLabel.textContent = 'Approved signal sources unavailable';
+    }
     return;
   }
 
@@ -442,18 +408,18 @@ function renderHealthcareIndustryWatch() {
 
   featuredNewsCard.innerHTML = `
     <div class="news-meta-row">
-      <span class="news-pill green">${featured.trustLevel}</span>
-      <span class="news-pill">${featured.serviceLine}</span>
-      <span class="news-pill">${featured.source}</span>
+      <span class="news-pill green">${escapeHtml(featured.trustLevel)}</span>
+      <span class="news-pill">${escapeHtml(featured.serviceLine)}</span>
+      <span class="news-pill">${escapeHtml(featured.source)}</span>
     </div>
 
-    <h3>${featured.title}</h3>
+    <h3>${escapeHtml(featured.title)}</h3>
 
-    <p class="news-summary">${featured.summary}</p>
+    <p class="news-summary">${escapeHtml(featured.summary)}</p>
 
     <div class="consulting-lens-box">
       <strong>Consulting lens</strong>
-      <p>${featured.consultingLens}</p>
+      <p>${escapeHtml(featured.consultingLens)}</p>
     </div>
 
     <div class="watch-summary inline-watch-summary" aria-label="Biggest takeaways">
@@ -461,18 +427,18 @@ function renderHealthcareIndustryWatch() {
         <p class="eyebrow">Summary</p>
         <h4>Biggest Takeaways</h4>
         <p>
-          Today highlights ${featured.source} with implications for ${featured.serviceLine}.
+          Today highlights ${escapeHtml(featured.source)} with implications for ${escapeHtml(featured.serviceLine)}.
           Use these points to frame client conversations and internal team updates.
         </p>
       </div>
       <ul class="watch-takeaway-list">
-        ${takeaways.map(item => `<li>${item}</li>`).join('')}
+        ${takeaways.map(item => `<li>${escapeHtml(item)}</li>`).join('')}
       </ul>
     </div>
 
     <div class="news-actions">
-      <a class="news-button" href="${featured.url}" target="_blank" rel="noopener noreferrer">
-        Read source →
+      <a class="news-button" href="${escapeAttribute(featured.url)}" target="_blank" rel="noopener noreferrer">
+        Read source ->
       </a>
       <span class="news-source-text">Featured for ${formattedDate}</span>
     </div>
@@ -482,11 +448,11 @@ function renderHealthcareIndustryWatch() {
     .map(
       article => `
         <article class="mini-news-card">
-          <span class="news-pill">${article.serviceLine}</span>
-          <h4>${article.title}</h4>
-          <p>${article.summary}</p>
-          <a href="${article.url}" target="_blank" rel="noopener noreferrer">
-            View source →
+          <span class="news-pill">${escapeHtml(article.serviceLine)}</span>
+          <h4>${escapeHtml(article.title)}</h4>
+          <p>${escapeHtml(article.summary)}</p>
+          <a href="${escapeAttribute(article.url)}" target="_blank" rel="noopener noreferrer">
+            View source ->
           </a>
         </article>
       `
@@ -500,6 +466,20 @@ function renderHealthcareIndustryWatch() {
 
 function normalize(value) {
   return String(value || '').toLowerCase();
+}
+
+function isValidHttpUrl(value) {
+  try {
+    const parsed = new URL(value);
+    return parsed.protocol === 'http:' || parsed.protocol === 'https:';
+  } catch {
+    return false;
+  }
+}
+
+function getUrlDomain(value) {
+  if (!isValidHttpUrl(value)) return '';
+  return new URL(value).hostname.replace(/^www\./, '');
 }
 
 function getLevelGroup(level) {
@@ -623,9 +603,9 @@ function renderResourcesLegacy() {
         <span class="tag">${escapeHtml(getLevelGroup(resource.level))}</span>
       </div>
       <h3>${escapeHtml(resource.title || resource.name)}</h3>
-      <p class="resource-meta">${escapeHtml(translateResourceCategory(resource))} · ${escapeHtml(resource.organization || 'Resource')}</p>
+      <p class="resource-meta">${escapeHtml(translateResourceCategory(resource))} - ${escapeHtml(resource.organization || 'Resource')}</p>
       <p class="resource-desc">${escapeHtml(resource.description || 'Use this source to build healthcare consulting domain fluency.')}</p>
-      <a class="resource-link" href="${escapeAttribute(resource.url)}" target="_blank" rel="noopener">Open resource →</a>
+      <a class="resource-link" href="${escapeAttribute(resource.url)}" target="_blank" rel="noopener">Open resource -></a>
     </article>
   `).join('');
 
@@ -635,7 +615,7 @@ function renderResourcesLegacy() {
 }
 
 function renderResources() {
-  console.log("active resource service filter", state.service);
+  console.log("active resource service line filter", state.service);
   console.log("active resource level filter", state.level);
 
   if (state.resourcesError) {
@@ -661,18 +641,25 @@ function renderResources() {
     return;
   }
 
-  els.resourceGrid.innerHTML = visibleResults.map(resource => `
-    <article class="resource-card">
-      <div class="tag-stack">
-        <span class="tag">${escapeHtml(resource.serviceLine)}</span>
-        <span class="tag">${escapeHtml(getLevelGroup(resource.level))}</span>
-      </div>
-      <h3>${escapeHtml(resource.title || resource.name)}</h3>
-      <p class="resource-meta">${escapeHtml(resource.sourceType || translateResourceCategory(resource))} · ${escapeHtml(resource.website || resource.organization || 'Resource')}</p>
-      <p class="resource-desc">${escapeHtml(resource.description || 'Use this source to build healthcare consulting domain fluency.')}</p>
-      <a class="resource-link" href="${escapeAttribute(resource.url)}" target="_blank" rel="noopener">Open resource →</a>
-    </article>
-  `).join('');
+  els.resourceGrid.innerHTML = visibleResults.map(resource => {
+    const validLink = resource.hasValidUrl || isValidHttpUrl(resource.url);
+    return `
+      <article class="resource-card">
+        <div class="tag-stack">
+          <span class="tag">${escapeHtml(resource.serviceLine)}</span>
+          <span class="tag">${escapeHtml(getLevelGroup(resource.level))}</span>
+        </div>
+        <h3>${escapeHtml(resource.title || resource.name)}</h3>
+        <p class="resource-meta">${escapeHtml(resource.sourceType || translateResourceCategory(resource))} - ${escapeHtml(resource.website || resource.organization || 'Resource')}</p>
+        <p class="resource-desc">${escapeHtml(resource.description || 'Use this source to build healthcare consulting domain fluency.')}</p>
+        ${validLink
+          ? `<a class="resource-link" href="${escapeAttribute(resource.url)}" target="_blank" rel="noopener">Open resource -></a>`
+          : resource.url
+            ? `<p class="resource-link resource-link-catalog">Source listed: ${escapeHtml(resource.url)}</p>`
+            : ''}
+      </article>
+    `;
+  }).join('');
   console.log("rendered resources count", visibleResults.length);
 
   if (els.resourceShowMore) {
@@ -718,7 +705,7 @@ function renderSources() {
         <p><strong>Appears as:</strong> ${escapeHtml(names || 'Source link')}</p>
         <p><strong>Level group(s):</strong> ${escapeHtml(levelGroups || 'Shared')}</p>
         <p><strong>Service lines:</strong> ${escapeHtml(lines || 'Shared')}</p>
-        <a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener">Visit source →</a>
+        <a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener">Visit source -></a>
       </article>
     `;
   }).join('');
@@ -858,6 +845,7 @@ function normalizeResourceData(data) {
       const sourceType = resource.sourceType || resource.category || '';
       const serviceLine = resource.serviceLine || '';
       const level = resource.level || '';
+      const url = resource.url || '';
 
       return {
         ...resource,
@@ -869,7 +857,8 @@ function normalizeResourceData(data) {
         category: sourceType,
         serviceLine,
         level,
-        url: resource.url || '',
+        url,
+        hasValidUrl: Boolean(resource.hasValidUrl) || isValidHttpUrl(url),
         description:
           resource.description ||
           `Resource from ${website || 'the listed website'} focused on ${serviceLine || 'healthcare consulting'}.`
@@ -895,15 +884,45 @@ function normalizeTerminologyData(data) {
     .filter(item => item.term || item.definition);
 }
 
+function normalizeSignalData(data) {
+  return (Array.isArray(data) ? data : [])
+    .map(item => {
+      const url = item.url || item.link || '';
+      const source = item.source || item.websiteName || item.website || 'Approved Source';
+      const title = item.title || `${source} healthcare signal source`;
+      const serviceLine = item.serviceLine || item.topic || 'Healthcare Signal';
+
+      return {
+        title,
+        source,
+        date: item.date || 'Check source for latest updates',
+        serviceLine,
+        trustLevel: item.trustLevel || 'Approved Source',
+        summary:
+          item.summary ||
+          `Approved healthcare signal source from the Excel workbook: ${source}.`,
+        consultingLens:
+          item.consultingLens ||
+          'Use this approved source to monitor current healthcare news, policy movement, and industry signals.',
+        url,
+        domain: item.domain || getUrlDomain(url)
+      };
+    })
+    .filter(item => isValidHttpUrl(item.url));
+}
+
 async function init() {
   const rawResources = await loadDataJson('./data/resources.json', 'resources');
   const services = await loadJson('./data/service-lines.json', []);
   const sources = await loadJson('./data/source-index.json', []);
   const rawTerminology = await loadDataJson('./data/terminology.json', 'terminology');
+  const rawSignals = await loadDataJson('./data/healthcare-signals.json', 'healthcare signals');
   const resources = normalizeResourceData(rawResources);
   const terminology = normalizeTerminologyData(rawTerminology);
+  const signals = normalizeSignalData(rawSignals);
   console.log("normalized resources count", resources.length);
   console.log("normalized terminology count", terminology.length);
+  console.log("normalized healthcare signals count", signals.length);
 
   state.resourcesError = rawResources === null || !resources.length
     ? 'Resource Library data is unavailable. Run npm run build:data to regenerate data/resources.json from the workbook.'
@@ -911,11 +930,15 @@ async function init() {
   state.terminologyError = rawTerminology === null || !terminology.length
     ? 'Terminology data is unavailable. Run npm run build:data to regenerate data/terminology.json from the workbook.'
     : '';
+  state.signalsError = rawSignals === null || !signals.length
+    ? 'No approved healthcare signals available right now. Please check back later.'
+    : '';
 
   state.resources = resources;
   state.services = services;
   state.sources = sources;
   healthcareTerms = terminology.sort((a, b) => a.term.localeCompare(b.term));
+  healthcareIndustryNews = signals;
 
   const serviceLineNames = uniqueSorted(services.map(item => item.serviceLine));
   const resourceServiceLines = uniqueSorted(resources.map(item => item.serviceLine));
@@ -955,7 +978,7 @@ function disabledLegacyLocalInsightSubmission() {
     form.reset();
 
     if (successMessage) {
-      successMessage.textContent = '✓ Insight submitted and shown below.';
+      successMessage.textContent = 'Insight submitted and shown below.';
       setTimeout(() => {
         successMessage.textContent = '';
       }, 4000);
@@ -1242,3 +1265,4 @@ if (document.readyState === 'loading') {
 } else {
   startApp();
 }
+

@@ -440,14 +440,6 @@
     "example": "A patient with cancer is choosing between two treatment options. Instead of only recommending the most clinically aggressive option, the care team discusses the patient’s goals, side effects, family situation, quality of life, and personal preferences before deciding on the care plan together."
   },
   {
-    "term": "Patient Access",
-    "category": "Revenue Cycle",
-    "definition": "Patient Access is the front-end part of the revenue cycle where patients are scheduled, registered, financially cleared, and prepared for care. It often includes scheduling, insurance verification, prior authorization, pre-registration, financial counseling, upfront collections, medical necessity checks, admission notification, and registration.",
-    "sourceName": "NAHAM",
-    "source": "NAHAM",
-    "example": "A patient schedules an outpatient MRI. Before the appointment, the Patient Access team confirms the patient's demographics, verifies insurance coverage, checks whether prior authorization is required, estimates the patient's out-of-pocket responsibility, and completes registration so the visit can be billed correctly after care is provided."
-  },
-  {
     "term": "Admission Date",
     "category": "Revenue Cycle",
     "definition": "Admission date is the date a patient is formally admitted for inpatient care. It is important for billing, claims, length-of-stay tracking, coverage rules, and determining which services are connected to the inpatient stay.",
@@ -1110,5 +1102,493 @@
     "sourceName": "",
     "source": "",
     "example": "During a Lawson-to-Workday transition, the project team may load sample employee data into a Workday sandbox to test whether job titles, pay groups, departments, benefits, and security roles are mapping correctly. If something breaks or data looks wrong, they can fix it in the sandbox before going live."
+  },
+  {
+    "term": "Provider",
+    "category": "Healthcare Consulting 101",
+    "definition": "A provider is an individual clinician or healthcare organization that delivers care or medical services to patients. This can include physicians, nurses, hospitals, clinics, health systems, specialists, urgent care centers, and other care delivery organizations.",
+    "sourceName": "CMS",
+    "source": "CMS",
+    "example": "A patient visits a cardiologist for chest pain. The cardiologist is the provider because they are delivering the medical service. If the patient has surgery at a hospital, the hospital is also considered a provider because it is delivering healthcare services to the patient."
+  },
+  {
+    "term": "Physician Enterprise",
+    "category": "Physician Enterprise",
+    "definition": "A physician enterprise is the organized network of employed or affiliated physicians, advanced practice providers, clinics, and ambulatory practices that operate under a health system or healthcare organization. It focuses on managing provider productivity, clinic operations, access, referrals, compensation, revenue cycle performance, and alignment between physicians and the broader health system.",
+    "sourceName": "MGMA/HFMA",
+    "source": "MGMA/HFMA",
+    "example": "A health system owns multiple primary care clinics, specialty practices, and outpatient physician groups. The physician enterprise team monitors provider schedules, patient access, referral leakage, coding accuracy, physician compensation models, and clinic profitability to make sure the physician network supports both patient care and financial performance."
+  },
+  {
+    "term": "Panel Size",
+    "category": "Physician Enterprise",
+    "definition": "Panel size is the number of patients assigned to or actively managed by a provider, care team, or clinic. It is commonly used in primary care to measure provider workload, patient access, and capacity. A larger panel means the provider is responsible for more patients, which can affect appointment availability, care continuity, and staffing needs.",
+    "sourceName": "MGMA",
+    "source": "MGMA",
+    "example": "A primary care physician has 2,000 patients assigned to them. Leadership reviews the physician’s panel size and notices that appointment wait times are increasing. The clinic may add another provider, use advanced practice providers, or redistribute patients across the care team to improve access."
+  },
+  {
+    "term": "Minutes by Specialty",
+    "category": "Physician Enterprise",
+    "definition": "Minutes by specialty refers to the amount of provider schedule time, appointment time, or clinical capacity allocated by medical specialty. It is often used to compare how long visits should take across specialties, evaluate provider productivity, build clinic templates, and understand patient access. Different specialties may require different appointment lengths based on complexity, documentation needs, procedures, and patient type.",
+    "sourceName": "MGMA/AMGA",
+    "source": "MGMA/AMGA",
+    "example": "A health system reviews clinic templates and sees that primary care new patient visits are scheduled for 40 minutes, cardiology follow-ups for 20 minutes, and dermatology visits for 15 minutes. Leadership analyzes minutes by specialty to determine whether each specialty has enough appointment capacity, whether visit lengths are appropriate, and where access delays may be occurring."
+  },
+  {
+    "term": "Claim Submission",
+    "category": "Revenue Cycle",
+    "definition": "Claim submission is the process of sending a healthcare claim from a provider to a payer for reimbursement after services have been delivered. The claim includes patient information, provider information, diagnosis codes, procedure codes, dates of service, charges, and insurance details.",
+    "sourceName": "CMS/HFMA",
+    "source": "CMS/HFMA",
+    "example": "A patient visits a hospital outpatient clinic for an X-ray. After the visit, the billing team creates a claim with the correct diagnosis and procedure codes and submits it electronically to the patient's insurance company for payment"
+  },
+  {
+    "term": "Not-for-Profit Hospital",
+    "category": "Healthcare Consulting 101",
+    "definition": "A not-for-profit hospital is a hospital that is organized to serve a community or charitable purpose rather than to generate profit for owners or shareholders. Any excess revenue is typically reinvested back into the hospital through facility improvements, community benefit programs, patient care services, staffing, technology, or expanded access to care.",
+    "sourceName": "IRS/AHA",
+    "source": "IRS/AHA",
+    "example": "A community health system earns more revenue than expenses in a given year. Instead of distributing profits to shareholders, the hospital uses the excess funds to expand its emergency department, invest in a new HER module, fund charity care, and support community health programs"
+  },
+  {
+    "term": "For-Profit Hospital",
+    "category": "Healthcare Consulting 101",
+    "definition": "A For-Profit Hospital is a hospital owned by investors, shareholders, or a private company with the goal of generating profit while delivering healthcare services. Unlike a Not-For-Profit hospital, excess revenue may be reinvested into operations or distributed to owners/shareholders.",
+    "sourceName": "AHA/CMS",
+    "source": "AHA/CMS",
+    "example": "A national hospital company owns multiple hospitals across different states. One hospital generates more revenue than expenses, and part of that profit may be used to expand services, purchase new technology, acquire other facilities, or return value to investors."
+  },
+  {
+    "term": "Value Chain",
+    "category": "Healthcare Consulting 101",
+    "definition": "A value chain is the full set of activities an organization performs to create, deliver, and support a product or service. In healthcare, it helps show how different functions such as supply chain, clinical operations, revenue cycle, finance, IT, and patient access work together to deliver patient care and create organizational value.",
+    "sourceName": "Harvard Business Review",
+    "source": "Harvard Business Review",
+    "example": "A hospital’s value chain may start with patient scheduling and registration, continue through clinical care delivery, pharmacy, supplies, documentation, billing, and collections, and end with follow-up care. A consultant may analyze the value chain to find where costs are too high, handoffs are inefficient, or patient experience is breaking down."
+  },
+  {
+    "term": "Benefits",
+    "category": "Revenue Cycle",
+    "definition": "Benefits are the healthcare services, treatments, medications, or procedures that an insurance plan agrees to cover for a member. Benefits determine what care is covered, what rules apply, and what portion of the cost may be paid by the payer versus the patient.",
+    "sourceName": "CMS/Healthcare.gov",
+    "source": "CMS/Healthcare.gov",
+    "example": "A patient has insurance benefits that cover annual wellness visits, emergency care, specialist visits, and prescription drugs. Before a scheduled MRI, the provider verifies the patient’s benefits to confirm whether the MRI is covered, whether prior authorization is required, and how much the patient may owe."
+  },
+  {
+    "term": "Capitation",
+    "category": "Healthcare Consulting 101",
+    "definition": "Capitation is a payment model where a provider or healthcare organization receives a fixed amount of money per patient for a set period of time, regardless of how many services the patient uses. The provider takes on more financial risk because they are paid the same amount whether the patient needs very little care or a large amount of care.",
+    "sourceName": "CMS/Healthcare.gov",
+    "source": "CMS/Healthcare.gov",
+    "example": "A primary care group is paid $40 per member per month to manage a group of patients. If a patient only comes in once, the provider still receives $40 that month. If another patient needs several visits, care coordination, and follow-up, the provider still receives $40, so the organization is incentivized to manage care efficiently and keep patients healthy."
+  },
+  {
+    "term": "Coinsurance",
+    "category": "Healthcare Consulting 101",
+    "definition": "Coinsurance is the percentage of healthcare costs a patient is responsible for paying after their deductible has been met. Unlike a copay, which is usually a fixed dollar amount, coinsurance is based on a percentage of the allowed cost for the service.",
+    "sourceName": "CMS/Healthcare.gov",
+    "source": "CMS/Healthcare.gov",
+    "example": "A patient has a plan with 20% coinsurance after meeting their deductible. If the allowed amount for an MRI is $1,000, the insurance plan pays 80%, or $800, and the patient pays 20%, or $200."
+  },
+  {
+    "term": "PO Number",
+    "category": "Supply Chain",
+    "definition": "A PO number, or purchase order number, is the unique identifier assigned to a purchase order. It is used to track what was ordered, who approved it, the supplier, item quantities, pricing, delivery status, receiving, invoicing, and payment",
+    "sourceName": "Oracle Documenation",
+    "source": "Oracle Documenation",
+    "example": "A hospital orders 500 boxes of gloves from a medical supply distributor. The ERP system creates PO #458921. When the gloves arrive and the invoice is received, the supply chain and accounts payable teams use that PO number to match the order, receipt, and invoice before paying the vendor."
+  },
+  {
+    "term": "Lead Time",
+    "category": "Supply Chain",
+    "definition": "Lead time is the amount of time between when an order is placed and when the item or service is received and available for use. In healthcare supply chain, lead time is important because delays can cause stockouts, procedure delays, or urgent rush orders.",
+    "sourceName": "Oracle Documenation",
+    "source": "Oracle Documenation",
+    "example": "A hospital orders surgical gloves from a distributor on Monday, and the gloves arrive on Friday. The lead time is 4 days. If the hospital knows the lead time is 4 days, it must reorder early enough to avoid running out before the next shipment arrives."
+  },
+  {
+    "term": "Point of Use (POS)",
+    "category": "Supply Chain",
+    "definition": "Point of use is the specific location where supplies, medications, equipment, or products are actually consumed or used in patient care. In healthcare, this could be an operating room, nursing unit, procedure room, emergency department, or clinic.",
+    "sourceName": "Oracle Documenation",
+    "source": "Oracle Documenation",
+    "example": "A hospital stores IV start kits in the emergency department supply room because nurses use them there when starting IVs for patients. The emergency department is the point of use because that is where the supply is consumed during care delivery."
+  },
+  {
+    "term": "Just-in-Time (JIT)",
+    "category": "Supply Chain",
+    "definition": "Just-in-time, often called JIT, is an inventory strategy where supplies are ordered and delivered close to the time they are needed instead of being stored in large quantities. The goal is to reduce excess inventory, storage costs, and waste, but it can create risk if there are supplier delays, backorders, or sudden demand spikes.",
+    "sourceName": "Oracle Documenation",
+    "source": "Oracle Documenation",
+    "example": "A hospital uses just-in-time ordering for standard medical supplies so it does not have to store large amounts of gloves, syringes, and IV tubing. This helps reduce storage space and carrying costs, but if the distributor has a delay, the hospital may face a stockout and need to place an emergency order."
+  },
+  {
+    "term": "Contractors",
+    "category": "ERP",
+    "definition": "Contractors are external workers hired for a specific project, time period, or skill need. They are not permanent employees of the organization and are often used when a company needs temporary support or specialized expertise.",
+    "sourceName": "IRS",
+    "source": "IRS",
+    "example": "A Hospital may bring in contractors to help cleanLawson employee data, validate Workday fields, or support HR operations during the Fulton acquisition without hiring permanent full-time employees."
+  },
+  {
+    "term": "Bandwidth",
+    "category": "Healthcare Consulting 101",
+    "definition": "Bandwidth refers to a team's available capacity, time, and resources to take on work. In a business setting, saying a team \"does not have bandwidth\" means they are already stretched and may not be able to support additional responsibilities effectively.",
+    "sourceName": "Project Management Institute (PMI)",
+    "source": "Project Management Institute (PMI)",
+    "example": "A Hospital's HR may not have enough bandwidth to support the Fulton acquisition because the same team must manage daily HR operations while also helping with Lawson-to-Workday data conversion, payroll validation, benefits review, testing, and go-live support."
+  },
+  {
+    "term": "Staff Augmentation",
+    "category": "ERP",
+    "definition": "Staff augmentation is when an organization brings in external workers or consultants temporarily to add capacity or specialized skills to an existing team. These resources support the client's team but usually do not become permanent employees",
+    "sourceName": "SHRM",
+    "source": "SHRM",
+    "example": "A Hospital could use staff augmentation by bringing in temporary data conversion analysts, HRIS contractors, or payroll testing support to help the HR team manage the Fulton acquisition and Lawson-to-Workday transition."
+  },
+  {
+    "term": "Backfill Support",
+    "category": "Healthcare Consulting 101",
+    "definition": "Backfill support is when an organization temporarily brings in someone to cover an employee's normal responsibilities so that employee can focus on another priority, project, or temporary need.",
+    "sourceName": "SHRM",
+    "source": "SHRM",
+    "example": "Organizations may use backfill support by bringing in a temporary HR operations specialist to handle daily employee questions and HR tickets while Lakeview's internal HR team focuses on the Fulton acquisition and Lawson-to-Workday data conversion."
+  },
+  {
+    "term": "Work Relative Value Unit (wRVU)",
+    "category": "Physician Enterprise",
+    "definition": "A Work Relative Value Unit, often called a wRVU, is a measure of the provider work effort required to perform a medical service or procedure. It reflects factors such as time, technical skill, mental effort, judgment, and stress involved in delivering care. Hospitals and physician groups often use wRVUs to measure provider productivity, compare workload across providers, and support physician compensation models.",
+    "sourceName": "CMS/MGMA",
+    "source": "CMS/MGMA",
+    "example": "A cardiologist, primary care physician, and orthopedic surgeon may all generate different wRVUs based on the types and complexity of services they provide. If a physician compensation plan rewards productivity, leadership may review the provider’s total wRVUs to determine whether they are meeting expected productivity targets."
+  },
+  {
+    "term": "Claim Scrubber",
+    "category": "Revenue Cycle",
+    "definition": "A claim scrubber is software or system functionality that reviews healthcare claims for errors before they are submitted to a payer. It checks for issues such as missing patient information, invalid codes, modifier errors, medical necessity concerns, payer-specific billing rules, and formatting problems.",
+    "sourceName": "HFMA/CMS",
+    "source": "HFMA/CMS",
+    "example": "Before a hospital submits claims to Medicare or a commercial payer, the claim scrubber flags a missing diagnosis code on an outpatient procedure claim. The billing team corrects the error before submission, helping prevent a denial or rejection."
+  },
+  {
+    "term": "Explanation of Benefits (EOB)",
+    "category": "Revenue Cycle",
+    "definition": "An Explanation of Benefits, often called an EOB, is a document sent by an insurance company to a patient after a claim is processed. It explains what services were billed, what the insurance plan covered, what the payer paid, what was denied or adjusted, and what amount the patient may owe. It is not a bill, but it helps the patient understand how the claim was handled.",
+    "sourceName": "CMS/Healthcare.gov",
+    "source": "CMS/Healthcare.gov",
+    "example": "A patient has an MRI at a hospital. A few weeks later, the patient receives an EOB showing the hospital billed $2,000, the payer allowed $1,200, insurance paid $900, and the patient may owe $300 due to coinsurance."
+  },
+  {
+    "term": "Out-of-Pocket Maximum",
+    "category": "Healthcare Consulting 101",
+    "definition": "The out-of-pocket maximum is the most a patient has to pay for covered healthcare services during a plan year. Once the patient reaches this limit through deductibles, copays, and coinsurance, the insurance plan usually pays 100% of covered in-network services for the rest of the plan year.",
+    "sourceName": "CMS/Healthcare.gov",
+    "source": "CMS/Healthcare.gov",
+    "example": "A patient’s insurance plan has a $6,000 out-of-pocket maximum. Throughout the year, the patient pays $2,000 toward their deductible, $1,500 in coinsurance, and $2,500 in copays. Once they reach $6,000 total, their insurance covers covered in-network care at 100% for the rest of the plan year."
+  },
+  {
+    "term": "Safety Stock",
+    "category": "Supply Chain",
+    "definition": "Safety stock is extra inventory kept on hand to reduce the risk of running out of supplies when demand is higher than expected or when deliveries are delayed. In healthcare, safety stock is especially important for critical clinical supplies because a stockout can disrupt patient care.",
+    "sourceName": "AHRMM/APICS",
+    "source": "AHRMM/APICS",
+    "example": "A hospital normally uses 100 boxes of gloves per week, but keeps an additional 25 boxes as safety stock in case usage spikes or the supplier shipment is delayed. During flu season, the hospital may increase safety stock for masks, gloves, IV supplies, and testing materials to avoid shortages."
+  },
+  {
+    "term": "Bill-Only Item",
+    "category": "Supply Chain",
+    "definition": "A bill-only item is a product, often an implant or surgical device, that is used during a procedure and billed after the case rather than being ordered through the normal purchase order process beforehand. These items are commonly tied to vendor representatives, physician preference items, implants, and operating room documentation.",
+    "sourceName": "AHRMM/HFMA",
+    "source": "AHRMM/HFMA",
+    "example": "During an orthopedic surgery, a vendor representative brings several implant options. The surgeon uses one implant during the case. After the procedure, the hospital records the item, verifies the implant details, and processes it as a bill-only item so the vendor can be paid and the item can be charged appropriately to the patient encounter."
+  },
+  {
+    "term": "Application Programming Interface (API)",
+    "category": "Supply Chain",
+    "definition": "An API, or Application Programming Interface, is a way for two software systems to communicate and exchange data with each other. In healthcare and ERP environments, APIs are often used to connect systems such as EHRs, ERPs, scheduling platforms, billing systems, supply chain tools, and reporting applications.",
+    "sourceName": "Oracle Documenation",
+    "source": "Oracle Documenation",
+    "example": "A hospital’s scheduling system uses an API to send appointment data to another platform. In an ERP implementation, Workday may use APIs to exchange employee, vendor, payroll, or financial data with third-party systems."
+  },
+  {
+    "term": "Gantt Chart",
+    "category": "Healthcare Consulting 101",
+    "definition": "A gantt chart is a visual project schedule that shows tasks, timelines, durations, dependencies, and progress across a calendar. It helps project teams understand what work need to happen, when it needs to happen, and which tasks may overlap or depend on one another.",
+    "sourceName": "PMI - Project Management Institute",
+    "source": "PMI - Project Management Institute",
+    "example": "During a hospital systen implementation , the project manager uses a Gantt chart to show when discovery, design, data conversion, testing, training, cutover, and go-live activities will occur. If data conversion is delayed, the chart helps the team see how that delay could impact testing and go-live readiness.'"
+  },
+  {
+    "term": "Steering Committee",
+    "category": "Healthcare Consulting 101",
+    "definition": "A steering committee is a group of senior leaders and key decision-makers who provide oversight, direction, and approval for a project or program. They help resolve escalated issues, approve major decisions, monitor project health, and make sure the project stays aligned with organizational goals.",
+    "sourceName": "PMI - Project Management Institute",
+    "source": "PMI - Project Management Institute",
+    "example": "During a hospital system implementation, the steering committee may include the CFO, CHRO, CIO, supply chain leadership, and project sponsors. If the project team discovers that data conversion is behind schedule and could delay go-live, the issue may be escalated to the steering committee for a decision on timeline, staffing, or scope."
+  },
+  {
+    "term": "Project Charter",
+    "category": "Healthcare Consulting 101",
+    "definition": "A project charter is a formal document that authorizes a project and defines its purpose, objectives, scope, key stakeholders, roles, high-level timeline, risks, assumptions, and success criteria. It gives the project team direction and confirms leadership alignment before detailed work begins.",
+    "sourceName": "PMI - Project Management Institute",
+    "source": "PMI - Project Management Institute",
+    "example": "During a hospital ERP implementation, the project charter may state that the organization is moving from Lawson to Workday, identify the CHRO and CIO as sponsors, define which workstreams are included, outline major milestones, and establish what success looks like for go-live."
+  },
+  {
+    "term": "Waterfall Methodology",
+    "category": "Healthcare Consulting 101",
+    "definition": "Waterfall methodology is a sequential project management approach where work moves through defined phases in order, such as discovery, requirements, design, build, testing, deployment, and support. Each phase is typically completed before the next phase begins, making it useful when scope, requirements, and timelines need to be clearly controlled.",
+    "sourceName": "PMI - Project Management Institute",
+    "source": "PMI - Project Management Institute",
+    "example": "In a hospital construction or facility expansion project, the team may follow a waterfall approach by first defining the project requirements, then completing architectural design, obtaining approvals, beginning construction, performing inspections, training staff on the new space, and finally opening the facility. For example, final inspections would not occur until construction is complete and the space is ready for review."
+  },
+  {
+    "term": "Retrospective",
+    "category": "Healthcare Consulting 101",
+    "definition": "a retrospective is a meeting held after a sprint, project phase, or major milestone where the team reflects on what went well, what did not go well, and what should be improved going forward. The goal is continuous improvement, not blaming individuals.",
+    "sourceName": "Scrum Guides",
+    "source": "Scrum Guides",
+    "example": "After launching a new hospital patient portal feature, the project team holds a retrospective and realizes that patient instructions were unclear, call center volume increased, and testing did not include enough older patients. For the next release, they improve patient education materials, involve call center staff earlier, and test with a broader patient group."
+  },
+  {
+    "term": "Premium Pay",
+    "category": "Labor",
+    "definition": "Premium pay is additional compensation paid above an employee’s regular base rate for specific work situations, such as overtime, night shifts, weekends, holidays, on-call work, or hard-to-fill shifts. In hospitals, premium pay is important because it can significantly increase labor costs, especially when staffing shortages require overtime or incentive shifts.",
+    "sourceName": "HFMA",
+    "source": "HFMA",
+    "example": "A hospital pays nurses their regular hourly rate plus an additional shift differential for working overnight. During a staffing shortage, the hospital may also offer extra incentive pay for weekend shifts, increasing total labor expense for that department."
+  },
+  {
+    "term": "Vacancy Rate",
+    "category": "Labor",
+    "definition": "Vacancy rate is the percentage of approved positions that are currently unfilled. In hospitals, it helps leaders understand staffing gaps, recruiting needs, labor pressure, and the potential need for overtime, agency labor, or contract support.",
+    "sourceName": "HFMA",
+    "source": "HFMA",
+    "example": "A hospital nursing department has 100 approved RN positions, but 12 are currently open. The vacancy rate is 12%. Leadership may use this information to assess staffing risk, recruitment needs, and whether temporary labor is needed to maintain patient care coverage."
+  },
+  {
+    "term": "Float Pool",
+    "category": "Labor",
+    "definition": "A float pool is a group of flexible employees who are not permanently assigned to one unit or department and can be deployed where staffing needs are highest. In hospitals, float pools are often used for nursing, patient care technicians, or other clinical roles to reduce staffing gaps, overtime, and reliance on agency labor.",
+    "sourceName": "AHA/HFMA",
+    "source": "AHA/HFMA",
+    "example": "A hospital has a nursing float pool made up of experienced nurses who can work across medical-surgical, telemetry, and step-down units. If one unit has multiple call-outs or a sudden increase in patient census, the staffing office assigns float pool nurses to that unit to maintain safe coverage."
+  },
+  {
+    "term": "Six Sigma",
+    "category": "Quality",
+    "definition": "Six Sigma is a data-driven process improvement methodology focused on reducing defects, errors, and variation in a process. In healthcare, it is often used to improve quality, patient safety, efficiency, and consistency by identifying root causes of problems and using data to improve performance.",
+    "sourceName": "ASQ/IHI",
+    "source": "ASQ/IHI",
+    "example": "A hospital laboratory notices frequent specimen labeling errors. The quality team uses Six Sigma methods to measure the error rate, identify where mistakes occur, improve the labeling workflow, and monitor results to reduce future defects."
+  },
+  {
+    "term": "Pay-for-Performance",
+    "category": "Quality",
+    "definition": "Pay-for-performance is a healthcare payment model where providers or hospitals can receive financial rewards or penalties based on performance against defined quality, safety, efficiency, patient experience, or outcome measures. The goal is to encourage better care rather than paying only based on the volume of services delivered.",
+    "sourceName": "CMS/AHRQ",
+    "source": "CMS/AHRQ",
+    "example": "A hospital may receive incentive payments if it reduces readmissions, improves patient experience scores, lowers infection rates, or meets certain quality benchmarks. If performance is poor, the hospital may lose reimbursement or receive a payment penalty."
+  },
+  {
+    "term": "Preventive Care",
+    "category": "Quality",
+    "definition": "Preventive care refers to healthcare services focused on preventing illness, detecting disease early, and reducing future health risks before they become more serious or costly. This can include screening, vaccines, annual wellness visits, counseling, and routine health checks.",
+    "sourceName": "CMS/Healthcare.gov",
+    "source": "CMS/Healthcare.gov",
+    "example": "A primary care clinic identifies patients who are overdue for flu shots, colon cancer screenings, and annual wellness visits. The clinic reaches out to schedule those services so health risks can be addressed early instead of waiting until patients become seriously ill."
+  },
+  {
+    "term": "Variation",
+    "category": "Quality",
+    "definition": "Variation refers to differences in how a process is performed or how outcomes occur across people, departments, locations, or time periods. In hospitals, reducing unnecessary variation helps improve consistency, quality, safety, efficiency, and patient experience.",
+    "sourceName": "IHI/ASQ",
+    "source": "IHI/ASQ",
+    "example": "One hospital unit consistently discharges patients before noon, while another unit usually discharges patients late in the afternoon. A consultant may analyze this variation to understand differences in staffing, physician rounding, case management, transportation, or discharge planning processes."
+  },
+  {
+    "term": "Throughput",
+    "category": "Quality",
+    "definition": "Throughput is the movement of patients through the hospital from arrival to discharge. It measures how efficiently patients flow through care areas such as the emergency department, inpatient units, imaging, surgery, and discharge processes. Poor throughput can lead to long wait times, ED boarding, delayed admissions, capacity issues, and lower patient experience.",
+    "sourceName": "AHA/CMS",
+    "source": "AHA/CMS",
+    "example": "A hospital notices that admitted patients are waiting in the emergency department for several hours because inpatient beds are not opening quickly enough. A consultant may review discharge timing, bed management, transport delays, case management, and staffing to improve patient throughput."
+  },
+  {
+    "term": "Vertical Integration",
+    "category": "Healthcare Consulting 101",
+    "definition": "Vertical integration is when an organization expands across different stages of the healthcare value chain, such as a payer owning clinics, a hospital acquiring physician practices, or a health system operating post-acute facilities. The goal is often to improve coordination, control costs, retain patients, and manage care more effectively across settings.",
+    "sourceName": "HFMA/KFF",
+    "source": "HFMA/KFF",
+    "example": "A health system acquires primary care practices, urgent care centers, and home health services so it can manage patients before, during, and after hospital care instead of only treating them inside the hospital."
+  },
+  {
+    "term": "Horizontal Integration",
+    "category": "Healthcare Consulting 101",
+    "definition": "Horizontal integration is when an organization expands by acquiring, merging with, or partnering with organizations that operate at the same level of the healthcare value chain. In healthcare, this often means one hospital acquiring another hospital, one physician group merging with another physician group, or one health system expanding its footprint through similar facilities.",
+    "sourceName": "HFMA/KFF",
+    "source": "HFMA/KFF",
+    "example": "A large health system acquires another hospital in the same region to increase market share, expand patient access, reduce duplicative services, and strengthen negotiating power with payers."
+  },
+  {
+    "term": "Episode of Care",
+    "category": "Healthcare Consulting 101",
+    "definition": "An episode of care is the full set of healthcare services provided to treat a patient for a specific condition, procedure, or health event over a defined period of time. It may include the initial visit, hospital stay, physician services, medications, follow-up appointments, rehabilitation, and post-acute care.",
+    "sourceName": "CMS/AHRQ",
+    "source": "CMS/AHRQ",
+    "example": "For a knee replacement, the episode of care may include the pre-surgery consultation, the surgery itself, inpatient hospital services, physical therapy, follow-up visits, and any related complications within a set time window."
+  },
+  {
+    "term": "EBITDA",
+    "category": "Revenue Cycle",
+    "definition": "EBITDA stands for Earnings Before Interest, Taxes, Depreciation, and Amortization. It is a profitability metric used to estimate how much a business earns from operations before financing decisions, tax effects, and certain non-cash expenses are included.",
+    "sourceName": "Corporate Finance Institute",
+    "source": "Corporate Finance Institute",
+    "example": "A healthcare consulting team may review a hospital’s EBITDA to understand operating profitability before considering debt costs, taxes, depreciation on buildings/equipment, and amortization of intangible assets."
+  },
+  {
+    "term": "Working Capital",
+    "category": "Revenue Cycle",
+    "definition": "Working capital measures the short-term financial resources an organization has available to run daily operations. It is commonly calculated as current assets minus current liabilities. In healthcare, it helps show whether a hospital or health system has enough liquidity to cover near-term expenses such as payroll, supplies, vendor payments, and other operating needs.",
+    "sourceName": "Corporate Finance Institute",
+    "source": "Corporate Finance Institute",
+    "example": "A hospital with strong working capital can pay employees, purchase medical supplies, cover vendor invoices, and manage cash flow while waiting for reimbursement from Medicare, Medicaid, Commercial payers, or patients."
+  },
+  {
+    "term": "Average Daily Census",
+    "category": "Clinical Optimization",
+    "definition": "Average Daily Census is the average number of patients in a hospital, unit, or care area per day over a specific period of time. It is commonly used to understand patient volume, staffing needs, bed utilization, and operational capacity.",
+    "sourceName": "AHA/HFMA",
+    "source": "AHA/HFMA",
+    "example": "If a hospital medical-surgical unit had 900 total patient days in a 30-day month, its average census would be 30 patients per day. Leaders may use this number to decide whether nurse staffing levels match patient volume."
+  },
+  {
+    "term": "Occupancy Rate",
+    "category": "Clinical Optimization",
+    "definition": "Occupancy rate measures the percentage of available beds that are occupied by patients over a specific period of time. It helps hospitals understand capacity, patient volume, bed utilization, and whether they may be over or under capacity.",
+    "sourceName": "AHA/HFMA",
+    "source": "AHA/HFMA",
+    "example": "If a hospital has 100 staffed beds and an average of 85 beds are occupied, the occupancy rate is 85%. Leaders may use this metric to determine whether they need more beds, better discharge planning, or improved patient throughput."
+  },
+  {
+    "term": "Bottleneck",
+    "category": "Supply Chain",
+    "definition": "A bottleneck is a point in a process where work slows down because demand exceeds capacity, causing delays, backlogs, or reduced throughput. In healthcare, bottlenecks often occur in areas like patient registration, bed assignment, imaging, lab turnaround, discharge, or prior authorization.",
+    "sourceName": "IHI/Lean Six Sigma",
+    "source": "IHI/Lean Six Sigma",
+    "example": "If the emergency department has patients ready to be admitted but no inpatient beds are available, bed availability becomes the bottleneck. This can delay patient movement, increase wait times, and reduce overall hospital throughput."
+  },
+  {
+    "term": "New Patient Lag",
+    "category": "Physician Enterprise",
+    "definition": "New patient lage is the amount of time between when a new patient requests or is referred for an appointment and when they are actually seen by a provider. It is commonly used to measure patient access, scheduling capacity, and referral efficiency.",
+    "sourceName": "MGMA/IHI",
+    "source": "MGMA/IHI",
+    "example": "If a new cardiology patient calls on July 1 and the first available appointment is July 29, the new patient lag is 28 days. A high new patient lag may signal provider capacity issues, inefficient scheduling templates, or referral bottlenecks."
+  },
+  {
+    "term": "Upside Risk",
+    "category": "Healthcare Consulting 101",
+    "definition": "Upside risk is a value-based care arrangement where a provider can earn additional payment or shared savings if they meet cost and quality targets, but they are not financially penalized if performance is worse than expected. It is generally considered a lower-risk entry point into value-based care.",
+    "sourceName": "CMS/HFMA",
+    "source": "CMS/HFMA",
+    "example": "An accountable care organization reduces avoidable hospitalizations and total cost of care while meeting quality measures. Because it is in an upside-risk arrangement, it receives a portion of the savings but does not owe money back if costs exceed the benchmark."
+  },
+  {
+    "term": "Downside Risk",
+    "category": "Healthcare Consulting 101",
+    "definition": "Downside risk is a value-based care arrangement where a provider may have to repay money or absorb financial losses if they do not meet agreed-upon cost, quality, or performance targets. It is considered a more advanced risk model because the provider is financially accountable for poor performance, not just rewarded for strong performance.",
+    "sourceName": "CMS/HFMA",
+    "source": "CMS/HFMA",
+    "example": "An accountable care organization agrees to manage a patient population under a shared-risk contract. If total cost of care is higher than the benchmark and quality goals are not met, the organization may owe money back to the payer."
+  },
+  {
+    "term": "Master Patient Index",
+    "category": "ERP",
+    "definition": "A Master Patient Index is a system or database that maintains a unique record for each patient across an organization’s systems. It helps match patient identities, reduce duplicate records, and ensure clinical, billing, and demographic information connects to the correct person.",
+    "sourceName": "ONC/HealthIT.gov",
+    "source": "ONC/HealthIT.gov",
+    "example": "During a hospital acquisition, the project team may compare patient records from the acquired hospital's legacy system against the parent health system's MPI to prevent duplicate patient records and make sure claims, appointments, and medical history are tied to the right patient."
+  },
+  {
+    "term": "Epic",
+    "category": "Healthcare Consulting 101",
+    "definition": "Epic is one of the largest electronic health record, or EHR, platforms used by hospitals and health systems to manage clinical documentation, patient records, scheduling, orders, billing workflows, and patient-facing tools. In healthcare consulting, Epic is often discussed as a major player in the clinical and revenue cycle technology space, not usually as the core ERP system.",
+    "sourceName": "Epic",
+    "source": "Epic",
+    "example": "A health system may use Epic for patient registration, physician documentation, lab orders, medication records, MyChart patient communication, and charge capture. During an ERP project, consultants may need to understand how Epic connects with systems like Workday or Oracle for billing, staffing, finance, or supply chain data."
+  },
+  {
+    "term": "Oracle",
+    "category": "Healthcare Consulting 101",
+    "definition": "Oracle is a major enterprise software company that provides cloud-based ERP applications for finance, supply chain, procurement, human capital management, reporting, and enterprise operations. In healthcare, Oracle is a big player in the ERP and enterprise technology space, especially for organizations looking to manage back-office operations across finance, HR, and supply chain.",
+    "sourceName": "Oracle Documenation",
+    "source": "Oracle Documenation",
+    "example": "A hospital may use Oracle Cloud ERP to manage general ledger, accounts payable, procurement, inventory, vendor management, financial reporting, and supply chain operations across the health system."
+  },
+  {
+    "term": "Workday",
+    "category": "Healthcare Consulting 101",
+    "definition": "Workday is a major cloud-based ERP platform focused heavily on human capital management, finance, payroll, workforce planning, analytics, and enterprise operations. In healthcare, Workday is a big player in the HR, finance, and cloud ERP space, especially for health systems modernizing from legacy platforms like Lawson.",
+    "sourceName": "Workday",
+    "source": "Workday",
+    "example": "A health system may use Workday to manage employee records, job profiles, compensation, benefits, payroll, position management, recruiting, finance, and reporting. During an acquisition, consultants may help move employee and finance data from a legacy system into Workday."
+  },
+  {
+    "term": "Post-Merger Integration",
+    "category": "Healthcare Consulting 101",
+    "definition": "Post-merger integration is the process of combining two organizations after a merger or acquisition so they can operate as one coordinated entity. In healthcare, this may include aligning leadership, operations, technology systems, HR policies, finance processes, supply chain contracts, clinical workflows, reporting structures, and culture.",
+    "sourceName": "PMI/HFMA",
+    "source": "PMI/HFMA",
+    "example": "After a health system acquires a smaller hospital, the post-merger integration team may help move the acquired hospital from Lawson to Workday, standardize HR and finance processes, align vendor contracts, integrate reporting, and prepare employees for new workflows."
+  },
+  {
+    "term": "Net Promoter Score (NPS)",
+    "category": "Quality",
+    "definition": "Net Promoter Score is a customer or patient experience metric that measures how likely someone is to recommend an organization, service, provider, or care experience to others. It is commonly calculated from survey responses and used to understand loyalty, satisfaction, and overall experience.",
+    "sourceName": "Bain & Co",
+    "source": "Bain & Co",
+    "example": "A health system may ask patients, \"How likely are you to recommend this clinic to a friend or family member?\" If scores are low, leaders may investigate wait times, communications, scheduling issues, or provider experience to improve patient satisfaction."
+  },
+  {
+    "term": "Contribution Margin",
+    "category": "Healthcare Consulting 101",
+    "definition": "Contribution margin is the revenue remaining after variable costs are deducted. It helps determine how much a service contributes toward covering fixed costs and generating profits.",
+    "sourceName": "HFMA",
+    "source": "HFMA",
+    "example": "Orthopedic surgery may have strong contribution margin if reimbursement is high and implant costs are well managed."
+  },
+  {
+    "term": "Indirect costs",
+    "category": "Healthcare Consulting 101",
+    "definition": "Indirect costs are expenses that support operations but are not easily tied to one specific patient or procedure",
+    "sourceName": "Corporate Finance Institute",
+    "source": "Corporate Finance Institute",
+    "example": "A hospital's building lease, salaried leadership, and depreciation expenses may remain relatively fixed even if patient volume changes."
+  },
+  {
+    "term": "Capital Expenditure",
+    "category": "Healthcare Consulting 101",
+    "definition": "Capital expenditure, or CapEx, refers to spending on long-term assets such as buildings, major equipment, technology, or infrastructure.",
+    "sourceName": "Corporate Finance Institute",
+    "source": "Corporate Finance Institute",
+    "example": "A hospital purchasing a new MRI machine records it as a capital expenditure."
+  },
+  {
+    "term": "Accounts Receivables (A/R)",
+    "category": "Revenue Cycle",
+    "definition": "Accounts receivable is the money owed to a healthcare organization for services that have already been provided but have not yet been collected from payers or patients. In healthcare, A/R is closely tied to billing, claims follow-up, payer reimbursement, denials, and patient collections.",
+    "sourceName": "HFMA/CMS",
+    "source": "HFMA/CMS",
+    "example": "A hospital performs a surgery, submits the claim to the patient’s insurance company, and waits for payment. Until the payer or patient pays, that outstanding balance sits in accounts receivable."
+  },
+  {
+    "term": "Coding",
+    "category": "Revenue Cycle",
+    "definition": "Coding is the revenue cycle process of converting clinical documentation into standardized medical codes, such as diagnosis codes, procedure codes, and service codes. These codes help determine what was done, why it was medically necessary, and how the provider should be reimbursed",
+    "sourceName": "CMS/AHIMA",
+    "source": "CMS/AHIMA",
+    "example": "A patient is treated for pneumonia during an inpatient stay. The provider documents the diagnosis, treatment, medications, and procedures. A medical coder reviews the documentation and assigns the correct ICD-10 diagnosis code and procedure codes so the hospital can submit an accurate claim to the payer."
   }
 ]
