@@ -1,3 +1,9 @@
+import {
+  workbookHealthcareSignals,
+  workbookResources,
+  workbookTerminology
+} from './data/workbook-data.js';
+
 const state = {
   resources: [],
   services: [],
@@ -920,25 +926,26 @@ function normalizeSignalData(data) {
 }
 
 async function init() {
-  const rawResources = await loadDataJson('./data/resources-workbook-20260702-v3.json', 'resources');
   const services = await loadJson('./data/service-lines.json', []);
   const sources = await loadJson('./data/source-index.json', []);
-  const rawTerminology = await loadDataJson('./data/terminology-workbook-20260702-v3.json', 'terminology');
-  const rawSignals = await loadDataJson('./data/healthcare-signals-workbook-20260702-v3.json', 'healthcare signals');
-  const resources = normalizeResourceData(rawResources);
-  const terminology = normalizeTerminologyData(rawTerminology);
-  const signals = normalizeSignalData(rawSignals);
+  console.log("workbook resources data", workbookResources);
+  console.log("workbook terminology data", workbookTerminology);
+  console.log("workbook healthcare signals data", workbookHealthcareSignals);
+
+  const resources = normalizeResourceData(workbookResources);
+  const terminology = normalizeTerminologyData(workbookTerminology);
+  const signals = normalizeSignalData(workbookHealthcareSignals);
   console.log("normalized resources count", resources.length);
   console.log("normalized terminology count", terminology.length);
   console.log("normalized healthcare signals count", signals.length);
 
-  state.resourcesError = rawResources === null || !resources.length
-    ? 'Resource Library data is unavailable. Run npm run build:data to regenerate data/resources.json from the workbook.'
+  state.resourcesError = !resources.length
+    ? 'Resource Library data is unavailable. Run npm run build:data to regenerate the frontend workbook data module.'
     : '';
-  state.terminologyError = rawTerminology === null || !terminology.length
-    ? 'Terminology data is unavailable. Run npm run build:data to regenerate data/terminology.json from the workbook.'
+  state.terminologyError = !terminology.length
+    ? 'Terminology data is unavailable. Run npm run build:data to regenerate the frontend workbook data module.'
     : '';
-  state.signalsError = rawSignals === null || !signals.length
+  state.signalsError = !signals.length
     ? 'No approved healthcare signals available right now. Please check back later.'
     : '';
 
