@@ -63,7 +63,7 @@ function uniqueSorted(values) {
 let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
-const DATA_VERSION = 'excel-workbook-20260702-v6';
+const DATA_VERSION = 'excel-workbook-20260702-v7';
 
 let healthcareIndustryNews = [];
 
