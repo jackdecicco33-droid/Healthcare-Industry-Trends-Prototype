@@ -1727,5 +1727,83 @@
     "organization": "HealthcareReader",
     "category": "Article",
     "description": "Resource from HealthcareReader focused on Supply Chain."
+  },
+  {
+    "title": "The Growth of Private Equity in US Health Care: Impact and Outlook",
+    "website": "NIHCM",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://nihcm.org/publications/the-growth-of-private-equity-in-us-health-care-impact-and-outlook",
+    "hasValidUrl": true,
+    "name": "The Growth of Private Equity in US Health Care: Impact and Outlook",
+    "organization": "NIHCM",
+    "category": "Article",
+    "description": "Resource from NIHCM focused on Healthcare 101."
+  },
+  {
+    "title": "Why Owns a Hospital: Nonprofit, For-Profit & Government",
+    "website": "legalclarity.org",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://legalclarity.org/who-owns-a-hospital-ownership-structures-explained/",
+    "hasValidUrl": true,
+    "name": "Why Owns a Hospital: Nonprofit, For-Profit & Government",
+    "organization": "legalclarity.org",
+    "category": "Article",
+    "description": "Resource from legalclarity.org focused on Healthcare 101."
+  },
+  {
+    "title": "Breaking Down U.S. Hospital Payor Mixes",
+    "website": "Definitive Healthcare",
+    "sourceType": "Article",
+    "serviceLine": "Revenue Cycle",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.definitivehc.com/resources/healthcare-insights/breaking-down-us-hospital-payor-mixes",
+    "hasValidUrl": true,
+    "name": "Breaking Down U.S. Hospital Payor Mixes",
+    "organization": "Definitive Healthcare",
+    "category": "Article",
+    "description": "Resource from Definitive Healthcare focused on Revenue Cycle."
+  },
+  {
+    "title": "UnitedHealthcare 2026 Health Trends Report",
+    "website": "UnitedHealthcare",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.uhc.com/employer/news-strategies/annual-health-trends-report",
+    "hasValidUrl": true,
+    "name": "UnitedHealthcare 2026 Health Trends Report",
+    "organization": "UnitedHealthcare",
+    "category": "Article",
+    "description": "Resource from UnitedHealthcare focused on Healthcare 101."
+  },
+  {
+    "title": "What's Behind Rising Health Insurance Costs?",
+    "website": "Johns Hopkins University",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://publichealth.jhu.edu/2025/whats-behind-rising-health-insurance-costs",
+    "hasValidUrl": true,
+    "name": "What's Behind Rising Health Insurance Costs?",
+    "organization": "Johns Hopkins University",
+    "category": "Article",
+    "description": "Resource from Johns Hopkins University focused on Healthcare 101."
+  },
+  {
+    "title": "The Pros and Cons of the Affordable Care Act",
+    "website": "Health Markets",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthmarkets.com/resources/health-insurance/affordable-care-act-pros-and-cons",
+    "hasValidUrl": true,
+    "name": "The Pros and Cons of the Affordable Care Act",
+    "organization": "Health Markets",
+    "category": "Article",
+    "description": "Resource from Health Markets focused on Healthcare 101."
   }
 ]

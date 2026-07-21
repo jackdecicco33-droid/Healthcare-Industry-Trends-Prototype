@@ -7,22 +7,15 @@ const workbookPath = path.join(root, 'data', 'Resources and Terminology for Heal
 const resourcesOutputPath = path.join(root, 'data', 'resources.json');
 const terminologyOutputPath = path.join(root, 'data', 'terminology.json');
 const signalsOutputPath = path.join(root, 'data', 'healthcare-signals.json');
+const skippedSignalsOutputPath = path.join(root, 'data', 'healthcare-signals-skipped.json');
 const frontendDataModulePath = path.join(root, 'data.js');
 
 const resourceSheetName = 'Healthcare Resources';
 const terminologySheetName = 'Healthcare Terminology';
 const signalsSheetName = "Today's Healthcare Signal";
 const hyperlinkHeaders = new Set(['Link to The Source', 'Link']);
-const approvedTerminologyCategories = new Set([
-  'Revenue Cycle',
-  'Labor',
-  'Quality',
-  'ERP',
-  'Healthcare Consulting 101',
-  'Supply Chain',
-  'Clinical Optimization',
-  'Physician Enterprise'
-]);
+const genericSignalPaths = new Set(['', '/', '/news', '/news/', '/articles', '/articles/', '/topics', '/topics/', '/resources', '/resources/']);
+const genericSignalPathSegments = new Set(['topic', 'topics', 'category', 'categories', 'tag', 'tags']);
 
 function cleanValue(value) {
   if (value === undefined || value === null) return '';
@@ -45,6 +38,26 @@ function isValidUrl(value) {
 function getDomain(value) {
   if (!isValidUrl(value)) return '';
   return new URL(value).hostname.replace(/^www\./, '');
+}
+
+function getDirectSignalUrlIssue(value) {
+  if (!isValidUrl(value)) return 'Missing or invalid URL';
+
+  const parsed = new URL(value);
+  const pathName = parsed.pathname.replace(/\/+$/, '') || '/';
+  if (genericSignalPaths.has(parsed.pathname.toLowerCase()) || genericSignalPaths.has(pathName.toLowerCase())) {
+    return 'URL appears to be a publisher homepage, topic page, or general listing page';
+  }
+
+  const pathSegments = parsed.pathname
+    .split('/')
+    .map((segment) => segment.toLowerCase())
+    .filter(Boolean);
+  if (pathSegments.some((segment) => genericSignalPathSegments.has(segment))) {
+    return 'URL appears to be a topic, category, tag, or listing page rather than a direct article';
+  }
+
+  return '';
 }
 
 function uniqueBy(items, getKey) {
@@ -151,24 +164,38 @@ function toTerminology(row) {
   };
 }
 
-function toSignalSource(row) {
-  const websiteName = cleanValue(row['Website Name']);
-  const link = decodeUrl(row.Link);
-  const hasValidUrl = isValidUrl(link);
+function toSignalArticle(row, rowNumber) {
+  const title = cleanValue(row['Title of Source']);
+  const website = cleanValue(row.Website);
+  const link = decodeUrl(row['Link to The Source']);
+  const directUrlIssue = getDirectSignalUrlIssue(link);
   const domain = getDomain(link);
 
   return {
-    websiteName,
-    source: websiteName,
-    title: `${websiteName || 'Approved healthcare source'} healthcare signal source`,
+    rowNumber,
+    title,
+    website,
+    websiteName: website,
+    source: website,
     url: link,
-    hasValidUrl,
+    hasValidUrl: !directUrlIssue,
     domain,
-    trustLevel: 'Approved Source',
+    directUrlIssue,
+    trustLevel: 'Direct Article',
     serviceLine: 'Healthcare Signal',
-    date: 'Check source for latest updates',
-    summary: `Approved healthcare signal source from the Excel workbook: ${websiteName || 'listed source'}.`,
-    consultingLens: 'Use this approved source to monitor current healthcare news, policy movement, and industry signals.'
+    date: 'Check article for publication date',
+    summary: `Article from ${website || domain || 'the listed source'}.`,
+    consultingLens: 'Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends.'
+  };
+}
+
+function toSkippedSignal(article) {
+  return {
+    rowNumber: article.rowNumber,
+    title: article.title,
+    website: article.website,
+    url: article.url,
+    reason: article.directUrlIssue || 'Missing title or direct URL'
   };
 }
 
@@ -212,33 +239,42 @@ function main() {
   );
   requireHeaders(
     signalRows,
-    ['Website Name', 'Link'],
+    ['Title of Source', 'Website', 'Link to The Source'],
     signalsSheetName
   );
 
   const resources = uniqueBy(
     resourceRows.map(toResource).filter((resource) => resource.title || resource.url),
-    (resource) => `${resource.title.toLowerCase()}|${resource.website.toLowerCase()}|${resource.url.toLowerCase()}`
+    (resource) => `${resource.title.toLowerCase()}|${resource.url.toLowerCase()}`
   );
   const terminology = uniqueBy(
     terminologyRows
       .map(toTerminology)
-      .filter((term) => (term.term || term.definition) && approvedTerminologyCategories.has(term.category)),
+      .filter((term) => term.term || term.definition),
     (term) => `${term.term.toLowerCase()}|${term.category.toLowerCase()}`
   );
+  const signalArticles = signalRows.map((row, index) => toSignalArticle(row, index + 2));
   const signals = uniqueBy(
-    signalRows.map(toSignalSource).filter((source) => source.websiteName && source.hasValidUrl),
-    (source) => `${source.websiteName.toLowerCase()}|${source.domain || source.url.toLowerCase()}`
+    signalArticles.filter((article) => article.title && article.hasValidUrl),
+    (article) => `${article.title.toLowerCase()}|${article.url.toLowerCase()}`
   );
+  const skippedSignals = signalArticles
+    .filter((article) => !article.title || !article.hasValidUrl)
+    .map(toSkippedSignal);
 
   writeJson(resourcesOutputPath, resources);
   writeJson(terminologyOutputPath, terminology);
   writeJson(signalsOutputPath, signals);
+  writeJson(skippedSignalsOutputPath, skippedSignals);
   writeFrontendDataModule(resources, terminology, signals);
 
   console.log(`Converted ${resources.length} resources to ${path.relative(root, resourcesOutputPath)}`);
   console.log(`Converted ${terminology.length} terminology terms to ${path.relative(root, terminologyOutputPath)}`);
-  console.log(`Converted ${signals.length} approved healthcare signal sources to ${path.relative(root, signalsOutputPath)}`);
+  console.log(`Converted ${signals.length} healthcare signal articles to ${path.relative(root, signalsOutputPath)}`);
+  console.log(`Skipped ${skippedSignals.length} healthcare signal row(s); wrote ${path.relative(root, skippedSignalsOutputPath)}`);
+  skippedSignals.forEach((item) => {
+    console.log(`Skipped signal row ${item.rowNumber}: ${item.reason}${item.title ? ` | ${item.title}` : ''}${item.website ? ` | ${item.website}` : ''}${item.url ? ` | ${item.url}` : ''}`);
+  });
   console.log(`Wrote frontend data module to ${path.relative(root, frontendDataModulePath)}`);
 }
 

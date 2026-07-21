@@ -1590,5 +1590,69 @@
     "sourceName": "CMS/AHIMA",
     "source": "CMS/AHIMA",
     "example": "A patient is treated for pneumonia during an inpatient stay. The provider documents the diagnosis, treatment, medications, and procedures. A medical coder reviews the documentation and assigns the correct ICD-10 diagnosis code and procedure codes so the hospital can submit an accurate claim to the payer."
+  },
+  {
+    "term": "Authorization Throughput",
+    "category": "Revenue Cycle",
+    "definition": "Authorization Throughput measures how quickly and efficiently a healthcare organization completes prior authorizations for services, procedures, medications, or tests before care is delivered. It helps show whether the authorization team is keeping up with request volume and preventing delays in patient care or reimbursement.",
+    "sourceName": "CMS/HFMA",
+    "source": "CMS/HFMA",
+    "example": "A hospital tracks how many MRI authorization requests are completed each day. If requests are piling up and approvals are taking too long, patients may experience scheduling delays and the hospital may risk denied claims if care happens before approval is received."
+  },
+  {
+    "term": "Point-of-Service (POS) Collections",
+    "category": "Revenue Cycle",
+    "definition": "Point-of-Service Collections refers to the process of collecting a patient's financial responsibility at or before the time care is provided. This can include copays, deductibles, coinsurance, outstanding balances, or self-pay estimates.",
+    "sourceName": "HFMA/CMS",
+    "source": "HFMA/CMS",
+    "example": "A patient arrives for an outpatient surgery, and the front desk collects the estimated $150 copay before the procedure. This helpe the hospital improve cash flow and reduce the amount it has to collect after the visit."
+  },
+  {
+    "term": "Payment Variance",
+    "category": "Revenue Cycle",
+    "definition": "Payment variance is the difference between the amount a healthcare organization is expected to receive from a payer and the amount it actually received. It is often caused by underpayments, overpayments, contract differences, payer errors, coding issues, or incorrect reimbursement calculations",
+    "sourceName": "HFMA / CMS",
+    "source": "HFMA / CMS",
+    "example": "A hospital expects Blue Cross to pay $2,500 for a procedure based on its contract, but the payer only sends $2,200. The $300 difference is a payment variance that the revenue cycle team would review and potentially appeal to correct."
+  },
+  {
+    "term": "Workqueues",
+    "category": "Revenue Cycle",
+    "definition": "Workqueues are organized lists of tasks, accounts, claims, or issues that need action from a revenue cycle team. They help staff prioritize work such as claim edits, denials, missing authorizations, coding holds, registration errors, or unpaid balances.",
+    "sourceName": "HFMA",
+    "source": "HFMA",
+    "example": "A hospital billing team may used a denial workqueue to see every claim that was denied by insurance. Staff work through the queue, fix the issue, submit an appeal it needed, and move the claim forward for payment."
+  },
+  {
+    "term": "Charge Lag",
+    "category": "Revenue Cycle",
+    "definition": "Charge lag is the amount of time between when a healthcare service is provided and when the charge is entered into the billing system. A high charge lag can delay claim submission, slow reimbursement, and create revenue leakage if charges are missed.",
+    "sourceName": "HFMA",
+    "source": "HFMA",
+    "example": "A patient receives lab work on Monday, but the charge is not entered into the system until Friday. That four-day delay is charge lag and can slow down the hospital's ability to bill the payer."
+  },
+  {
+    "term": "Decentralized Reconciliation Model",
+    "category": "Revenue Cycle",
+    "definition": "A decentralized reconciliation model is when reconciliation work is handled by multiple departments, teams, or locations instead of one centralized team. In healthcare revenue cycle, this may mean different clinics, departments, or billing teams are responsible for reconciling their own charges, payments, denials, or account balances.",
+    "sourceName": "HFMA",
+    "source": "HFMA",
+    "example": "A health system has each hospital department reconcile its own payment variances and charge issues instead of sending everything to one central revenue cycle team. This can give departments more ownership, but it may also create inconsistency if team follows a different process."
+  },
+  {
+    "term": "Quality Program",
+    "category": "Quality",
+    "definition": "A quality program is a structured set of initiatives, metrics, standards, and improvement efforts used to measure and improve the saefty, effectiveness, efficiency, and patient experience of care. In healthcare, quality programs often track outcomes, readmissions, infections, patient satisfaction, compliance, and performance against value-based care meaures.",
+    "sourceName": "CMS",
+    "source": "CMS",
+    "example": "A hospital may run a quality program focused on reducing hospital-acquired infections. The team tracks infection rates, reviews root causes, updates clinical workflows, trains staff, and measures whether patient outcomes improve over time."
+  },
+  {
+    "term": "Central Sterile Processing Department (CSPD)",
+    "category": "Clinical Optimization",
+    "definition": "The Central Sterile Processing Department is the hospital department responsible for cleaning, disinfecting, sterilizing, storing, and distributing surgical instruments, medical equipment, and supplies. CSPD helps ensure that clinical teams have safe, sterile, and ready-to-use instruments for patient care.",
+    "sourceName": "AAMI",
+    "source": "AAMI",
+    "example": "Before an operating room case, used surgical instruments are sent to CSPD, where they are cleaned, sterilized, packaged, and returned so they can be safely used for the next patient procedure."
   }
 ]

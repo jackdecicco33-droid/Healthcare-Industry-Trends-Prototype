@@ -63,7 +63,7 @@ function uniqueSorted(values) {
 let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
-const DATA_VERSION = 'excel-workbook-20260702-v7';
+const DATA_VERSION = 'excel-workbook-20260721-v8';
 
 let healthcareIndustryNews = [];
 
@@ -414,12 +414,6 @@ function renderHealthcareIndustryWatch() {
   ];
 
   featuredNewsCard.innerHTML = `
-    <div class="news-meta-row">
-      <span class="news-pill green">${escapeHtml(featured.trustLevel)}</span>
-      <span class="news-pill">${escapeHtml(featured.serviceLine)}</span>
-      <span class="news-pill">${escapeHtml(featured.source)}</span>
-    </div>
-
     <h3>${escapeHtml(featured.title)}</h3>
 
     <p class="news-summary">${escapeHtml(featured.summary)}</p>
@@ -445,7 +439,7 @@ function renderHealthcareIndustryWatch() {
 
     <div class="news-actions">
       <a class="news-button" href="${escapeAttribute(featured.url)}" target="_blank" rel="noopener noreferrer">
-        Read source ->
+        Read Article ->
       </a>
       <span class="news-source-text">Featured for ${formattedDate}</span>
     </div>
@@ -459,7 +453,7 @@ function renderHealthcareIndustryWatch() {
           <h4>${escapeHtml(article.title)}</h4>
           <p>${escapeHtml(article.summary)}</p>
           <a href="${escapeAttribute(article.url)}" target="_blank" rel="noopener noreferrer">
-            View source ->
+            Read Article ->
           </a>
         </article>
       `
@@ -858,8 +852,8 @@ function normalizeSignalData(data) {
   return (Array.isArray(data) ? data : [])
     .map(item => {
       const url = item.url || item.link || '';
-      const source = item.source || item.websiteName || item.website || 'Approved Source';
-      const title = item.title || `${source} healthcare signal source`;
+      const source = item.source || item.websiteName || item.website || 'Healthcare Source';
+      const title = item.title || '';
       const serviceLine = item.serviceLine || item.topic || 'Healthcare Signal';
 
       return {
@@ -867,13 +861,13 @@ function normalizeSignalData(data) {
         source,
         date: item.date || 'Check source for latest updates',
         serviceLine,
-        trustLevel: item.trustLevel || 'Approved Source',
+        trustLevel: item.trustLevel || 'Direct Article',
         summary:
           item.summary ||
-          `Approved healthcare signal source from the Excel workbook: ${source}.`,
+          `Article from ${source}.`,
         consultingLens:
           item.consultingLens ||
-          'Use this approved source to monitor current healthcare news, policy movement, and industry signals.',
+          'Use this direct article to monitor current healthcare news, policy movement, and industry signals.',
         url,
         domain: item.domain || getUrlDomain(url)
       };
