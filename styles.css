@@ -158,15 +158,6 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
 .source-card p { color: var(--slate); margin-bottom: 8px; }
 .source-card a { color: var(--green-dark); font-weight: 800; text-decoration: none; }
 .source-card a:hover { text-decoration: underline; }
-.chatbot-panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 16px; box-shadow: 0 4px 18px rgba(22,82,122,.08); }
-.chatbot-panel p { margin: 0; color: var(--slate); line-height: 1.6; }
-.chat-messages { max-height: 320px; overflow: auto; display: flex; flex-direction: column; gap: 10px; padding: 12px; }
-.chat-bubble { padding: 10px 14px; border-radius: 12px; max-width: 78%; box-shadow: 0 2px 6px rgba(22,82,122,.06); }
-.chat-bubble.user { align-self: flex-end; background: var(--green); color: #fff; }
-.chat-bubble.bot { align-self: flex-start; background: var(--ice); color: var(--navy); border: 1px solid var(--border); }
-.chat-form { display: flex; gap: 10px; margin-top: 12px; }
-.chat-form input { flex: 1; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); }
-
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 .small-label { color: var(--muted); font-size: 12px; text-transform: uppercase; font-weight: 800; letter-spacing: .5px; }
 

@@ -26,7 +26,6 @@
         <a href="#resourceLibrary">Resource library</a>
         <a href="#terminologyDictionary">Terminology</a>
         <a href="#submit-insight">Submit Insight</a>
-        <a href="#" id="openChatLink">Chatbot</a>
       </div>
     </nav>
 
@@ -284,8 +283,6 @@
       </div>
       <div id="sourceGrid" class="source-grid"></div>
     </section>
-
-    <!-- Chatbot is provided by the embedded Chatbase widget. The bottom inline chatbot UI was removed; the top navigation now opens the widget. -->
   </main>
 
   <footer class="site-footer">
@@ -293,72 +290,5 @@
   </footer>
 
   <script type="module" src="./app.js?v=excel-data-js-20260721-v8"></script>
-  <script>
-  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...args)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(args)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...proxyArgs)=>target(prop,...proxyArgs)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="ju0TN8v7fhMWNk2TpASYZ";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
-  </script>
-  <script>
-  async function getUserToken() {
-    // Replace this path with your server endpoint that returns the signed Chatbase JWT.
-    const response = await fetch('/api/chatbase-token');
-    if (!response.ok) {
-      console.warn('Chatbase token endpoint not available locally:', response.status);
-      return null;
-    }
-    return response.text();
-  }
-
-  async function identifyChatbaseUser() {
-    try {
-      const token = await getUserToken();
-      if (!token) {
-        console.warn('Skipping Chatbase identify because no token was returned.');
-        return;
-      }
-      if (window.chatbase) {
-        window.chatbase('identify', { token });
-      } else {
-        console.warn('Chatbase is not available yet.');
-      }
-    } catch (error) {
-      console.error('Chatbase identify failed:', error);
-    }
-  }
-  // Open the embedded Chatbase widget (tries common method names, with graceful fallbacks)
-  function openChatWidget() {
-    try {
-      if (window.chatbase && typeof window.chatbase === 'function') {
-        try { window.chatbase('open'); } catch(e) {}
-        try { window.chatbase('openWidget'); } catch(e) {}
-        try { window.chatbase('show'); } catch(e) {}
-        try { window.chatbase('toggle'); } catch(e) {}
-        try { window.chatbase('focus'); } catch(e) {}
-        return;
-      }
-      // If the embed injects an iframe, attempt to bring it into view
-      const iframe = document.querySelector('iframe[src*="chatbase.co"]');
-      if (iframe) {
-        iframe.scrollIntoView({ behavior: 'smooth' });
-        iframe.focus();
-        return;
-      }
-      // Fallback: scroll to top (where the widget commonly appears)
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      console.warn('Chatbase widget not found; ensure embed is loaded and supports programmatic opening.');
-    } catch (err) {
-      console.warn('openChatWidget error', err);
-    }
-  }
-
-  window.addEventListener('load', () => {
-    identifyChatbaseUser().catch(()=>{});
-    const link = document.getElementById('openChatLink');
-    if (link) {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        openChatWidget();
-      });
-    }
-  });
-  </script>
 </body>
 </html>
