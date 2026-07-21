@@ -1,8 +1,8 @@
-import {
-  approvedSignalSources,
-  healthcareResources,
-  healthcareTerminology
-} from './data.js';
+const DATA_VERSION = 'excel-workbook-20260721-v9';
+
+async function loadWorkbookDataModule() {
+  return import(`./data.js?v=${encodeURIComponent(DATA_VERSION)}`);
+}
 
 const state = {
   resources: [],
@@ -63,8 +63,6 @@ function uniqueSorted(values) {
 let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
-const DATA_VERSION = 'excel-workbook-20260721-v8';
-
 let healthcareIndustryNews = [];
 
 let healthcareTerms = [];
@@ -876,6 +874,11 @@ function normalizeSignalData(data) {
 }
 
 async function init() {
+  const {
+    approvedSignalSources = [],
+    healthcareResources = [],
+    healthcareTerminology = []
+  } = await loadWorkbookDataModule();
   const services = await loadJson('./data/service-lines.json', []);
   const sources = await loadJson('./data/source-index.json', []);
   console.log("healthcareResources data", healthcareResources);

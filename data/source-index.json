@@ -1,1284 +1,1809 @@
 [
   {
-    "url": "https://acdis.org",
-    "domain": "acdis.org",
-    "resourceNames": [
-      "ACDIS.org"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://acdis.org/boot-camps",
-    "domain": "acdis.org",
-    "resourceNames": [
-      "ACDIS Boot Camps"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://acdis.org/certification/ccds",
-    "domain": "acdis.org",
-    "resourceNames": [
-      "CCDS"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Credentials to Start",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://asq.org/cert",
-    "domain": "asq.org",
-    "resourceNames": [
-      "Lean Healthcare",
-      "Six Sigma"
-    ],
-    "serviceLines": [
-      "Clinical Optimization",
-      "Quality"
-    ],
-    "categories": [
-      "Applied Credentials",
-      "Manager-Level Credentials"
-    ]
-  },
-  {
-    "url": "https://asq.org/training",
-    "domain": "asq.org",
-    "resourceNames": [
-      "ASQ Training"
-    ],
-    "serviceLines": [
-      "Quality"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://bookshop.org/search?keywords=Flawless%20Consulting%20Peter%20Block",
-    "domain": "bookshop.org",
-    "resourceNames": [
-      "Flawless Consulting"
-    ],
-    "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
-    ],
-    "categories": [
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://bookshop.org/search?keywords=Pyramid%20Principle%20Minto",
-    "domain": "bookshop.org",
-    "resourceNames": [
-      "The Pyramid Principle"
-    ],
-    "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
-    ],
-    "categories": [
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://nahq.org",
-    "domain": "nahq.org",
-    "resourceNames": [
-      "NAHQ.org"
-    ],
-    "serviceLines": [
-      "Quality"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://nahq.org/certification/",
-    "domain": "nahq.org",
-    "resourceNames": [
-      "CPHQ"
-    ],
-    "serviceLines": [
-      "Quality"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Credentials to Start",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://nahq.org/education/",
-    "domain": "nahq.org",
-    "resourceNames": [
-      "NAHQ Learning"
-    ],
-    "serviceLines": [
-      "Quality"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://qualitynet.cms.gov",
-    "domain": "qualitynet.cms.gov",
-    "resourceNames": [
-      "CMS QualityNet"
-    ],
-    "serviceLines": [
-      "Quality"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://revcycleintelligence.com",
-    "domain": "revcycleintelligence.com",
-    "resourceNames": [
-      "RevCycleIntelligence"
-    ],
-    "serviceLines": [
-      "Physician Enterprise",
-      "Revenue Cycle"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://worldatwork.org/certification",
-    "domain": "worldatwork.org",
-    "resourceNames": [
-      "CCP"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://worldatwork.org/education",
-    "domain": "worldatwork.org",
-    "resourceNames": [
-      "WorldatWork"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://www.aaham.org/certification",
+    "url": "https://aaham.org/page/CRCP",
     "domain": "aaham.org",
     "resourceNames": [
-      "CRCP"
+      "Certified Revenue Cycle Professional (CRCP)"
     ],
     "serviceLines": [
       "Revenue Cycle"
     ],
     "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Credentials to Start"
+      "Certificate"
     ]
   },
   {
-    "url": "https://www.aapc.com/certification/",
-    "domain": "aapc.com",
-    "resourceNames": [
-      "CPB"
-    ],
-    "serviceLines": [
-      "Revenue Cycle"
-    ],
-    "categories": [
-      "Applied Credentials",
-      "Manager-Level Credentials"
-    ]
-  },
-  {
-    "url": "https://www.aapc.com/certification/cpc/",
-    "domain": "aapc.com",
-    "resourceNames": [
-      "CPC"
-    ],
-    "serviceLines": [
-      "Physician Enterprise"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://www.aapc.com/training/",
-    "domain": "aapc.com",
-    "resourceNames": [
-      "AAPC Training"
-    ],
-    "serviceLines": [
-      "Physician Enterprise",
-      "Revenue Cycle"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://www.ache.org/learning-center/congress",
-    "domain": "ache.org",
-    "resourceNames": [
-      "ACHE Congress"
-    ],
-    "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
-    ],
-    "categories": [
-      "Executive Learning"
-    ]
-  },
-  {
-    "url": "https://www.advisory.com",
-    "domain": "advisory.com",
-    "resourceNames": [
-      "Advisory Board"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Execution Intelligence"
-    ]
-  },
-  {
-    "url": "https://www.advisory.com/events",
-    "domain": "advisory.com",
-    "resourceNames": [
-      "Advisory Board Events"
-    ],
-    "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
-    ],
-    "categories": [
-      "Executive Learning"
-    ]
-  },
-  {
-    "url": "https://www.aha.org/education-events/aha-leadership-summit",
+    "url": "https://www.aha.org/aha-center-health-innovation-market-scan/2025-12-09-health-care-workforce-system-under-pressure-poised-reinvention",
     "domain": "aha.org",
     "resourceNames": [
-      "AHA Leadership Summit"
+      "Health Care Workforce: A System Under Pressure, Poised for Reinvention"
     ],
     "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
+      "Labor"
     ],
     "categories": [
-      "Executive Forums",
-      "Executive Learning"
+      "Article"
     ]
   },
   {
-    "url": "https://www.ahima.org",
-    "domain": "ahima.org",
+    "url": "https://www.aha.org/aha-center-health-innovation-market-scan/2026-01-05-/future-physician-workforce-optimization",
+    "domain": "aha.org",
     "resourceNames": [
-      "AHIMA.org"
+      "The Future of Physician Workforce Optimization"
     ],
     "serviceLines": [
-      "Clinical Optimization"
+      "Labor"
     ],
     "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow"
+      "Article"
     ]
   },
   {
-    "url": "https://www.ahima.org/certification-careers/certifications/cdip/",
-    "domain": "ahima.org",
+    "url": "https://www.aha.org/case-studies/2026-05-29-examples-how-hospitals-are-lowering-costs-and-enhancing-value",
+    "domain": "aha.org",
     "resourceNames": [
-      "CDIP"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Credentials to Start"
-    ]
-  },
-  {
-    "url": "https://www.ahrmm.org",
-    "domain": "ahrmm.org",
-    "resourceNames": [
-      "AHRMM.org"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://www.ahrmm.org/certification-cmrp",
-    "domain": "ahrmm.org",
-    "resourceNames": [
-      "CMRP"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Credentials to Start",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://www.ahrmm.org/education",
-    "domain": "ahrmm.org",
-    "resourceNames": [
-      "AHRMM eLearning"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://www.ahrq.gov",
-    "domain": "ahrq.gov",
-    "resourceNames": [
-      "AHRQ.gov"
+      "Examples of How Hospitals Are Lowering Cost and Enhancing Value"
     ],
     "serviceLines": [
       "Quality"
     ],
     "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
+      "Article"
     ]
   },
   {
-    "url": "https://www.ama-assn.org/practice-management",
+    "url": "https://www.aha.org/guides-and-reports/2026-06-02-making-health-care-more-affordable",
+    "domain": "aha.org",
+    "resourceNames": [
+      "Making Health Care More Affordable"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.ahima.org/",
+    "domain": "ahima.org",
+    "resourceNames": [
+      "The American Health Information Management Association"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Website"
+    ]
+  },
+  {
+    "url": "https://www.ahima.org/certification-careers/certifications-overview/ccs-p/",
+    "domain": "ahima.org",
+    "resourceNames": [
+      "American Health Information Management Association"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://www.ahrmm.org/ahrmm-podcasts",
+    "domain": "ahrmm.org",
+    "resourceNames": [
+      "AHRMM Advancing Health Care Through Supply Chain Excellence"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Podcasts"
+    ]
+  },
+  {
+    "url": "https://www.ahrmm.org/resource-repository-ahrmm/essentials-certificate-bundle-1",
+    "domain": "ahrmm.org",
+    "resourceNames": [
+      "AHRMM Essentials of Health Care Supply Chain Certificate Series"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://www.ama-assn.org/practice-management/physician-health/when-health-care-teams-run-short-physician-burnout-rises",
     "domain": "ama-assn.org",
     "resourceNames": [
-      "AMA Practice Management"
+      "When Health Care Teams Run Short, Physician Burnout Rises"
     ],
     "serviceLines": [
       "Physician Enterprise"
     ],
     "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
+      "Article"
     ]
   },
   {
-    "url": "https://www.amga.org",
-    "domain": "amga.org",
-    "resourceNames": [
-      "AMGA.org"
-    ],
-    "serviceLines": [
-      "Physician Enterprise"
-    ],
-    "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow"
-    ]
-  },
-  {
-    "url": "https://www.amga.org/education",
-    "domain": "amga.org",
-    "resourceNames": [
-      "AMGA Education"
-    ],
-    "serviceLines": [
-      "Physician Enterprise"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://www.aonl.org",
-    "domain": "aonl.org",
-    "resourceNames": [
-      "AONL.org"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Execution Intelligence"
-    ]
-  },
-  {
-    "url": "https://www.ascm.org",
+    "url": "https://www.ascm.org/lp/certified-in-planning-and-inventory-management/#:~:text=%E2%80%9CWhen%20you%20earn%20the%20Certified%20in%20Planning%20and,these%20components%20relates%20to%20the%20extended%20supply%20chain.%E2%80%9D",
     "domain": "ascm.org",
     "resourceNames": [
-      "ASCM / APICS"
+      "Certified in Planning & Inventory Management (CPIM)"
     ],
     "serviceLines": [
       "Supply Chain"
     ],
     "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow"
+      "Certificate"
     ]
   },
   {
-    "url": "https://www.ascm.org/learning-development/certifications-credentials/cpim/",
-    "domain": "ascm.org",
-    "resourceNames": [
-      "CPIM"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Applied Credentials",
-      "Manager-Level Credentials"
-    ]
-  },
-  {
-    "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp/",
-    "domain": "ascm.org",
-    "resourceNames": [
-      "CSCP"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Credentials to Start"
-    ]
-  },
-  {
-    "url": "https://www.ashhra.org",
-    "domain": "ashhra.org",
-    "resourceNames": [
-      "ASHHRA.org"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://www.ashhra.org/certification",
-    "domain": "ashhra.org",
-    "resourceNames": [
-      "CHHR"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Credentials to Start"
-    ]
-  },
-  {
-    "url": "https://www.ashrm.org/professional-development/cphrm-certification",
-    "domain": "ashrm.org",
-    "resourceNames": [
-      "CPHRM"
-    ],
-    "serviceLines": [
-      "Quality"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://www.beckersasc.com",
-    "domain": "beckersasc.com",
-    "resourceNames": [
-      "Becker's ASC & Spine"
-    ],
-    "serviceLines": [
-      "Physician Enterprise"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Execution Intelligence"
-    ]
-  },
-  {
-    "url": "https://www.beckershospitalreview.com/clinical-leadership-infection-control.html",
+    "url": "https://www.beckershospitalreview.com/finance/from-2-2-to-16-5-36-health-systems-ranked-by-operating-margins-in-2025/",
     "domain": "beckershospitalreview.com",
     "resourceNames": [
-      "Becker's Clinical Leadership"
+      "From -2.2% to 16.5%: 37 Health Systems Ranked By Operating Margins in 2025"
     ],
     "serviceLines": [
-      "Clinical Optimization"
+      "Healthcare 101"
     ],
     "categories": [
-      "Benchmarks & Regulation",
-      "Strategy Sources"
+      "Article"
     ]
   },
   {
-    "url": "https://www.beckershospitalreview.com/conference.html",
-    "domain": "beckershospitalreview.com",
-    "resourceNames": [
-      "Becker's Annual Meeting"
-    ],
-    "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
-    ],
-    "categories": [
-      "Market Intelligence"
-    ]
-  },
-  {
-    "url": "https://www.beckershospitalreview.com/finance/",
+    "url": "https://www.beckershospitalreview.com/finance/revenue-cycle-management/",
     "domain": "beckershospitalreview.com",
     "resourceNames": [
       "Becker's Hospital Review"
     ],
     "serviceLines": [
-      "Revenue Cycle"
+      "Healthcare 101"
     ],
     "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow"
+      "Website"
     ]
   },
   {
-    "url": "https://www.beckershospitalreview.com/supply-chain/",
+    "url": "https://www.beckershospitalreview.com/finance/revenue-cycle-management/5-recent-rcm-company-ma-moves/",
     "domain": "beckershospitalreview.com",
     "resourceNames": [
-      "Becker's Supply Chain"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://www.beckershospitalreview.com/webinars.html",
-    "domain": "beckershospitalreview.com",
-    "resourceNames": [
-      "Becker's Webinars"
-    ],
-    "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
-    ],
-    "categories": [
-      "Executive Forums"
-    ]
-  },
-  {
-    "url": "https://www.beckershospitalreview.com/workforce.html",
-    "domain": "beckershospitalreview.com",
-    "resourceNames": [
-      "Becker's Workforce"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://www.bls.gov/oes/current/oes_healthcare.htm",
-    "domain": "bls.gov",
-    "resourceNames": [
-      "BLS.gov"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://www.cms.gov",
-    "domain": "cms.gov",
-    "resourceNames": [
-      "CMS.gov"
+      "7 Recent RCM company M&A Moves"
     ],
     "serviceLines": [
       "Revenue Cycle"
     ],
     "categories": [
-      "Benchmarks & Regulation",
-      "Execution Intelligence"
+      "Article"
     ]
   },
   {
-    "url": "https://www.coursera.org/professional-certificates/medical-billing-coding-aapc",
-    "domain": "coursera.org",
+    "url": "https://www.beckershospitalreview.com/finance/revenue-cycle-management/beyond-the-dashboard-why-the-most-damaging-denials-never-get-flagged/",
+    "domain": "beckershospitalreview.com",
     "resourceNames": [
-      "Coursera"
+      "Beyond The Dashboard: Why The Most Damaging Denials Never Get Flagged"
     ],
     "serviceLines": [
       "Revenue Cycle"
     ],
     "categories": [
-      "Courses / Practice"
+      "Article"
     ]
   },
   {
-    "url": "https://www.coursera.org/search?query=healthcare%20administration",
-    "domain": "coursera.org",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/oracle-health-to-bring-ai-to-the-operating-room/",
+    "domain": "beckershospitalreview.com",
     "resourceNames": [
-      "Coursera"
+      "Oracle Health To Bring AI To The Operating Room"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/will-ai-replace-physicians-epics-judy-faulkner-is-skeptical/",
+    "domain": "beckershospitalreview.com",
+    "resourceNames": [
+      "Will AI Replace Physicians? Epic's Judy Faulkner is Skeptical"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.cdw.com/content/cdw/en/articles/digitalworkspace/how-clinical-workflow-optimization-creates-better-patient-outcomes.html?msockid=0a1b6b7b02a56ef323677c1e03966f9a",
+    "domain": "cdw.com",
+    "resourceNames": [
+      "Clinical Workflow Optimization Creates Better Patient Outcomes"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.chartis.com/insights/why-time-has-come-evolve-physician-enterprise-roger-ray-md",
+    "domain": "chartis.com",
+    "resourceNames": [
+      "Why The Time Has Come To Evolve The Physician Enterprise"
     ],
     "serviceLines": [
       "Physician Enterprise"
     ],
     "categories": [
-      "Applied Learning",
-      "Courses / Practice"
+      "Article"
     ]
   },
   {
-    "url": "https://www.coursera.org/search?query=healthcare%20operations",
-    "domain": "coursera.org",
+    "url": "https://www.cms.gov/medicare/quality/value-based-programs",
+    "domain": "cms.gov",
     "resourceNames": [
-      "Coursera"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Courses / Practice"
-    ]
-  },
-  {
-    "url": "https://www.coursera.org/search?query=healthcare%20quality",
-    "domain": "coursera.org",
-    "resourceNames": [
-      "Coursera"
+      "What are the Value-Based Programs?"
     ],
     "serviceLines": [
       "Quality"
     ],
     "categories": [
-      "Applied Learning",
-      "Courses / Practice"
+      "Article"
     ]
   },
   {
-    "url": "https://www.coursera.org/search?query=workforce%20management",
+    "url": "https://www.congress.gov/crs_external_products/R/PDF/R43357/R43357.21.pdf",
+    "domain": "congress.gov",
+    "resourceNames": [
+      "Medicaid: An Overview"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/clinic-operations-kpis-and-inventory",
     "domain": "coursera.org",
     "resourceNames": [
-      "Coursera"
+      "Clinical Operations: KPIs and Inventory"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/data-and-electronic-health-records",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Data and Electronic Health Records"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/ehr-navigate-data--compliance-confidently",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "HER: Navigate Data & Compliance Confidently"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/excel-basics-data-analysis-ibm",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Excel Basics for Data Analysis"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/healthcare-accounting-financial-statements-revenue",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Healthcare Accounting: Financial Statements & Revenue"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/healthcare-data-management-security-and-compliance",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Healthcare Data Management, Security, and Compliance"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/healthcare-finance-cost-management",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Healthcare Finance and Cost Management"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/intro-to-healthcare",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Introduction to Healthcare"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/intro-to-managing-healthcare-supply-chain-operations",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Intro to Managing Healthcare Supply Chain operations"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/intro-to-the-healthcare-industry",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Introduction to the Healthcare Industry"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/introduction-to-healthcare-finance",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Introduction to Healthcare Finance"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/navigating-healthcare-supply-chain-operations",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Navigating Healthcare Supply Chain Operations"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/quality-healthcare",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Leading Healthcare Quality and Safety"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/revenue-cycle-billing-and-coding",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Revenue Cycle, Billing, and Coding"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/sage-values-based-leadership-in-healthcare",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Value-Based Leadership in Healthcare"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/supply-chain-logistics",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Supply Chain Logistics"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/learn/value-based-care-introduction",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Value-based Care: Introduction to Value-based and the U.S. Healthcare System"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "AWS Cloud Solutions Architect Professional Certificate"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/professional-certificates/microsoft-excel-skills",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Microsoft Excel Professional Certificate"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/ai-healthcare",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "AI in Healthcare Specialization"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/financialmanagerialaccountinginhealthcare",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Financial and Managerial Accounting in Healthcare Specialization"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/healthcare-management-and-finance",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Healthcare Management and Finance Specialization"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/healthcare-organization-operations",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Healthcare Organization Operations Specialization"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/microsoft-365-fundamentals",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Microsoft 365 Fundamentals Specialization"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/project-management-in-healthcare",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Project Management in Healthcare Specialization"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.coursera.org/specializations/quality-improvement-healthcare",
+    "domain": "coursera.org",
+    "resourceNames": [
+      "Quality Improvement In Healthcare Specialization"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.definitivehc.com/blog/the-difference-between-non-profit-and-for-profit-hospitals",
+    "domain": "definitivehc.com",
+    "resourceNames": [
+      "What is the Difference Between Nonprofit and For-Profit Hospitals"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.definitivehc.com/resources/healthcare-insights/breaking-down-us-hospital-payor-mixes",
+    "domain": "definitivehc.com",
+    "resourceNames": [
+      "Breaking Down U.S. Hospital Payor Mixes"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.definitivehc.com/resources/healthcare-insights/hospital-operating-margins-united-states",
+    "domain": "definitivehc.com",
+    "resourceNames": [
+      "A Look At Hospital Operating Margins In The United States"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.edx.org/executive-education/stanford-university-healthcare-leadership?index=rv_product_summary&queryId=bf42ad1102caf5750a2cf88b06c9f252&position=2",
+    "domain": "edx.org",
+    "resourceNames": [
+      "Standford Medicine: Healthcare Leadership"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.edx.org/executive-education/university-of-toronto-healthcare-leadership?index=rv_product_summary&queryId=7e19d2bf538686c1e99d3b044d24059d&position=1",
+    "domain": "edx.org",
+    "resourceNames": [
+      "University of Toronto: Healhcare Leadership"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.edx.org/executive-education/yale-university-healthcare-management",
+    "domain": "edx.org",
+    "resourceNames": [
+      "Yale SOM Executive Education: Healthcare Management"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.edx.org/learn/data-analysis-statistics/university-of-cambridge-the-impact-of-big-data-on-healthcare?index=rv_product_summary&queryId=2ab9e5cc42058d04abe8a5042b8d3ae5&position=20",
+    "domain": "edx.org",
+    "resourceNames": [
+      "University of Cambridge: the impact of big data on healthcare"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.edx.org/masters/micromasters/mgh-institute-artificial-intelligence-machine-learning-in-healthcare?index=rv_product_summary&queryId=d242cfbe7bb297dd7b424d683a958375&position=2",
+    "domain": "edx.org",
+    "resourceNames": [
+      "Artificial Intelligence & Machine Learning in Healthcare"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://health.usnews.com/medicare/articles/your-guide-to-medicare-coverage",
+    "domain": "health.usnews.com",
+    "resourceNames": [
+      "What is Medicare: Coverage, Cost and Enrollment"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthcare-brew.com/stories/2025/09/29/difference-between-for-profit-nonprofit-hospitals",
+    "domain": "healthcare-brew.com",
+    "resourceNames": [
+      "What's The Difference Between For-Profit and Nonprofit Hospitals"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://healthcarereaders.com/insights/supply-chain-management-in-healthcare",
+    "domain": "healthcarereaders.com",
+    "resourceNames": [
+      "Healthcare Supply Chain Management: Optimize Cost & Efficiency"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthmarkets.com/resources/health-insurance/affordable-care-act-pros-and-cons",
+    "domain": "healthmarkets.com",
+    "resourceNames": [
+      "The Pros and Cons of the Affordable Care Act"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthpartners.com/blog/medical-claim/",
+    "domain": "healthpartners.com",
+    "resourceNames": [
+      "Understanding Medical Claims: What They Are and How They Work"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Healthcare Financial Management Association"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Website"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/61738/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Key Considerations For Revenue Cycle Outsourcing"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/ai/how-to-optimize-the-revenue-cycle-workforce-in-2026/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "How To Optimize The Revenue Cycle Workforce in 2026"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/certified-healthcare-financial-professional/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Certified Healthcare Financial Professional (CHFP)"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/course/certified-revenue-cycle-representative-crcr/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Certified Revenue Cycle Representative (CRCR)"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/course/certified-specialist-physician-practice-management-csppm/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Certified Specialist Physcian Practice Management (CSPPM)"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/fast-finance/hospital-labor-trends-in-2025-show-slower-hiring-but-continued-workforce-growth/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Hospital Labor Trends in 2025 Show Slower Hiring but Continued Workforce Growth"
     ],
     "serviceLines": [
       "Labor"
     ],
     "categories": [
-      "Applied Learning",
-      "Courses / Practice"
+      "Article"
     ]
   },
   {
-    "url": "https://www.coursera.org/specializations/supply-chain-management",
-    "domain": "coursera.org",
-    "resourceNames": [
-      "Coursera"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Courses / Practice"
-    ]
-  },
-  {
-    "url": "https://www.edx.org/learn/lean",
-    "domain": "edx.org",
-    "resourceNames": [
-      "edX"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Courses / Practice"
-    ]
-  },
-  {
-    "url": "https://www.edx.org/masters/micromasters/mitx-supply-chain-management",
-    "domain": "edx.org",
-    "resourceNames": [
-      "edX \u2014 MITx"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Courses / Practice"
-    ]
-  },
-  {
-    "url": "https://www.gartner.com/en/supply-chain",
-    "domain": "gartner.com",
-    "resourceNames": [
-      "Gartner Supply Chain"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://www.hfma.org",
+    "url": "https://www.hfma.org/fast-finance/labor-outsourcing-shifts-to-non-clinical-roles/",
     "domain": "hfma.org",
     "resourceNames": [
-      "HFMA.org"
-    ],
-    "serviceLines": [
-      "Revenue Cycle"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://www.hfma.org/certifications/chfp/",
-    "domain": "hfma.org",
-    "resourceNames": [
-      "CHFP"
-    ],
-    "serviceLines": [
-      "Physician Enterprise",
-      "Revenue Cycle"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://www.hfma.org/certifications/crcr/",
-    "domain": "hfma.org",
-    "resourceNames": [
-      "CRCR"
-    ],
-    "serviceLines": [
-      "Revenue Cycle"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Credentials to Start",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://www.himss.org",
-    "domain": "himss.org",
-    "resourceNames": [
-      "HIMSS.org"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
-    ]
-  },
-  {
-    "url": "https://www.himss.org/membership-participation/professional-development",
-    "domain": "himss.org",
-    "resourceNames": [
-      "HIMSS Learning Center"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://www.himss.org/resources-certification/cphims",
-    "domain": "himss.org",
-    "resourceNames": [
-      "CPHIMS"
-    ],
-    "serviceLines": [
-      "Clinical Optimization"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://www.hlth.com",
-    "domain": "hlth.com",
-    "resourceNames": [
-      "HLTH"
-    ],
-    "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
-    ],
-    "categories": [
-      "Executive Forums"
-    ]
-  },
-  {
-    "url": "https://www.hpnonline.com",
-    "domain": "hpnonline.com",
-    "resourceNames": [
-      "Healthcare Purchasing News"
-    ],
-    "serviceLines": [
-      "Supply Chain"
-    ],
-    "categories": [
-      "Benchmarks & Regulation",
-      "Execution Intelligence"
-    ]
-  },
-  {
-    "url": "https://www.hrci.org",
-    "domain": "hrci.org",
-    "resourceNames": [
-      "PHR / SPHR"
+      "Labor Outsourcing Shifts To Non-Clinical Roles"
     ],
     "serviceLines": [
       "Labor"
     ],
     "categories": [
-      "Applied Credentials",
-      "Manager-Level Credentials"
+      "Article"
     ]
   },
   {
-    "url": "https://www.ihi.org",
-    "domain": "ihi.org",
+    "url": "https://www.hfma.org/finance-and-business-strategy/why-labor-benchmarking-is-so-critical-to-healthcare-productivity/",
+    "domain": "hfma.org",
     "resourceNames": [
-      "IHI.org"
+      "Why Labor Benchmarking Is So Critical To Healthcare Productivity"
     ],
     "serviceLines": [
-      "Quality"
+      "Labor"
     ],
     "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow"
+      "Article"
     ]
   },
   {
-    "url": "https://www.ihi.org/education/certification-professional-development",
-    "domain": "ihi.org",
+    "url": "https://www.hfma.org/get-a-revenue-cycle-certification/",
+    "domain": "hfma.org",
     "resourceNames": [
-      "CPPS"
+      "Get a Revenue Cycle Management Certificate"
     ],
     "serviceLines": [
-      "Quality"
+      "Revenue Cycle"
     ],
     "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Credentials to Start"
+      "Certificate"
     ]
   },
   {
-    "url": "https://www.ihi.org/education/ihi-open-school",
-    "domain": "ihi.org",
+    "url": "https://www.hfma.org/how-a-health-system-can-reduce-premium-labor-while-building-a-sustainable-workforce/",
+    "domain": "hfma.org",
     "resourceNames": [
-      "IHI Open School"
+      "How a Health System Can Reduce Premium Labor While Building a Sustainable Workforce"
     ],
     "serviceLines": [
-      "Quality"
+      "Labor"
     ],
     "categories": [
-      "Courses / Practice"
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/payment-reimbursement-and-managed-care/medicare-funding-projections-hi-trust-fund/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Medicare Funding Projections Sharpen Concerns Over Access and Payment Rates"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/payment-reimbursement-and-managed-care/medicare-payment-policy-changes-2027-hhs-hearings/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Medicare Payment Policy Changes for 2027: Key Signal From Kennedy Hearing"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/reference/revenue-cycle-management/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Healthcare Revenue Cycle Management (RCM) How it Works & What is it"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/reference/understand-claims-denial-friction/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Why Claim Denials Are Rising and How Providers Are Responding"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/revenue-cycle/billing-and-collections/patient-pos-collections-pose-a-growing-rcm-problem/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Patient POS Collections Pose a Growing Problem for RCM Departments"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/revenue-cycle/billing-and-collections/prior-authorization-is-draining-revenue-which-is-why-automation-has-become-a-strategic-imperative/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Prior Authorization is Draining Revenue, Which is Why Automation Has Become a Strategic Imperative"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/revenue-cycle/denials-management/navigating-the-rising-tide-of-denials/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Navigating The Rising Tide of Denials"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/revenue-cycle/denials-management/preventing-denials-before-they-happen-how-revenue-intelligence-is-reshaping-the-revenue-cycle/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Preventing Denials Before They Happen: How Revenue Intelligence is Reshaping the Revnue Cycle"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/revenue-cycle/denials-management/the-impact-of-claims-denials-on-the-financial-health-of-healthcare/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "The Impact of Claim Denials On The Financial Health of Healthcare"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/revenue-cycle/healthcare-providers-debate-ways-to-offer-patients-manageable-payment-options/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Healthcare Providers Debate Ways To Offer Patients Manageable Payment Options"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/revenue-cycle/revenue-cycle-strategies-for-hospitals-facing-growing-financial-pressures/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Revenue Cycle Strategies for Hospitals Facing Growing Financial Pressures"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/revenue-cycle/the-kpis-that-define-revenue-cycle-excellence/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "The KPIs That Define Revenue Cycle Excellence"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/topic/revenue-cycle/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "How To Handle The Revenue Cycle Skills Gap"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.himss.org/certifications/cahims/",
+    "domain": "himss.org",
+    "resourceNames": [
+      "Certified Associate in Healthcare Information and Management Systems"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://www.ihi.org/library/blog/guiding-flock-3-simple-rules-improve-hospital-wide-patient-flow",
+    "domain": "ihi.org",
+    "resourceNames": [
+      "Guiding The Flock: 3 Simple Rules to Improve Hospital -Wide Patient Flow."
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Article"
     ]
   },
   {
     "url": "https://www.ismworld.org/certification-and-training/certification/cpsm/",
     "domain": "ismworld.org",
     "resourceNames": [
-      "CPSM"
+      "Certified Professional in Supply Management (CPSM)"
     ],
     "serviceLines": [
       "Supply Chain"
     ],
     "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Manager-Level Credentials",
-      "Practice Leadership"
+      "Certificate"
     ]
   },
   {
-    "url": "https://www.jointcommission.org",
-    "domain": "jointcommission.org",
+    "url": "https://www.kff.org/health-costs/key-facts-about-hospitals/",
+    "domain": "kff.org",
     "resourceNames": [
-      "The Joint Commission"
+      "Key Facts About Hospitals"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://legalclarity.org/who-owns-a-hospital-ownership-structures-explained/",
+    "domain": "legalclarity.org",
+    "resourceNames": [
+      "Why Owns a Hospital: Nonprofit, For-Profit & Government"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/learning/excel-for-healthcare-practical-applications-and-skills",
+    "domain": "linkedin.com",
+    "resourceNames": [
+      "Excel For Healthcare: Practical Applications and Skills"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/learning/project-management-healthcare-projects-24316065",
+    "domain": "linkedin.com",
+    "resourceNames": [
+      "Project Management: Healthcare Projects"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.medesk.net/en/blog/denial-management/",
+    "domain": "medesk.net",
+    "resourceNames": [
+      "Denial Management in Healthcare: Definitions, Types, and More"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.mgma.com/articles/4-steps-for-creating-value-in-the-hospital-based-physician-enterprise",
+    "domain": "mgma.com",
+    "resourceNames": [
+      "4 Steps For Creating In The Hospital -Based Physician Enterprise"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.mgma.com/articles/7-essential-components-of-a-high-performing-physician-enterprise",
+    "domain": "mgma.com",
+    "resourceNames": [
+      "7 Essential Components of a High-Performing Physician Enterprise"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.mgma.com/articles/optimizing-physician-enterprise-performance-in-the-shift-to-value",
+    "domain": "mgma.com",
+    "resourceNames": [
+      "Optimizing Physician Enterprise Performance in the Shift to value"
+    ],
+    "serviceLines": [
+      "Physician Enterprise"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.mgma.com/mgma-stat/keeping-your-clinician-productivity-on-track-throughout-2026",
+    "domain": "mgma.com",
+    "resourceNames": [
+      "Keeping Your Clinician Productivity on Track Throughout 2026"
+    ],
+    "serviceLines": [
+      "Labor"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.modernhealthcare.com/",
+    "domain": "modernhealthcare.com",
+    "resourceNames": [
+      "Modern Healthcare"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Website"
+    ]
+  },
+  {
+    "url": "https://www.modernhealthcare.com/digital-health/ai-supply-chain-management-hospitals/",
+    "domain": "modernhealthcare.com",
+    "resourceNames": [
+      "How AI In Supply Chain Management is Cutting Costs For Providers"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.modernhealthcare.com/opinion/healthcare-consolidation-mergers-private-equity-james-calver/",
+    "domain": "modernhealthcare.com",
+    "resourceNames": [
+      "Healthcare Consolidation Can Deliver Best Quality At Lower Cost"
     ],
     "serviceLines": [
       "Quality"
     ],
     "categories": [
-      "Benchmarks & Regulation",
-      "Execution Intelligence"
+      "Article"
     ]
   },
   {
-    "url": "https://www.jpmorgan.com/about-us/events/jpm-healthcare-conference",
-    "domain": "jpmorgan.com",
+    "url": "https://www.modernhealthcare.com/politics-regulation/mh-us-health-spending-2034-cms/",
+    "domain": "modernhealthcare.com",
     "resourceNames": [
-      "J.P. Morgan Healthcare"
+      "US Health Spending Projected To Hit $9T By 2034"
     ],
     "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
+      "Healthcare 101"
     ],
     "categories": [
-      "Executive Forums"
+      "Article"
     ]
   },
   {
-    "url": "https://www.linkedin.com/learning/search?keywords=revenue%20cycle",
-    "domain": "linkedin.com",
+    "url": "https://www.modernhealthcare.com/providers/mh-supply-chain-silos-amazon-business/",
+    "domain": "modernhealthcare.com",
     "resourceNames": [
-      "LinkedIn Learning"
-    ],
-    "serviceLines": [
-      "Revenue Cycle"
-    ],
-    "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
-    ]
-  },
-  {
-    "url": "https://www.linkedin.com/learning/search?keywords=supply%20chain",
-    "domain": "linkedin.com",
-    "resourceNames": [
-      "LinkedIn Learning"
+      "Breaking Down Supply Chain Silos To Realize More Savings"
     ],
     "serviceLines": [
       "Supply Chain"
     ],
     "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
+      "Article"
     ]
   },
   {
-    "url": "https://www.linkedin.com/learning/search?keywords=workforce%20planning",
-    "domain": "linkedin.com",
+    "url": "https://www.modernhealthcare.com/safety-quality/how-hospitals-quality-improvements-shrinking-margins-leapfrog-group-CMS/",
+    "domain": "modernhealthcare.com",
     "resourceNames": [
-      "LinkedIn Learning"
+      "How Hospital Systems Are Weighing Quality vs. The Bottom Line"
     ],
     "serviceLines": [
-      "Labor"
+      "Quality"
     ],
     "categories": [
-      "Applied Learning",
-      "Team / Method Skills"
+      "Article"
     ]
   },
   {
-    "url": "https://www.mgma.com",
-    "domain": "mgma.com",
+    "url": "https://www.modernhealthcare.com/supply-chain/how-supply-chain-innovation-can-drive-efficiency-amid-cost-and-labor-headwinds/",
+    "domain": "modernhealthcare.com",
     "resourceNames": [
-      "MGMA.com"
+      "How Supply Chain Innovation Can Drive Efficiency Amid Cost and Labor Headwinds"
     ],
     "serviceLines": [
-      "Physician Enterprise",
+      "Supply Chain"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.modernhealthcare.com/supply-chain/insights-support-supply-chain-excellence-healthcare/",
+    "domain": "modernhealthcare.com",
+    "resourceNames": [
+      "Perspectives on Supply Chain Resiliency"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.modernhealthcare.com/supply-chain/medical-device-supply-chain-problems-hospitals-oxygenators-catheters/",
+    "domain": "modernhealthcare.com",
+    "resourceNames": [
+      "Surge In Supply Chain Shortages Disrupting Hospital Operations"
+    ],
+    "serviceLines": [
+      "Supply Chain"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://nahq.org/credentials/cphq-certified-professional-in-healthcare-quality/?keyword=certified%20professional%20in%20healthcare%20quality%20cphq&matchtype=e&device=c&lpurl=https%3A%2F%2Fnahq.org%2Fcredentials%2Fcphq-certified-professional-in-healthcare-quality%2F&campaign=Microsoft%20-%20CPHQ&adgroup=CPHQ%20-%20General&msclkid=27800f402d1312e5a181650640c4bdb2&utm_source=bing&utm_medium=cpc&utm_campaign=Microsoft%20-%20CPHQ&utm_term=certified%20professional%20in%20healthcare%20quality%20cphq&utm_content=CPHQ%20-%20General",
+    "domain": "nahq.org",
+    "resourceNames": [
+      "Certified Professional in Healthcare Quality (CPHQ)"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://nahq.org/credentials/cphq-certified-professional-in-healthcare-quality/?keyword=certified%20professional%20in%20healthcare%20quality%20cphq&matchtype=e&device=c&lpurl=https%3A%2F%2Fnahq.org%2Fcredentials%2Fcphq-certified-professional-in-healthcare-quality%2F&campaign=Microsoft%20-%20CPHQ&adgroup=CPHQ%20-%20General&msclkid=c95bc5130bb019a47546af568a0234f8&utm_source=bing&utm_medium=cpc&utm_campaign=Microsoft%20-%20CPHQ&utm_term=certified%20professional%20in%20healthcare%20quality%20cphq&utm_content=CPHQ%20-%20General",
+    "domain": "nahq.org",
+    "resourceNames": [
+      "CPHQ: The Certified Professional In Healthcare Quality"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://nam.edu/perspectives/electronic-health-record-optimization-and-clinician-well-being-a-potential-roadmap-toward-action/",
+    "domain": "nam.edu",
+    "resourceNames": [
+      "Electronic Health Record Optimization and Clinician Well-Being: Roadmap to Action"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://nihcm.org/publications/the-growth-of-private-equity-in-us-health-care-impact-and-outlook",
+    "domain": "nihcm.org",
+    "resourceNames": [
+      "The Growth of Private Equity in US Health Care: Impact and Outlook"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://online.lifelonglearning.jhu.edu/jhu-online-ai-in-healthcare-certificate-program?utm_source=bing&utm_medium=search&utm_campaign=JHU_AIHC_Bing_Search_healthcare_exact_US_Healthcare&campaign_id=533144939&adgroup_id=1351302472142947&ad_id=&utm_target=kwd-84457628177695:loc-190&Keyword=ai%20in%20healthcare&placement=&msclkid=ef15f6989aa51849445c9cdee861aaf7",
+    "domain": "online.lifelonglearning.jhu.edu",
+    "resourceNames": [
+      "AI in Healthcare Program"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Certificate"
+    ]
+  },
+  {
+    "url": "https://www.pgmbilling.com/blog/what-is-a-claim-scrubber-and-why-it-matters-more-than-ever/",
+    "domain": "pgmbilling.com",
+    "resourceNames": [
+      "What Is a Claim Scrubber And Why It Matters More Than Ever"
+    ],
+    "serviceLines": [
       "Revenue Cycle"
     ],
     "categories": [
-      "Benchmarks & Regulation",
-      "Market Intelligence",
-      "Sources to Follow",
-      "Strategy Sources"
+      "Article"
     ]
   },
   {
-    "url": "https://www.mgma.com/certification",
-    "domain": "mgma.com",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042511/",
+    "domain": "pmc.ncbi.nlm.nih.gov",
     "resourceNames": [
-      "CMPE"
+      "Medicare in the 21st Century: Understanding the Program to Promote Improvements"
     ],
     "serviceLines": [
-      "Physician Enterprise"
+      "Healthcare 101"
     ],
     "categories": [
-      "Advanced Signal",
-      "Credentials to Start",
-      "Manager-Level Credentials",
-      "Practice Leadership"
+      "Article"
     ]
   },
   {
-    "url": "https://www.mgma.com/certification/fellowship",
-    "domain": "mgma.com",
+    "url": "https://publichealth.jhu.edu/2025/whats-behind-rising-health-insurance-costs",
+    "domain": "publichealth.jhu.edu",
     "resourceNames": [
-      "FACMPE"
+      "What's Behind Rising Health Insurance Costs?"
     ],
     "serviceLines": [
-      "Physician Enterprise"
+      "Healthcare 101"
     ],
     "categories": [
-      "Advanced Signal",
-      "Applied Credentials",
-      "Credentials to Start"
+      "Article"
     ]
   },
   {
-    "url": "https://www.mgma.com/education",
-    "domain": "mgma.com",
-    "resourceNames": [
-      "MGMA Learning"
-    ],
-    "serviceLines": [
-      "Physician Enterprise"
-    ],
-    "categories": [
-      "Courses / Practice"
-    ]
-  },
-  {
-    "url": "https://www.shrm.org",
-    "domain": "shrm.org",
-    "resourceNames": [
-      "SHRM.org"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Execution Intelligence",
-      "Market Intelligence",
-      "Sources to Follow"
-    ]
-  },
-  {
-    "url": "https://www.shrm.org/credentials/certification",
-    "domain": "shrm.org",
-    "resourceNames": [
-      "SHRM-CP / SCP"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Advanced Signal",
-      "Credentials to Start",
-      "Manager-Level Credentials",
-      "Practice Leadership"
-    ]
-  },
-  {
-    "url": "https://www.shrm.org/learning-development",
-    "domain": "shrm.org",
-    "resourceNames": [
-      "SHRM Learning"
-    ],
-    "serviceLines": [
-      "Labor"
-    ],
-    "categories": [
-      "Courses / Practice"
-    ]
-  },
-  {
-    "url": "https://www.udemy.com/topic/medical-billing/",
+    "url": "https://www.udemy.com/course/ai-consulting-for-healthcare-from-zero-to-hero/?couponCode=KEEPLEARNING",
     "domain": "udemy.com",
     "resourceNames": [
-      "Udemy"
+      "AI Consulting for Healthcare"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/certificate-in-artificial-intelligence-ai-in-health-care/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Artificial Intelligence (AI) in Healthcare Certification"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/certification-in-revenue-cycle-management-in-healthcare-by-getonto/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Certification in Revenue Cycle Management in Healthcare 2026"
     ],
     "serviceLines": [
       "Revenue Cycle"
     ],
     "categories": [
-      "Applied Learning",
-      "Courses / Practice"
+      "Course"
     ]
   },
   {
-    "url": "https://www.viveevent.com",
-    "domain": "viveevent.com",
+    "url": "https://www.udemy.com/course/excel-fundamentals-for-healthcare/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
     "resourceNames": [
-      "ViVE"
+      "Excel Fundamentals for Healthcare"
     ],
     "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
+      "Healthcare 101"
     ],
     "categories": [
-      "Executive Forums"
+      "Course"
     ]
   },
   {
-    "url": "https://www.youtube.com/@healthcaretriage",
+    "url": "https://www.udemy.com/course/financial-management-and-accounting-for-healthcare-business/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Financial Management and Accounting for Healthcare Business"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/h14-artificial-intelligence-in-healthcare-plain-simple/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Artificial Intelligence (AI) in Healthcae, Plain & Simple"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/healthcare4/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Healthcare 4.0 - Healthcare in the industry 4.0"
+    ],
+    "serviceLines": [
+      "Clinical Optimization"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/lean-six-sigma-for-healthcare/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Lean Six Sigma for Healthcare"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/lean-six-sigma-in-healthcare-certificate/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Lean Six Sigma in Healthcare Certificate"
+    ],
+    "serviceLines": [
+      "Quality"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/medical-billing-compliance-revenue-recovery-masterclass/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Medical Billing, Compliance, & Revenue Recovery Masterclass"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/referrals-prior-authorizations/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "RCM Benefits, Referrals & Prior Authorizations for Beginners"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/revenue-cycle-and-healthcare-finance/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Revenue Cycle and Healthcare Finance - Rev Cycle Ready"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/tableau-for-healthcare/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "Tableua for Healthcare"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.udemy.com/course/us-payors-commercial-medicare-medicaid/?couponCode=KEEPLEARNING",
+    "domain": "udemy.com",
+    "resourceNames": [
+      "US Healthcare System-Payors: Commercial, Medicare, Medicaid"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Course"
+    ]
+  },
+  {
+    "url": "https://www.uhc.com/employer/news-strategies/annual-health-trends-report",
+    "domain": "uhc.com",
+    "resourceNames": [
+      "UnitedHealthcare 2026 Health Trends Report"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=10JeksrGVjI",
     "domain": "youtube.com",
     "resourceNames": [
-      "Healthcare Triage"
+      "What is ERP? - A Simple Explanation"
     ],
     "serviceLines": [
-      "Clinical Optimization",
-      "Labor",
-      "Physician Enterprise",
-      "Quality",
-      "Revenue Cycle",
-      "Supply Chain"
+      "Healthcare 101"
     ],
     "categories": [
-      "Courses / Practice"
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7ZsyYCZB3Nw",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "How AI Can Heal Healthcare | Edmund Jackson | Tedx"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bkjDJhlj6Vg",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "Medical Billing Process Explained | Step-By-Step RCM Cycle"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=cbBKoyjFLUY&t=30s",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "The Economics of Healthcare: Crash Course Economics"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Gx0kHOibwHA&t=198s",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "Health Insurance 101: The Basics"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=hcMDaMhJanM",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "How Insurance Premiums And Deductibles Work"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Ie5ARcGEY1g",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "Revenue Cycle Management"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=KIh29MJOXhc",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "Medicaid & Medicare 101"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ncSDlo_6W10",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "Healthcare Revenue Cycle Management - Introduction"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=rqdWr9ynZ_o",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "Revenue Cycle Management in Healthcare Explained"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=TDi_ITG293c",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "New Reports Reveal the Impact of Health Insurance Coverage Denials on Americans"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "YouTube Video"
     ]
   }
 ]

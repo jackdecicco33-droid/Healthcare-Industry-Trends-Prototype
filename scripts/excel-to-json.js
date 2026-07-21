@@ -8,6 +8,7 @@ const resourcesOutputPath = path.join(root, 'data', 'resources.json');
 const terminologyOutputPath = path.join(root, 'data', 'terminology.json');
 const signalsOutputPath = path.join(root, 'data', 'healthcare-signals.json');
 const skippedSignalsOutputPath = path.join(root, 'data', 'healthcare-signals-skipped.json');
+const sourceIndexOutputPath = path.join(root, 'data', 'source-index.json');
 const frontendDataModulePath = path.join(root, 'data.js');
 
 const resourceSheetName = 'Healthcare Resources';
@@ -199,6 +200,40 @@ function toSkippedSignal(article) {
   };
 }
 
+function toSourceIndex(resources) {
+  const sourcesByUrl = new Map();
+
+  resources
+    .filter((resource) => resource.hasValidUrl)
+    .forEach((resource) => {
+      const url = resource.url;
+      const source = sourcesByUrl.get(url) || {
+        url,
+        domain: getDomain(url),
+        resourceNames: [],
+        serviceLines: [],
+        categories: []
+      };
+
+      if (resource.title && !source.resourceNames.includes(resource.title)) {
+        source.resourceNames.push(resource.title);
+      }
+      if (resource.serviceLine && !source.serviceLines.includes(resource.serviceLine)) {
+        source.serviceLines.push(resource.serviceLine);
+      }
+      if (resource.sourceType && !source.categories.includes(resource.sourceType)) {
+        source.categories.push(resource.sourceType);
+      }
+
+      sourcesByUrl.set(url, source);
+    });
+
+  return [...sourcesByUrl.values()].sort((a, b) => {
+    const domainCompare = a.domain.localeCompare(b.domain);
+    return domainCompare || a.url.localeCompare(b.url);
+  });
+}
+
 function writeJson(filePath, data) {
   fs.writeFileSync(filePath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 }
@@ -261,17 +296,20 @@ function main() {
   const skippedSignals = signalArticles
     .filter((article) => !article.title || !article.hasValidUrl)
     .map(toSkippedSignal);
+  const sourceIndex = toSourceIndex(resources);
 
   writeJson(resourcesOutputPath, resources);
   writeJson(terminologyOutputPath, terminology);
   writeJson(signalsOutputPath, signals);
   writeJson(skippedSignalsOutputPath, skippedSignals);
+  writeJson(sourceIndexOutputPath, sourceIndex);
   writeFrontendDataModule(resources, terminology, signals);
 
   console.log(`Converted ${resources.length} resources to ${path.relative(root, resourcesOutputPath)}`);
   console.log(`Converted ${terminology.length} terminology terms to ${path.relative(root, terminologyOutputPath)}`);
   console.log(`Converted ${signals.length} healthcare signal articles to ${path.relative(root, signalsOutputPath)}`);
   console.log(`Skipped ${skippedSignals.length} healthcare signal row(s); wrote ${path.relative(root, skippedSignalsOutputPath)}`);
+  console.log(`Generated ${sourceIndex.length} source index records to ${path.relative(root, sourceIndexOutputPath)}`);
   skippedSignals.forEach((item) => {
     console.log(`Skipped signal row ${item.rowNumber}: ${item.reason}${item.title ? ` | ${item.title}` : ''}${item.website ? ` | ${item.website}` : ''}${item.url ? ` | ${item.url}` : ''}`);
   });
