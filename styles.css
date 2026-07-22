@@ -270,7 +270,7 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
 
 .insight-carousel {
   --insight-gap: 22px;
-  --insight-visible-cards: 3;
+  --insight-card-width: calc((100% - 44px) / 3);
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   gap: 14px;
@@ -293,7 +293,8 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
 }
 
 .insight-card {
-  flex: 0 0 calc((100% - (var(--insight-gap) * (var(--insight-visible-cards) - 1))) / var(--insight-visible-cards));
+  flex: 0 0 var(--insight-card-width);
+  width: var(--insight-card-width);
   scroll-snap-align: start;
   background: white;
   border: 1px solid #d9e2ec;
@@ -1198,7 +1199,7 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
   .filter-grid { grid-template-columns: 1fr; }
   .category-buttons { display: flex; flex-wrap: wrap; justify-content: flex-start; }
   .insight-carousel {
-    --insight-visible-cards: 2;
+    --insight-card-width: calc((100% - 22px) / 2);
   }
 }
 @media (max-width: 720px) {
@@ -1209,7 +1210,7 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
   .insight-filter-bar { grid-template-columns: 1fr; }
   .insight-carousel {
     --insight-gap: 14px;
-    --insight-visible-cards: 1;
+    --insight-card-width: 100%;
     grid-template-columns: auto minmax(0, 1fr) auto;
     gap: 8px;
   }

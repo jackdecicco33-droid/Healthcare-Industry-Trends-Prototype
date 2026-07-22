@@ -1090,6 +1090,36 @@ async function loadFallbackInsights() {
   return fetchInsightsFrom(INSIGHTS_FALLBACK_FILE);
 }
 
+function getInsightIdentity(insight = {}) {
+  return `${String(insight.title || '').toLowerCase()}|${String(insight.link || '').toLowerCase()}`;
+}
+
+async function addFallbackInsightsIfNeeded(insights, minimumCount = 3) {
+  if (insights.length >= minimumCount) {
+    return { insights, addedFallback: false };
+  }
+
+  const fallbackInsights = await loadFallbackInsights();
+  const seen = new Set(insights.map(getInsightIdentity));
+  const combinedInsights = [...insights];
+
+  fallbackInsights.forEach((insight) => {
+    const key = getInsightIdentity(insight);
+    if (combinedInsights.length < minimumCount && key && !seen.has(key)) {
+      seen.add(key);
+      combinedInsights.push({
+        ...insight,
+        sourceType: insight.sourceType || "Sample"
+      });
+    }
+  });
+
+  return {
+    insights: combinedInsights,
+    addedFallback: combinedInsights.length > insights.length
+  };
+}
+
 function getEmployeeInsightCardHtml(insight) {
   return `
     <article class="insight-card">
@@ -1197,11 +1227,9 @@ async function loadInsights({ resetIndex = false } = {}) {
 
     insights = normalizeInsightsData(insights);
 
-    if (!insights.length) {
-      console.info("No backend insights available; showing local sample insights.");
-      insights = await loadFallbackInsights();
-      showingFallbackInsights = true;
-    }
+    const fallbackResult = await addFallbackInsightsIfNeeded(insights);
+    insights = fallbackResult.insights;
+    showingFallbackInsights = showingFallbackInsights || fallbackResult.addedFallback;
 
     if (!insights || insights.length === 0) {
       employeeInsightsCarousel.insights = [];
@@ -1247,7 +1275,7 @@ async function loadInsights({ resetIndex = false } = {}) {
 
     if (status) {
       status.textContent = showingFallbackInsights
-        ? "Showing sample insights until employee submissions are available."
+        ? "Showing employee insights with sample cards where needed."
         : "Showing employee insights.";
     }
   } catch (error) {
