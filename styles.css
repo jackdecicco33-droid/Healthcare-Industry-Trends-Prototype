@@ -269,25 +269,31 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
 }
 
 .insight-carousel {
+  --insight-gap: 22px;
+  --insight-visible-cards: 3;
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   gap: 14px;
   align-items: center;
   position: relative;
+  min-width: 0;
 }
 
 .insight-grid {
   display: flex;
-  gap: 22px;
+  gap: var(--insight-gap);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
   scrollbar-width: thin;
   padding: 8px 4px 18px;
   overscroll-behavior-inline: contain;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .insight-card {
-  flex: 0 0 min(100%, 640px);
+  flex: 0 0 calc((100% - (var(--insight-gap) * (var(--insight-visible-cards) - 1))) / var(--insight-visible-cards));
   scroll-snap-align: start;
   background: white;
   border: 1px solid #d9e2ec;
@@ -295,6 +301,7 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
   border-radius: 12px;
   padding: 24px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  min-width: 0;
 }
 
 .carousel-button {
@@ -1190,6 +1197,9 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
   .hero { align-items: stretch; }
   .filter-grid { grid-template-columns: 1fr; }
   .category-buttons { display: flex; flex-wrap: wrap; justify-content: flex-start; }
+  .insight-carousel {
+    --insight-visible-cards: 2;
+  }
 }
 @media (max-width: 720px) {
   .topbar, .hero, .section { padding-left: 20px; padding-right: 20px; }
@@ -1197,7 +1207,18 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
   .hero, .service-grid, .resource-grid, .source-grid, .metric-grid { grid-template-columns: 1fr; }
   .nav-links { justify-content: flex-start; }
   .insight-filter-bar { grid-template-columns: 1fr; }
-  .insight-carousel { grid-template-columns: 1fr; }
-  .carousel-button { display: none; }
-  .insight-card { flex-basis: 92%; }
+  .insight-carousel {
+    --insight-gap: 14px;
+    --insight-visible-cards: 1;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 8px;
+  }
+  .carousel-button {
+    width: 38px;
+    height: 38px;
+    font-size: 26px;
+  }
+  .insight-card {
+    padding: 20px;
+  }
 }

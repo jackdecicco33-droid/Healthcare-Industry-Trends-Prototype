@@ -1,15 +1,41 @@
 [
   {
-    "name": "Test User",
+    "name": "Sample Insight",
     "role": "Revenue Cycle",
-    "sourceType": "Conference",
-    "title": "HFMA Revenue Cycle Conference",
-    "link": "",
+    "sourceType": "Article",
+    "title": "Healthcare Revenue Cycle Management (RCM) How it Works & What is it",
+    "link": "https://www.hfma.org/reference/revenue-cycle-management/",
     "rating": "Approved",
-    "takeaways": "A useful conference for employees interested in healthcare finance, revenue cycle operations, payer trends, denials management, and reimbursement strategy.",
-    "whyItMatters": "Helps employees build practical context around revenue cycle operations and reimbursement strategy.",
-    "audience": "Employees interested in healthcare finance and revenue cycle",
-    "date": "2026-06-29",
+    "takeaways": "A practical overview of the revenue cycle, from patient access through final payment.",
+    "whyItMatters": "Helps employees understand the financial and operational flow behind healthcare reimbursement.",
+    "audience": "Consultant/Senior Consultant",
+    "date": "2026-07-21",
+    "status": "Approved"
+  },
+  {
+    "name": "Sample Insight",
+    "role": "Physician Enterprise",
+    "sourceType": "Article",
+    "title": "When Health Care Teams Run Short, Physician Burnout Rises",
+    "link": "https://www.ama-assn.org/practice-management/physician-health/when-health-care-teams-run-short-physician-burnout-rises",
+    "rating": "Approved",
+    "takeaways": "Workforce strain affects physician well-being, team performance, and access to care.",
+    "whyItMatters": "Useful context for physician enterprise, access, staffing, and care team redesign conversations.",
+    "audience": "Consultant/Senior Consultant",
+    "date": "2026-07-21",
+    "status": "Approved"
+  },
+  {
+    "name": "Sample Insight",
+    "role": "Quality",
+    "sourceType": "Article",
+    "title": "Examples of How Hospitals Are Lowering Cost and Enhancing Value",
+    "link": "https://www.aha.org/case-studies/2026-05-29-examples-how-hospitals-are-lowering-costs-and-enhancing-value",
+    "rating": "Approved",
+    "takeaways": "Hospitals are using targeted operating improvements to reduce cost while preserving or improving value.",
+    "whyItMatters": "Supports quality, cost transformation, and operational improvement discussions.",
+    "audience": "Managing Consultant / Associate Director",
+    "date": "2026-07-21",
     "status": "Approved"
   }
 ]

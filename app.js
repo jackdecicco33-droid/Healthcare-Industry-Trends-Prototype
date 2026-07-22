@@ -68,7 +68,8 @@ let healthcareIndustryNews = [];
 let healthcareTerms = [];
 const employeeInsightsCarousel = {
   insights: [],
-  currentIndex: 0
+  currentIndex: 0,
+  scrollHandler: null
 };
 
 const terminologyRoles = [
@@ -988,7 +989,7 @@ function addInsightToPage(insight) {
       <p><strong>Role:</strong> ${escapeHtml(insight.role || 'Not provided')}</p>
       <p><strong>Key Takeaway:</strong> ${escapeHtml(insight.takeaways || 'No takeaway provided.')}</p>
       <p><strong>Best For:</strong> ${escapeHtml(insight.audience || 'General audience')}</p>
-      ${insight.link ? `<a class="insight-link" href="${escapeAttribute(insight.link)}" target="_blank">View Source</a>` : ''}
+      ${insight.link ? `<a class="insight-link" href="${escapeAttribute(insight.link)}" target="_blank" rel="noopener noreferrer">View Source</a>` : ''}
     </article>
   `;
 
@@ -1085,24 +1086,12 @@ async function fetchInsightsFrom(path, { logBackend = false } = {}) {
   return insights;
 }
 
-function renderEmployeeInsights(container) {
-  const insights = employeeInsightsCarousel.insights;
-  console.log("rendering employee insights count:", insights.length);
+async function loadFallbackInsights() {
+  return fetchInsightsFrom(INSIGHTS_FALLBACK_FILE);
+}
 
-  if (!insights.length) {
-    container.innerHTML = "<p>No employee insights match those filters yet.</p>";
-    return;
-  }
-
-  if (employeeInsightsCarousel.currentIndex >= insights.length) {
-    employeeInsightsCarousel.currentIndex = 0;
-  }
-  if (employeeInsightsCarousel.currentIndex < 0) {
-    employeeInsightsCarousel.currentIndex = insights.length - 1;
-  }
-
-  const insight = insights[employeeInsightsCarousel.currentIndex];
-  container.innerHTML = `
+function getEmployeeInsightCardHtml(insight) {
+  return `
     <article class="insight-card">
       <span class="insight-tag">${escapeHtml(insight.sourceType || "Insight")}</span>
       <h3>${escapeHtml(insight.title || "Untitled Insight")}</h3>
@@ -1111,11 +1100,37 @@ function renderEmployeeInsights(container) {
       <p><strong>Best For:</strong> ${escapeHtml(insight.audience || "General audience")}</p>
       ${
         insight.link
-          ? `<a class="insight-link" href="${escapeAttribute(insight.link)}" target="_blank">View Source</a>`
+          ? `<a class="insight-link" href="${escapeAttribute(insight.link)}" target="_blank" rel="noopener noreferrer">View Source</a>`
           : ""
       }
     </article>
   `;
+}
+
+function renderEmployeeInsights(container) {
+  const insights = employeeInsightsCarousel.insights;
+  console.log("rendering employee insights count:", insights.length);
+
+  if (!insights.length) {
+    container.innerHTML = '<p class="insight-empty">No employee insights match those filters yet.</p>';
+    updateEmployeeInsightControls();
+    return;
+  }
+
+  container.innerHTML = insights.map(getEmployeeInsightCardHtml).join("");
+
+  if (employeeInsightsCarousel.scrollHandler) {
+    container.removeEventListener("scroll", employeeInsightsCarousel.scrollHandler);
+  }
+  employeeInsightsCarousel.scrollHandler = () => {
+    const step = getInsightScrollStep(container);
+    employeeInsightsCarousel.currentIndex = step
+      ? Math.round(container.scrollLeft / step)
+      : 0;
+    window.requestAnimationFrame(updateEmployeeInsightControls);
+  };
+  container.addEventListener("scroll", employeeInsightsCarousel.scrollHandler, { passive: true });
+  container.scrollLeft = getInsightScrollStep(container) * employeeInsightsCarousel.currentIndex;
 
   updateEmployeeInsightControls();
 }
@@ -1123,13 +1138,29 @@ function renderEmployeeInsights(container) {
 function updateEmployeeInsightControls() {
   const previousButton = document.getElementById("previousInsight");
   const nextButton = document.getElementById("nextInsight");
-  const hasMultipleInsights = employeeInsightsCarousel.insights.length > 1;
+  const container = document.getElementById("insightsContainer");
+  const canScroll = Boolean(container && container.scrollWidth > container.clientWidth + 1);
+  const atStart = !container || container.scrollLeft <= 1;
+  const atEnd = !container || container.scrollLeft + container.clientWidth >= container.scrollWidth - 1;
 
-  [previousButton, nextButton].forEach((button) => {
-    if (!button) return;
-    button.disabled = !hasMultipleInsights;
-    button.setAttribute("aria-disabled", String(!hasMultipleInsights));
-  });
+  if (previousButton) {
+    previousButton.disabled = !canScroll || atStart;
+    previousButton.setAttribute("aria-disabled", String(previousButton.disabled));
+  }
+
+  if (nextButton) {
+    nextButton.disabled = !canScroll || atEnd;
+    nextButton.setAttribute("aria-disabled", String(nextButton.disabled));
+  }
+}
+
+function getInsightScrollStep(container) {
+  const firstCard = container.querySelector(".insight-card");
+  if (!firstCard) return container.clientWidth;
+
+  const styles = window.getComputedStyle(container);
+  const gap = parseFloat(styles.columnGap || styles.gap || "0") || 0;
+  return firstCard.getBoundingClientRect().width + gap;
 }
 
 function showEmployeeInsight(direction) {
@@ -1138,10 +1169,10 @@ function showEmployeeInsight(direction) {
 
   if (!container || !insights.length) return;
 
-  employeeInsightsCarousel.currentIndex =
-    (employeeInsightsCarousel.currentIndex + direction + insights.length) % insights.length;
-
-  renderEmployeeInsights(container);
+  container.scrollBy({
+    left: direction * getInsightScrollStep(container),
+    behavior: "smooth"
+  });
 }
 
 async function loadInsights({ resetIndex = false } = {}) {
@@ -1154,20 +1185,28 @@ async function loadInsights({ resetIndex = false } = {}) {
 
   try {
     let insights = [];
+    let showingFallbackInsights = false;
 
     try {
       insights = await fetchInsightsFrom(INSIGHTS_API_ENDPOINT, { logBackend: true });
     } catch (apiError) {
       console.warn("Backend insights unavailable; loading local fallback.", apiError);
-      insights = await fetchInsightsFrom(INSIGHTS_FALLBACK_FILE);
+      insights = await loadFallbackInsights();
+      showingFallbackInsights = true;
     }
 
     insights = normalizeInsightsData(insights);
 
+    if (!insights.length) {
+      console.info("No backend insights available; showing local sample insights.");
+      insights = await loadFallbackInsights();
+      showingFallbackInsights = true;
+    }
+
     if (!insights || insights.length === 0) {
       employeeInsightsCarousel.insights = [];
       employeeInsightsCarousel.currentIndex = 0;
-      container.innerHTML = "<p>No employee insights have been submitted yet.</p>";
+      container.innerHTML = '<p class="insight-empty">No employee insights have been submitted yet.</p>';
       updateEmployeeInsightControls();
       if (status) {
         status.textContent = "No employee insights have been submitted yet.";
@@ -1184,7 +1223,7 @@ async function loadInsights({ resetIndex = false } = {}) {
     if (!filteredInsights.length) {
       employeeInsightsCarousel.insights = [];
       employeeInsightsCarousel.currentIndex = 0;
-      container.innerHTML = "<p>No employee insights match those filters yet.</p>";
+      container.innerHTML = '<p class="insight-empty">No employee insights match those filters yet.</p>';
       console.log("rendering employee insights count:", 0);
       console.log("number of rendered insights", 0);
       updateEmployeeInsightControls();
@@ -1207,13 +1246,15 @@ async function loadInsights({ resetIndex = false } = {}) {
     console.log("number of rendered insights", filteredInsights.length);
 
     if (status) {
-      status.textContent = "Showing employee insights.";
+      status.textContent = showingFallbackInsights
+        ? "Showing sample insights until employee submissions are available."
+        : "Showing employee insights.";
     }
   } catch (error) {
     console.error(error);
     employeeInsightsCarousel.insights = [];
     employeeInsightsCarousel.currentIndex = 0;
-    container.innerHTML = "<p>Unable to load employee insights right now.</p>";
+    container.innerHTML = '<p class="insight-empty">Unable to load employee insights right now.</p>';
     updateEmployeeInsightControls();
     if (status) {
       status.textContent = "Unable to load employee insights right now.";
