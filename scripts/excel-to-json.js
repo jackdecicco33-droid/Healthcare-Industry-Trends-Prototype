@@ -3,7 +3,7 @@ const path = require('path');
 const xlsx = require('xlsx');
 
 const root = path.resolve(__dirname, '..');
-const workbookPath = path.join(root, 'data', 'Resources and Terminology for Healthcare Indsutry Trends Website.xlsx');
+const workbookPath = path.join(root, 'data', 'Resources and Terminology for Healthcare Indsutry Trends Website (6).xlsx');
 const resourcesOutputPath = path.join(root, 'data', 'resources.json');
 const terminologyOutputPath = path.join(root, 'data', 'terminology.json');
 const signalsOutputPath = path.join(root, 'data', 'healthcare-signals.json');
@@ -13,14 +13,38 @@ const frontendDataModulePath = path.join(root, 'data.js');
 
 const resourceSheetName = 'Healthcare Resources';
 const terminologySheetName = 'Healthcare Terminology';
-const signalsSheetName = "Today's Healthcare Signal";
+const signalsSheetNames = ["Today's Healthcare Signal", "Today's Healthcare Headlines"];
 const hyperlinkHeaders = new Set(['Link to The Source', 'Link']);
 const genericSignalPaths = new Set(['', '/', '/news', '/news/', '/articles', '/articles/', '/topics', '/topics/', '/resources', '/resources/']);
 const genericSignalPathSegments = new Set(['topic', 'topics', 'category', 'categories', 'tag', 'tags']);
+const expectedHeaders = [
+  'Title of Source',
+  'Website',
+  'What Type of Source',
+  'Service Line',
+  'Level',
+  'Link to The Source',
+  'Term Name',
+  'Category',
+  'Definition',
+  'Source',
+  'Real World Example',
+  'Link'
+];
+const canonicalHeaders = new Map(expectedHeaders.map((header) => [normalizeHeader(header), header]));
 
 function cleanValue(value) {
   if (value === undefined || value === null) return '';
   return String(value).replace(/\s+/g, ' ').trim();
+}
+
+function normalizeHeader(value) {
+  return cleanValue(value).toLowerCase();
+}
+
+function canonicalHeader(value) {
+  const cleanedValue = cleanValue(value);
+  return canonicalHeaders.get(normalizeHeader(cleanedValue)) || cleanedValue;
 }
 
 function decodeUrl(value) {
@@ -75,19 +99,30 @@ function hasAnyValue(row) {
   return Object.values(row).some((value) => cleanValue(value));
 }
 
-function getRows(workbook, sheetName) {
-  const actualSheetName = workbook.SheetNames.find((name) => cleanValue(name) === sheetName);
+function findSheetName(workbook, sheetNames) {
+  const names = Array.isArray(sheetNames) ? sheetNames : [sheetNames];
+  const normalizedNames = names.map(normalizeHeader);
+  return workbook.SheetNames.find((name) => normalizedNames.includes(normalizeHeader(name)));
+}
+
+function getRows(workbook, sheetNames) {
+  const requestedSheetNames = Array.isArray(sheetNames) ? sheetNames : [sheetNames];
+  const actualSheetName = findSheetName(workbook, requestedSheetNames);
   const sheet = actualSheetName ? workbook.Sheets[actualSheetName] : null;
   if (!sheet) {
-    throw new Error(`Missing required sheet: ${sheetName}`);
+    throw new Error(`Missing required sheet: ${requestedSheetNames.join(' or ')}`);
+  }
+  if (!sheet['!ref']) {
+    throw new Error(`Worksheet is empty: ${actualSheetName}`);
   }
 
+  console.log(`Reading worksheet: ${actualSheetName}`);
   const range = xlsx.utils.decode_range(sheet['!ref']);
   const headers = [];
 
   for (let column = range.s.c; column <= range.e.c; column += 1) {
     const cell = sheet[xlsx.utils.encode_cell({ r: range.s.r, c: column })];
-    const header = cleanValue(cell && (cell.w ?? cell.v));
+    const header = canonicalHeader(cell && (cell.w ?? cell.v));
     if (header) {
       headers.push({ header, column });
     }
@@ -257,10 +292,11 @@ function main() {
     throw new Error(`Workbook not found: ${workbookPath}`);
   }
 
+  console.log(`Reading workbook: ${workbookPath}`);
   const workbook = xlsx.readFile(workbookPath);
   const resourceRows = getRows(workbook, resourceSheetName);
   const terminologyRows = getRows(workbook, terminologySheetName);
-  const signalRows = getRows(workbook, signalsSheetName);
+  const signalRows = getRows(workbook, signalsSheetNames);
 
   requireHeaders(
     resourceRows,
@@ -275,7 +311,7 @@ function main() {
   requireHeaders(
     signalRows,
     ['Title of Source', 'Website', 'Link to The Source'],
-    signalsSheetName
+    signalsSheetNames.join(' or ')
   );
 
   const resources = uniqueBy(
@@ -316,4 +352,10 @@ function main() {
   console.log(`Wrote frontend data module to ${path.relative(root, frontendDataModulePath)}`);
 }
 
-main();
+try {
+  main();
+} catch (error) {
+  console.error(`Excel import failed. Workbook path: ${workbookPath}`);
+  console.error(error.message);
+  process.exit(1);
+}

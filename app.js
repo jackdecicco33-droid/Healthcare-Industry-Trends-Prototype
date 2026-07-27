@@ -1,4 +1,4 @@
-const DATA_VERSION = 'excel-workbook-20260721-v9';
+const DATA_VERSION = 'excel-workbook-20260727-v10';
 
 async function loadWorkbookDataModule() {
   return import(`./data.js?v=${encodeURIComponent(DATA_VERSION)}`);

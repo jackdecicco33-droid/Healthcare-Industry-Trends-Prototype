@@ -1654,5 +1654,69 @@
     "sourceName": "AAMI",
     "source": "AAMI",
     "example": "Before an operating room case, used surgical instruments are sent to CSPD, where they are cleaned, sterilized, packaged, and returned so they can be safely used for the next patient procedure."
+  },
+  {
+    "term": "Current-State Assessment",
+    "category": "Healthcare Consulting 101",
+    "definition": "A structured evaluation of how an organization currently operates, including it processes, technology, staffing, performance, and pain points.",
+    "sourceName": "HIMSS",
+    "source": "HIMSS",
+    "example": "A consulting team interviews hospital leaders and reviews workflows to understand how patient registration currently operates before recommending changes."
+  },
+  {
+    "term": "Gap Analysis",
+    "category": "Healthcare Consulting 101",
+    "definition": "A gap analysis compares the organization’s current capabilities and performance with its desired future state. It identifies missing processes, technology capabilities, staffing, skills, policies, governance structures, or data needed to achieve the target outcome. The findings are often prioritized by business impact, urgency, cost, complexity, and implementation dependency.",
+    "sourceName": "HIMSS",
+    "source": "HIMSS",
+    "example": "A hospital wants centralized scheduling, but the gap analysis shows inconsistent scheduling rules, limited system integration, and insufficient centralized staffing."
+  },
+  {
+    "term": "Executive Sponsor",
+    "category": "Healthcare Consulting 101",
+    "definition": "An executive sponsor is a senior leader who provides organizational authority, strategic direction, visibility, and support for an initiative. The sponsor helps secure funding and resources, communicates the importance of the project, removes barriers, resolves escalated issues, and holds leaders accountable for participation and adoption.",
+    "sourceName": "PMI",
+    "source": "PMI",
+    "example": "The CFO sponsors a finance transformation and helps secure additional client resources when the data-conversion team lacks sufficient capacity."
+  },
+  {
+    "term": "Process Mapping",
+    "category": "Healthcare Consulting 101",
+    "definition": "Process mapping is the visual documentation of the activities, decisions, handoffs, roles, systems, inputs, and outputs involved in completing a workflow. It helps consultants and client teams identify duplication, delays, bottlenecks, unclear ownership, unnecessary variation, and improvement opportunities.",
+    "sourceName": "AHRQ",
+    "source": "AHRQ",
+    "example": "Consultants map the patient-discharge process to identify delays between physician orders, pharmacy completion, transportation, and bed turnover."
+  },
+  {
+    "term": "Competitive Bid",
+    "category": "Supply Chain",
+    "definition": "A competitive bid is a sourcing process in which multiple suppliers submit pricing and terms for the same or comparable products or services. The process is intended to improve transparency, create competitive pressure, and help the organization evaluate the most favorable overall offer.",
+    "sourceName": "AHRMM",
+    "source": "AHRMM",
+    "example": "Three distributors submit bids to supply standardized medical-surgical products across the health system’s hospitals and ambulatory centers."
+  },
+  {
+    "term": "Soft-Dollar Savings",
+    "category": "Supply Chain",
+    "definition": "Soft-dollar savings are operational or productivity benefits that may not immediately appear as a direct budget reduction. They can include reduced administrative work, fewer invoices, improved staff efficiency, lower training burden, or less time spent managing multiple vendors.",
+    "sourceName": "HFMA",
+    "source": "HFMA",
+    "example": "Consolidating distributors reduces the number of invoices and purchase orders processed by accounts payable each month."
+  },
+  {
+    "term": "Rebate",
+    "category": "Supply Chain",
+    "definition": "A rebate is a payment or credit returned to the buyer after purchasing requirements, volume thresholds, market share commitments, or other contractual conditions are met. Rebate structures must be carefully monitored because the organization may not receive the expected value if compliance targets are missed",
+    "sourceName": "AHRMM",
+    "source": "AHRMM",
+    "example": "A supplier pays a 3% annual rebate if the health system purchases at least $10 million in products and maintains 85% compliance."
+  },
+  {
+    "term": "Vendor Scorecard",
+    "category": "Supply Chain",
+    "definition": "A vendor scorecard is a structured performance-management tool used to evaluate suppliers across measures such as pricing, quality, delivery, service, contract compliance, innovation, responsiveness, and risk. Scorecards support ongoing governance and provide evidence for renewals or corrective action.",
+    "sourceName": "AHRMM",
+    "source": "AHRMM",
+    "example": "Supply chain reviews quarterly scorecards with a distributor to address low fill rates and recurring shipment errors."
   }
 ]

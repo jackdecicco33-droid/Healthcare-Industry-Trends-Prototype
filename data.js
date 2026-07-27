@@ -1811,6 +1811,227 @@ export const healthcareResources = [
     "organization": "Health Markets",
     "category": "Article",
     "description": "Resource from Health Markets focused on Healthcare 101."
+  },
+  {
+    "title": "Healthcare price transparency legislation gains momentum in congress",
+    "website": "HFMA",
+    "sourceType": "Article",
+    "serviceLine": "Revenue Cycle",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.hfma.org/price-transparency/healthcare-price-transparency-legislation/",
+    "hasValidUrl": true,
+    "name": "Healthcare price transparency legislation gains momentum in congress",
+    "organization": "HFMA",
+    "category": "Article",
+    "description": "Resource from HFMA focused on Revenue Cycle."
+  },
+  {
+    "title": "Medicaid provider tax proposed rule could cut payments by $220 billion over 10 years",
+    "website": "HFMA",
+    "sourceType": "Article",
+    "serviceLine": "Revenue Cycle",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.hfma.org/payment-reimbursement-and-managed-care/medicaid-provider-tax-proposed-rule/",
+    "hasValidUrl": true,
+    "name": "Medicaid provider tax proposed rule could cut payments by $220 billion over 10 years",
+    "organization": "HFMA",
+    "category": "Article",
+    "description": "Resource from HFMA focused on Revenue Cycle."
+  },
+  {
+    "title": "4 Questions That Shaped Henry Ford Health's $2.2B Transformation",
+    "website": "Becker",
+    "sourceType": "Article",
+    "serviceLine": "Revenue Cycle",
+    "level": "Managing Consultant / Associate Director",
+    "url": "https://www.beckershospitalreview.com/strategy/4-questions-that-shaped-henry-ford-healths-2-2b-transformation/",
+    "hasValidUrl": true,
+    "name": "4 Questions That Shaped Henry Ford Health's $2.2B Transformation",
+    "organization": "Becker",
+    "category": "Article",
+    "description": "Resource from Becker focused on Revenue Cycle."
+  },
+  {
+    "title": "5 Payers Entering ACA Markets In 2027",
+    "website": "Becker",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Managing Consultant / Associate Director",
+    "url": "https://www.beckerspayer.com/payer/aca/5-payers-entering-aca-markets-in-2027/",
+    "hasValidUrl": true,
+    "name": "5 Payers Entering ACA Markets In 2027",
+    "organization": "Becker",
+    "category": "Article",
+    "description": "Resource from Becker focused on Healthcare 101."
+  },
+  {
+    "title": "How Private Equity is Investing In Health Care",
+    "website": "YouTube",
+    "sourceType": "YouTube Video",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.youtube.com/watch?v=TPVzH88TL4A",
+    "hasValidUrl": true,
+    "name": "How Private Equity is Investing In Health Care",
+    "organization": "YouTube",
+    "category": "YouTube Video",
+    "description": "Resource from YouTube focused on Healthcare 101."
+  },
+  {
+    "title": "Examining Private Equity in Health Care",
+    "website": "YouTube",
+    "sourceType": "YouTube Video",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.youtube.com/watch?v=9jNXh-ysnws",
+    "hasValidUrl": true,
+    "name": "Examining Private Equity in Health Care",
+    "organization": "YouTube",
+    "category": "YouTube Video",
+    "description": "Resource from YouTube focused on Healthcare 101."
+  },
+  {
+    "title": "How Leaders Are Rethinking RCM Strategies Amid Escalating Payer Pushback",
+    "website": "HealthLeaders",
+    "sourceType": "Article",
+    "serviceLine": "Revenue Cycle",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthleadersmedia.com/revenue-cycle/how-leaders-are-rethinking-rcm-strategies-amid-escalating-payer-pushback",
+    "hasValidUrl": true,
+    "name": "How Leaders Are Rethinking RCM Strategies Amid Escalating Payer Pushback",
+    "organization": "HealthLeaders",
+    "category": "Article",
+    "description": "Resource from HealthLeaders focused on Revenue Cycle."
+  },
+  {
+    "title": "Trump's Medicaid Fraud Crackdown May Sound Sensible, But It Could Harm Americans Who Require Long-Term Care",
+    "website": "HealthLeaders",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthleadersmedia.com/revenue-cycle/trump%E2%80%99s-medicaid-fraud-crackdown-may-sound-sensible-it-could-harm-americans-who",
+    "hasValidUrl": true,
+    "name": "Trump's Medicaid Fraud Crackdown May Sound Sensible, But It Could Harm Americans Who Require Long-Term Care",
+    "organization": "HealthLeaders",
+    "category": "Article",
+    "description": "Resource from HealthLeaders focused on Healthcare 101."
+  },
+  {
+    "title": "US Health Insurers Advance Measures To Standardize Prior Authorization Requirements",
+    "website": "HealthLeaders",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthleadersmedia.com/payer/us-health-insurers-advance-measures-standardize-prior-authorization-requirements",
+    "hasValidUrl": true,
+    "name": "US Health Insurers Advance Measures To Standardize Prior Authorization Requirements",
+    "organization": "HealthLeaders",
+    "category": "Article",
+    "description": "Resource from HealthLeaders focused on Healthcare 101."
+  },
+  {
+    "title": "Corporate Consolidation And The Youth Mental Health Crisis: Evidence From Medicaid Managed Care in 2022",
+    "website": "HealthAffairs",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2025.01619",
+    "hasValidUrl": true,
+    "name": "Corporate Consolidation And The Youth Mental Health Crisis: Evidence From Medicaid Managed Care in 2022",
+    "organization": "HealthAffairs",
+    "category": "Article",
+    "description": "Resource from HealthAffairs focused on Healthcare 101."
+  },
+  {
+    "title": "Trends in US Health Care Spending By Income, 2005-23",
+    "website": "HealthAffairs",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2025.01325",
+    "hasValidUrl": true,
+    "name": "Trends in US Health Care Spending By Income, 2005-23",
+    "organization": "HealthAffairs",
+    "category": "Article",
+    "description": "Resource from HealthAffairs focused on Healthcare 101."
+  },
+  {
+    "title": "Trump Administration Pauses $1B in Medicaid Payments to California, Minnesota",
+    "website": "HealthcareDive",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthcaredive.com/news/minnesota-california-1-billion-medicaid-funding-deferred-fraud-trump-hhs/825802/",
+    "hasValidUrl": true,
+    "name": "Trump Administration Pauses $1B in Medicaid Payments to California, Minnesota",
+    "organization": "HealthcareDive",
+    "category": "Article",
+    "description": "Resource from HealthcareDive focused on Healthcare 101."
+  },
+  {
+    "title": "Clinic and Physician Practice Bankruptcies Spike in 2026 So Far",
+    "website": "HealthcareDive",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthcaredive.com/news/healthcare-bankruptcies-stabilize-first-half-2026-gibbins-advisors/825676/",
+    "hasValidUrl": true,
+    "name": "Clinic and Physician Practice Bankruptcies Spike in 2026 So Far",
+    "organization": "HealthcareDive",
+    "category": "Article",
+    "description": "Resource from HealthcareDive focused on Healthcare 101."
+  },
+  {
+    "title": "Doctor Pay To Drop in 2027 Under Proposed Medicare Pay Rule",
+    "website": "HealthcareDive",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Consultant / Senior Consultant",
+    "url": "https://www.healthcaredive.com/news/doctor-pay-cut-2027-proposed-physician-pay-rule-cms/825303/",
+    "hasValidUrl": true,
+    "name": "Doctor Pay To Drop in 2027 Under Proposed Medicare Pay Rule",
+    "organization": "HealthcareDive",
+    "category": "Article",
+    "description": "Resource from HealthcareDive focused on Healthcare 101."
+  },
+  {
+    "title": "How Medicare Advantage Plans Can Strengthen Star Ratings Through Better Care Transitions",
+    "website": "HealthcareDive",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Managing Consultant / Associate Director",
+    "url": "https://www.healthcaredive.com/spons/how-medicare-advantage-plans-can-strengthen-star-ratings-through-better-car/824551/",
+    "hasValidUrl": true,
+    "name": "How Medicare Advantage Plans Can Strengthen Star Ratings Through Better Care Transitions",
+    "organization": "HealthcareDive",
+    "category": "Article",
+    "description": "Resource from HealthcareDive focused on Healthcare 101."
+  },
+  {
+    "title": "Flipping The Script On Payer Denials and Downcoding",
+    "website": "HealthcareDive",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Managing Consultant / Associate Director",
+    "url": "https://www.healthcaredive.com/spons/flipping-the-script-on-payer-denials-and-downcoding/824302/",
+    "hasValidUrl": true,
+    "name": "Flipping The Script On Payer Denials and Downcoding",
+    "organization": "HealthcareDive",
+    "category": "Article",
+    "description": "Resource from HealthcareDive focused on Healthcare 101."
+  },
+  {
+    "title": "Why Payer Contracts Matter Long After Negotiations End",
+    "website": "HealthcareDive",
+    "sourceType": "Article",
+    "serviceLine": "Healthcare 101",
+    "level": "Managing Consultant / Associate Director",
+    "url": "https://www.healthcaredive.com/spons/why-payer-contracts-matter-long-after-negotiations-end/822591/",
+    "hasValidUrl": true,
+    "name": "Why Payer Contracts Matter Long After Negotiations End",
+    "organization": "HealthcareDive",
+    "category": "Article",
+    "description": "Resource from HealthcareDive focused on Healthcare 101."
   }
 ];
 
@@ -3470,6 +3691,70 @@ export const healthcareTerminology = [
     "sourceName": "AAMI",
     "source": "AAMI",
     "example": "Before an operating room case, used surgical instruments are sent to CSPD, where they are cleaned, sterilized, packaged, and returned so they can be safely used for the next patient procedure."
+  },
+  {
+    "term": "Current-State Assessment",
+    "category": "Healthcare Consulting 101",
+    "definition": "A structured evaluation of how an organization currently operates, including it processes, technology, staffing, performance, and pain points.",
+    "sourceName": "HIMSS",
+    "source": "HIMSS",
+    "example": "A consulting team interviews hospital leaders and reviews workflows to understand how patient registration currently operates before recommending changes."
+  },
+  {
+    "term": "Gap Analysis",
+    "category": "Healthcare Consulting 101",
+    "definition": "A gap analysis compares the organization’s current capabilities and performance with its desired future state. It identifies missing processes, technology capabilities, staffing, skills, policies, governance structures, or data needed to achieve the target outcome. The findings are often prioritized by business impact, urgency, cost, complexity, and implementation dependency.",
+    "sourceName": "HIMSS",
+    "source": "HIMSS",
+    "example": "A hospital wants centralized scheduling, but the gap analysis shows inconsistent scheduling rules, limited system integration, and insufficient centralized staffing."
+  },
+  {
+    "term": "Executive Sponsor",
+    "category": "Healthcare Consulting 101",
+    "definition": "An executive sponsor is a senior leader who provides organizational authority, strategic direction, visibility, and support for an initiative. The sponsor helps secure funding and resources, communicates the importance of the project, removes barriers, resolves escalated issues, and holds leaders accountable for participation and adoption.",
+    "sourceName": "PMI",
+    "source": "PMI",
+    "example": "The CFO sponsors a finance transformation and helps secure additional client resources when the data-conversion team lacks sufficient capacity."
+  },
+  {
+    "term": "Process Mapping",
+    "category": "Healthcare Consulting 101",
+    "definition": "Process mapping is the visual documentation of the activities, decisions, handoffs, roles, systems, inputs, and outputs involved in completing a workflow. It helps consultants and client teams identify duplication, delays, bottlenecks, unclear ownership, unnecessary variation, and improvement opportunities.",
+    "sourceName": "AHRQ",
+    "source": "AHRQ",
+    "example": "Consultants map the patient-discharge process to identify delays between physician orders, pharmacy completion, transportation, and bed turnover."
+  },
+  {
+    "term": "Competitive Bid",
+    "category": "Supply Chain",
+    "definition": "A competitive bid is a sourcing process in which multiple suppliers submit pricing and terms for the same or comparable products or services. The process is intended to improve transparency, create competitive pressure, and help the organization evaluate the most favorable overall offer.",
+    "sourceName": "AHRMM",
+    "source": "AHRMM",
+    "example": "Three distributors submit bids to supply standardized medical-surgical products across the health system’s hospitals and ambulatory centers."
+  },
+  {
+    "term": "Soft-Dollar Savings",
+    "category": "Supply Chain",
+    "definition": "Soft-dollar savings are operational or productivity benefits that may not immediately appear as a direct budget reduction. They can include reduced administrative work, fewer invoices, improved staff efficiency, lower training burden, or less time spent managing multiple vendors.",
+    "sourceName": "HFMA",
+    "source": "HFMA",
+    "example": "Consolidating distributors reduces the number of invoices and purchase orders processed by accounts payable each month."
+  },
+  {
+    "term": "Rebate",
+    "category": "Supply Chain",
+    "definition": "A rebate is a payment or credit returned to the buyer after purchasing requirements, volume thresholds, market share commitments, or other contractual conditions are met. Rebate structures must be carefully monitored because the organization may not receive the expected value if compliance targets are missed",
+    "sourceName": "AHRMM",
+    "source": "AHRMM",
+    "example": "A supplier pays a 3% annual rebate if the health system purchases at least $10 million in products and maintains 85% compliance."
+  },
+  {
+    "term": "Vendor Scorecard",
+    "category": "Supply Chain",
+    "definition": "A vendor scorecard is a structured performance-management tool used to evaluate suppliers across measures such as pricing, quality, delivery, service, contract compliance, innovation, responsiveness, and risk. Scorecards support ongoing governance and provide evidence for renewals or corrective action.",
+    "sourceName": "AHRMM",
+    "source": "AHRMM",
+    "example": "Supply chain reviews quarterly scorecards with a distributor to address low fill rates and recurring shipment errors."
   }
 ];
 

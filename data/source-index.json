@@ -221,6 +221,32 @@
     ]
   },
   {
+    "url": "https://www.beckershospitalreview.com/strategy/4-questions-that-shaped-henry-ford-healths-2-2b-transformation/",
+    "domain": "beckershospitalreview.com",
+    "resourceNames": [
+      "4 Questions That Shaped Henry Ford Health's $2.2B Transformation"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.beckerspayer.com/payer/aca/5-payers-entering-aca-markets-in-2027/",
+    "domain": "beckerspayer.com",
+    "resourceNames": [
+      "5 Payers Entering ACA Markets In 2027"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
     "url": "https://www.cdw.com/content/cdw/en/articles/digitalworkspace/how-clinical-workflow-optimization-creates-better-patient-outcomes.html?msockid=0a1b6b7b02a56ef323677c1e03966f9a",
     "domain": "cdw.com",
     "resourceNames": [
@@ -728,10 +754,114 @@
     ]
   },
   {
+    "url": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2025.01325",
+    "domain": "healthaffairs.org",
+    "resourceNames": [
+      "Trends in US Health Care Spending By Income, 2005-23"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthaffairs.org/doi/10.1377/hlthaff.2025.01619",
+    "domain": "healthaffairs.org",
+    "resourceNames": [
+      "Corporate Consolidation And The Youth Mental Health Crisis: Evidence From Medicaid Managed Care in 2022"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
     "url": "https://www.healthcare-brew.com/stories/2025/09/29/difference-between-for-profit-nonprofit-hospitals",
     "domain": "healthcare-brew.com",
     "resourceNames": [
       "What's The Difference Between For-Profit and Nonprofit Hospitals"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthcaredive.com/news/doctor-pay-cut-2027-proposed-physician-pay-rule-cms/825303/",
+    "domain": "healthcaredive.com",
+    "resourceNames": [
+      "Doctor Pay To Drop in 2027 Under Proposed Medicare Pay Rule"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthcaredive.com/news/healthcare-bankruptcies-stabilize-first-half-2026-gibbins-advisors/825676/",
+    "domain": "healthcaredive.com",
+    "resourceNames": [
+      "Clinic and Physician Practice Bankruptcies Spike in 2026 So Far"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthcaredive.com/news/minnesota-california-1-billion-medicaid-funding-deferred-fraud-trump-hhs/825802/",
+    "domain": "healthcaredive.com",
+    "resourceNames": [
+      "Trump Administration Pauses $1B in Medicaid Payments to California, Minnesota"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthcaredive.com/spons/flipping-the-script-on-payer-denials-and-downcoding/824302/",
+    "domain": "healthcaredive.com",
+    "resourceNames": [
+      "Flipping The Script On Payer Denials and Downcoding"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthcaredive.com/spons/how-medicare-advantage-plans-can-strengthen-star-ratings-through-better-car/824551/",
+    "domain": "healthcaredive.com",
+    "resourceNames": [
+      "How Medicare Advantage Plans Can Strengthen Star Ratings Through Better Care Transitions"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthcaredive.com/spons/why-payer-contracts-matter-long-after-negotiations-end/822591/",
+    "domain": "healthcaredive.com",
+    "resourceNames": [
+      "Why Payer Contracts Matter Long After Negotiations End"
     ],
     "serviceLines": [
       "Healthcare 101"
@@ -748,6 +878,45 @@
     ],
     "serviceLines": [
       "Supply Chain"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthleadersmedia.com/payer/us-health-insurers-advance-measures-standardize-prior-authorization-requirements",
+    "domain": "healthleadersmedia.com",
+    "resourceNames": [
+      "US Health Insurers Advance Measures To Standardize Prior Authorization Requirements"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthleadersmedia.com/revenue-cycle/how-leaders-are-rethinking-rcm-strategies-amid-escalating-payer-pushback",
+    "domain": "healthleadersmedia.com",
+    "resourceNames": [
+      "How Leaders Are Rethinking RCM Strategies Amid Escalating Payer Pushback"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.healthleadersmedia.com/revenue-cycle/trump%E2%80%99s-medicaid-fraud-crackdown-may-sound-sensible-it-could-harm-americans-who",
+    "domain": "healthleadersmedia.com",
+    "resourceNames": [
+      "Trump's Medicaid Fraud Crackdown May Sound Sensible, But It Could Harm Americans Who Require Long-Term Care"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
     ],
     "categories": [
       "Article"
@@ -923,6 +1092,19 @@
     ]
   },
   {
+    "url": "https://www.hfma.org/payment-reimbursement-and-managed-care/medicaid-provider-tax-proposed-rule/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Medicaid provider tax proposed rule could cut payments by $220 billion over 10 years"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
     "url": "https://www.hfma.org/payment-reimbursement-and-managed-care/medicare-funding-projections-hi-trust-fund/",
     "domain": "hfma.org",
     "resourceNames": [
@@ -940,6 +1122,19 @@
     "domain": "hfma.org",
     "resourceNames": [
       "Medicare Payment Policy Changes for 2027: Key Signal From Kennedy Hearing"
+    ],
+    "serviceLines": [
+      "Revenue Cycle"
+    ],
+    "categories": [
+      "Article"
+    ]
+  },
+  {
+    "url": "https://www.hfma.org/price-transparency/healthcare-price-transparency-legislation/",
+    "domain": "hfma.org",
+    "resourceNames": [
+      "Healthcare price transparency legislation gains momentum in congress"
     ],
     "serviceLines": [
       "Revenue Cycle"
@@ -1690,6 +1885,19 @@
     ]
   },
   {
+    "url": "https://www.youtube.com/watch?v=9jNXh-ysnws",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "Examining Private Equity in Health Care"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
     "url": "https://www.youtube.com/watch?v=bkjDJhlj6Vg",
     "domain": "youtube.com",
     "resourceNames": [
@@ -1798,6 +2006,19 @@
     "domain": "youtube.com",
     "resourceNames": [
       "New Reports Reveal the Impact of Health Insurance Coverage Denials on Americans"
+    ],
+    "serviceLines": [
+      "Healthcare 101"
+    ],
+    "categories": [
+      "YouTube Video"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=TPVzH88TL4A",
+    "domain": "youtube.com",
+    "resourceNames": [
+      "How Private Equity is Investing In Health Care"
     ],
     "serviceLines": [
       "Healthcare 101"
