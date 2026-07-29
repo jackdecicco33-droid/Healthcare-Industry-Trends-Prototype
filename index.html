@@ -15,17 +15,22 @@
 
   <header class="site-header">
     <nav class="topbar" aria-label="Primary navigation">
-      <div class="brand-lockup" aria-label="Impact Advisors home">
+      <a class="brand-lockup" href="#/headlines" aria-label="Healthcare Industry Trends home">
         <img class="brand-logo" src="./assets/impact-advisors-circle-logo.png" alt="Impact Advisors logo" />
         <div>
           <p class="eyebrow">Healthcare advisory resource hub</p>
           <h1>Healthcare Industry Trends</h1>
         </div>
-      </div>
-      <div class="nav-links">
-        <a href="#resourceLibrary">Resource library</a>
-        <a href="#terminologyDictionary">Terminology</a>
-        <a href="#submit-insight">Submit Insight</a>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        <span>Menu</span>
+      </button>
+      <div class="nav-links" id="primaryNav">
+        <a href="#/headlines" data-route="headlines">Healthcare Headlines</a>
+        <a href="#/resources" data-route="resources">Resource Library</a>
+        <a href="#/terminology" data-route="terminology">Terminology</a>
+        <a href="#/submit-insight" data-route="submit-insight">Submit &amp; Employee Insights</a>
       </div>
     </nav>
 
@@ -50,7 +55,7 @@
   </header>
 
   <main id="mainContent">
-    <section id="industryWatch" class="industry-watch-section">
+    <section id="industryWatch" class="industry-watch-section routed-page" data-page="headlines">
       <div class="section-shell">
         <div class="section-header">
           <p class="eyebrow">Healthcare Industry Watch</p>
@@ -90,7 +95,7 @@
 
     <!-- Service lines section removed as requested -->
 
-    <section class="section library-section" id="resourceLibrary" aria-labelledby="libraryTitle">
+    <section class="section library-section routed-page" id="resourceLibrary" data-page="resources" aria-labelledby="libraryTitle">
       <div class="section-heading split-heading">
         <div>
           <p class="eyebrow">Searchable library</p>
@@ -140,7 +145,7 @@
       </div>
     </section>
 
-    <section id="terminologyDictionary" class="terminology-section">
+    <section id="terminologyDictionary" class="terminology-section routed-page" data-page="terminology">
       <div class="section-shell">
         <div class="section-header">
           <p class="eyebrow">Healthcare Terminology Dictionary</p>
@@ -188,7 +193,7 @@
       </div>
     </section>
 
-    <section id="submit-insight" class="submit-insight-section">
+    <section id="submit-insight" class="submit-insight-section routed-page" data-page="submit-insight">
       <div class="section-shell">
         <div class="section-header section-header-center">
           <h2>Winners&rsquo; Perspectives: Submit a Healthcare Industry Insight</h2>
@@ -224,7 +229,7 @@
       </div>
     </section>
 
-    <section id="employee-insights" class="employee-insights-section">
+    <section id="employee-insights" class="employee-insights-section routed-page" data-page="submit-insight">
       <div class="section-header section-header-center employee-insights-header">
         <h2>Employee Industry Insights</h2>
         <p>
@@ -272,7 +277,7 @@
       </div>
     </section>
 
-    <section class="section" id="sourceTrust" aria-labelledby="sourceTrustTitle">
+    <section class="section" id="sourceTrust" aria-labelledby="sourceTrustTitle" hidden>
       <div class="section-heading split-heading">
         <div>
           <p class="eyebrow">Credibility layer</p>

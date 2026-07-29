@@ -1,5 +1,55 @@
 const DATA_VERSION = 'excel-workbook-20260727-v10';
 
+const routes = new Set(['headlines', 'resources', 'terminology', 'submit-insight', 'employee-insights']);
+
+function getCurrentRoute() {
+  const route = window.location.hash.replace(/^#\/?/, '').split('/')[0];
+  return routes.has(route) ? route : 'headlines';
+}
+
+function hasValidRoute() {
+  const route = window.location.hash.replace(/^#\/?/, '').split('/')[0];
+  return routes.has(route);
+}
+
+function renderRoute({ scrollToTop = true } = {}) {
+  const route = getCurrentRoute();
+  document.querySelectorAll('.routed-page').forEach(section => {
+    section.hidden = section.dataset.page !== route;
+  });
+  document.querySelectorAll('[data-route]').forEach(link => {
+    const isActive = link.dataset.route === route;
+    link.classList.toggle('active', isActive);
+    if (isActive) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+  document.querySelector('.nav-links')?.classList.remove('is-open');
+  const toggle = document.querySelector('.nav-toggle');
+  if (toggle) toggle.setAttribute('aria-expanded', 'false');
+  if (scrollToTop) window.scrollTo({ top: 0, behavior: 'auto' });
+}
+
+function initializeRouting() {
+  if (window.location.hash.replace(/^#\/?/, '').split('/')[0] === 'employee-insights') {
+    history.replaceState(null, '', '#/submit-insight');
+  }
+  if (!hasValidRoute()) {
+    history.replaceState(null, '', '#/headlines');
+  }
+  renderRoute({ scrollToTop: false });
+  window.addEventListener('hashchange', () => renderRoute());
+
+  const toggle = document.querySelector('.nav-toggle');
+  const navigation = document.querySelector('.nav-links');
+  toggle?.addEventListener('click', () => {
+    const isOpen = navigation?.classList.toggle('is-open') || false;
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
+}
+
 async function loadWorkbookDataModule() {
   return import(`./data.js?v=${encodeURIComponent(DATA_VERSION)}`);
 }
@@ -1291,6 +1341,7 @@ async function loadInsights({ resetIndex = false } = {}) {
 }
 
 function startApp() {
+  initializeRouting();
   init().catch(error => {
     console.error(error);
     document.body.insertAdjacentHTML('afterbegin', '<div class="empty-state">The site could not load its data files. Run it with a local server like Vite instead of opening index.html directly.</div>');
