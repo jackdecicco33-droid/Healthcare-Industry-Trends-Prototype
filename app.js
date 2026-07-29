@@ -4,12 +4,12 @@ const routes = new Set(['headlines', 'resources', 'terminology', 'submit-insight
 
 function getCurrentRoute() {
   const route = window.location.hash.replace(/^#\/?/, '').split('/')[0];
-  return routes.has(route) ? route : 'headlines';
+  return !route || route === 'headlines' ? 'headlines' : routes.has(route) ? route : 'headlines';
 }
 
 function hasValidRoute() {
   const route = window.location.hash.replace(/^#\/?/, '').split('/')[0];
-  return routes.has(route);
+  return !route || routes.has(route);
 }
 
 function renderRoute({ scrollToTop = true } = {}) {
@@ -33,11 +33,8 @@ function renderRoute({ scrollToTop = true } = {}) {
 }
 
 function initializeRouting() {
-  if (window.location.hash.replace(/^#\/?/, '').split('/')[0] === 'employee-insights') {
-    history.replaceState(null, '', '#/submit-insight');
-  }
   if (!hasValidRoute()) {
-    history.replaceState(null, '', '#/headlines');
+    history.replaceState(null, '', '#/');
   }
   renderRoute({ scrollToTop: false });
   window.addEventListener('hashchange', () => renderRoute());
