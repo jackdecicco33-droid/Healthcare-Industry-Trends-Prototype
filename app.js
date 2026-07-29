@@ -33,6 +33,9 @@ function renderRoute({ scrollToTop = true } = {}) {
 }
 
 function initializeRouting() {
+  if (window.location.hash.replace(/^#\/?/, '').split('/')[0] === 'employee-insights') {
+    history.replaceState(null, '', '#/submit-insight');
+  }
   if (!hasValidRoute()) {
     history.replaceState(null, '', '#/');
   }
