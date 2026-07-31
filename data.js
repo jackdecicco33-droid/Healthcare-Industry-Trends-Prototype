@@ -3771,7 +3771,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/23/24",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3787,7 +3787,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/8/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3803,7 +3803,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/10/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3819,7 +3819,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/26/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3835,7 +3835,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "2/23/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3851,7 +3851,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "1/27/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3867,7 +3867,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/11/25",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3883,7 +3883,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/7/24",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3899,7 +3899,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/29/23",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3915,7 +3915,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "12/16/25",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3931,7 +3931,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/30/25",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -3995,7 +3995,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/26/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4011,7 +4011,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/22/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4027,7 +4027,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/24/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4043,7 +4043,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/23/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4059,7 +4059,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/1/24",
     "summary": "Article from Modern Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4075,7 +4075,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/17/23",
     "summary": "Article from Modern Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4091,7 +4091,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "12/7/25",
     "summary": "Article from Modern Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4107,7 +4107,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "9/1/24",
     "summary": "Article from Modern Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4123,7 +4123,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/26/25",
     "summary": "Article from Modern Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4139,7 +4139,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/23/24",
     "summary": "Article from Modern Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4155,7 +4155,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/12/23",
     "summary": "Article from Modern Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4171,7 +4171,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "1/1/25",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4187,7 +4187,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/28/24",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4203,7 +4203,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/8/24",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4219,7 +4219,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "2022",
     "summary": "Article from Chartis.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4235,7 +4235,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/3/20",
     "summary": "Article from National Academy of Medicine.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4251,7 +4251,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/22/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4267,7 +4267,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/16/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4283,7 +4283,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/23/24",
     "summary": "Article from CWD.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4315,7 +4315,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/24/26",
     "summary": "Article from Modern Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4331,7 +4331,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/4/26",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4347,7 +4347,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "1/20/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4363,7 +4363,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/6/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4379,7 +4379,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "11/4/25",
     "summary": "Article from AMA (American Medical Association).",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4395,7 +4395,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/10/26",
     "summary": "Article from CMS.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4411,7 +4411,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/8/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4427,7 +4427,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/25/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4443,7 +4443,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/9/24",
     "summary": "Article from nih.gov.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4459,7 +4459,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/30/26",
     "summary": "Article from U.S.news.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4475,7 +4475,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/30/25",
     "summary": "Article from Congress.gov.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4491,7 +4491,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "11/9/23",
     "summary": "Article from Definitive Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4507,7 +4507,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "10/1/25",
     "summary": "Article from Healthcare Brew.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4523,7 +4523,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/7/18",
     "summary": "Article from IHI.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4539,7 +4539,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/24/18",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4555,7 +4555,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "2/19/25",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4571,7 +4571,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/13/26",
     "summary": "Article from Definitive Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4587,7 +4587,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/1/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4619,7 +4619,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/14/26",
     "summary": "Article from Medesk.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4635,7 +4635,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/7/26",
     "summary": "Article from PGM.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4651,7 +4651,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "1/28/25",
     "summary": "Article from HealthcareReader.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4683,7 +4683,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/1/26",
     "summary": "Article from legalclarity.org.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4699,7 +4699,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/1/25",
     "summary": "Article from Definitive Healthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4715,7 +4715,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/6/26",
     "summary": "Article from UnitedHealthcare.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4731,7 +4731,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "11/4/25",
     "summary": "Article from Johns Hopkins University.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4747,7 +4747,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "9/28/21",
     "summary": "Article from Health Markets.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4763,7 +4763,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "11/1/25",
     "summary": "Article from ScienceDirect.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4779,7 +4779,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/9/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4795,7 +4795,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/7/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4811,7 +4811,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/1/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4827,7 +4827,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/24/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4843,7 +4843,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/30/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4859,7 +4859,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/20/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4875,7 +4875,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/8/26",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4891,7 +4891,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/2/26",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4907,7 +4907,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/24/26",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4923,7 +4923,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/10/26",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4939,7 +4939,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/7/26",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4955,7 +4955,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/15/26",
     "summary": "Article from MGMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4971,7 +4971,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/8/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -4987,7 +4987,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/19/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5003,7 +5003,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/29/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5019,7 +5019,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/9/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5035,7 +5035,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "10/8/25",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5051,7 +5051,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/9/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5067,7 +5067,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/29/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5083,7 +5083,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/30/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5099,7 +5099,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/18/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5115,7 +5115,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/17/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5131,7 +5131,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "1/5/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5147,7 +5147,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/9/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5163,7 +5163,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/10/26",
     "summary": "Article from KFF.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5179,7 +5179,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/13/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5195,7 +5195,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/13/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5211,7 +5211,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/10/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5227,7 +5227,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/10/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5243,7 +5243,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/13/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5259,7 +5259,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/24/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5275,7 +5275,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "1/20/26",
     "summary": "Article from AMA (American Medical Association).",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5291,7 +5291,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "1/20/26",
     "summary": "Article from AMA (American Medical Association).",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5307,7 +5307,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/12/26",
     "summary": "Article from AMA (American Medical Association).",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5323,7 +5323,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "9/22/23",
     "summary": "Article from NIH.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5355,7 +5355,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "8/7/25",
     "summary": "Article from World Economic Forum.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5371,7 +5371,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/13/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5387,7 +5387,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/22/26",
     "summary": "Article from Becker.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5403,7 +5403,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/15/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5419,7 +5419,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/16/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5435,7 +5435,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "2/22/26",
     "summary": "Article from VeryWell Health.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5451,7 +5451,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/12/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
@@ -5467,28 +5467,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/23/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
     "rowNumber": 110,
-    "title": "Why AI Alone Fails in Healthcare and How AI+ Human Co-Management Drives Better Outcomes",
-    "website": "HFMA",
-    "websiteName": "HFMA",
-    "source": "HFMA",
-    "url": "https://www.hfma.org/technology/why-ai-alone-fails-in-healthcare-and-how-ai-human-co-management-drives-better-outcomes/",
-    "hasValidUrl": true,
-    "domain": "hfma.org",
-    "directUrlIssue": "",
-    "trustLevel": "Direct Article",
-    "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
-    "summary": "Article from HFMA.",
-    "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
-  },
-  {
-    "rowNumber": 111,
     "title": "Medicare Claims Processing Modernization Gains Urgency At CMS",
     "website": "HFMA",
     "websiteName": "HFMA",
@@ -5499,12 +5483,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/5/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 112,
+    "rowNumber": 111,
     "title": "Modernize Your Operations Model for RCM Success",
     "website": "HFMA",
     "websiteName": "HFMA",
@@ -5515,12 +5499,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/30/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 113,
+    "rowNumber": 112,
     "title": "Healthcare Compliance Risks Rise as CMS Expands Fraud Enforcement",
     "website": "HFMA",
     "websiteName": "HFMA",
@@ -5531,12 +5515,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/19/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 114,
+    "rowNumber": 113,
     "title": "Building a More Effective Remittance Automation Strategy",
     "website": "HFMA",
     "websiteName": "HFMA",
@@ -5547,12 +5531,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/16/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 115,
+    "rowNumber": 114,
     "title": "Healthcare Affordability and Financial Sustainability Concerns Test CFO Strategy",
     "website": "HFMA",
     "websiteName": "HFMA",
@@ -5563,12 +5547,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/1/26",
     "summary": "Article from HFMA.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 116,
+    "rowNumber": 115,
     "title": "Tracking Healthcare Data Breaches",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5579,12 +5563,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/28/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 117,
+    "rowNumber": 116,
     "title": "ACA Premiums Set To Spike Again in 2027",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5595,12 +5579,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/8/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 118,
+    "rowNumber": 117,
     "title": "Epic President To Step Down This Summer",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5611,12 +5595,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/7/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 119,
+    "rowNumber": 118,
     "title": "AdaptHealth Discloses Patient Data Was Stolen in Cyberattack",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5627,12 +5611,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/72026",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 120,
+    "rowNumber": 119,
     "title": "Private Equity May Skirt Oversight With Nonprofit Healthcare Joint Ventures",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5643,12 +5627,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/72026",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 121,
+    "rowNumber": 120,
     "title": "Healthcare Faces Congressional Oversight Heading Into 2026 Midterms and Beyond",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5659,12 +5643,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/72026",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 122,
+    "rowNumber": 121,
     "title": "Nearly 4M Medicare Beneficiaries Could Access GLP-1s for Weight Loss Under New Program: Analysis",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5675,12 +5659,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/1/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 123,
+    "rowNumber": 122,
     "title": "US Health Spending spikes to $5.7T in 2025, Though growth should moderate, CMS finds",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5691,12 +5675,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/24/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 124,
+    "rowNumber": 123,
     "title": "Hackensack Meridan Health, Hunterdon Health Explore Merger in New Jersey",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5707,12 +5691,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/23/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 125,
+    "rowNumber": 124,
     "title": "Centene Offers Employee Buyouts Amid Membership Losses",
     "website": "Healthcare Dive",
     "websiteName": "Healthcare Dive",
@@ -5723,12 +5707,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/16/26",
     "summary": "Article from Healthcare Dive.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 126,
+    "rowNumber": 125,
     "title": "Three Federal Streams, One Goverance Problem: Building Unified AI Oversight In Health Systems",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5739,12 +5723,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/8/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 127,
+    "rowNumber": 126,
     "title": "Medical Ethics Responds To Private Equity",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5755,12 +5739,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/2/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 128,
+    "rowNumber": 127,
     "title": "Trends In US Health Care Spending By Income, 2005-2023",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5771,12 +5755,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "7/7/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 129,
+    "rowNumber": 128,
     "title": "States Are Exceeding Their Health Care Cost Growth Targets. What Does It Mean?",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5787,12 +5771,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/16/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 130,
+    "rowNumber": 129,
     "title": "Why New Drugs And AI Chatbots Won't Cure Health Care's Cost Disease",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5803,12 +5787,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/11/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 131,
+    "rowNumber": 130,
     "title": "Price Transparency, Medicare, Medicaid, And More",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5819,12 +5803,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "6/1/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 132,
+    "rowNumber": 131,
     "title": "Cost-Effectiveness Thresholds: Overvaluing Innovation, Undervaluing Health",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5835,12 +5819,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "5/28/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 133,
+    "rowNumber": 132,
     "title": "Levels, Growth, And Semantics: The Role Of Prices In Driving Health Care Spending",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5851,12 +5835,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "4/9/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 134,
+    "rowNumber": 133,
     "title": "Medicare's Unrealized Opportunity: Using ACOs To Create Real Competition",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5867,12 +5851,12 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "3/6/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   },
   {
-    "rowNumber": 135,
+    "rowNumber": 134,
     "title": "The US Health Spending Problem Is Still About Prices",
     "website": "Health Affairs",
     "websiteName": "Health Affairs",
@@ -5883,7 +5867,7 @@ export const approvedSignalSources = [
     "directUrlIssue": "",
     "trustLevel": "Direct Article",
     "serviceLine": "Healthcare Signal",
-    "date": "Check article for publication date",
+    "date": "2/18/26",
     "summary": "Article from Health Affairs.",
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   }

@@ -29,9 +29,11 @@ const expectedHeaders = [
   'Definition',
   'Source',
   'Real World Example',
-  'Link'
+  'Link',
+  'Date Article Was Published'
 ];
 const canonicalHeaders = new Map(expectedHeaders.map((header) => [normalizeHeader(header), header]));
+canonicalHeaders.set(normalizeHeader('Date Artcle Was Published'), 'Date Article Was Published');
 
 function cleanValue(value) {
   if (value === undefined || value === null) return '';
@@ -206,6 +208,7 @@ function toSignalArticle(row, rowNumber) {
   const link = decodeUrl(row['Link to The Source']);
   const directUrlIssue = getDirectSignalUrlIssue(link);
   const domain = getDomain(link);
+  const publicationDate = cleanValue(row['Date Article Was Published']);
 
   return {
     rowNumber,
@@ -219,7 +222,7 @@ function toSignalArticle(row, rowNumber) {
     directUrlIssue,
     trustLevel: 'Direct Article',
     serviceLine: 'Healthcare Signal',
-    date: 'Check article for publication date',
+    date: publicationDate || 'Check article for publication date',
     summary: `Article from ${website || domain || 'the listed source'}.`,
     consultingLens: 'Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends.'
   };

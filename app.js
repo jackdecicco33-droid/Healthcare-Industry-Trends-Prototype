@@ -1,4 +1,6 @@
-const DATA_VERSION = 'excel-workbook-20260727-v10';
+import { prepareHeadlineDataset, selectHeadlineArticles } from './headline-utils.js';
+
+const DATA_VERSION = 'headline-refresh-20260731-v11';
 
 const routes = new Set(['headlines', 'resources', 'terminology', 'submit-insight', 'employee-insights']);
 
@@ -402,23 +404,6 @@ function renderTerminologyDictionary() {
   renderTerminologyCards();
 }
 
-function getDailyNewsIndex() {
-  if (!healthcareIndustryNews.length) {
-    return 0;
-  }
-
-  const startDate = new Date("2026-01-01T00:00:00");
-  const today = new Date();
-
-  startDate.setHours(0, 0, 0, 0);
-  today.setHours(0, 0, 0, 0);
-
-  const oneDay = 1000 * 60 * 60 * 24;
-  const dayDifference = Math.floor((today - startDate) / oneDay);
-
-  return Math.abs(dayDifference) % healthcareIndustryNews.length;
-}
-
 function renderHealthcareIndustryWatch() {
   const featuredNewsCard = document.getElementById("featuredNewsCard");
   const newsGrid = document.getElementById("newsGrid");
@@ -441,12 +426,7 @@ function renderHealthcareIndustryWatch() {
     return;
   }
 
-  const todayIndex = getDailyNewsIndex();
-  const featured = healthcareIndustryNews[todayIndex];
-
-  const supportingArticles = healthcareIndustryNews
-    .filter((_, index) => index !== todayIndex)
-    .slice(0, 3);
+  const { primary: featured, supporting: supportingArticles } = selectHeadlineArticles(healthcareIndustryNews);
 
   const today = new Date();
   const formattedDate = today.toLocaleDateString("en-US", {
@@ -500,7 +480,7 @@ function renderHealthcareIndustryWatch() {
         <article class="mini-news-card">
           <span class="news-pill">${escapeHtml(article.serviceLine)}</span>
           <h4>${escapeHtml(article.title)}</h4>
-          <p>${escapeHtml(article.summary)}</p>
+          <p>${escapeHtml(article.source)}</p>
           <a href="${escapeAttribute(article.url)}" target="_blank" rel="noopener noreferrer">
             Read Article ->
           </a>
@@ -510,7 +490,7 @@ function renderHealthcareIndustryWatch() {
     .join("");
 
   if (newsUpdatedLabel) {
-    newsUpdatedLabel.textContent = `Daily rotation shown for ${formattedDate}`;
+    newsUpdatedLabel.textContent = `Updated from current headlines on ${formattedDate}`;
   }
 }
 
@@ -829,7 +809,7 @@ async function loadDataJson(path, label) {
   try {
     const versionedPath = withDataVersion(path);
     console.log(`${label} fetch URL`, versionedPath);
-    const response = await fetch(versionedPath);
+    const response = await fetch(versionedPath, { cache: 'no-store' });
     console.log(`${label} response status`, response.status);
 
     if (!response.ok) {
@@ -938,7 +918,8 @@ async function init() {
 
   const resources = normalizeResourceData(healthcareResources);
   const terminology = normalizeTerminologyData(healthcareTerminology);
-  const signals = normalizeSignalData(approvedSignalSources);
+  const fetchedSignals = await loadDataJson('./data/healthcare-signals.json', 'healthcare signals');
+  const signals = prepareHeadlineDataset(normalizeSignalData(fetchedSignals || approvedSignalSources));
   console.log("normalized resources count", resources.length);
   console.log("normalized terminology count", terminology.length);
   console.log("normalized healthcare signals count", signals.length);
