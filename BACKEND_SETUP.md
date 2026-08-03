@@ -37,31 +37,6 @@ SUPABASE_SERVICE_ROLE_KEY
 Do not expose the Supabase service-role key in frontend code. It belongs only in
 the backend host environment.
 
-## Daily healthcare headlines
-
-Run `supabase/migrations/202608030001_create_daily_headline_sets.sql` in the
-Supabase SQL editor before deploying the daily-headlines endpoint. The private
-table is accessed only by the Render service-role client, so each day's
-four-article edition survives backend restarts and is identical for every visitor.
-
-The backend reads RSS feeds from the optional `HEADLINE_RSS_FEEDS` environment
-variable. Use comma-separated `Publisher|https://feed-url` entries. If it is not
-set, the curated defaults in `headline-service.js` are used.
-
-`GET /api/daily-headlines` returns the stored America/Chicago edition or creates
-it on demand when today's edition is missing. Responses include no-store headers.
-A source failure does not prevent healthy feeds from being used.
-
-For proactive refresh, configure a Render cron job for `15 7 * * *` (07:15 UTC,
-which is 1:15 a.m. CST or 2:15 a.m. CDT) that calls:
-
-```sh
-curl -fsS -X POST -H "x-webhook-secret: $FORMS_WEBHOOK_SECRET" https://healthcare-industry-trends-prototype.onrender.com/api/admin/refresh-daily-headlines
-```
-
-The public GET endpoint is also a fallback: the first request after midnight
-creates the edition if the cron job did not run.
-
 ## 3. Build the Power Automate flow
 
 1. Create an **Automated cloud flow**.
