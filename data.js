@@ -16,7 +16,8 @@ export const healthcareResources = [
     "name": "AI in Healthcare Specialization",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Clinical Optimization."
+    "description": "Resource from Coursera focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "Introduction to Healthcare",
@@ -29,7 +30,8 @@ export const healthcareResources = [
     "name": "Introduction to Healthcare",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Healthcare Management and Finance Specialization",
@@ -42,7 +44,8 @@ export const healthcareResources = [
     "name": "Healthcare Management and Finance Specialization",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Artificial Intelligence & Machine Learning in Healthcare",
@@ -55,7 +58,8 @@ export const healthcareResources = [
     "name": "Artificial Intelligence & Machine Learning in Healthcare",
     "organization": "EDX",
     "category": "Course",
-    "description": "Resource from EDX focused on Clinical Optimization."
+    "description": "Resource from EDX focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "University of Toronto: Healhcare Leadership",
@@ -68,7 +72,8 @@ export const healthcareResources = [
     "name": "University of Toronto: Healhcare Leadership",
     "organization": "EDX",
     "category": "Course",
-    "description": "Resource from EDX focused on Healthcare 101."
+    "description": "Resource from EDX focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Standford Medicine: Healthcare Leadership",
@@ -81,7 +86,8 @@ export const healthcareResources = [
     "name": "Standford Medicine: Healthcare Leadership",
     "organization": "EDX",
     "category": "Course",
-    "description": "Resource from EDX focused on Healthcare 101."
+    "description": "Resource from EDX focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Microsoft Excel Professional Certificate",
@@ -94,7 +100,8 @@ export const healthcareResources = [
     "name": "Microsoft Excel Professional Certificate",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Excel Basics for Data Analysis",
@@ -107,7 +114,8 @@ export const healthcareResources = [
     "name": "Excel Basics for Data Analysis",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Microsoft 365 Fundamentals Specialization",
@@ -120,7 +128,8 @@ export const healthcareResources = [
     "name": "Microsoft 365 Fundamentals Specialization",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Excel Fundamentals for Healthcare",
@@ -133,7 +142,8 @@ export const healthcareResources = [
     "name": "Excel Fundamentals for Healthcare",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Healthcare 101."
+    "description": "Resource from Udemy focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Tableua for Healthcare",
@@ -146,7 +156,8 @@ export const healthcareResources = [
     "name": "Tableua for Healthcare",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Healthcare 101."
+    "description": "Resource from Udemy focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Healthcare Finance and Cost Management",
@@ -159,7 +170,8 @@ export const healthcareResources = [
     "name": "Healthcare Finance and Cost Management",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Revenue Cycle."
+    "description": "Resource from Coursera focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Revenue Cycle, Billing, and Coding",
@@ -172,7 +184,8 @@ export const healthcareResources = [
     "name": "Revenue Cycle, Billing, and Coding",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Revenue Cycle."
+    "description": "Resource from Coursera focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Financial and Managerial Accounting in Healthcare Specialization",
@@ -185,7 +198,8 @@ export const healthcareResources = [
     "name": "Financial and Managerial Accounting in Healthcare Specialization",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Revenue Cycle."
+    "description": "Resource from Coursera focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Healthcare Accounting: Financial Statements & Revenue",
@@ -198,7 +212,8 @@ export const healthcareResources = [
     "name": "Healthcare Accounting: Financial Statements & Revenue",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Revenue Cycle."
+    "description": "Resource from Coursera focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Intro to Managing Healthcare Supply Chain operations",
@@ -211,7 +226,8 @@ export const healthcareResources = [
     "name": "Intro to Managing Healthcare Supply Chain operations",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Supply Chain."
+    "description": "Resource from Coursera focused on Supply Chain.",
+    "isPaid": true
   },
   {
     "title": "Navigating Healthcare Supply Chain Operations",
@@ -224,7 +240,8 @@ export const healthcareResources = [
     "name": "Navigating Healthcare Supply Chain Operations",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Supply Chain."
+    "description": "Resource from Coursera focused on Supply Chain.",
+    "isPaid": true
   },
   {
     "title": "Healthcare Organization Operations Specialization",
@@ -237,7 +254,8 @@ export const healthcareResources = [
     "name": "Healthcare Organization Operations Specialization",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Healthcare Data Management, Security, and Compliance",
@@ -250,7 +268,8 @@ export const healthcareResources = [
     "name": "Healthcare Data Management, Security, and Compliance",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Clinical Optimization."
+    "description": "Resource from Coursera focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "Value-Based Leadership in Healthcare",
@@ -263,7 +282,8 @@ export const healthcareResources = [
     "name": "Value-Based Leadership in Healthcare",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Quality."
+    "description": "Resource from Coursera focused on Quality.",
+    "isPaid": true
   },
   {
     "title": "Introduction to the Healthcare Industry",
@@ -276,7 +296,8 @@ export const healthcareResources = [
     "name": "Introduction to the Healthcare Industry",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Value-based Care: Introduction to Value-based and the U.S. Healthcare System",
@@ -289,7 +310,8 @@ export const healthcareResources = [
     "name": "Value-based Care: Introduction to Value-based and the U.S. Healthcare System",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Quality."
+    "description": "Resource from Coursera focused on Quality.",
+    "isPaid": true
   },
   {
     "title": "Introduction to Healthcare Finance",
@@ -302,7 +324,8 @@ export const healthcareResources = [
     "name": "Introduction to Healthcare Finance",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Revenue Cycle."
+    "description": "Resource from Coursera focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Lean Six Sigma in Healthcare Certificate",
@@ -315,7 +338,8 @@ export const healthcareResources = [
     "name": "Lean Six Sigma in Healthcare Certificate",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Quality."
+    "description": "Resource from Udemy focused on Quality.",
+    "isPaid": true
   },
   {
     "title": "Artificial Intelligence (AI) in Healthcae, Plain & Simple",
@@ -328,7 +352,8 @@ export const healthcareResources = [
     "name": "Artificial Intelligence (AI) in Healthcae, Plain & Simple",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Clinical Optimization."
+    "description": "Resource from Udemy focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "Healthcare 4.0 - Healthcare in the industry 4.0",
@@ -341,7 +366,8 @@ export const healthcareResources = [
     "name": "Healthcare 4.0 - Healthcare in the industry 4.0",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Clinical Optimization."
+    "description": "Resource from Udemy focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "AI Consulting for Healthcare",
@@ -354,7 +380,8 @@ export const healthcareResources = [
     "name": "AI Consulting for Healthcare",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Clinical Optimization."
+    "description": "Resource from Udemy focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "Revenue Cycle and Healthcare Finance - Rev Cycle Ready",
@@ -367,7 +394,8 @@ export const healthcareResources = [
     "name": "Revenue Cycle and Healthcare Finance - Rev Cycle Ready",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Revenue Cycle."
+    "description": "Resource from Udemy focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Financial Management and Accounting for Healthcare Business",
@@ -380,7 +408,8 @@ export const healthcareResources = [
     "name": "Financial Management and Accounting for Healthcare Business",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Revenue Cycle."
+    "description": "Resource from Udemy focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "RCM Benefits, Referrals & Prior Authorizations for Beginners",
@@ -393,7 +422,8 @@ export const healthcareResources = [
     "name": "RCM Benefits, Referrals & Prior Authorizations for Beginners",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Revenue Cycle."
+    "description": "Resource from Udemy focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Medical Billing, Compliance, & Revenue Recovery Masterclass",
@@ -406,7 +436,8 @@ export const healthcareResources = [
     "name": "Medical Billing, Compliance, & Revenue Recovery Masterclass",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Revenue Cycle."
+    "description": "Resource from Udemy focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Lean Six Sigma for Healthcare",
@@ -419,7 +450,8 @@ export const healthcareResources = [
     "name": "Lean Six Sigma for Healthcare",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Quality."
+    "description": "Resource from Udemy focused on Quality.",
+    "isPaid": true
   },
   {
     "title": "US Healthcare System-Payors: Commercial, Medicare, Medicaid",
@@ -432,7 +464,8 @@ export const healthcareResources = [
     "name": "US Healthcare System-Payors: Commercial, Medicare, Medicaid",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Healthcare 101."
+    "description": "Resource from Udemy focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Certification in Revenue Cycle Management in Healthcare 2026",
@@ -445,7 +478,8 @@ export const healthcareResources = [
     "name": "Certification in Revenue Cycle Management in Healthcare 2026",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Revenue Cycle."
+    "description": "Resource from Udemy focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Artificial Intelligence (AI) in Healthcare Certification",
@@ -458,7 +492,8 @@ export const healthcareResources = [
     "name": "Artificial Intelligence (AI) in Healthcare Certification",
     "organization": "Udemy",
     "category": "Course",
-    "description": "Resource from Udemy focused on Clinical Optimization."
+    "description": "Resource from Udemy focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "Project Management in Healthcare Specialization",
@@ -471,7 +506,8 @@ export const healthcareResources = [
     "name": "Project Management in Healthcare Specialization",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Supply Chain Logistics",
@@ -484,7 +520,8 @@ export const healthcareResources = [
     "name": "Supply Chain Logistics",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Supply Chain."
+    "description": "Resource from Coursera focused on Supply Chain.",
+    "isPaid": true
   },
   {
     "title": "Clinical Operations: KPIs and Inventory",
@@ -497,7 +534,8 @@ export const healthcareResources = [
     "name": "Clinical Operations: KPIs and Inventory",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Clinical Optimization."
+    "description": "Resource from Coursera focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "Data and Electronic Health Records",
@@ -510,7 +548,8 @@ export const healthcareResources = [
     "name": "Data and Electronic Health Records",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Clinical Optimization."
+    "description": "Resource from Coursera focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "HER: Navigate Data & Compliance Confidently",
@@ -523,7 +562,8 @@ export const healthcareResources = [
     "name": "HER: Navigate Data & Compliance Confidently",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Clinical Optimization."
+    "description": "Resource from Coursera focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "Yale SOM Executive Education: Healthcare Management",
@@ -536,7 +576,8 @@ export const healthcareResources = [
     "name": "Yale SOM Executive Education: Healthcare Management",
     "organization": "EDX",
     "category": "Course",
-    "description": "Resource from EDX focused on Healthcare 101."
+    "description": "Resource from EDX focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "University of Cambridge: the impact of big data on healthcare",
@@ -549,7 +590,8 @@ export const healthcareResources = [
     "name": "University of Cambridge: the impact of big data on healthcare",
     "organization": "EDX",
     "category": "Course",
-    "description": "Resource from EDX focused on Clinical Optimization."
+    "description": "Resource from EDX focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "AWS Cloud Solutions Architect Professional Certificate",
@@ -562,7 +604,8 @@ export const healthcareResources = [
     "name": "AWS Cloud Solutions Architect Professional Certificate",
     "organization": "Coursera",
     "category": "Certificate",
-    "description": "Resource from Coursera focused on Healthcare 101."
+    "description": "Resource from Coursera focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Healthcare Revenue Cycle Management (RCM) How it Works & What is it",
@@ -575,7 +618,8 @@ export const healthcareResources = [
     "name": "Healthcare Revenue Cycle Management (RCM) How it Works & What is it",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Get a Revenue Cycle Management Certificate",
@@ -588,7 +632,8 @@ export const healthcareResources = [
     "name": "Get a Revenue Cycle Management Certificate",
     "organization": "HFMA",
     "category": "Certificate",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Certified Specialist Physcian Practice Management (CSPPM)",
@@ -601,7 +646,8 @@ export const healthcareResources = [
     "name": "Certified Specialist Physcian Practice Management (CSPPM)",
     "organization": "HFMA",
     "category": "Certificate",
-    "description": "Resource from HFMA focused on Physician Enterprise."
+    "description": "Resource from HFMA focused on Physician Enterprise.",
+    "isPaid": true
   },
   {
     "title": "Certified Healthcare Financial Professional (CHFP)",
@@ -614,7 +660,8 @@ export const healthcareResources = [
     "name": "Certified Healthcare Financial Professional (CHFP)",
     "organization": "HFMA",
     "category": "Certificate",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Preventing Denials Before They Happen: How Revenue Intelligence is Reshaping the Revnue Cycle",
@@ -627,7 +674,8 @@ export const healthcareResources = [
     "name": "Preventing Denials Before They Happen: How Revenue Intelligence is Reshaping the Revnue Cycle",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "How To Handle The Revenue Cycle Skills Gap",
@@ -640,7 +688,8 @@ export const healthcareResources = [
     "name": "How To Handle The Revenue Cycle Skills Gap",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "The KPIs That Define Revenue Cycle Excellence",
@@ -653,7 +702,8 @@ export const healthcareResources = [
     "name": "The KPIs That Define Revenue Cycle Excellence",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Revenue Cycle Strategies for Hospitals Facing Growing Financial Pressures",
@@ -666,7 +716,8 @@ export const healthcareResources = [
     "name": "Revenue Cycle Strategies for Hospitals Facing Growing Financial Pressures",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "How To Optimize The Revenue Cycle Workforce in 2026",
@@ -679,7 +730,8 @@ export const healthcareResources = [
     "name": "How To Optimize The Revenue Cycle Workforce in 2026",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Healthcare Providers Debate Ways To Offer Patients Manageable Payment Options",
@@ -692,7 +744,8 @@ export const healthcareResources = [
     "name": "Healthcare Providers Debate Ways To Offer Patients Manageable Payment Options",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Why Claim Denials Are Rising and How Providers Are Responding",
@@ -705,7 +758,8 @@ export const healthcareResources = [
     "name": "Why Claim Denials Are Rising and How Providers Are Responding",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Navigating The Rising Tide of Denials",
@@ -718,7 +772,8 @@ export const healthcareResources = [
     "name": "Navigating The Rising Tide of Denials",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "The Impact of Claim Denials On The Financial Health of Healthcare",
@@ -731,7 +786,8 @@ export const healthcareResources = [
     "name": "The Impact of Claim Denials On The Financial Health of Healthcare",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Labor Outsourcing Shifts To Non-Clinical Roles",
@@ -744,7 +800,8 @@ export const healthcareResources = [
     "name": "Labor Outsourcing Shifts To Non-Clinical Roles",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Labor."
+    "description": "Resource from HFMA focused on Labor.",
+    "isPaid": false
   },
   {
     "title": "Why Labor Benchmarking Is So Critical To Healthcare Productivity",
@@ -757,7 +814,8 @@ export const healthcareResources = [
     "name": "Why Labor Benchmarking Is So Critical To Healthcare Productivity",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Labor."
+    "description": "Resource from HFMA focused on Labor.",
+    "isPaid": false
   },
   {
     "title": "American Health Information Management Association",
@@ -770,7 +828,8 @@ export const healthcareResources = [
     "name": "American Health Information Management Association",
     "organization": "AHIMA",
     "category": "Certificate",
-    "description": "Resource from AHIMA focused on Clinical Optimization."
+    "description": "Resource from AHIMA focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "Making Health Care More Affordable",
@@ -783,7 +842,8 @@ export const healthcareResources = [
     "name": "Making Health Care More Affordable",
     "organization": "AHA",
     "category": "Article",
-    "description": "Resource from AHA focused on Healthcare 101."
+    "description": "Resource from AHA focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Examples of How Hospitals Are Lowering Cost and Enhancing Value",
@@ -796,7 +856,8 @@ export const healthcareResources = [
     "name": "Examples of How Hospitals Are Lowering Cost and Enhancing Value",
     "organization": "AHA",
     "category": "Article",
-    "description": "Resource from AHA focused on Quality."
+    "description": "Resource from AHA focused on Quality.",
+    "isPaid": false
   },
   {
     "title": "The Future of Physician Workforce Optimization",
@@ -809,7 +870,8 @@ export const healthcareResources = [
     "name": "The Future of Physician Workforce Optimization",
     "organization": "AHA",
     "category": "Article",
-    "description": "Resource from AHA focused on Labor."
+    "description": "Resource from AHA focused on Labor.",
+    "isPaid": false
   },
   {
     "title": "7 Recent RCM company M&A Moves",
@@ -822,7 +884,8 @@ export const healthcareResources = [
     "name": "7 Recent RCM company M&A Moves",
     "organization": "Becker",
     "category": "Article",
-    "description": "Resource from Becker focused on Revenue Cycle."
+    "description": "Resource from Becker focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Beyond The Dashboard: Why The Most Damaging Denials Never Get Flagged",
@@ -835,7 +898,8 @@ export const healthcareResources = [
     "name": "Beyond The Dashboard: Why The Most Damaging Denials Never Get Flagged",
     "organization": "Becker",
     "category": "Article",
-    "description": "Resource from Becker focused on Revenue Cycle."
+    "description": "Resource from Becker focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Oracle Health To Bring AI To The Operating Room",
@@ -848,7 +912,8 @@ export const healthcareResources = [
     "name": "Oracle Health To Bring AI To The Operating Room",
     "organization": "Becker",
     "category": "Article",
-    "description": "Resource from Becker focused on Clinical Optimization."
+    "description": "Resource from Becker focused on Clinical Optimization.",
+    "isPaid": false
   },
   {
     "title": "Will AI Replace Physicians? Epic's Judy Faulkner is Skeptical",
@@ -861,7 +926,8 @@ export const healthcareResources = [
     "name": "Will AI Replace Physicians? Epic's Judy Faulkner is Skeptical",
     "organization": "Becker",
     "category": "Article",
-    "description": "Resource from Becker focused on Clinical Optimization."
+    "description": "Resource from Becker focused on Clinical Optimization.",
+    "isPaid": false
   },
   {
     "title": "Perspectives on Supply Chain Resiliency",
@@ -874,7 +940,8 @@ export const healthcareResources = [
     "name": "Perspectives on Supply Chain Resiliency",
     "organization": "Modern Healthcare",
     "category": "Article",
-    "description": "Resource from Modern Healthcare focused on Supply Chain."
+    "description": "Resource from Modern Healthcare focused on Supply Chain.",
+    "isPaid": false
   },
   {
     "title": "Surge In Supply Chain Shortages Disrupting Hospital Operations",
@@ -887,7 +954,8 @@ export const healthcareResources = [
     "name": "Surge In Supply Chain Shortages Disrupting Hospital Operations",
     "organization": "Modern Healthcare",
     "category": "Article",
-    "description": "Resource from Modern Healthcare focused on Supply Chain."
+    "description": "Resource from Modern Healthcare focused on Supply Chain.",
+    "isPaid": false
   },
   {
     "title": "Breaking Down Supply Chain Silos To Realize More Savings",
@@ -900,7 +968,8 @@ export const healthcareResources = [
     "name": "Breaking Down Supply Chain Silos To Realize More Savings",
     "organization": "Modern Healthcare",
     "category": "Article",
-    "description": "Resource from Modern Healthcare focused on Supply Chain."
+    "description": "Resource from Modern Healthcare focused on Supply Chain.",
+    "isPaid": false
   },
   {
     "title": "How Supply Chain Innovation Can Drive Efficiency Amid Cost and Labor Headwinds",
@@ -913,7 +982,8 @@ export const healthcareResources = [
     "name": "How Supply Chain Innovation Can Drive Efficiency Amid Cost and Labor Headwinds",
     "organization": "Modern Healthcare",
     "category": "Article",
-    "description": "Resource from Modern Healthcare focused on Supply Chain."
+    "description": "Resource from Modern Healthcare focused on Supply Chain.",
+    "isPaid": false
   },
   {
     "title": "How AI In Supply Chain Management is Cutting Costs For Providers",
@@ -926,7 +996,8 @@ export const healthcareResources = [
     "name": "How AI In Supply Chain Management is Cutting Costs For Providers",
     "organization": "Modern Healthcare",
     "category": "Article",
-    "description": "Resource from Modern Healthcare focused on Supply Chain."
+    "description": "Resource from Modern Healthcare focused on Supply Chain.",
+    "isPaid": false
   },
   {
     "title": "Healthcare Consolidation Can Deliver Best Quality At Lower Cost",
@@ -939,7 +1010,8 @@ export const healthcareResources = [
     "name": "Healthcare Consolidation Can Deliver Best Quality At Lower Cost",
     "organization": "Modern Healthcare",
     "category": "Article",
-    "description": "Resource from Modern Healthcare focused on Quality."
+    "description": "Resource from Modern Healthcare focused on Quality.",
+    "isPaid": false
   },
   {
     "title": "How Hospital Systems Are Weighing Quality vs. The Bottom Line",
@@ -952,7 +1024,8 @@ export const healthcareResources = [
     "name": "How Hospital Systems Are Weighing Quality vs. The Bottom Line",
     "organization": "Modern Healthcare",
     "category": "Article",
-    "description": "Resource from Modern Healthcare focused on Quality."
+    "description": "Resource from Modern Healthcare focused on Quality.",
+    "isPaid": false
   },
   {
     "title": "Health Insurance 101: The Basics",
@@ -965,7 +1038,8 @@ export const healthcareResources = [
     "name": "Health Insurance 101: The Basics",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "The Economics of Healthcare: Crash Course Economics",
@@ -978,7 +1052,8 @@ export const healthcareResources = [
     "name": "The Economics of Healthcare: Crash Course Economics",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Medicaid & Medicare 101",
@@ -991,7 +1066,8 @@ export const healthcareResources = [
     "name": "Medicaid & Medicare 101",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Healthcare Revenue Cycle Management - Introduction",
@@ -1004,7 +1080,8 @@ export const healthcareResources = [
     "name": "Healthcare Revenue Cycle Management - Introduction",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Revenue Cycle."
+    "description": "Resource from YouTube focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "How Insurance Premiums And Deductibles Work",
@@ -1017,7 +1094,8 @@ export const healthcareResources = [
     "name": "How Insurance Premiums And Deductibles Work",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "What is ERP? - A Simple Explanation",
@@ -1030,7 +1108,8 @@ export const healthcareResources = [
     "name": "What is ERP? - A Simple Explanation",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Revenue Cycle Management",
@@ -1043,7 +1122,8 @@ export const healthcareResources = [
     "name": "Revenue Cycle Management",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Revenue Cycle."
+    "description": "Resource from YouTube focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "AHRMM Advancing Health Care Through Supply Chain Excellence",
@@ -1056,7 +1136,8 @@ export const healthcareResources = [
     "name": "AHRMM Advancing Health Care Through Supply Chain Excellence",
     "organization": "AHRMM",
     "category": "Podcasts",
-    "description": "Resource from AHRMM focused on Supply Chain."
+    "description": "Resource from AHRMM focused on Supply Chain.",
+    "isPaid": false
   },
   {
     "title": "Certified Revenue Cycle Professional (CRCP)",
@@ -1069,7 +1150,8 @@ export const healthcareResources = [
     "name": "Certified Revenue Cycle Professional (CRCP)",
     "organization": "AHIMA",
     "category": "Certificate",
-    "description": "Resource from AHIMA focused on Revenue Cycle."
+    "description": "Resource from AHIMA focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Excel For Healthcare: Practical Applications and Skills",
@@ -1082,7 +1164,8 @@ export const healthcareResources = [
     "name": "Excel For Healthcare: Practical Applications and Skills",
     "organization": "LinkedIn",
     "category": "Course",
-    "description": "Resource from LinkedIn focused on Healthcare 101."
+    "description": "Resource from LinkedIn focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Project Management: Healthcare Projects",
@@ -1095,7 +1178,8 @@ export const healthcareResources = [
     "name": "Project Management: Healthcare Projects",
     "organization": "LinkedIn",
     "category": "Course",
-    "description": "Resource from LinkedIn focused on Healthcare 101."
+    "description": "Resource from LinkedIn focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Quality Improvement In Healthcare Specialization",
@@ -1108,7 +1192,8 @@ export const healthcareResources = [
     "name": "Quality Improvement In Healthcare Specialization",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Quality."
+    "description": "Resource from Coursera focused on Quality.",
+    "isPaid": true
   },
   {
     "title": "Leading Healthcare Quality and Safety",
@@ -1121,7 +1206,8 @@ export const healthcareResources = [
     "name": "Leading Healthcare Quality and Safety",
     "organization": "Coursera",
     "category": "Course",
-    "description": "Resource from Coursera focused on Quality."
+    "description": "Resource from Coursera focused on Quality.",
+    "isPaid": true
   },
   {
     "title": "7 Essential Components of a High-Performing Physician Enterprise",
@@ -1134,7 +1220,8 @@ export const healthcareResources = [
     "name": "7 Essential Components of a High-Performing Physician Enterprise",
     "organization": "MGMA",
     "category": "Article",
-    "description": "Resource from MGMA focused on Physician Enterprise."
+    "description": "Resource from MGMA focused on Physician Enterprise.",
+    "isPaid": false
   },
   {
     "title": "4 Steps For Creating In The Hospital -Based Physician Enterprise",
@@ -1147,7 +1234,8 @@ export const healthcareResources = [
     "name": "4 Steps For Creating In The Hospital -Based Physician Enterprise",
     "organization": "MGMA",
     "category": "Article",
-    "description": "Resource from MGMA focused on Physician Enterprise."
+    "description": "Resource from MGMA focused on Physician Enterprise.",
+    "isPaid": false
   },
   {
     "title": "Optimizing Physician Enterprise Performance in the Shift to value",
@@ -1160,7 +1248,8 @@ export const healthcareResources = [
     "name": "Optimizing Physician Enterprise Performance in the Shift to value",
     "organization": "MGMA",
     "category": "Article",
-    "description": "Resource from MGMA focused on Physician Enterprise."
+    "description": "Resource from MGMA focused on Physician Enterprise.",
+    "isPaid": false
   },
   {
     "title": "Why The Time Has Come To Evolve The Physician Enterprise",
@@ -1173,7 +1262,8 @@ export const healthcareResources = [
     "name": "Why The Time Has Come To Evolve The Physician Enterprise",
     "organization": "Chartis",
     "category": "Article",
-    "description": "Resource from Chartis focused on Physician Enterprise."
+    "description": "Resource from Chartis focused on Physician Enterprise.",
+    "isPaid": false
   },
   {
     "title": "Electronic Health Record Optimization and Clinician Well-Being: Roadmap to Action",
@@ -1186,7 +1276,8 @@ export const healthcareResources = [
     "name": "Electronic Health Record Optimization and Clinician Well-Being: Roadmap to Action",
     "organization": "National Academy of Medicine",
     "category": "Article",
-    "description": "Resource from National Academy of Medicine focused on Clinical Optimization."
+    "description": "Resource from National Academy of Medicine focused on Clinical Optimization.",
+    "isPaid": false
   },
   {
     "title": "Medicare Funding Projections Sharpen Concerns Over Access and Payment Rates",
@@ -1199,7 +1290,8 @@ export const healthcareResources = [
     "name": "Medicare Funding Projections Sharpen Concerns Over Access and Payment Rates",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Medicare Payment Policy Changes for 2027: Key Signal From Kennedy Hearing",
@@ -1212,7 +1304,8 @@ export const healthcareResources = [
     "name": "Medicare Payment Policy Changes for 2027: Key Signal From Kennedy Hearing",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Clinical Workflow Optimization Creates Better Patient Outcomes",
@@ -1225,7 +1318,8 @@ export const healthcareResources = [
     "name": "Clinical Workflow Optimization Creates Better Patient Outcomes",
     "organization": "CWD",
     "category": "Article",
-    "description": "Resource from CWD focused on Clinical Optimization."
+    "description": "Resource from CWD focused on Clinical Optimization.",
+    "isPaid": false
   },
   {
     "title": "Certified Revenue Cycle Representative (CRCR)",
@@ -1238,7 +1332,8 @@ export const healthcareResources = [
     "name": "Certified Revenue Cycle Representative (CRCR)",
     "organization": "HFMA",
     "category": "Certificate",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": true
   },
   {
     "title": "Becker's Hospital Review",
@@ -1251,7 +1346,8 @@ export const healthcareResources = [
     "name": "Becker's Hospital Review",
     "organization": "Becker",
     "category": "Website",
-    "description": "Resource from Becker focused on Healthcare 101."
+    "description": "Resource from Becker focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Modern Healthcare",
@@ -1264,7 +1360,8 @@ export const healthcareResources = [
     "name": "Modern Healthcare",
     "organization": "MGMA",
     "category": "Website",
-    "description": "Resource from MGMA focused on Healthcare 101."
+    "description": "Resource from MGMA focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "The American Health Information Management Association",
@@ -1277,7 +1374,8 @@ export const healthcareResources = [
     "name": "The American Health Information Management Association",
     "organization": "AHIMA",
     "category": "Website",
-    "description": "Resource from AHIMA focused on Clinical Optimization."
+    "description": "Resource from AHIMA focused on Clinical Optimization.",
+    "isPaid": false
   },
   {
     "title": "Healthcare Financial Management Association",
@@ -1290,7 +1388,8 @@ export const healthcareResources = [
     "name": "Healthcare Financial Management Association",
     "organization": "HFMA",
     "category": "Website",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Health Care Workforce: A System Under Pressure, Poised for Reinvention",
@@ -1303,7 +1402,8 @@ export const healthcareResources = [
     "name": "Health Care Workforce: A System Under Pressure, Poised for Reinvention",
     "organization": "AHA",
     "category": "Article",
-    "description": "Resource from AHA focused on Labor."
+    "description": "Resource from AHA focused on Labor.",
+    "isPaid": false
   },
   {
     "title": "US Health Spending Projected To Hit $9T By 2034",
@@ -1316,7 +1416,8 @@ export const healthcareResources = [
     "name": "US Health Spending Projected To Hit $9T By 2034",
     "organization": "Modern Healthcare",
     "category": "Article",
-    "description": "Resource from Modern Healthcare focused on Healthcare 101."
+    "description": "Resource from Modern Healthcare focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Keeping Your Clinician Productivity on Track Throughout 2026",
@@ -1329,7 +1430,8 @@ export const healthcareResources = [
     "name": "Keeping Your Clinician Productivity on Track Throughout 2026",
     "organization": "MGMA",
     "category": "Article",
-    "description": "Resource from MGMA focused on Labor."
+    "description": "Resource from MGMA focused on Labor.",
+    "isPaid": false
   },
   {
     "title": "Hospital Labor Trends in 2025 Show Slower Hiring but Continued Workforce Growth",
@@ -1342,7 +1444,8 @@ export const healthcareResources = [
     "name": "Hospital Labor Trends in 2025 Show Slower Hiring but Continued Workforce Growth",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Labor."
+    "description": "Resource from HFMA focused on Labor.",
+    "isPaid": false
   },
   {
     "title": "How a Health System Can Reduce Premium Labor While Building a Sustainable Workforce",
@@ -1355,7 +1458,8 @@ export const healthcareResources = [
     "name": "How a Health System Can Reduce Premium Labor While Building a Sustainable Workforce",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Labor."
+    "description": "Resource from HFMA focused on Labor.",
+    "isPaid": false
   },
   {
     "title": "When Health Care Teams Run Short, Physician Burnout Rises",
@@ -1368,7 +1472,8 @@ export const healthcareResources = [
     "name": "When Health Care Teams Run Short, Physician Burnout Rises",
     "organization": "AMA (American Medical Association)",
     "category": "Article",
-    "description": "Resource from AMA (American Medical Association) focused on Physician Enterprise."
+    "description": "Resource from AMA (American Medical Association) focused on Physician Enterprise.",
+    "isPaid": false
   },
   {
     "title": "CPHQ: The Certified Professional In Healthcare Quality",
@@ -1381,7 +1486,8 @@ export const healthcareResources = [
     "name": "CPHQ: The Certified Professional In Healthcare Quality",
     "organization": "NAHQ",
     "category": "Certificate",
-    "description": "Resource from NAHQ focused on Quality."
+    "description": "Resource from NAHQ focused on Quality.",
+    "isPaid": true
   },
   {
     "title": "AHRMM Essentials of Health Care Supply Chain Certificate Series",
@@ -1394,7 +1500,8 @@ export const healthcareResources = [
     "name": "AHRMM Essentials of Health Care Supply Chain Certificate Series",
     "organization": "AHRMM",
     "category": "Certificate",
-    "description": "Resource from AHRMM focused on Supply Chain."
+    "description": "Resource from AHRMM focused on Supply Chain.",
+    "isPaid": true
   },
   {
     "title": "Certified Associate in Healthcare Information and Management Systems",
@@ -1407,7 +1514,8 @@ export const healthcareResources = [
     "name": "Certified Associate in Healthcare Information and Management Systems",
     "organization": "HIMSS",
     "category": "Certificate",
-    "description": "Resource from HIMSS focused on Clinical Optimization."
+    "description": "Resource from HIMSS focused on Clinical Optimization.",
+    "isPaid": true
   },
   {
     "title": "What are the Value-Based Programs?",
@@ -1420,7 +1528,8 @@ export const healthcareResources = [
     "name": "What are the Value-Based Programs?",
     "organization": "CMS",
     "category": "Article",
-    "description": "Resource from CMS focused on Quality."
+    "description": "Resource from CMS focused on Quality.",
+    "isPaid": false
   },
   {
     "title": "Patient POS Collections Pose a Growing Problem for RCM Departments",
@@ -1433,7 +1542,8 @@ export const healthcareResources = [
     "name": "Patient POS Collections Pose a Growing Problem for RCM Departments",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Prior Authorization is Draining Revenue, Which is Why Automation Has Become a Strategic Imperative",
@@ -1446,7 +1556,8 @@ export const healthcareResources = [
     "name": "Prior Authorization is Draining Revenue, Which is Why Automation Has Become a Strategic Imperative",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Medicare in the 21st Century: Understanding the Program to Promote Improvements",
@@ -1459,7 +1570,8 @@ export const healthcareResources = [
     "name": "Medicare in the 21st Century: Understanding the Program to Promote Improvements",
     "organization": "nih.gov",
     "category": "Article",
-    "description": "Resource from nih.gov focused on Healthcare 101."
+    "description": "Resource from nih.gov focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "What is Medicare: Coverage, Cost and Enrollment",
@@ -1472,7 +1584,8 @@ export const healthcareResources = [
     "name": "What is Medicare: Coverage, Cost and Enrollment",
     "organization": "U.S.news",
     "category": "Article",
-    "description": "Resource from U.S.news focused on Healthcare 101."
+    "description": "Resource from U.S.news focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Medicaid: An Overview",
@@ -1485,7 +1598,8 @@ export const healthcareResources = [
     "name": "Medicaid: An Overview",
     "organization": "Congress.gov",
     "category": "Article",
-    "description": "Resource from Congress.gov focused on Healthcare 101."
+    "description": "Resource from Congress.gov focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "What is the Difference Between Nonprofit and For-Profit Hospitals",
@@ -1498,7 +1612,8 @@ export const healthcareResources = [
     "name": "What is the Difference Between Nonprofit and For-Profit Hospitals",
     "organization": "Definitive Healthcare",
     "category": "Article",
-    "description": "Resource from Definitive Healthcare focused on Healthcare 101."
+    "description": "Resource from Definitive Healthcare focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "What's The Difference Between For-Profit and Nonprofit Hospitals",
@@ -1511,7 +1626,8 @@ export const healthcareResources = [
     "name": "What's The Difference Between For-Profit and Nonprofit Hospitals",
     "organization": "Healthcare Brew",
     "category": "Article",
-    "description": "Resource from Healthcare Brew focused on Healthcare 101."
+    "description": "Resource from Healthcare Brew focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Certified Professional in Supply Management (CPSM)",
@@ -1524,7 +1640,8 @@ export const healthcareResources = [
     "name": "Certified Professional in Supply Management (CPSM)",
     "organization": "ISM",
     "category": "Certificate",
-    "description": "Resource from ISM focused on Supply Chain."
+    "description": "Resource from ISM focused on Supply Chain.",
+    "isPaid": true
   },
   {
     "title": "Certified in Planning & Inventory Management (CPIM)",
@@ -1537,7 +1654,8 @@ export const healthcareResources = [
     "name": "Certified in Planning & Inventory Management (CPIM)",
     "organization": "ASCM",
     "category": "Certificate",
-    "description": "Resource from ASCM focused on Supply Chain."
+    "description": "Resource from ASCM focused on Supply Chain.",
+    "isPaid": true
   },
   {
     "title": "Certified Professional in Healthcare Quality (CPHQ)",
@@ -1550,7 +1668,8 @@ export const healthcareResources = [
     "name": "Certified Professional in Healthcare Quality (CPHQ)",
     "organization": "NAHQ",
     "category": "Certificate",
-    "description": "Resource from NAHQ focused on Quality."
+    "description": "Resource from NAHQ focused on Quality.",
+    "isPaid": true
   },
   {
     "title": "Revenue Cycle Management in Healthcare Explained",
@@ -1563,7 +1682,8 @@ export const healthcareResources = [
     "name": "Revenue Cycle Management in Healthcare Explained",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Revenue Cycle."
+    "description": "Resource from YouTube focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Medical Billing Process Explained | Step-By-Step RCM Cycle",
@@ -1576,7 +1696,8 @@ export const healthcareResources = [
     "name": "Medical Billing Process Explained | Step-By-Step RCM Cycle",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Revenue Cycle."
+    "description": "Resource from YouTube focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "New Reports Reveal the Impact of Health Insurance Coverage Denials on Americans",
@@ -1589,7 +1710,8 @@ export const healthcareResources = [
     "name": "New Reports Reveal the Impact of Health Insurance Coverage Denials on Americans",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "How AI Can Heal Healthcare | Edmund Jackson | Tedx",
@@ -1602,7 +1724,8 @@ export const healthcareResources = [
     "name": "How AI Can Heal Healthcare | Edmund Jackson | Tedx",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "AI in Healthcare Program",
@@ -1615,7 +1738,8 @@ export const healthcareResources = [
     "name": "AI in Healthcare Program",
     "organization": "Johns Hopkins University",
     "category": "Certificate",
-    "description": "Resource from Johns Hopkins University focused on Healthcare 101."
+    "description": "Resource from Johns Hopkins University focused on Healthcare 101.",
+    "isPaid": true
   },
   {
     "title": "Guiding The Flock: 3 Simple Rules to Improve Hospital -Wide Patient Flow.",
@@ -1628,7 +1752,8 @@ export const healthcareResources = [
     "name": "Guiding The Flock: 3 Simple Rules to Improve Hospital -Wide Patient Flow.",
     "organization": "IHI",
     "category": "Article",
-    "description": "Resource from IHI focused on Clinical Optimization."
+    "description": "Resource from IHI focused on Clinical Optimization.",
+    "isPaid": false
   },
   {
     "title": "Key Considerations For Revenue Cycle Outsourcing",
@@ -1641,7 +1766,8 @@ export const healthcareResources = [
     "name": "Key Considerations For Revenue Cycle Outsourcing",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Key Facts About Hospitals",
@@ -1654,7 +1780,8 @@ export const healthcareResources = [
     "name": "Key Facts About Hospitals",
     "organization": "KFF",
     "category": "Article",
-    "description": "Resource from KFF focused on Healthcare 101."
+    "description": "Resource from KFF focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "A Look At Hospital Operating Margins In The United States",
@@ -1667,7 +1794,8 @@ export const healthcareResources = [
     "name": "A Look At Hospital Operating Margins In The United States",
     "organization": "Definitive Healthcare",
     "category": "Article",
-    "description": "Resource from Definitive Healthcare focused on Healthcare 101."
+    "description": "Resource from Definitive Healthcare focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "From -2.2% to 16.5%: 37 Health Systems Ranked By Operating Margins in 2025",
@@ -1680,7 +1808,8 @@ export const healthcareResources = [
     "name": "From -2.2% to 16.5%: 37 Health Systems Ranked By Operating Margins in 2025",
     "organization": "Becker",
     "category": "Article",
-    "description": "Resource from Becker focused on Healthcare 101."
+    "description": "Resource from Becker focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Understanding Medical Claims: What They Are and How They Work",
@@ -1693,7 +1822,8 @@ export const healthcareResources = [
     "name": "Understanding Medical Claims: What They Are and How They Work",
     "organization": "HealthPartners",
     "category": "Article",
-    "description": "Resource from HealthPartners focused on Healthcare 101."
+    "description": "Resource from HealthPartners focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Denial Management in Healthcare: Definitions, Types, and More",
@@ -1706,7 +1836,8 @@ export const healthcareResources = [
     "name": "Denial Management in Healthcare: Definitions, Types, and More",
     "organization": "Medesk",
     "category": "Article",
-    "description": "Resource from Medesk focused on Healthcare 101."
+    "description": "Resource from Medesk focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "What Is a Claim Scrubber And Why It Matters More Than Ever",
@@ -1719,7 +1850,8 @@ export const healthcareResources = [
     "name": "What Is a Claim Scrubber And Why It Matters More Than Ever",
     "organization": "PGM",
     "category": "Article",
-    "description": "Resource from PGM focused on Revenue Cycle."
+    "description": "Resource from PGM focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Healthcare Supply Chain Management: Optimize Cost & Efficiency",
@@ -1732,7 +1864,8 @@ export const healthcareResources = [
     "name": "Healthcare Supply Chain Management: Optimize Cost & Efficiency",
     "organization": "HealthcareReader",
     "category": "Article",
-    "description": "Resource from HealthcareReader focused on Supply Chain."
+    "description": "Resource from HealthcareReader focused on Supply Chain.",
+    "isPaid": false
   },
   {
     "title": "The Growth of Private Equity in US Health Care: Impact and Outlook",
@@ -1745,7 +1878,8 @@ export const healthcareResources = [
     "name": "The Growth of Private Equity in US Health Care: Impact and Outlook",
     "organization": "NIHCM",
     "category": "Article",
-    "description": "Resource from NIHCM focused on Healthcare 101."
+    "description": "Resource from NIHCM focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Why Owns a Hospital: Nonprofit, For-Profit & Government",
@@ -1758,7 +1892,8 @@ export const healthcareResources = [
     "name": "Why Owns a Hospital: Nonprofit, For-Profit & Government",
     "organization": "legalclarity.org",
     "category": "Article",
-    "description": "Resource from legalclarity.org focused on Healthcare 101."
+    "description": "Resource from legalclarity.org focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Breaking Down U.S. Hospital Payor Mixes",
@@ -1771,7 +1906,8 @@ export const healthcareResources = [
     "name": "Breaking Down U.S. Hospital Payor Mixes",
     "organization": "Definitive Healthcare",
     "category": "Article",
-    "description": "Resource from Definitive Healthcare focused on Revenue Cycle."
+    "description": "Resource from Definitive Healthcare focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "UnitedHealthcare 2026 Health Trends Report",
@@ -1784,7 +1920,8 @@ export const healthcareResources = [
     "name": "UnitedHealthcare 2026 Health Trends Report",
     "organization": "UnitedHealthcare",
     "category": "Article",
-    "description": "Resource from UnitedHealthcare focused on Healthcare 101."
+    "description": "Resource from UnitedHealthcare focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "What's Behind Rising Health Insurance Costs?",
@@ -1797,7 +1934,8 @@ export const healthcareResources = [
     "name": "What's Behind Rising Health Insurance Costs?",
     "organization": "Johns Hopkins University",
     "category": "Article",
-    "description": "Resource from Johns Hopkins University focused on Healthcare 101."
+    "description": "Resource from Johns Hopkins University focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "The Pros and Cons of the Affordable Care Act",
@@ -1810,7 +1948,8 @@ export const healthcareResources = [
     "name": "The Pros and Cons of the Affordable Care Act",
     "organization": "Health Markets",
     "category": "Article",
-    "description": "Resource from Health Markets focused on Healthcare 101."
+    "description": "Resource from Health Markets focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Healthcare price transparency legislation gains momentum in congress",
@@ -1823,7 +1962,8 @@ export const healthcareResources = [
     "name": "Healthcare price transparency legislation gains momentum in congress",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Medicaid provider tax proposed rule could cut payments by $220 billion over 10 years",
@@ -1836,7 +1976,8 @@ export const healthcareResources = [
     "name": "Medicaid provider tax proposed rule could cut payments by $220 billion over 10 years",
     "organization": "HFMA",
     "category": "Article",
-    "description": "Resource from HFMA focused on Revenue Cycle."
+    "description": "Resource from HFMA focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "4 Questions That Shaped Henry Ford Health's $2.2B Transformation",
@@ -1849,7 +1990,8 @@ export const healthcareResources = [
     "name": "4 Questions That Shaped Henry Ford Health's $2.2B Transformation",
     "organization": "Becker",
     "category": "Article",
-    "description": "Resource from Becker focused on Revenue Cycle."
+    "description": "Resource from Becker focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "5 Payers Entering ACA Markets In 2027",
@@ -1862,7 +2004,8 @@ export const healthcareResources = [
     "name": "5 Payers Entering ACA Markets In 2027",
     "organization": "Becker",
     "category": "Article",
-    "description": "Resource from Becker focused on Healthcare 101."
+    "description": "Resource from Becker focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "How Private Equity is Investing In Health Care",
@@ -1875,7 +2018,8 @@ export const healthcareResources = [
     "name": "How Private Equity is Investing In Health Care",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Examining Private Equity in Health Care",
@@ -1888,7 +2032,8 @@ export const healthcareResources = [
     "name": "Examining Private Equity in Health Care",
     "organization": "YouTube",
     "category": "YouTube Video",
-    "description": "Resource from YouTube focused on Healthcare 101."
+    "description": "Resource from YouTube focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "How Leaders Are Rethinking RCM Strategies Amid Escalating Payer Pushback",
@@ -1901,7 +2046,8 @@ export const healthcareResources = [
     "name": "How Leaders Are Rethinking RCM Strategies Amid Escalating Payer Pushback",
     "organization": "HealthLeaders",
     "category": "Article",
-    "description": "Resource from HealthLeaders focused on Revenue Cycle."
+    "description": "Resource from HealthLeaders focused on Revenue Cycle.",
+    "isPaid": false
   },
   {
     "title": "Trump's Medicaid Fraud Crackdown May Sound Sensible, But It Could Harm Americans Who Require Long-Term Care",
@@ -1914,7 +2060,8 @@ export const healthcareResources = [
     "name": "Trump's Medicaid Fraud Crackdown May Sound Sensible, But It Could Harm Americans Who Require Long-Term Care",
     "organization": "HealthLeaders",
     "category": "Article",
-    "description": "Resource from HealthLeaders focused on Healthcare 101."
+    "description": "Resource from HealthLeaders focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "US Health Insurers Advance Measures To Standardize Prior Authorization Requirements",
@@ -1927,7 +2074,8 @@ export const healthcareResources = [
     "name": "US Health Insurers Advance Measures To Standardize Prior Authorization Requirements",
     "organization": "HealthLeaders",
     "category": "Article",
-    "description": "Resource from HealthLeaders focused on Healthcare 101."
+    "description": "Resource from HealthLeaders focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Corporate Consolidation And The Youth Mental Health Crisis: Evidence From Medicaid Managed Care in 2022",
@@ -1940,7 +2088,8 @@ export const healthcareResources = [
     "name": "Corporate Consolidation And The Youth Mental Health Crisis: Evidence From Medicaid Managed Care in 2022",
     "organization": "HealthAffairs",
     "category": "Article",
-    "description": "Resource from HealthAffairs focused on Healthcare 101."
+    "description": "Resource from HealthAffairs focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Trends in US Health Care Spending By Income, 2005-23",
@@ -1953,7 +2102,8 @@ export const healthcareResources = [
     "name": "Trends in US Health Care Spending By Income, 2005-23",
     "organization": "HealthAffairs",
     "category": "Article",
-    "description": "Resource from HealthAffairs focused on Healthcare 101."
+    "description": "Resource from HealthAffairs focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Trump Administration Pauses $1B in Medicaid Payments to California, Minnesota",
@@ -1966,7 +2116,8 @@ export const healthcareResources = [
     "name": "Trump Administration Pauses $1B in Medicaid Payments to California, Minnesota",
     "organization": "HealthcareDive",
     "category": "Article",
-    "description": "Resource from HealthcareDive focused on Healthcare 101."
+    "description": "Resource from HealthcareDive focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Clinic and Physician Practice Bankruptcies Spike in 2026 So Far",
@@ -1979,7 +2130,8 @@ export const healthcareResources = [
     "name": "Clinic and Physician Practice Bankruptcies Spike in 2026 So Far",
     "organization": "HealthcareDive",
     "category": "Article",
-    "description": "Resource from HealthcareDive focused on Healthcare 101."
+    "description": "Resource from HealthcareDive focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Doctor Pay To Drop in 2027 Under Proposed Medicare Pay Rule",
@@ -1992,7 +2144,8 @@ export const healthcareResources = [
     "name": "Doctor Pay To Drop in 2027 Under Proposed Medicare Pay Rule",
     "organization": "HealthcareDive",
     "category": "Article",
-    "description": "Resource from HealthcareDive focused on Healthcare 101."
+    "description": "Resource from HealthcareDive focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "How Medicare Advantage Plans Can Strengthen Star Ratings Through Better Care Transitions",
@@ -2005,7 +2158,8 @@ export const healthcareResources = [
     "name": "How Medicare Advantage Plans Can Strengthen Star Ratings Through Better Care Transitions",
     "organization": "HealthcareDive",
     "category": "Article",
-    "description": "Resource from HealthcareDive focused on Healthcare 101."
+    "description": "Resource from HealthcareDive focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Flipping The Script On Payer Denials and Downcoding",
@@ -2018,7 +2172,8 @@ export const healthcareResources = [
     "name": "Flipping The Script On Payer Denials and Downcoding",
     "organization": "HealthcareDive",
     "category": "Article",
-    "description": "Resource from HealthcareDive focused on Healthcare 101."
+    "description": "Resource from HealthcareDive focused on Healthcare 101.",
+    "isPaid": false
   },
   {
     "title": "Why Payer Contracts Matter Long After Negotiations End",
@@ -2031,7 +2186,8 @@ export const healthcareResources = [
     "name": "Why Payer Contracts Matter Long After Negotiations End",
     "organization": "HealthcareDive",
     "category": "Article",
-    "description": "Resource from HealthcareDive focused on Healthcare 101."
+    "description": "Resource from HealthcareDive focused on Healthcare 101.",
+    "isPaid": false
   }
 ];
 
@@ -5872,4 +6028,3 @@ export const approvedSignalSources = [
     "consultingLens": "Use this direct healthcare signal to monitor current healthcare news, policy movement, and industry trends."
   }
 ];
-

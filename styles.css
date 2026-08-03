@@ -120,6 +120,9 @@ input:focus, select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rg
 .results-summary { color: var(--slate); font-weight: 700; margin: 6px 0 16px; }
 .resource-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .resource-card { padding: 18px; display: flex; flex-direction: column; gap: 10px; }
+.resource-card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.resource-card-header .tag-stack { flex: 1 1 auto; min-width: 0; }
+.cost-badge { display: inline-flex; flex: 0 0 auto; align-items: center; justify-content: center; padding: 4px 9px; border: 1px solid #d8b75a; border-radius: 999px; background: #fff4cc; color: #765500; font-size: .72rem; font-weight: 700; line-height: 1; white-space: nowrap; }
 .resource-card:nth-child(3n + 1) { border-top: 5px solid var(--logo-blue); }
 .resource-card:nth-child(3n + 2) { border-top: 5px solid var(--logo-green); }
 .resource-card:nth-child(3n) { border-top: 5px solid var(--logo-sky); }

@@ -17,6 +17,7 @@ const signalsSheetNames = ["Today's Healthcare Signal", "Today's Healthcare Head
 const hyperlinkHeaders = new Set(['Link to The Source', 'Link']);
 const genericSignalPaths = new Set(['', '/', '/news', '/news/', '/articles', '/articles/', '/topics', '/topics/', '/resources', '/resources/']);
 const genericSignalPathSegments = new Set(['topic', 'topics', 'category', 'categories', 'tag', 'tags']);
+const paidResourceTypes = new Set(['course', 'certificate']);
 const expectedHeaders = [
   'Title of Source',
   'Website',
@@ -168,6 +169,7 @@ function toResource(row) {
   const level = cleanValue(row.Level);
   const url = decodeUrl(row['Link to The Source']);
   const hasValidUrl = isValidUrl(url);
+  const isPaid = paidResourceTypes.has(sourceType.toLowerCase());
   const description = `Resource from ${website || 'the listed website'} focused on ${serviceLine || 'healthcare consulting'}.`;
 
   return {
@@ -178,6 +180,7 @@ function toResource(row) {
     level,
     url,
     hasValidUrl,
+    isPaid,
     name: title,
     organization: website,
     category: sourceType,

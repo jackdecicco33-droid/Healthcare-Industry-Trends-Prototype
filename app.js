@@ -631,9 +631,12 @@ function renderResources() {
     const validLink = resource.hasValidUrl || isValidHttpUrl(resource.url);
     return `
       <article class="resource-card">
-        <div class="tag-stack">
-          <span class="tag">${escapeHtml(resource.serviceLine)}</span>
-          <span class="tag">${escapeHtml(getLevelGroup(resource.level))}</span>
+        <div class="resource-card-header">
+          <div class="tag-stack">
+            <span class="tag">${escapeHtml(resource.serviceLine)}</span>
+            <span class="tag">${escapeHtml(getLevelGroup(resource.level))}</span>
+          </div>
+          ${resource.isPaid ? '<span class="cost-badge">$ Paid</span>' : ''}
         </div>
         <h3>${escapeHtml(resource.title || resource.name)}</h3>
         <p class="resource-meta">${escapeHtml(resource.sourceType || translateResourceCategory(resource))} - ${escapeHtml(resource.website || resource.organization || 'Resource')}</p>
@@ -851,6 +854,7 @@ function normalizeResourceData(data) {
         serviceLine,
         level,
         url,
+        isPaid: resource.isPaid === true,
         hasValidUrl: Boolean(resource.hasValidUrl) || isValidHttpUrl(url),
         description:
           resource.description ||
