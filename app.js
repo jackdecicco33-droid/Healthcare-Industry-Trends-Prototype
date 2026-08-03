@@ -1,6 +1,7 @@
 import { prepareHeadlineDataset, selectHeadlineArticles } from './headline-utils.js';
 
-const DATA_VERSION = 'headline-refresh-20260731-v11';
+const DATA_VERSION = 'daily-headlines-api-20260803-v1';
+const DAILY_HEADLINES_API_ENDPOINT = 'https://healthcare-industry-trends-prototype.onrender.com/api/daily-headlines';
 
 const routes = new Set(['headlines', 'resources', 'terminology', 'submit-insight', 'employee-insights']);
 
@@ -116,6 +117,7 @@ let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
 let healthcareIndustryNews = [];
+let healthcareHeadlineGeneratedDate = '';
 
 let healthcareTerms = [];
 const employeeInsightsCarousel = {
@@ -428,43 +430,21 @@ function renderHealthcareIndustryWatch() {
 
   const { primary: featured, supporting: supportingArticles } = selectHeadlineArticles(healthcareIndustryNews);
 
-  const today = new Date();
-  const formattedDate = today.toLocaleDateString("en-US", {
+  const generatedDate = /^\d{4}-\d{2}-\d{2}$/.test(healthcareHeadlineGeneratedDate)
+    ? new Date(`${healthcareHeadlineGeneratedDate}T12:00:00`)
+    : null;
+  const formattedDate = generatedDate?.toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric"
-  });
-
-  const lensSentence = String(featured.consultingLens || '').split('. ').filter(Boolean)[0] || featured.consultingLens;
-  const takeaways = [
-    `Primary signal: ${featured.title}`,
-    `Consulting lens: ${String(lensSentence || '').replace(/\.$/, '')}.`,
-    ...supportingArticles.slice(0, 2).map(article => `Watch next: ${article.title} (${article.source}).`)
-  ];
+  }) || 'Current daily edition';
 
   featuredNewsCard.innerHTML = `
+    <div class="news-meta-row">
+      <span class="news-pill">${escapeHtml(featured.serviceLine)}</span>
+    </div>
     <h3>${escapeHtml(featured.title)}</h3>
-
-    <p class="news-summary">${escapeHtml(featured.summary)}</p>
-
-    <div class="consulting-lens-box">
-      <strong>Consulting lens</strong>
-      <p>${escapeHtml(featured.consultingLens)}</p>
-    </div>
-
-    <div class="watch-summary inline-watch-summary" aria-label="Biggest takeaways">
-      <div class="watch-summary-header">
-        <p class="eyebrow">Summary</p>
-        <h4>Biggest Takeaways</h4>
-        <p>
-          Today highlights ${escapeHtml(featured.source)} with implications for ${escapeHtml(featured.serviceLine)}.
-          Use these points to frame client conversations and internal team updates.
-        </p>
-      </div>
-      <ul class="watch-takeaway-list">
-        ${takeaways.map(item => `<li>${escapeHtml(item)}</li>`).join('')}
-      </ul>
-    </div>
+    <p class="news-summary">${escapeHtml(featured.source)}</p>
 
     <div class="news-actions">
       <a class="news-button" href="${escapeAttribute(featured.url)}" target="_blank" rel="noopener noreferrer">
@@ -492,6 +472,40 @@ function renderHealthcareIndustryWatch() {
   if (newsUpdatedLabel) {
     newsUpdatedLabel.textContent = `Updated from current headlines on ${formattedDate}`;
   }
+}
+
+function chicagoDateQuery() {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Chicago',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  }).formatToParts(new Date());
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+async function loadDailyHeadlines() {
+  const response = await fetch(`${DAILY_HEADLINES_API_ENDPOINT}?date=${encodeURIComponent(chicagoDateQuery())}`, {
+    cache: 'no-store',
+    headers: { Accept: 'application/json' }
+  });
+  if (!response.ok) throw new Error(`Daily headlines API returned ${response.status}`);
+  const payload = await response.json();
+  if (payload.timezone !== 'America/Chicago' || !/^\d{4}-\d{2}-\d{2}$/.test(payload.generatedDate || '')) {
+    throw new Error('Daily headlines API returned invalid date metadata');
+  }
+  if (!Array.isArray(payload.articles) || payload.articles.length !== 4) {
+    throw new Error('Daily headlines API did not return exactly four articles');
+  }
+  healthcareHeadlineGeneratedDate = payload.generatedDate;
+  return payload.articles.map((article) => ({
+    title: article.title || '',
+    source: article.publisher || 'Healthcare Source',
+    date: article.publishedDate || '',
+    serviceLine: article.category || 'Healthcare Signal',
+    url: article.url || ''
+  }));
 }
 
 function normalize(value) {
@@ -910,7 +924,6 @@ function normalizeSignalData(data) {
 
 async function init() {
   const {
-    approvedSignalSources = [],
     healthcareResources = [],
     healthcareTerminology = []
   } = await loadWorkbookDataModule();
@@ -918,12 +931,15 @@ async function init() {
   const sources = await loadJson('./data/source-index.json', []);
   console.log("healthcareResources data", healthcareResources);
   console.log("healthcareTerminology data", healthcareTerminology);
-  console.log("approvedSignalSources data", approvedSignalSources);
 
   const resources = normalizeResourceData(healthcareResources);
   const terminology = normalizeTerminologyData(healthcareTerminology);
-  const fetchedSignals = await loadDataJson('./data/healthcare-signals.json', 'healthcare signals');
-  const signals = prepareHeadlineDataset(normalizeSignalData(fetchedSignals || approvedSignalSources));
+  let signals = [];
+  try {
+    signals = prepareHeadlineDataset(normalizeSignalData(await loadDailyHeadlines()));
+  } catch (error) {
+    console.error('Unable to load daily healthcare headlines:', error);
+  }
   console.log("normalized resources count", resources.length);
   console.log("normalized terminology count", terminology.length);
   console.log("normalized healthcare signals count", signals.length);
