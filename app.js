@@ -1,6 +1,7 @@
 import { prepareHeadlineDataset, selectHeadlineArticles } from './headline-utils.js';
 
-const DATA_VERSION = 'headline-refresh-20260731-v11';
+const DATA_VERSION = 'daily-headlines-live-20260803-v1';
+const DAILY_HEADLINES_API_ENDPOINT = 'https://healthcare-industry-trends-prototype.onrender.com/api/daily-headlines';
 
 const routes = new Set(['headlines', 'resources', 'terminology', 'submit-insight', 'employee-insights']);
 
@@ -116,6 +117,7 @@ let resourceCategories = [];
 
 const RESOURCE_BATCH_SIZE = 6;
 let healthcareIndustryNews = [];
+let healthcareHeadlineDisplayDate = '';
 
 let healthcareTerms = [];
 const employeeInsightsCarousel = {
@@ -416,24 +418,26 @@ function renderHealthcareIndustryWatch() {
   if (state.signalsError || !healthcareIndustryNews.length) {
     featuredNewsCard.innerHTML = `
       <div class="empty-state">
-        ${escapeHtml(state.signalsError || 'No approved healthcare signals available right now. Please check back later.')}
+        ${escapeHtml(state.signalsError || 'Today\'s healthcare headlines are temporarily unavailable. Please try again shortly.')}
       </div>
     `;
     newsGrid.innerHTML = '';
     if (newsUpdatedLabel) {
-      newsUpdatedLabel.textContent = 'Approved signal sources unavailable';
+      newsUpdatedLabel.textContent = 'Daily headlines service temporarily unavailable';
     }
     return;
   }
 
   const { primary: featured, supporting: supportingArticles } = selectHeadlineArticles(healthcareIndustryNews);
 
-  const today = new Date();
-  const formattedDate = today.toLocaleDateString("en-US", {
+  const displayDate = /^\d{4}-\d{2}-\d{2}$/.test(healthcareHeadlineDisplayDate)
+    ? new Date(`${healthcareHeadlineDisplayDate}T12:00:00`)
+    : null;
+  const formattedDate = displayDate?.toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric"
-  });
+  }) || 'current daily edition';
 
   const lensSentence = String(featured.consultingLens || '').split('. ').filter(Boolean)[0] || featured.consultingLens;
   const takeaways = [
@@ -492,6 +496,37 @@ function renderHealthcareIndustryWatch() {
   if (newsUpdatedLabel) {
     newsUpdatedLabel.textContent = `Updated from current headlines on ${formattedDate}`;
   }
+}
+
+function chicagoDateQuery() {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).formatToParts(new Date());
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+async function loadDailyHeadlines() {
+  const response = await fetch(`${DAILY_HEADLINES_API_ENDPOINT}?date=${encodeURIComponent(chicagoDateQuery())}`, {
+    cache: 'no-store',
+    headers: { Accept: 'application/json', 'Cache-Control': 'no-cache' }
+  });
+  if (!response.ok) throw new Error(`Daily headlines API returned ${response.status}`);
+  const payload = await response.json();
+  if (payload.timezone !== 'America/Chicago' || !/^\d{4}-\d{2}-\d{2}$/.test(payload.displayDate || '')) {
+    throw new Error('Daily headlines API returned invalid date metadata');
+  }
+  if (!Array.isArray(payload.articles) || payload.articles.length !== 4) {
+    throw new Error('Daily headlines API did not return exactly four articles');
+  }
+  healthcareHeadlineDisplayDate = payload.displayDate;
+  return payload.articles.map((article) => ({
+    title: article.title || '',
+    source: article.publisher || 'Healthcare Source',
+    date: article.publishedDate || '',
+    serviceLine: article.category || 'Healthcare Signal',
+    url: article.url || ''
+  }));
 }
 
 function normalize(value) {
@@ -910,7 +945,6 @@ function normalizeSignalData(data) {
 
 async function init() {
   const {
-    approvedSignalSources = [],
     healthcareResources = [],
     healthcareTerminology = []
   } = await loadWorkbookDataModule();
@@ -918,12 +952,15 @@ async function init() {
   const sources = await loadJson('./data/source-index.json', []);
   console.log("healthcareResources data", healthcareResources);
   console.log("healthcareTerminology data", healthcareTerminology);
-  console.log("approvedSignalSources data", approvedSignalSources);
 
   const resources = normalizeResourceData(healthcareResources);
   const terminology = normalizeTerminologyData(healthcareTerminology);
-  const fetchedSignals = await loadDataJson('./data/healthcare-signals.json', 'healthcare signals');
-  const signals = prepareHeadlineDataset(normalizeSignalData(fetchedSignals || approvedSignalSources));
+  let signals = [];
+  try {
+    signals = prepareHeadlineDataset(normalizeSignalData(await loadDailyHeadlines()));
+  } catch (error) {
+    console.error('Unable to load daily healthcare headlines:', error);
+  }
   console.log("normalized resources count", resources.length);
   console.log("normalized terminology count", terminology.length);
   console.log("normalized healthcare signals count", signals.length);
@@ -935,7 +972,7 @@ async function init() {
     ? 'Terminology data is unavailable. Run npm run build:data to regenerate the frontend workbook data module.'
     : '';
   state.signalsError = !signals.length
-    ? 'No approved healthcare signals available right now. Please check back later.'
+    ? 'Today\'s healthcare headlines are temporarily unavailable. Please try again shortly.'
     : '';
 
   state.resources = resources;
